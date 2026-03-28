@@ -1,7 +1,7 @@
 """
 EDGE CALCULATOR
 ===============
-Runs all 7 signal checks on a parsed game.
+Runs all signal checks on a parsed game.
 Only returns an alert if:
   1. At least MIN_SIGNALS signals fire
   2. Total confidence score >= MIN_CONFIDENCE
@@ -21,29 +21,96 @@ from espn_api import (get_injuries, get_key_player_out,
                       get_schedule, check_back_to_back,
                       check_3_in_4, check_travel_disadvantage)
 from weather_api import get_weather, weather_edge
+from kelly import kelly_units, kelly_bet_size, unit_size
 
 
 @dataclass
 class BetOpportunity:
-    game_id:      str
-    sport:        str
-    sport_key:    str
-    home_team:    str
-    away_team:    str
-    commence:     str
-    hours_out:    float
-    bet_type:     str        # "moneyline", "spread", "total"
-    bet_side:     str        # "home", "away", "over", "under"
-    line:         str        # e.g. "-3.5" or "+145" or "o47.5"
-    implied_prob: float
-    true_prob:    float
-    edge_pct:     float
-    confidence:   int        # 0-100
-    signals:      list       # list of signal names that fired
-    signal_details: dict     # signal name -> description
-    reasoning:    str
-    kelly_fraction: float    = 0.0
-    suggested_bet:  float    = 0.0
+    game_id:        str
+    sport:          str
+    sport_key:      str
+    home_team:      str
+    away_team:      str
+    commence:       str
+    hours_out:      float
+    bet_type:       str         # "moneyline", "spread", "total"
+    bet_side:       str         # "home", "away", "over", "under"
+    line:           str         # e.g. "-3.5" or "+145" or "o47.5"
+    implied_prob:   float
+    true_prob:      float
+    edge_pct:       float
+    confidence:     int         # 0-100
+    signals:        list        # list of signal names that fired
+    signal_details: dict        # signal name -> description
+    reasoning:      str
+    kelly_fraction: float = 0.0
+    suggested_bet:  float = 0.0
+    alert_type:     str   = ""  # "best_bet" or "sprinkle"
+    units:          int   = 0   # 1 for sprinkle, 2-4 for best_bet
+    unit_dollars:   float = 0.0 # units * unit_size()
+
+
+def _classify_alert(edge_pct: float, confidence: int, signal_count: int) -> Optional[str]:
+    """
+    Determine alert type based on edge, confidence, and signal count.
+    Returns "best_bet", "sprinkle", or None.
+    """
+    if confidence >= 70 and edge_pct >= 8.0 and signal_count >= 2:
+        return "best_bet"
+    if confidence >= 60 and edge_pct >= 5.0 and signal_count >= 2:
+        return "sprinkle"
+    return None
+
+
+def _ufc_signals(game: dict) -> dict:
+    """
+    Detect UFC-specific signals from game metadata.
+    Returns dict of signal_name -> description.
+    """
+    signals = {}
+    ufc_data = game.get("ufc_signals", {})
+
+    # Significant strike differential
+    strike_diff = ufc_data.get("strike_differential")
+    if strike_diff is not None and abs(strike_diff) >= 1.5:
+        favored = game["home_team"] if strike_diff > 0 else game["away_team"]
+        signals["ufc_strike_diff"] = (
+            f"{favored} has significant strike differential of {abs(strike_diff):.1f} per round"
+        )
+
+    # Reach advantage
+    reach_adv = ufc_data.get("reach_advantage")
+    if reach_adv is not None and abs(reach_adv) >= 3:
+        favored = game["home_team"] if reach_adv > 0 else game["away_team"]
+        signals["ufc_reach_adv"] = (
+            f"{favored} has {abs(reach_adv):.0f}\" reach advantage"
+        )
+
+    # Weight miss / cut news (keyword match from injury details)
+    injuries = game.get("injury_notes", [])
+    weight_keywords = ["weight", "cut", "miss", "overweight", "lb"]
+    for note in injuries:
+        note_lower = str(note).lower()
+        if any(kw in note_lower for kw in weight_keywords):
+            signals["ufc_weight_miss"] = (
+                f"Weight cut / miss concern noted: {str(note)[:80]}"
+            )
+            break
+
+    # Finishing rate mismatch (finisher vs decision-maker)
+    home_finish = ufc_data.get("home_finish_rate", 0)
+    away_finish = ufc_data.get("away_finish_rate", 0)
+    if home_finish and away_finish:
+        diff = abs(home_finish - away_finish)
+        if diff >= 0.25:
+            finisher  = game["home_team"] if home_finish > away_finish else game["away_team"]
+            decider   = game["away_team"] if home_finish > away_finish else game["home_team"]
+            signals["ufc_finish_rate"] = (
+                f"{finisher} finishes {home_finish if home_finish > away_finish else away_finish:.0%} "
+                f"vs {decider} decision rate — finish prop value"
+            )
+
+    return signals
 
 
 def evaluate_game(game: dict) -> Optional[BetOpportunity]:
@@ -55,10 +122,8 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
     home      = game["home_team"]
     away      = game["away_team"]
 
-    signals        = {}   # name -> description
-    confidence     = 0
-    best_opp       = None
-    best_score     = 0
+    signals    = {}   # name -> description
+    confidence = 0
 
     # ── 1. Public fade + sharp money ─────────────────────────────────────────
     pub = get_public_betting(home, away, sport_key)
@@ -67,25 +132,25 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
 
     # Public fade: 75%+ on one side
     if home_bets >= config.PUBLIC_FADE_THRESHOLD:
-        signals["public_fade"] = f"{home_bets:.0f}% public on {home} — fade value on {away}"
+        signals["public_fade"] = f"{home_bets:.0f}% public on {home} -- fade value on {away}"
         confidence += config.SIGNAL_WEIGHTS["public_fade"]
     elif away_bets >= config.PUBLIC_FADE_THRESHOLD:
-        signals["public_fade"] = f"{away_bets:.0f}% public on {away} — fade value on {home}"
+        signals["public_fade"] = f"{away_bets:.0f}% public on {away} -- fade value on {home}"
         confidence += config.SIGNAL_WEIGHTS["public_fade"]
 
     # Sharp money: line moves opposite to public
     if pub.get("sharp_side"):
         sharp = pub["sharp_side"]
         signals["sharp_money"] = (
-            f"Sharp money on {home if sharp == 'home' else away} — "
+            f"Sharp money on {home if sharp == 'home' else away} -- "
             f"line moved opposite to {home_bets:.0f}% public"
         )
         confidence += config.SIGNAL_WEIGHTS["sharp_money"]
 
     # ── 2. Late injury signal ─────────────────────────────────────────────────
-    injuries = get_injuries(sport_key)
-    home_out = get_key_player_out(injuries, home)
-    away_out = get_key_player_out(injuries, away)
+    injuries  = get_injuries(sport_key)
+    home_out  = get_key_player_out(injuries, home)
+    away_out  = get_key_player_out(injuries, away)
 
     if home_out:
         names = ", ".join(f"{p['player']} ({p['position']})" for p in home_out[:2])
@@ -106,10 +171,10 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
     away_3in4= check_3_in_4(schedule, away)
 
     if home_b2b:
-        signals["rest_disadvantage"] = f"{home} on back-to-back — fatigue factor"
+        signals["rest_disadvantage"] = f"{home} on back-to-back -- fatigue factor"
         confidence += config.SIGNAL_WEIGHTS["rest_disadvantage"]
     elif away_b2b:
-        signals["rest_disadvantage"] = f"{away} on back-to-back — fatigue factor"
+        signals["rest_disadvantage"] = f"{away} on back-to-back -- fatigue factor"
         confidence += config.SIGNAL_WEIGHTS["rest_disadvantage"]
     elif home_3in4:
         signals["rest_disadvantage"] = f"{home} playing 3rd game in 4 nights"
@@ -131,6 +196,13 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
         if has_wx:
             signals["weather_edge"] = wx_desc
             confidence += config.SIGNAL_WEIGHTS["weather_edge"]
+
+    # ── 6. UFC-specific signals ───────────────────────────────────────────────
+    if sport_key == "mma_mixed_martial_arts":
+        ufc_sigs = _ufc_signals(game)
+        for sig_name, sig_desc in ufc_sigs.items():
+            signals[sig_name] = sig_desc
+            confidence += config.SIGNAL_WEIGHTS.get(sig_name, 15)
 
     # ── Gate check: need MIN_SIGNALS and MIN_CONFIDENCE ───────────────────────
     if len(signals) < config.MIN_SIGNALS:
@@ -162,22 +234,36 @@ def _find_best_bet(game: dict, signals: dict, confidence: int,
     h2h = game.get("h2h", {})
     if h2h:
         # Home moneyline
-        if (sharp_home or (injury_away and not injury_home)):
-            edge = h2h["true_home_prob"] - h2h["home_prob"]
-            if edge * 100 >= config.MIN_EDGE_PCT:
-                candidates.append(("moneyline", "home", f"+{h2h['best_home_odds']}" if h2h['best_home_odds'] > 0 else str(h2h['best_home_odds']), h2h["home_prob"], h2h["true_home_prob"]))
-        # Away moneyline
-        if (fade_home or sharp_away or (injury_home and not injury_away)):
-            edge = h2h["true_away_prob"] - h2h["away_prob"]
-            if edge * 100 >= config.MIN_EDGE_PCT:
-                candidates.append(("moneyline", "away", f"+{h2h['best_away_odds']}" if h2h['best_away_odds'] > 0 else str(h2h['best_away_odds']), h2h["away_prob"], h2h["true_away_prob"]))
+        if sharp_home or (injury_away and not injury_home):
+            home_odds_val = h2h.get("best_home_odds", h2h.get("home_odds", 0))
+            # Apply ML restrictions
+            if config.ML_MIN_ODDS <= home_odds_val <= config.ML_MAX_ODDS:
+                edge = h2h["true_home_prob"] - h2h["home_prob"]
+                if edge * 100 >= config.MIN_EDGE_PCT:
+                    line_str = (f"+{home_odds_val}" if home_odds_val > 0
+                                else str(home_odds_val))
+                    candidates.append(("moneyline", "home", line_str,
+                                       h2h["home_prob"], h2h["true_home_prob"]))
 
-    # Totals — weather or rest pushes toward under
+        # Away moneyline
+        if fade_home or sharp_away or (injury_home and not injury_away):
+            away_odds_val = h2h.get("best_away_odds", h2h.get("away_odds", 0))
+            # Apply ML restrictions
+            if config.ML_MIN_ODDS <= away_odds_val <= config.ML_MAX_ODDS:
+                edge = h2h["true_away_prob"] - h2h["away_prob"]
+                if edge * 100 >= config.MIN_EDGE_PCT:
+                    line_str = (f"+{away_odds_val}" if away_odds_val > 0
+                                else str(away_odds_val))
+                    candidates.append(("moneyline", "away", line_str,
+                                       h2h["away_prob"], h2h["true_away_prob"]))
+
+    # Totals -- weather or rest pushes toward under
     total = game.get("total", {})
     if total and weather:
-        edge_under = total["under_prob"] - 0.5   # simple: assume line is 50/50 in perfect info
+        edge_under = total["under_prob"] - 0.5  # simple: assume line is 50/50 in perfect info
         if edge_under * 100 >= config.MIN_EDGE_PCT:
-            candidates.append(("total", "under", f"u{total['line']}", total["under_prob"], total["under_prob"] + 0.05))
+            candidates.append(("total", "under", f"u{total['line']}",
+                                total["under_prob"], total["under_prob"] + 0.05))
 
     # Spread candidates
     spread = game.get("spread", {})
@@ -185,7 +271,9 @@ def _find_best_bet(game: dict, signals: dict, confidence: int,
         edge = spread["true_away_prob"] - spread["away_prob"]
         if edge * 100 >= config.MIN_EDGE_PCT:
             pt = spread.get("spread_point", 0)
-            candidates.append(("spread", "away", f"+{-pt}" if pt < 0 else f"-{pt}", spread["away_prob"], spread["true_away_prob"]))
+            line_str = f"+{-pt}" if pt < 0 else f"-{pt}"
+            candidates.append(("spread", "away", line_str,
+                                spread["away_prob"], spread["true_away_prob"]))
 
     if not candidates:
         return None
@@ -194,13 +282,36 @@ def _find_best_bet(game: dict, signals: dict, confidence: int,
     bet_type, bet_side, line, implied, true_p = max(candidates, key=lambda x: x[4] - x[3])
     edge_pct = round((true_p - implied) * 100, 1)
 
+    # Classify alert type
+    signal_count = len(signals)
+    alert_type = _classify_alert(edge_pct, confidence, signal_count)
+    if alert_type is None:
+        return None
+
     # Build reasoning
     signal_list  = list(signals.keys())
-    signal_descs = list(signals.values())
     reasoning    = _build_reasoning(game, bet_type, bet_side, signals, edge_pct)
 
-    # Kelly sizing
-    from kelly import kelly_bet_size
+    # Unit-based Kelly sizing
+    units_val, unit_dol, _atype = kelly_units(true_p, implied)
+    if units_val == 0:
+        # Fall back to alert_type-based sizing
+        if alert_type == "best_bet":
+            units_val = config.BEST_BET_MIN_UNITS
+        else:
+            units_val = config.SPRINKLE_UNITS
+        unit_dol = round(units_val * unit_size(), 2)
+
+    # Determine unit count based on alert type
+    if alert_type == "best_bet":
+        final_units = max(config.BEST_BET_MIN_UNITS,
+                          min(int(units_val), config.BEST_BET_MAX_UNITS))
+    else:
+        final_units = config.SPRINKLE_UNITS
+
+    final_unit_dollars = round(final_units * unit_size(), 2)
+
+    # Legacy kelly fields for backward compatibility
     kelly_f, suggested = kelly_bet_size(true_p, implied)
 
     return BetOpportunity(
@@ -223,24 +334,35 @@ def _find_best_bet(game: dict, signals: dict, confidence: int,
         reasoning     = reasoning,
         kelly_fraction= kelly_f,
         suggested_bet = suggested,
+        alert_type    = alert_type,
+        units         = final_units,
+        unit_dollars  = final_unit_dollars,
     )
 
 
 def _get_venue(game: dict) -> str:
     """Extract city from game data (home team city approximation)."""
-    # In real usage, ESPN schedule data would give us the exact venue city.
-    # As a fallback, we use the home team name to infer city.
     team_cities = {
-        "Chicago Bears": "chicago",         "Green Bay Packers": "green bay",
-        "Kansas City Chiefs": "kansas city", "Buffalo Bills": "buffalo",
-        "Dallas Cowboys": "dallas",          "Denver Broncos": "denver",
-        "Miami Dolphins": "miami",           "New England Patriots": "foxborough",
-        "Seattle Seahawks": "seattle",       "San Francisco 49ers": "santa clara",
-        "New York Giants": "east rutherford","New York Jets": "east rutherford",
-        "Los Angeles Rams": "inglewood",     "Los Angeles Chargers": "inglewood",
-        "Chicago Cubs": "chicago",           "Chicago White Sox": "chicago",
-        "New York Yankees": "new york",      "Boston Red Sox": "boston",
-        "Los Angeles Dodgers": "los angeles","San Francisco Giants": "san francisco",
+        "Chicago Bears":          "chicago",
+        "Green Bay Packers":      "green bay",
+        "Kansas City Chiefs":     "kansas city",
+        "Buffalo Bills":          "buffalo",
+        "Dallas Cowboys":         "dallas",
+        "Denver Broncos":         "denver",
+        "Miami Dolphins":         "miami",
+        "New England Patriots":   "foxborough",
+        "Seattle Seahawks":       "seattle",
+        "San Francisco 49ers":    "santa clara",
+        "New York Giants":        "east rutherford",
+        "New York Jets":          "east rutherford",
+        "Los Angeles Rams":       "inglewood",
+        "Los Angeles Chargers":   "inglewood",
+        "Chicago Cubs":           "chicago",
+        "Chicago White Sox":      "chicago",
+        "New York Yankees":       "new york",
+        "Boston Red Sox":         "boston",
+        "Los Angeles Dodgers":    "los angeles",
+        "San Francisco Giants":   "san francisco",
     }
     return team_cities.get(game.get("home_team", ""), "")
 
