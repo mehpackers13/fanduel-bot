@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>fanduel-bot | Edge Finder Dashboard</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0d1117;
+      --surface:   #161b22;
+      --border:    #30363d;
+      --text:      #e6edf3;
+      --muted:     #8b949e;
+      --green:     #2ea043;
+      --green-hi:  #3fb950;
+      --gold:      #d29922;
+      --red:       #f85149;
+      --blue:      #388bfd;
+      --accent:    #58a6ff;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    /* ── Layout ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    header h1 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 0.5px;
+    }
+
+    header h1 span { color: var(--muted); font-weight: 400; font-size: 13px; margin-left: 10px; }
+
+    #status-bar {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    #status-bar strong { color: var(--text); }
+
+    main {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px 16px 40px;
+    }
+
+    /* ── Stat cards ── */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    .card .label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .card .value {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .card .value.green  { color: var(--green-hi); }
+    .card .value.red    { color: var(--red); }
+    .card .value.gold   { color: var(--gold); }
+    .card .value.blue   { color: var(--blue); }
+    .card .sub          { font-size: 11px; color: var(--muted); margin-top: 4px; }
+
+    /* ── Sections ── */
+    section {
+      margin-bottom: 28px;
+    }
+
+    section h2 {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ── Tables ── */
+    .table-wrap {
+      overflow-x: auto;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    thead th {
+      background: var(--surface);
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.1s;
+    }
+
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover      { background: rgba(88,166,255,0.04); }
+
+    tbody td {
+      padding: 9px 12px;
+      vertical-align: top;
+      color: var(--text);
+    }
+
+    /* outcome badges */
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .badge-W  { background: rgba(46,160,67,0.2);  color: var(--green-hi); border: 1px solid var(--green); }
+    .badge-L  { background: rgba(248,81,73,0.2);  color: var(--red);      border: 1px solid var(--red); }
+    .badge-P  { background: rgba(139,148,158,0.2);color: var(--muted);    border: 1px solid var(--border); }
+    .badge-?  { background: rgba(88,166,255,0.1); color: var(--accent);   border: 1px solid var(--blue); }
+
+    /* signal chips */
+    .sig {
+      display: inline-block;
+      background: rgba(88,166,255,0.1);
+      border: 1px solid rgba(88,166,255,0.2);
+      color: var(--accent);
+      border-radius: 4px;
+      padding: 1px 6px;
+      font-size: 10px;
+      margin: 1px 2px 1px 0;
+      white-space: nowrap;
+    }
+
+    /* sport tag */
+    .sport-tag {
+      display: inline-block;
+      background: rgba(210,153,34,0.15);
+      border: 1px solid rgba(210,153,34,0.3);
+      color: var(--gold);
+      border-radius: 4px;
+      padding: 1px 6px;
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    /* edge coloring */
+    .edge-hi   { color: var(--green-hi); font-weight: 700; }
+    .edge-med  { color: var(--gold); font-weight: 600; }
+    .edge-lo   { color: var(--muted); }
+
+    /* conf bar */
+    .conf-bar {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .conf-track {
+      flex: 1;
+      min-width: 60px;
+      height: 6px;
+      background: var(--border);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .conf-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: var(--green);
+    }
+
+    /* P/L coloring */
+    .pl-pos { color: var(--green-hi); }
+    .pl-neg { color: var(--red); }
+
+    /* two-col grid */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    @media (max-width: 800px) { .two-col { grid-template-columns: 1fr; } }
+
+    /* empty state */
+    .empty {
+      text-align: center;
+      color: var(--muted);
+      padding: 32px;
+      font-style: italic;
+    }
+
+    /* auto-refresh notice */
+    #refresh-note {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: right;
+      margin-bottom: 8px;
+    }
+
+    /* roi row color */
+    .roi-pos { color: var(--green-hi); }
+    .roi-neg { color: var(--red); }
+    .roi-neu { color: var(--muted); }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 11px;
+      padding: 20px 0 8px;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>fanduel-bot <span>sports betting edge finder</span></h1>
+  <div id="status-bar">Last scan: <strong id="last-scan">loading…</strong> &nbsp;|&nbsp; Auto-refresh every 5 min</div>
+</header>
+
+<main>
+  <div id="refresh-note">Dashboard generated: <span id="generated-at">—</span></div>
+
+  <!-- Stat cards -->
+  <div class="cards" id="cards">
+    <div class="card"><div class="label">Total Alerts</div><div class="value blue" id="c-total">—</div><div class="sub">all-time</div></div>
+    <div class="card"><div class="label">Completed Bets</div><div class="value" id="c-completed">—</div><div class="sub">with outcomes</div></div>
+    <div class="card"><div class="label">Win Rate</div><div class="value" id="c-winrate">—</div><div class="sub">W / (W+L)</div></div>
+    <div class="card"><div class="label">Total P/L</div><div class="value" id="c-pl">—</div><div class="sub">dollars</div></div>
+    <div class="card"><div class="label">ROI</div><div class="value" id="c-roi">—</div><div class="sub">profit / risked</div></div>
+  </div>
+
+  <!-- Recent bets -->
+  <section>
+    <h2>Recent Alerts (last 50)</h2>
+    <div class="table-wrap">
+      <table id="bets-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Sport</th>
+            <th>Game</th>
+            <th>Bet</th>
+            <th>Line</th>
+            <th>Edge</th>
+            <th>Conf</th>
+            <th>Signals</th>
+            <th>Size $</th>
+            <th>Outcome</th>
+            <th>P/L</th>
+          </tr>
+        </thead>
+        <tbody id="bets-body">
+          <tr><td colspan="11" class="empty">Loading…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Bottom two-col -->
+  <div class="two-col">
+    <!-- By Sport -->
+    <section>
+      <h2>Performance by Sport</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Sport</th><th>Bets</th><th>Wins</th><th>Win %</th><th>P/L $</th></tr></thead>
+          <tbody id="sport-body"><tr><td colspan="5" class="empty">No data yet.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- By Signal -->
+    <section>
+      <h2>Performance by Signal</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Signal</th><th>Bets</th><th>Wins</th><th>Win %</th></tr></thead>
+          <tbody id="signal-body"><tr><td colspan="4" class="empty">No data yet.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>fanduel-bot &nbsp;·&nbsp; silence = discipline &nbsp;·&nbsp; auto-refreshes every 5 minutes</footer>
+
+<script>
+  const DATA_URL = "data.json";
+
+  function fmtEdge(e) {
+    const n = parseFloat(e);
+    if (isNaN(n)) return '<span class="edge-lo">—</span>';
+    const cls = n >= 8 ? "edge-hi" : n >= 5 ? "edge-med" : "edge-lo";
+    return `<span class="${cls}">${n.toFixed(1)}%</span>`;
+  }
+
+  function fmtConf(c) {
+    const n = parseInt(c) || 0;
+    const pct = Math.min(n, 100);
+    const color = pct >= 80 ? "#3fb950" : pct >= 65 ? "#d29922" : "#ff8c00";
+    return `<div class="conf-bar">
+      <div class="conf-track"><div class="conf-fill" style="width:${pct}%;background:${color}"></div></div>
+      <span style="font-size:11px;color:${color};min-width:26px">${n}</span>
+    </div>`;
+  }
+
+  function fmtOutcome(o) {
+    if (!o) return '<span class="badge badge-?">OPEN</span>';
+    return `<span class="badge badge-${o}">${o}</span>`;
+  }
+
+  function fmtPL(pl) {
+    const n = parseFloat(pl);
+    if (isNaN(n) || pl === "") return "—";
+    const cls = n > 0 ? "pl-pos" : n < 0 ? "pl-neg" : "";
+    return `<span class="${cls}">${n > 0 ? "+" : ""}$${Math.abs(n).toFixed(2)}</span>`;
+  }
+
+  function fmtSignals(sigs) {
+    if (!sigs) return "—";
+    return sigs.split(" + ").map(s => s.trim()).filter(Boolean)
+      .map(s => `<span class="sig">${s.replace(/_/g," ")}</span>`).join(" ");
+  }
+
+  function fmtWinPct(wins, bets) {
+    if (!bets) return "—";
+    return ((wins / bets) * 100).toFixed(1) + "%";
+  }
+
+  function roiClass(roi) {
+    if (roi === null || roi === undefined) return "roi-neu";
+    return roi > 0 ? "roi-pos" : roi < 0 ? "roi-neg" : "roi-neu";
+  }
+
+  function renderCards(stats) {
+    const wr = stats.win_rate;
+    const pl = stats.total_pl;
+    const completed = stats.completed_bets;
+    const total = stats.total_alerts;
+
+    // Calc ROI from by_sport aggregate
+    let totalRisked = 0, totalPL = pl || 0;
+    const roi = completed > 0 && totalRisked > 0
+      ? ((totalPL / totalRisked) * 100).toFixed(1)
+      : null;
+
+    document.getElementById("c-total").textContent     = total ?? "0";
+    document.getElementById("c-completed").textContent = completed ?? "0";
+
+    const wrEl = document.getElementById("c-winrate");
+    wrEl.textContent = wr !== null && wr !== undefined ? wr.toFixed(1) + "%" : "—";
+    wrEl.className = "value " + (wr >= 55 ? "green" : wr < 45 && wr !== null ? "red" : "");
+
+    const plEl = document.getElementById("c-pl");
+    plEl.textContent = pl !== null && pl !== undefined ? (pl >= 0 ? "+$" : "-$") + Math.abs(pl).toFixed(2) : "—";
+    plEl.className = "value " + (pl > 0 ? "green" : pl < 0 ? "red" : "");
+
+    const roiEl = document.getElementById("c-roi");
+    roiEl.textContent = "—";
+    roiEl.className = "value";
+  }
+
+  function renderBets(bets) {
+    const tbody = document.getElementById("bets-body");
+    if (!bets || !bets.length) {
+      tbody.innerHTML = '<tr><td colspan="11" class="empty">No alerts logged yet. The bot will add rows here when it finds qualifying opportunities.</td></tr>';
+      return;
+    }
+    tbody.innerHTML = bets.map(b => {
+      const game   = b.game || "—";
+      const sport  = b.sport || "—";
+      const bt     = ((b.bet_type || "") + " " + (b.bet_side || "")).trim().toUpperCase();
+      const line   = b.line || "—";
+      const size   = b.suggested_bet ? "$" + parseFloat(b.suggested_bet).toFixed(0) : "—";
+      return `<tr>
+        <td style="white-space:nowrap;font-size:11px;color:var(--muted)">${b.timestamp || "—"}</td>
+        <td><span class="sport-tag">${sport}</span></td>
+        <td style="min-width:160px">${game}</td>
+        <td style="white-space:nowrap">${bt}</td>
+        <td style="white-space:nowrap;font-weight:600">${line}</td>
+        <td>${fmtEdge(b.edge_pct)}</td>
+        <td style="min-width:90px">${fmtConf(b.confidence)}</td>
+        <td style="min-width:200px">${fmtSignals(b.signals)}</td>
+        <td>${size}</td>
+        <td>${fmtOutcome(b.outcome)}</td>
+        <td>${fmtPL(b.profit_loss)}</td>
+      </tr>`;
+    }).join("");
+  }
+
+  function renderSports(by_sport) {
+    const tbody = document.getElementById("sport-body");
+    const entries = Object.entries(by_sport || {});
+    if (!entries.length) {
+      tbody.innerHTML = '<tr><td colspan="5" class="empty">No completed bets yet.</td></tr>';
+      return;
+    }
+    entries.sort((a, b) => (b[1].pl || 0) - (a[1].pl || 0));
+    tbody.innerHTML = entries.map(([sport, d]) => {
+      const pl  = (d.pl || 0).toFixed(2);
+      const plCls = d.pl > 0 ? "pl-pos" : d.pl < 0 ? "pl-neg" : "";
+      return `<tr>
+        <td><span class="sport-tag">${sport}</span></td>
+        <td>${d.bets}</td>
+        <td>${d.wins}</td>
+        <td>${fmtWinPct(d.wins, d.bets)}</td>
+        <td><span class="${plCls}">${d.pl >= 0 ? "+" : ""}$${Math.abs(pl)}</span></td>
+      </tr>`;
+    }).join("");
+  }
+
+  function renderSignals(by_signal) {
+    const tbody = document.getElementById("signal-body");
+    const entries = Object.entries(by_signal || {});
+    if (!entries.length) {
+      tbody.innerHTML = '<tr><td colspan="4" class="empty">No completed bets yet.</td></tr>';
+      return;
+    }
+    entries.sort((a, b) => (b[1].wins / Math.max(b[1].bets,1)) - (a[1].wins / Math.max(a[1].bets,1)));
+    tbody.innerHTML = entries.map(([sig, d]) => {
+      const wpct = fmtWinPct(d.wins, d.bets);
+      return `<tr>
+        <td><span class="sig">${sig.replace(/_/g," ")}</span></td>
+        <td>${d.bets}</td>
+        <td>${d.wins}</td>
+        <td>${wpct}</td>
+      </tr>`;
+    }).join("");
+  }
+
+  async function loadData() {
+    try {
+      const res  = await fetch(DATA_URL + "?t=" + Date.now());
+      const data = await res.json();
+
+      document.getElementById("last-scan").textContent    = data.last_scan || "Never";
+      document.getElementById("generated-at").textContent = data.generated_at
+        ? new Date(data.generated_at).toLocaleString() : "—";
+
+      renderCards(data.stats || {});
+      renderBets(data.recent_bets || []);
+      renderSports((data.stats || {}).by_sport || {});
+      renderSignals((data.stats || {}).by_signal || {});
+    } catch (err) {
+      console.error("Failed to load data.json:", err);
+      document.getElementById("last-scan").textContent = "Error loading data";
+    }
+  }
+
+  loadData();
+  setInterval(loadData, 5 * 60 * 1000);
+</script>
+</body>
+</html>

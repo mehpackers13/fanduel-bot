@@ -1,0 +1,44 @@
+name: Morning Briefing
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 7am EDT (UTC-4) — adjust to 12 UTC in winter
+    - cron: "0 12 * * *"   # 7am EST (UTC-5)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  morning:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run morning briefing
+        env:
+          ODDS_API_KEY:           ${{ secrets.ODDS_API_KEY }}
+          DISCORD_SPORTS_WEBHOOK: ${{ secrets.DISCORD_SPORTS_WEBHOOK }}
+          DISCORD_HEALTH_WEBHOOK: ${{ secrets.DISCORD_HEALTH_WEBHOOK }}
+        run: python run_morning.py
+
+      - name: Regenerate dashboard
+        run: python generate_data.py
+
+      - name: Commit
+        run: |
+          git config user.name  "fanduel-bot[actions]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add bets_log.csv bot.log data/ docs/data.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "☀️ morning $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
