@@ -4,8 +4,8 @@ MAIN SCANNER
 Fetches all active sports, parses games, runs edge detection.
 Silent by default -- only alerts when genuine multi-signal edges found.
 
-Primary source: OddsTrader scraper (no API key needed).
-Fallback: The Odds API.
+Primary source: ESPN Core API (free, no key needed).
+Fallback: The Odds API (props-only, 5 req/day limit).
 
 Daily limits tracked in data/daily_state.json.
 """
@@ -14,7 +14,7 @@ import datetime
 import config
 from logger import log
 from odds_api import get_odds, parse_game
-from oddstrader import get_games as ot_get_games, get_ufc_fights
+import espn_core_api
 from edge_calculator import evaluate_game, BetOpportunity
 from outcomes import log_opportunity, ensure_log
 from discord_alerts import send_bet_alert, send_sprinkle_alert, send_parlay_suggestion
@@ -87,23 +87,41 @@ def _record_alert(state: dict, opp: BetOpportunity) -> None:
 
 def _fetch_games(sport_key: str) -> tuple:
     """
-    Fetch games for a sport. Uses OddsTrader as primary source;
-    falls back to The Odds API.
+    Fetch games for a sport. Uses ESPN Core API as primary source.
+    Only falls back to The Odds API if ESPN returns an error/timeout
+    (not when it returns 0 games — that just means nothing is scheduled).
     Returns (games: list, source: str).
     """
-    if config.USE_ODDSTRADER_PRIMARY:
-        if sport_key == "mma_mixed_martial_arts":
-            games = get_ufc_fights()
-        else:
-            games = ot_get_games(sport_key)
-        if games:
-            return games, "oddstrader"
-        log(f"  OddsTrader empty for {sport_key}, falling back to Odds API", "WARN")
+    # Try ESPN Core API first (free, no key, no rate limits)
+    try:
+        games = espn_core_api.get_games(sport_key)
+        # games == [] is valid (no games today); only fall back on exception
+        return games, "espn"
+    except Exception as exc:
+        log(f"  ESPN Core API error for {sport_key}: {exc} — falling back to Odds API", "WARN")
 
-    # Fall back to Odds API
-    raw = get_odds(sport_key)
-    games = [g for g in (parse_game(r, sport_key) for r in raw) if g]
-    return games, "odds_api"
+    # Fall back to Odds API only on ESPN error/timeout
+    if config.ODDS_API_KEY and _daily_odds_api_ok():
+        raw = get_odds(sport_key)
+        games = [g for g in (parse_game(r, sport_key) for r in raw) if g]
+        return games, "odds_api"
+
+    return [], "none"
+
+
+def _daily_odds_api_ok() -> bool:
+    """Return True if we have Odds API daily budget remaining."""
+    import json as _json
+    path = config.DATA_DIR / "odds_api_daily.json"
+    today = datetime.datetime.utcnow().strftime("%Y-%m-%d")
+    try:
+        if path.exists():
+            data = _json.loads(path.read_text())
+            if data.get("date") == today:
+                return data.get("count", 0) < config.ODDS_API_DAILY_LIMIT
+    except Exception:
+        pass
+    return True
 
 
 # ── Parlay suggestion ─────────────────────────────────────────────────────────

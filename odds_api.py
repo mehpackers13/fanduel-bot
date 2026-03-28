@@ -4,6 +4,9 @@ THE ODDS API WRAPPER
 Free tier: 500 requests/month. This wrapper tracks usage and caches
 responses for 2 hours so we stay well within the limit.
 
+Props-only mode: max 5 requests per day (ODDS_API_DAILY_LIMIT).
+Props cache TTL: 24 hours (ODDS_API_PROPS_CACHE_HOURS).
+
 Setup: add ODDS_API_KEY as GitHub Secret (get free key at the-odds-api.com).
 """
 import json
@@ -15,6 +18,9 @@ import requests
 
 import config
 from logger import log
+
+# Props-only mode: max 5 requests per day, 24-hour cache
+DAILY_LIMIT = getattr(config, "ODDS_API_DAILY_LIMIT", 5)
 
 
 # ── API usage tracking ────────────────────────────────────────────────────────
@@ -59,6 +65,46 @@ def _check_budget() -> bool:
     return True
 
 
+# ── Daily request counter ─────────────────────────────────────────────────────
+
+_DAILY_FILE = config.DATA_DIR / "odds_api_daily.json"
+
+
+def _load_daily() -> dict:
+    config.DATA_DIR.mkdir(exist_ok=True)
+    today = datetime.datetime.utcnow().strftime("%Y-%m-%d")
+    if _DAILY_FILE.exists():
+        try:
+            data = json.loads(_DAILY_FILE.read_text())
+            if data.get("date") == today:
+                return data
+        except Exception:
+            pass
+    return {"date": today, "count": 0}
+
+
+def _save_daily(data: dict) -> None:
+    config.DATA_DIR.mkdir(exist_ok=True)
+    _DAILY_FILE.write_text(json.dumps(data, indent=2))
+
+
+def _increment_daily() -> int:
+    data = _load_daily()
+    data["count"] += 1
+    _save_daily(data)
+    return data["count"]
+
+
+def _check_daily_budget() -> bool:
+    """Returns True if we have daily API budget remaining."""
+    data = _load_daily()
+    remaining = DAILY_LIMIT - data.get("count", 0)
+    if remaining <= 0:
+        log(f"Odds API daily limit reached ({DAILY_LIMIT} req/day) — using cache only", "WARN")
+        return False
+    return True
+
+
 # ── Cache ─────────────────────────────────────────────────────────────────────
 
 def _load_cache() -> dict:
@@ -87,7 +133,10 @@ def _is_cache_fresh(cache: dict, sport_key: str) -> bool:
     try:
         fetched = datetime.datetime.fromisoformat(fetched_at)
         age_min = (datetime.datetime.utcnow() - fetched).total_seconds() / 60
-        return age_min < config.ODDS_CACHE_MINUTES
+        # Props cache uses 24-hour TTL; standard cache uses config value
+        props_ttl = getattr(config, "ODDS_API_PROPS_CACHE_HOURS", 24) * 60
+        ttl = max(props_ttl, config.ODDS_CACHE_MINUTES)
+        return age_min < ttl
     except Exception:
         return False
 
@@ -114,6 +163,10 @@ def get_odds(sport_key: str, force_refresh: bool = False) -> list:
         # Return stale cache rather than nothing
         return cache.get(sport_key, {}).get("games", [])
 
+    if not _check_daily_budget():
+        # Daily limit hit — return cache only
+        return cache.get(sport_key, {}).get("games", [])
+
     try:
         url = f"{config.ODDS_API_BASE}/sports/{sport_key}/odds"
         params = {
@@ -126,6 +179,7 @@ def get_odds(sport_key: str, force_refresh: bool = False) -> list:
         resp = requests.get(url, params=params, timeout=15)
 
         count = _increment_usage()
+        _increment_daily()
 
         if resp.status_code == 200:
             games = resp.json()

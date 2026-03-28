@@ -13,12 +13,12 @@ from outcomes import win_rate, roi, completed_bets
 
 def _get_ufc_today() -> str:
     """
-    Check OddsTrader for UFC fights today.
+    Check ESPN Core API for UFC fights today.
     Returns a formatted string for the morning briefing, or "" if none.
     """
     try:
-        from oddstrader import get_ufc_fights
-        fights = get_ufc_fights()
+        import espn_core_api
+        fights = espn_core_api.get_games("mma_mixed_martial_arts")
         if not fights:
             return ""
 

@@ -104,22 +104,14 @@ ODDS_API_BASE       = "https://api.the-odds-api.com/v4"
 ODDS_API_MONTHLY_LIMIT = 490        # leave 10 as buffer from 500 free
 ODDS_CACHE_MINUTES  = 110           # cache odds for ~2 hours between scans
 
-# ── OddsTrader ────────────────────────────────────────────────────────────────
-ODDSTRADER_BASE = "https://www.oddstrader.com"
-ODDSTRADER_SPORT_PATHS = {
-    "americanfootball_nfl":    "/nfl/",
-    "basketball_nba":          "/nba/",
-    "baseball_mlb":            "/mlb/",
-    "icehockey_nhl":           "/nhl/",
-    "soccer_usa_mls":          "/mls/",
-    "soccer_epl":              "/soccer/",
-    "soccer_esp_la_liga":      "/soccer/",
-    "soccer_ger_bundesliga":   "/soccer/",
-    "soccer_ita_serie_a":      "/soccer/",
-    "soccer_fra_ligue_one":    "/soccer/",
-    "mma_mixed_martial_arts":  "/ufc/",
-}
-USE_ODDSTRADER_PRIMARY = True
+# ── ESPN Core API — primary odds source ───────────────────────────────────────
+# Free, no API key, no rate limits. Returns DraftKings odds with line movement.
+USE_ESPN_PRIMARY = True
+
+# ── Odds API — props-only fallback ────────────────────────────────────────────
+# Max 5 requests per day to preserve monthly budget for props.
+ODDS_API_DAILY_LIMIT      = 5
+ODDS_API_PROPS_CACHE_HOURS = 24
 
 # ── Discord ───────────────────────────────────────────────────────────────────
 DISCORD_SPORTS_WEBHOOK = os.environ.get(

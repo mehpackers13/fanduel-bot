@@ -17,9 +17,10 @@ import config
 from logger import log
 from odds_api import american_to_prob
 from action_network import get_public_betting
-from espn_api import (get_injuries, get_key_player_out,
-                      get_schedule, check_back_to_back,
+from espn_api import (get_key_player_out,
+                      check_back_to_back,
                       check_3_in_4, check_travel_disadvantage)
+import espn_core_api
 from weather_api import get_weather, weather_edge
 from kelly import kelly_units, kelly_bet_size, unit_size
 
@@ -138,8 +139,13 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
         signals["public_fade"] = f"{away_bets:.0f}% public on {away} -- fade value on {home}"
         confidence += config.SIGNAL_WEIGHTS["public_fade"]
 
-    # Sharp money: line moves opposite to public
-    if pub.get("sharp_side"):
+    # Sharp money: ESPN built-in line movement (open vs current spread)
+    is_sharp, sharp_desc = espn_core_api.check_line_movement_sharp(game)
+    if is_sharp:
+        signals["sharp_money"] = sharp_desc
+        confidence += config.SIGNAL_WEIGHTS["sharp_money"]
+    elif pub.get("sharp_side"):
+        # Fall back to Action Network sharp side if ESPN line movement not available
         sharp = pub["sharp_side"]
         signals["sharp_money"] = (
             f"Sharp money on {home if sharp == 'home' else away} -- "
@@ -148,7 +154,7 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
         confidence += config.SIGNAL_WEIGHTS["sharp_money"]
 
     # ── 2. Late injury signal ─────────────────────────────────────────────────
-    injuries  = get_injuries(sport_key)
+    injuries  = espn_core_api.get_injuries(sport_key)
     home_out  = get_key_player_out(injuries, home)
     away_out  = get_key_player_out(injuries, away)
 
@@ -162,8 +168,8 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
         confidence += config.SIGNAL_WEIGHTS["late_injury"]
 
     # ── 3. Rest / schedule disadvantage ──────────────────────────────────────
-    schedule = get_schedule(sport_key)
-    venue    = _get_venue(game)
+    schedule = espn_core_api.get_recent_schedule(sport_key)
+    venue    = game.get("venue_city") or _get_venue(game)
 
     home_b2b = check_back_to_back(schedule, home)
     away_b2b = check_back_to_back(schedule, away)
