@@ -210,14 +210,42 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
             signals[sig_name] = sig_desc
             confidence += config.SIGNAL_WEIGHTS.get(sig_name, 15)
 
+    # ── Diagnostic log: always show what was found per game ──────────────────
+    sig_names = list(signals.keys()) if signals else []
+    pub_pct   = f"pub={home_bets:.0f}%/{away_bets:.0f}%" if pub else "pub=n/a"
+    lm        = game.get("line_movement", {})
+    ml_note   = ""
+    if lm.get("open_home_ml") and lm.get("current_home_ml"):
+        ml_note = f" ml_move={lm['open_home_ml']}→{lm['current_home_ml']}"
+    log(
+        f"  [{away} @ {home}] sigs={sig_names} conf={confidence} "
+        f"{pub_pct}{ml_note}",
+        "DEBUG"
+    )
+
     # ── Gate check: need MIN_SIGNALS and MIN_CONFIDENCE ───────────────────────
     if len(signals) < config.MIN_SIGNALS:
+        log(
+            f"    ✗ {away} @ {home} — only {len(signals)}/{config.MIN_SIGNALS} signals "
+            f"(need {config.MIN_SIGNALS - len(signals)} more)",
+            "DEBUG"
+        )
         return None
     if confidence < config.MIN_CONFIDENCE:
+        log(
+            f"    ✗ {away} @ {home} — conf {confidence} < {config.MIN_CONFIDENCE} threshold",
+            "DEBUG"
+        )
         return None
 
     # ── Find the best betting line given our signals ──────────────────────────
     opp = _find_best_bet(game, signals, confidence, home_out, away_out, pub)
+    if opp is None:
+        log(
+            f"    ✗ {away} @ {home} — signals passed but no qualifying bet line found "
+            f"(edge below {config.MIN_EDGE_PCT}% or no odds for signal side)",
+            "DEBUG"
+        )
     return opp
 
 
