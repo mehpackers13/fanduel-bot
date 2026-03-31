@@ -1825,3 +1825,87 @@
 [2026-03-31 14:58:39 ET] [INFO] Injury scan complete — no new key injuries
 [2026-03-31 15:56:52 ET] [INFO] Running injury scan
 [2026-03-31 15:56:56 ET] [INFO] Injury scan complete — no new key injuries
+[2026-03-31 16:34:54 ET] [INFO] ============================================================
+[2026-03-31 16:34:54 ET] [INFO] Starting full scan
+[2026-03-31 16:34:54 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-03-31 16:34:54 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-03-31 16:34:57 ET] [INFO]   ESPN basketball_nba: 7 games (fresh, 7 events found)
+[2026-03-31 16:34:57 ET] [INFO]   basketball_nba: 7 games from espn
+[2026-03-31 16:34:57 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-03-31 16:35:02 ET] [DEBUG]   [Phoenix Suns @ Orlando Magic] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-135→-125
+[2026-03-31 16:35:02 ET] [DEBUG]     ✗ Phoenix Suns @ Orlando Magic — only 1/2 signals (need 1 more)
+[2026-03-31 16:35:07 ET] [DEBUG]   [Charlotte Hornets @ Brooklyn Nets] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=800→1100
+[2026-03-31 16:35:07 ET] [DEBUG]     ✗ Charlotte Hornets @ Brooklyn Nets — conf 40 < 60 threshold
+[2026-03-31 16:35:11 ET] [DEBUG]   [Toronto Raptors @ Detroit Pistons] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-135→-155
+[2026-03-31 16:35:11 ET] [DEBUG]     ✗ Toronto Raptors @ Detroit Pistons — only 1/2 signals (need 1 more)
+[2026-03-31 16:35:16 ET] [DEBUG]   [New York Knicks @ Houston Rockets] sigs=[] conf=0 pub=n/a ml_move=-108→-108
+[2026-03-31 16:35:16 ET] [DEBUG]     ✗ New York Knicks @ Houston Rockets — only 0/2 signals (need 2 more)
+[2026-03-31 16:35:20 ET] [DEBUG]   [Dallas Mavericks @ Milwaukee Bucks] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-102→110
+[2026-03-31 16:35:20 ET] [DEBUG]     ✗ Dallas Mavericks @ Milwaukee Bucks — conf 40 < 60 threshold
+[2026-03-31 16:35:24 ET] [DEBUG]   [Cleveland Cavaliers @ Los Angeles Lakers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-125→-122
+[2026-03-31 16:35:24 ET] [DEBUG]     ✗ Cleveland Cavaliers @ Los Angeles Lakers — only 1/2 signals (need 1 more)
+[2026-03-31 16:35:28 ET] [DEBUG]   [Portland Trail Blazers @ LA Clippers] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-198→-225
+[2026-03-31 16:35:28 ET] [DEBUG]     ✗ Portland Trail Blazers @ LA Clippers — only 1/2 signals (need 1 more)
+[2026-03-31 16:35:33 ET] [INFO]   ESPN baseball_mlb: 14 games (fresh, 14 events found)
+[2026-03-31 16:35:33 ET] [INFO]   baseball_mlb: 14 games from espn
+[2026-03-31 16:35:33 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-03-31 16:35:42 ET] [DEBUG]   [Texas Rangers @ Baltimore Orioles] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=109→104
+[2026-03-31 16:35:42 ET] [DEBUG]     ✗ Texas Rangers @ Baltimore Orioles — only 1/2 signals (need 1 more)
+[2026-03-31 16:35:50 ET] [DEBUG]   [Chicago White Sox @ Miami Marlins] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=-149→-156
+[2026-03-31 16:35:50 ET] [DEBUG]     ✗ Chicago White Sox @ Miami Marlins — conf 35 < 60 threshold
+[2026-03-31 16:35:57 ET] [DEBUG]   [Pittsburgh Pirates @ Cincinnati Reds] sigs=['sharp_money', 'rest_disadvantage', 'weather_edge'] conf=60 pub=n/a ml_move=-105→104
+[2026-03-31 16:35:57 ET] [DEBUG]     ✗ Pittsburgh Pirates @ Cincinnati Reds — signals passed but no qualifying bet line found (edge below 5.0% or no odds for signal side)
+[2026-03-31 16:36:05 ET] [DEBUG]   [Washington Nationals @ Philadelphia Phillies] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-186→-199
+[2026-03-31 16:36:05 ET] [DEBUG]     ✗ Washington Nationals @ Philadelphia Phillies — only 1/2 signals (need 1 more)
+[2026-03-31 16:36:13 ET] [DEBUG]   [Colorado Rockies @ Toronto Blue Jays] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-259→-267
+[2026-03-31 16:36:13 ET] [DEBUG]     ✗ Colorado Rockies @ Toronto Blue Jays — only 1/2 signals (need 1 more)
+[2026-03-31 16:36:20 ET] [DEBUG]   [Athletics @ Atlanta Braves] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-149→-163
+[2026-03-31 16:36:20 ET] [DEBUG]     ✗ Athletics @ Atlanta Braves — only 1/2 signals (need 1 more)
+[2026-03-31 16:36:28 ET] [DEBUG]   [Los Angeles Angels @ Chicago Cubs] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-143
+[2026-03-31 16:36:28 ET] [DEBUG]     ✗ Los Angeles Angels @ Chicago Cubs — only 1/2 signals (need 1 more)
+[2026-03-31 16:36:36 ET] [DEBUG]   [Tampa Bay Rays @ Milwaukee Brewers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-131
+[2026-03-31 16:36:36 ET] [DEBUG]     ✗ Tampa Bay Rays @ Milwaukee Brewers — only 1/2 signals (need 1 more)
+[2026-03-31 16:36:43 ET] [DEBUG]   [New York Mets @ St. Louis Cardinals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=141→135
+[2026-03-31 16:36:43 ET] [DEBUG]     ✗ New York Mets @ St. Louis Cardinals — only 1/2 signals (need 1 more)
+[2026-03-31 16:36:51 ET] [DEBUG]   [Boston Red Sox @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-149→-149
+[2026-03-31 16:36:51 ET] [DEBUG]     ✗ Boston Red Sox @ Houston Astros — only 1/2 signals (need 1 more)
+[2026-03-31 16:36:58 ET] [DEBUG]   [Detroit Tigers @ Arizona Diamondbacks] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-112→-115
+[2026-03-31 16:36:58 ET] [DEBUG]     ✗ Detroit Tigers @ Arizona Diamondbacks — only 1/2 signals (need 1 more)
+[2026-03-31 16:37:06 ET] [DEBUG]   [New York Yankees @ Seattle Mariners] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-108→-110
+[2026-03-31 16:37:06 ET] [DEBUG]     ✗ New York Yankees @ Seattle Mariners — only 1/2 signals (need 1 more)
+[2026-03-31 16:37:13 ET] [DEBUG]   [San Francisco Giants @ San Diego Padres] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=113→113
+[2026-03-31 16:37:13 ET] [DEBUG]     ✗ San Francisco Giants @ San Diego Padres — only 1/2 signals (need 1 more)
+[2026-03-31 16:37:21 ET] [DEBUG]   [Cleveland Guardians @ Los Angeles Dodgers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-240→-280
+[2026-03-31 16:37:21 ET] [DEBUG]     ✗ Cleveland Guardians @ Los Angeles Dodgers — conf 40 < 60 threshold
+[2026-03-31 16:37:24 ET] [INFO]   ESPN icehockey_nhl: 10 games (fresh, 10 events found)
+[2026-03-31 16:37:24 ET] [INFO]   icehockey_nhl: 10 games from espn
+[2026-03-31 16:37:25 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-03-31 16:37:29 ET] [DEBUG]   [Dallas Stars @ Boston Bruins] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=100→105
+[2026-03-31 16:37:29 ET] [DEBUG]     ✗ Dallas Stars @ Boston Bruins — only 1/2 signals (need 1 more)
+[2026-03-31 16:37:34 ET] [DEBUG]   [New York Islanders @ Buffalo Sabres] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-198→-198
+[2026-03-31 16:37:34 ET] [DEBUG]     ✗ New York Islanders @ Buffalo Sabres — only 1/2 signals (need 1 more)
+[2026-03-31 16:37:38 ET] [DEBUG]   [Montreal Canadiens @ Tampa Bay Lightning] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-170→-170
+[2026-03-31 16:37:38 ET] [DEBUG]     ✗ Montreal Canadiens @ Tampa Bay Lightning — only 1/2 signals (need 1 more)
+[2026-03-31 16:37:43 ET] [DEBUG]   [Ottawa Senators @ Florida Panthers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=142→150
+[2026-03-31 16:37:43 ET] [DEBUG]     ✗ Ottawa Senators @ Florida Panthers — only 1/2 signals (need 1 more)
+[2026-03-31 16:37:47 ET] [DEBUG]   [New Jersey Devils @ New York Rangers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-105→105
+[2026-03-31 16:37:47 ET] [DEBUG]     ✗ New Jersey Devils @ New York Rangers — conf 40 < 60 threshold
+[2026-03-31 16:37:51 ET] [DEBUG]   [Detroit Red Wings @ Pittsburgh Penguins] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-110→-105
+[2026-03-31 16:37:51 ET] [DEBUG]     ✗ Detroit Red Wings @ Pittsburgh Penguins — only 1/2 signals (need 1 more)
+[2026-03-31 16:37:56 ET] [DEBUG]   [Philadelphia Flyers @ Washington Capitals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-148→-125
+[2026-03-31 16:37:56 ET] [DEBUG]     ✗ Philadelphia Flyers @ Washington Capitals — only 1/2 signals (need 1 more)
+[2026-03-31 16:38:01 ET] [DEBUG]   [Carolina Hurricanes @ Columbus Blue Jackets] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=114→114
+[2026-03-31 16:38:01 ET] [DEBUG]     ✗ Carolina Hurricanes @ Columbus Blue Jackets — only 1/2 signals (need 1 more)
+[2026-03-31 16:38:05 ET] [DEBUG]   [Winnipeg Jets @ Chicago Blackhawks] sigs=[] conf=0 pub=n/a ml_move=114→124
+[2026-03-31 16:38:05 ET] [DEBUG]     ✗ Winnipeg Jets @ Chicago Blackhawks — only 0/2 signals (need 2 more)
+[2026-03-31 16:38:10 ET] [DEBUG]   [Seattle Kraken @ Edmonton Oilers] sigs=[] conf=0 pub=n/a ml_move=-185→-185
+[2026-03-31 16:38:10 ET] [DEBUG]     ✗ Seattle Kraken @ Edmonton Oilers — only 0/2 signals (need 2 more)
+[2026-03-31 16:38:10 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-03-31 16:38:10 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-03-31 16:38:10 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-03-31 16:38:10 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-03-31 16:38:10 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-03-31 16:38:10 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-03-31 16:38:10 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-03-31 16:38:10 ET] [INFO] Scan complete -- 31 games checked, 0 alerts (silence = discipline)
+[2026-03-31 16:38:10 ET] [INFO] ============================================================
