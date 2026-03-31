@@ -28,7 +28,7 @@ ML_MIN_ODDS         = -180    # never suggest ML worse than -180 as standalone
 ML_MAX_ODDS         = 300     # cap upside at +300
 
 # ── Signal scoring ────────────────────────────────────────────────────────────
-MIN_CONFIDENCE      = 40      # minimum score to send alert (0-100)
+MIN_CONFIDENCE      = 35      # minimum score to send alert (0-100)
 MIN_SIGNALS         = 1       # minimum number of signals that must stack
 
 SIGNAL_WEIGHTS = {

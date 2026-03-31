@@ -476,13 +476,14 @@ def get_recent_schedule(sport_key: str, days_back: int = 3) -> list:
 
 def check_line_movement_sharp(game: dict) -> tuple:
     """
-    Returns (is_sharp: bool, description: str).
+    Returns (is_sharp: bool, description: str, sharp_side: str|None).
+    sharp_side is "home", "away", or None when direction is indeterminate.
     Sharp indicator: spread moved 1.5+ points OR ML moved 25+ points from open.
     Falls back to ML movement when opening spread is unavailable.
     """
     lm = game.get("line_movement", {})
     if not lm:
-        return False, ""
+        return False, "", None
 
     home = game.get("home_team", "home")
     away = game.get("away_team", "away")
@@ -495,12 +496,15 @@ def check_line_movement_sharp(game: dict) -> tuple:
         open_sp = lm.get("open_spread")
         curr_sp = lm.get("current_spread")
         if open_sp is not None and curr_sp is not None:
-            direction = "toward " + (home if curr_sp < open_sp else away)
+            # curr_sp < open_sp = home giving fewer points = line moved toward home
+            sharp_side = "home" if curr_sp < open_sp else "away"
+            direction  = "toward " + (home if sharp_side == "home" else away)
             desc = (f"Line moved {moved} pts from {open_sp:+.1f} to {curr_sp:+.1f} "
                     f"({direction}) — sharp money indicator")
         else:
+            sharp_side = None
             desc = f"Spread moved {moved} pts from open — sharp action detected"
-        return True, desc
+        return True, desc, sharp_side
 
     # Fallback: ML movement when spread unavailable
     open_ml  = lm.get("open_home_ml")
@@ -509,9 +513,11 @@ def check_line_movement_sharp(game: dict) -> tuple:
         ml_moved = abs(curr_ml - open_ml)
         # 25-point ML move = meaningful sharp action (e.g. -130 → -155)
         if ml_moved >= 25:
-            direction = home if curr_ml < open_ml else away
+            # curr_ml < open_ml = home became more favored = sharp money on home
+            sharp_side = "home" if curr_ml < open_ml else "away"
+            direction  = home if sharp_side == "home" else away
             desc = (f"ML moved {ml_moved} pts on {home} ({open_ml:+d}→{curr_ml:+d}) "
                     f"— steam toward {direction}")
-            return True, desc
+            return True, desc, sharp_side
 
-    return False, ""
+    return False, "", None

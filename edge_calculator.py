@@ -58,11 +58,11 @@ def _classify_alert(edge_pct: float, confidence: int, signal_count: int) -> Opti
 
     Thresholds:
       best_bet  — conf ≥ 65, edge ≥ 8%, ≥ 2 signals  (strong stack)
-      sprinkle  — conf ≥ 40, edge ≥ 5%, ≥ 1 signal   (single strong signal OK)
+      sprinkle  — conf ≥ 35, edge ≥ 5%, ≥ 1 signal   (single strong signal OK)
     """
     if confidence >= 65 and edge_pct >= 8.0 and signal_count >= 2:
         return "best_bet"
-    if confidence >= 40 and edge_pct >= 5.0:
+    if confidence >= 35 and edge_pct >= 5.0:
         return "sprinkle"
     return None
 
@@ -143,19 +143,20 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
         signals["public_fade"] = f"{away_bets:.0f}% public on {away} -- fade value on {home}"
         confidence += config.SIGNAL_WEIGHTS["public_fade"]
 
-    # Sharp money: ESPN built-in line movement (open vs current spread)
-    is_sharp, sharp_desc = espn_core_api.check_line_movement_sharp(game)
+    # Sharp money: ESPN built-in line movement (open vs current spread/ML)
+    is_sharp, sharp_desc, espn_sharp_side = espn_core_api.check_line_movement_sharp(game)
     if is_sharp:
         signals["sharp_money"] = sharp_desc
         confidence += config.SIGNAL_WEIGHTS["sharp_money"]
     elif pub.get("sharp_side"):
-        # Fall back to Action Network sharp side if ESPN line movement not available
+        # Fall back to Action Network divergence-based sharp side
         sharp = pub["sharp_side"]
         signals["sharp_money"] = (
             f"Sharp money on {home if sharp == 'home' else away} -- "
             f"line moved opposite to {home_bets:.0f}% public"
         )
         confidence += config.SIGNAL_WEIGHTS["sharp_money"]
+        espn_sharp_side = None   # AN is handling direction; clear ESPN side
 
     # ── 2. Late injury signal ─────────────────────────────────────────────────
     injuries  = espn_core_api.get_injuries(sport_key)
@@ -264,6 +265,22 @@ def _find_best_bet(game: dict, signals: dict, confidence: int,
     fade_home  = "public_fade" in signals and "fade value on" + " " + away in signals.get("public_fade","")
     sharp_away = pub.get("sharp_side") == "away"
     sharp_home = pub.get("sharp_side") == "home"
+
+    # ESPN sharp direction fallback when Action Network is blocked (no pub sharp_side)
+    if not (sharp_home or sharp_away) and "sharp_money" in signals:
+        lm = game.get("line_movement", {})
+        open_ml  = lm.get("open_home_ml")
+        curr_ml  = lm.get("current_home_ml")
+        open_sp  = lm.get("open_spread")
+        curr_sp  = lm.get("current_spread")
+        if open_ml is not None and curr_ml is not None:
+            delta = curr_ml - open_ml
+            if abs(delta) >= 25:
+                sharp_home = delta < 0   # home became more favored
+                sharp_away = delta > 0
+        elif open_sp is not None and curr_sp is not None:
+            sharp_home = curr_sp < open_sp  # home giving fewer points = sharp on home
+            sharp_away = curr_sp > open_sp
     injury_home= "late_injury" in signals and home in signals["late_injury"]
     injury_away= "late_injury" in signals and away in signals["late_injury"]
     weather    = "weather_edge" in signals
