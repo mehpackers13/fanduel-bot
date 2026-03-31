@@ -239,25 +239,36 @@ def _parse_consensus(game: dict, an_home: str, an_away: str,
         return {}
 
     # ── Sharp money detection ─────────────────────────────────────────────────
-    # Sharp: public heavily on one side BUT line moved the other way
-    home_bets = result.get("home_bets_pct", 50)
-    # Grab opening vs current ML from the game object (not consensus)
-    open_ml_home  = _dig(game, "markets", "68", "event", "moneyline", 0, "opening", "value")
-    curr_ml_home  = _dig(game, "markets", "68", "event", "moneyline", 0, "value")
+    # Method 1: tickets vs money divergence (always available when we have bet %)
+    # If money % >> ticket % on a side, sophisticated bettors are on that side
+    home_bets  = result.get("home_bets_pct", 50)
+    home_money = result.get("home_money_pct", 50)
+    away_bets  = result.get("away_bets_pct",  50)
+    away_money = result.get("away_money_pct",  50)
 
-    if open_ml_home and curr_ml_home:
-        try:
-            open_f = float(open_ml_home)
-            curr_f = float(curr_ml_home)
-            pub_on_home = home_bets > 55
-            # Negative ML = favorite; more negative = even bigger favorite
-            line_moved_toward_home = curr_f < open_f  # e.g. -120 → -140
-            if pub_on_home and not line_moved_toward_home:
-                result["sharp_side"] = "away"
-            elif not pub_on_home and line_moved_toward_home:
-                result["sharp_side"] = "home"
-        except (TypeError, ValueError):
-            pass
+    DIVERGENCE_THRESHOLD = 12   # money % must exceed ticket % by this margin
+    if home_money - home_bets >= DIVERGENCE_THRESHOLD:
+        result["sharp_side"] = "home"   # money flowing to home despite public split
+    elif away_money - away_bets >= DIVERGENCE_THRESHOLD:
+        result["sharp_side"] = "away"
+
+    # Method 2: opening vs current DraftKings ML (when available)
+    if "sharp_side" not in result:
+        open_ml_home = _dig(game, "markets", "68", "event", "moneyline", 0, "opening", "value")
+        curr_ml_home = _dig(game, "markets", "68", "event", "moneyline", 0, "value")
+        if open_ml_home and curr_ml_home:
+            try:
+                open_f = float(open_ml_home)
+                curr_f = float(curr_ml_home)
+                pub_on_home = home_bets > 55
+                # Negative ML = favorite; more negative = even bigger favorite
+                line_moved_toward_home = curr_f < open_f  # e.g. -120 → -140
+                if pub_on_home and not line_moved_toward_home:
+                    result["sharp_side"] = "away"
+                elif not pub_on_home and line_moved_toward_home:
+                    result["sharp_side"] = "home"
+            except (TypeError, ValueError):
+                pass
 
     return result
 

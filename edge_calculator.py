@@ -55,10 +55,14 @@ def _classify_alert(edge_pct: float, confidence: int, signal_count: int) -> Opti
     """
     Determine alert type based on edge, confidence, and signal count.
     Returns "best_bet", "sprinkle", or None.
+
+    Thresholds:
+      best_bet  — conf ≥ 65, edge ≥ 8%, ≥ 2 signals  (strong stack)
+      sprinkle  — conf ≥ 40, edge ≥ 5%, ≥ 1 signal   (single strong signal OK)
     """
-    if confidence >= 70 and edge_pct >= 8.0 and signal_count >= 2:
+    if confidence >= 65 and edge_pct >= 8.0 and signal_count >= 2:
         return "best_bet"
-    if confidence >= 60 and edge_pct >= 5.0 and signal_count >= 2:
+    if confidence >= 40 and edge_pct >= 5.0:
         return "sprinkle"
     return None
 
