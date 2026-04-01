@@ -243,6 +243,22 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
         )
         return None
 
+    # ── Power rating: replace circular true_prob with season win% model ──────
+    win_pcts = espn_core_api.get_win_pcts(sport_key)
+    if win_pcts and game.get("h2h"):
+        home_wp = win_pcts.get(home)
+        away_wp = win_pcts.get(away)
+        if home_wp is not None and away_wp is not None:
+            true_h, true_a = _power_rating_prob(home_wp, away_wp)
+            game["h2h"]["true_home_prob"] = true_h
+            game["h2h"]["true_away_prob"] = true_a
+            log(
+                f"    power rating: {home} wp={home_wp:.3f} / {away} wp={away_wp:.3f}"
+                f" → true_home={true_h:.3f} vs mkt={game['h2h']['home_prob']:.3f}"
+                f" (edge {(true_h - game['h2h']['home_prob'])*100:+.1f}%)",
+                "DEBUG"
+            )
+
     # ── Find the best betting line given our signals ──────────────────────────
     opp = _find_best_bet(game, signals, confidence, home_out, away_out, pub)
     if opp is None:
@@ -252,6 +268,22 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
             "DEBUG"
         )
     return opp
+
+
+def _power_rating_prob(home_wp: float, away_wp: float,
+                       home_adv: float = 0.03) -> tuple:
+    """
+    Log5 formula + home court/field advantage.
+    Returns (home_true_prob, away_true_prob).
+    """
+    h = min(max(home_wp + home_adv, 0.05), 0.95)
+    a = min(max(away_wp, 0.05), 0.95)
+    denom = h + a - 2 * h * a
+    if denom <= 0:
+        return 0.5, 0.5
+    p_home = (h - h * a) / denom
+    p_home = round(min(max(p_home, 0.05), 0.95), 4)
+    return p_home, round(1 - p_home, 4)
 
 
 def _find_best_bet(game: dict, signals: dict, confidence: int,

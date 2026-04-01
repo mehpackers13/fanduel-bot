@@ -12,7 +12,7 @@ BANKROLL            = 1000.0  # UPDATE THIS when your balance changes
 UNIT_SIZE           = BANKROLL * 0.01   # 1 unit = 1% bankroll = $10
 MAX_BET_PCT         = 0.05    # never exceed 5% of bankroll per bet
 KELLY_FRACTION      = 0.25    # quarter Kelly for safety
-MIN_EDGE_PCT        = 5.0     # minimum edge % to consider alerting
+MIN_EDGE_PCT        = 2.0     # minimum edge % to consider alerting
 
 # ── Alert type constants ──────────────────────────────────────────────────────
 BEST_BET_MIN_UNITS  = 2       # best bet starts at 2 units

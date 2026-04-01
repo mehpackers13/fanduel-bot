@@ -472,6 +472,65 @@ def get_recent_schedule(sport_key: str, days_back: int = 3) -> list:
     return games
 
 
+# ── Win percentage (power ratings) ───────────────────────────────────────────
+
+_WIN_PCT_CACHE: dict = {}   # sport_key -> {"ts": str, "data": {name: float}}
+_WIN_PCT_TTL_MINUTES = 240  # refresh every 4 hours
+
+def get_win_pcts(sport_key: str) -> dict:
+    """
+    Returns {team_displayName: win_pct} for all teams playing today.
+    Sourced from ESPN site scoreboard — records are embedded in competitors.
+    Cached 4 hours. Falls back to empty dict on any error.
+    """
+    global _WIN_PCT_CACHE
+    entry = _WIN_PCT_CACHE.get(sport_key, {})
+    if entry:
+        ts = entry.get("ts", "")
+        try:
+            age = (datetime.datetime.utcnow() -
+                   datetime.datetime.fromisoformat(ts)).total_seconds() / 60
+            if age < _WIN_PCT_TTL_MINUTES:
+                return entry.get("data", {})
+        except Exception:
+            pass
+
+    codes = LEAGUES.get(sport_key)
+    if not codes:
+        return {}
+    sport_code, league_code = codes
+
+    url  = f"{SITE_BASE}/{sport_code}/{league_code}/scoreboard"
+    data = _get(url)
+    if not data:
+        return {}
+
+    win_pcts = {}
+    for ev in data.get("events", []):
+        for comp in ev.get("competitions", []):
+            for c in comp.get("competitors", []):
+                name = c.get("team", {}).get("displayName", "")
+                if not name:
+                    continue
+                records = c.get("records", [])
+                overall = next((r for r in records if r.get("type") == "total"), None)
+                if overall:
+                    parts = overall.get("summary", "").split("-")
+                    if len(parts) == 2:
+                        try:
+                            w, l = int(parts[0]), int(parts[1])
+                            if w + l > 0:
+                                win_pcts[name] = round(w / (w + l), 4)
+                        except ValueError:
+                            pass
+
+    _WIN_PCT_CACHE[sport_key] = {
+        "ts":   datetime.datetime.utcnow().isoformat(),
+        "data": win_pcts,
+    }
+    return win_pcts
+
+
 # ── Sharp line movement ───────────────────────────────────────────────────────
 
 def check_line_movement_sharp(game: dict) -> tuple:
