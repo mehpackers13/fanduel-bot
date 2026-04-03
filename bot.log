@@ -2919,3 +2919,56 @@
 [2026-04-03 16:32:59 ET] [INFO] Injury scan complete — no new key injuries
 [2026-04-03 17:30:59 ET] [INFO] Running injury scan
 [2026-04-03 17:31:02 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-03 18:24:18 ET] [INFO] ============================================================
+[2026-04-03 18:24:18 ET] [INFO] Starting full scan
+[2026-04-03 18:24:18 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-03 18:24:18 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-04-03 18:24:28 ET] [INFO]   ESPN basketball_nba: 7 games (fresh, 9 events found)
+[2026-04-03 18:24:28 ET] [INFO]   basketball_nba: 7 games from espn
+[2026-04-03 18:24:29 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-04-03 18:24:42 ET] [DEBUG]   [Atlanta Hawks @ Brooklyn Nets] sigs=['sharp_money'] conf=25 pub=n/a ml_move=800→1000
+[2026-04-03 18:24:42 ET] [DEBUG]     ✗ Atlanta Hawks @ Brooklyn Nets — conf 25 < 35 threshold
+[2026-04-03 18:24:55 ET] [DEBUG]   [Chicago Bulls @ New York Knicks] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-1350→-1350
+[2026-04-03 18:24:55 ET] [DEBUG]     ✗ Chicago Bulls @ New York Knicks — conf 15 < 35 threshold
+[2026-04-03 18:25:07 ET] [DEBUG]   [Utah Jazz @ Houston Rockets] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-1600→-2100
+[2026-04-03 18:25:07 ET] [DEBUG]     power rating: Houston Rockets wp=0.618 / Utah Jazz wp=0.273 → true_home=0.831 vs mkt=0.955 (edge -12.4%)
+[2026-04-03 18:25:07 ET] [DEBUG]     ✗ Utah Jazz @ Houston Rockets — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-03 18:25:20 ET] [DEBUG]   [Toronto Raptors @ Memphis Grizzlies] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=550→675
+[2026-04-03 18:25:20 ET] [DEBUG]     power rating: Memphis Grizzlies wp=0.329 / Toronto Raptors wp=0.553 → true_home=0.312 vs mkt=0.129 (edge +18.3%)
+[2026-04-03 18:25:20 ET] [DEBUG]     ✗ Toronto Raptors @ Memphis Grizzlies — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-03 18:25:33 ET] [DEBUG]   [Boston Celtics @ Milwaukee Bucks] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=1000→1100
+[2026-04-03 18:25:33 ET] [DEBUG]     power rating: Milwaukee Bucks wp=0.395 / Boston Celtics wp=0.671 → true_home=0.266 vs mkt=0.083 (edge +18.2%)
+[2026-04-03 18:25:33 ET] [DEBUG]     ✗ Boston Celtics @ Milwaukee Bucks — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-03 18:25:45 ET] [DEBUG]   [Orlando Magic @ Dallas Mavericks] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=240→220
+[2026-04-03 18:25:45 ET] [DEBUG]     ✗ Orlando Magic @ Dallas Mavericks — conf 15 < 35 threshold
+[2026-04-03 18:25:58 ET] [DEBUG]   [New Orleans Pelicans @ Sacramento Kings] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=180→180
+[2026-04-03 18:25:58 ET] [DEBUG]     ✗ New Orleans Pelicans @ Sacramento Kings — conf 15 < 35 threshold
+[2026-04-03 18:26:09 ET] [INFO]   ESPN baseball_mlb: 5 games (fresh, 15 events found)
+[2026-04-03 18:26:09 ET] [INFO]   baseball_mlb: 5 games from espn
+[2026-04-03 18:26:09 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-04-03 18:26:29 ET] [DEBUG]   [Milwaukee Brewers @ Kansas City Royals] sigs=['sharp_money', 'rest_disadvantage', 'weather_edge'] conf=60 pub=n/a ml_move=-131→-102
+[2026-04-03 18:26:29 ET] [DEBUG]     power rating: Kansas City Royals wp=0.500 / Milwaukee Brewers wp=0.833 → true_home=0.184 vs mkt=0.505 (edge -32.1%)
+[2026-04-03 18:26:48 ET] [DEBUG]   [Seattle Mariners @ Los Angeles Angels] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=141→135
+[2026-04-03 18:26:48 ET] [DEBUG]     ✗ Seattle Mariners @ Los Angeles Angels — conf 15 < 35 threshold
+[2026-04-03 18:27:07 ET] [DEBUG]   [Atlanta Braves @ Arizona Diamondbacks] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=102→-105
+[2026-04-03 18:27:07 ET] [DEBUG]     power rating: Arizona Diamondbacks wp=0.429 / Atlanta Braves wp=0.714 → true_home=0.253 vs mkt=0.512 (edge -25.9%)
+[2026-04-03 18:27:07 ET] [DEBUG]     ✗ Atlanta Braves @ Arizona Diamondbacks — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-03 18:27:25 ET] [DEBUG]   [Houston Astros @ Athletics] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-105→-112
+[2026-04-03 18:27:25 ET] [DEBUG]     ✗ Houston Astros @ Athletics — conf 15 < 35 threshold
+[2026-04-03 18:27:44 ET] [DEBUG]   [New York Mets @ San Francisco Giants] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=109→109
+[2026-04-03 18:27:44 ET] [DEBUG]     ✗ New York Mets @ San Francisco Giants — conf 15 < 35 threshold
+[2026-04-03 18:27:46 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 2 events found)
+[2026-04-03 18:27:46 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-04-03 18:27:46 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-04-03 18:28:02 ET] [DEBUG]   [St. Louis Blues @ Anaheim Ducks] sigs=[] conf=0 pub=n/a ml_move=-135→-142
+[2026-04-03 18:28:02 ET] [DEBUG]     ✗ St. Louis Blues @ Anaheim Ducks — only 0/1 signals (need 1 more)
+[2026-04-03 18:28:02 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-04-03 18:28:02 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-04-03 18:28:03 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 1 events found)
+[2026-04-03 18:28:04 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-04-03 18:28:04 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-04-03 18:28:05 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 1 events found)
+[2026-04-03 18:28:05 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-04-03 18:28:05 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-03 18:28:05 ET] [INFO] Scan complete -- 13 games checked, 0 alerts (silence = discipline)
+[2026-04-03 18:28:05 ET] [INFO] ============================================================
