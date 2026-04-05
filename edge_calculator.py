@@ -62,7 +62,7 @@ def _classify_alert(edge_pct: float, confidence: int, signal_count: int) -> Opti
     """
     if confidence >= 65 and edge_pct >= 8.0 and signal_count >= 2:
         return "best_bet"
-    if confidence >= 35 and edge_pct >= 5.0:
+    if confidence >= 35 and edge_pct >= 2.0:
         return "sprinkle"
     return None
 
@@ -351,6 +351,27 @@ def _find_best_bet(game: dict, signals: dict, confidence: int,
         if edge_under * 100 >= config.MIN_EDGE_PCT:
             candidates.append(("total", "under", f"u{total['line']}",
                                 total["under_prob"], total["under_prob"] + 0.05))
+
+    # Power-rating ML override — when Action Network is blocked (no pub sharp_side),
+    # add candidates based on model edge alone, ignoring ESPN sharp direction.
+    # This prevents the ESPN line-movement signal from blocking a clearly mispriced bet.
+    if h2h and not pub.get("sharp_side"):
+        pr_home = h2h["true_home_prob"] - h2h["home_prob"]
+        pr_away = h2h["true_away_prob"] - h2h["away_prob"]
+        home_odds_val = h2h.get("best_home_odds", h2h.get("home_odds", 0))
+        away_odds_val = h2h.get("best_away_odds", h2h.get("away_odds", 0))
+        if pr_home * 100 >= config.MIN_EDGE_PCT:
+            if config.ML_MIN_ODDS <= home_odds_val <= config.ML_MAX_ODDS:
+                line_str = f"+{home_odds_val}" if home_odds_val > 0 else str(home_odds_val)
+                if not any(c[0] == "moneyline" and c[1] == "home" for c in candidates):
+                    candidates.append(("moneyline", "home", line_str,
+                                       h2h["home_prob"], h2h["true_home_prob"]))
+        if pr_away * 100 >= config.MIN_EDGE_PCT:
+            if config.ML_MIN_ODDS <= away_odds_val <= config.ML_MAX_ODDS:
+                line_str = f"+{away_odds_val}" if away_odds_val > 0 else str(away_odds_val)
+                if not any(c[0] == "moneyline" and c[1] == "away" for c in candidates):
+                    candidates.append(("moneyline", "away", line_str,
+                                       h2h["away_prob"], h2h["true_away_prob"]))
 
     # Spread candidates
     spread = game.get("spread", {})
