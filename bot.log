@@ -5176,3 +5176,91 @@
 [2026-04-06 06:06:31 ET] [INFO] Injury scan complete — no new key injuries
 [2026-04-06 07:26:29 ET] [INFO] Running injury scan
 [2026-04-06 07:26:32 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-06 07:49:03 ET] [INFO] ============================================================
+[2026-04-06 07:49:03 ET] [INFO] Running morning briefing scan (7am)
+[2026-04-06 07:49:03 ET] [INFO] ============================================================
+[2026-04-06 07:49:03 ET] [INFO] Starting morning scan
+[2026-04-06 07:49:03 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-06 07:49:03 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-04-06 07:49:10 ET] [INFO]   ESPN basketball_nba: 5 games (fresh, 5 events found)
+[2026-04-06 07:49:10 ET] [INFO]   basketball_nba: 5 games from espn
+[2026-04-06 07:49:10 ET] [INFO] Action Network nba/odds: 3 games fetched
+[2026-04-06 07:49:23 ET] [DEBUG]   [New York Knicks @ Atlanta Hawks] sigs=[] conf=0 pub=n/a ml_move=-110→-118
+[2026-04-06 07:49:23 ET] [DEBUG]     ✗ New York Knicks @ Atlanta Hawks — only 0/1 signals (need 1 more)
+[2026-04-06 07:49:37 ET] [DEBUG]   [Detroit Pistons @ Orlando Magic] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=65%/35% ml_move=124→130
+[2026-04-06 07:49:37 ET] [DEBUG]     ✗ Detroit Pistons @ Orlando Magic — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-06 07:49:50 ET] [DEBUG]   [Cleveland Cavaliers @ Memphis Grizzlies] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=625→750
+[2026-04-06 07:49:50 ET] [DEBUG]     power rating: Memphis Grizzlies wp=0.321 / Cleveland Cavaliers wp=0.628 → true_home=0.242 vs mkt=0.118 (edge +12.5%)
+[2026-04-06 07:49:50 ET] [DEBUG]     ✗ Cleveland Cavaliers @ Memphis Grizzlies — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-06 07:50:03 ET] [DEBUG]   [Philadelphia 76ers @ San Antonio Spurs] sigs=['rest_disadvantage'] conf=15 pub=31%/69% ml_move=-340→-355
+[2026-04-06 07:50:03 ET] [DEBUG]     ✗ Philadelphia 76ers @ San Antonio Spurs — conf 15 < 35 threshold
+[2026-04-06 07:50:17 ET] [DEBUG]   [Portland Trail Blazers @ Denver Nuggets] sigs=['sharp_money'] conf=25 pub=69%/31% ml_move=-395→-340
+[2026-04-06 07:50:17 ET] [DEBUG]     ✗ Portland Trail Blazers @ Denver Nuggets — conf 25 < 35 threshold
+[2026-04-06 07:50:27 ET] [INFO]   ESPN baseball_mlb: 13 games (fresh, 13 events found)
+[2026-04-06 07:50:27 ET] [INFO]   baseball_mlb: 13 games from espn
+[2026-04-06 07:50:27 ET] [INFO] Action Network mlb/odds: 16 games fetched
+[2026-04-06 07:50:55 ET] [DEBUG]   [Chicago Cubs @ Tampa Bay Rays] sigs=['rest_disadvantage'] conf=15 pub=51%/49% ml_move=-102→-112
+[2026-04-06 07:50:55 ET] [DEBUG]     ✗ Chicago Cubs @ Tampa Bay Rays — conf 15 < 35 threshold
+[2026-04-06 07:51:21 ET] [DEBUG]   [Kansas City Royals @ Cleveland Guardians] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=79%/21% ml_move=-115→-118
+[2026-04-06 07:51:21 ET] [DEBUG]     power rating: Cleveland Guardians wp=0.600 / Kansas City Royals wp=0.444 → true_home=0.680 vs mkt=0.541 (edge +13.9%)
+[2026-04-06 07:51:47 ET] [DEBUG]   [Cincinnati Reds @ Miami Marlins] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=93%/7% ml_move=-122→-131
+[2026-04-06 07:51:47 ET] [DEBUG]     power rating: Miami Marlins wp=0.667 / Cincinnati Reds wp=0.667 → true_home=0.534 vs mkt=0.567 (edge -3.3%)
+[2026-04-06 07:51:47 ET] [DEBUG]     ✗ Cincinnati Reds @ Miami Marlins — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-06 07:52:13 ET] [DEBUG]   [San Diego Padres @ Pittsburgh Pirates] sigs=['rest_disadvantage'] conf=15 pub=57%/43% ml_move=-122→-131
+[2026-04-06 07:52:13 ET] [DEBUG]     ✗ San Diego Padres @ Pittsburgh Pirates — conf 15 < 35 threshold
+[2026-04-06 07:52:39 ET] [DEBUG]   [Milwaukee Brewers @ Boston Red Sox] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=13%/0% ml_move=-105→-105
+[2026-04-06 07:52:39 ET] [DEBUG]     power rating: Boston Red Sox wp=0.222 / Milwaukee Brewers wp=0.778 → true_home=0.088 vs mkt=0.512 (edge -42.4%)
+[2026-04-06 07:52:39 ET] [DEBUG]     ✗ Milwaukee Brewers @ Boston Red Sox — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-06 07:53:05 ET] [DEBUG]   [St. Louis Cardinals @ Washington Nationals] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=18%/0% ml_move=-110→-102
+[2026-04-06 07:53:05 ET] [DEBUG]     power rating: Washington Nationals wp=0.333 / St. Louis Cardinals wp=0.556 → true_home=0.313 vs mkt=0.505 (edge -19.2%)
+[2026-04-06 07:53:05 ET] [DEBUG]     ✗ St. Louis Cardinals @ Washington Nationals — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-06 07:53:31 ET] [DEBUG]   [Los Angeles Dodgers @ Toronto Blue Jays] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=0%/13% ml_move=119→123
+[2026-04-06 07:53:31 ET] [DEBUG]     power rating: Toronto Blue Jays wp=0.444 / Los Angeles Dodgers wp=0.778 → true_home=0.205 vs mkt=0.448 (edge -24.3%)
+[2026-04-06 07:53:58 ET] [DEBUG]   [Baltimore Orioles @ Chicago White Sox] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=13%/0% ml_move=123→119
+[2026-04-06 07:53:58 ET] [DEBUG]     power rating: Chicago White Sox wp=0.444 / Baltimore Orioles wp=0.333 → true_home=0.644 vs mkt=0.457 (edge +18.7%)
+[2026-04-06 07:54:25 ET] [DEBUG]   [Detroit Tigers @ Minnesota Twins] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=18%/0% ml_move=-122→-126
+[2026-04-06 07:54:25 ET] [DEBUG]     power rating: Minnesota Twins wp=0.333 / Detroit Tigers wp=0.444 → true_home=0.416 vs mkt=0.557 (edge -14.1%)
+[2026-04-06 07:54:25 ET] [DEBUG]     ✗ Detroit Tigers @ Minnesota Twins — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-06 07:54:51 ET] [DEBUG]   [Seattle Mariners @ Texas Rangers] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=24%/76% ml_move=-120→-120
+[2026-04-06 07:54:51 ET] [DEBUG]     power rating: Texas Rangers wp=0.444 / Seattle Mariners wp=0.400 → true_home=0.575 vs mkt=0.545 (edge +3.0%)
+[2026-04-06 07:55:17 ET] [DEBUG]   [Houston Astros @ Colorado Rockies] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=71%/29% ml_move=169→153
+[2026-04-06 07:55:17 ET] [DEBUG]     power rating: Colorado Rockies wp=0.333 / Houston Astros wp=0.600 → true_home=0.276 vs mkt=0.395 (edge -12.0%)
+[2026-04-06 07:55:17 ET] [DEBUG]     ✗ Houston Astros @ Colorado Rockies — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-06 07:55:43 ET] [DEBUG]   [Atlanta Braves @ Los Angeles Angels] sigs=['rest_disadvantage'] conf=15 pub=57%/43% ml_move=129→144
+[2026-04-06 07:55:43 ET] [DEBUG]     ✗ Atlanta Braves @ Los Angeles Angels — conf 15 < 35 threshold
+[2026-04-06 07:56:17 ET] [WARN] Weather fetch failed for San Francisco: HTTPSConnectionPool(host='wttr.in', port=443): Read timed out. (read timeout=8)
+[2026-04-06 07:56:17 ET] [DEBUG]   [Philadelphia Phillies @ San Francisco Giants] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=93%/7% ml_move=100→100
+[2026-04-06 07:56:17 ET] [DEBUG]     power rating: San Francisco Giants wp=0.300 / Philadelphia Phillies wp=0.556 → true_home=0.283 vs mkt=0.500 (edge -21.7%)
+[2026-04-06 07:56:21 ET] [INFO]   ESPN icehockey_nhl: 4 games (fresh, 4 events found)
+[2026-04-06 07:56:21 ET] [INFO]   icehockey_nhl: 4 games from espn
+[2026-04-06 07:56:22 ET] [INFO] Action Network nhl/odds: 15 games fetched
+[2026-04-06 07:56:36 ET] [DEBUG]   [Tampa Bay Lightning @ Buffalo Sabres] sigs=['public_fade'] conf=20 pub=16%/84% ml_move=-105→-105
+[2026-04-06 07:56:36 ET] [DEBUG]     ✗ Tampa Bay Lightning @ Buffalo Sabres — conf 20 < 35 threshold
+[2026-04-06 07:56:50 ET] [DEBUG]   [Seattle Kraken @ Winnipeg Jets] sigs=['sharp_money'] conf=25 pub=30%/70% ml_move=-175→-166
+[2026-04-06 07:56:50 ET] [DEBUG]     ✗ Seattle Kraken @ Winnipeg Jets — conf 25 < 35 threshold
+[2026-04-06 07:57:04 ET] [DEBUG]   [Chicago Blackhawks @ San Jose Sharks] sigs=[] conf=0 pub=36%/64% ml_move=-155→-170
+[2026-04-06 07:57:04 ET] [DEBUG]     ✗ Chicago Blackhawks @ San Jose Sharks — only 0/1 signals (need 1 more)
+[2026-04-06 07:57:19 ET] [DEBUG]   [Nashville Predators @ Los Angeles Kings] sigs=['public_fade', 'sharp_money'] conf=45 pub=15%/85% ml_move=-148→-135
+[2026-04-06 07:57:19 ET] [DEBUG]     ✗ Nashville Predators @ Los Angeles Kings — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-06 07:57:19 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-04-06 07:57:19 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-04-06 07:57:21 ET] [INFO]   ESPN soccer_esp_la_liga: 1 games (fresh, 1 events found)
+[2026-04-06 07:57:21 ET] [INFO]   soccer_esp_la_liga: 1 games from espn
+[2026-04-06 07:57:27 ET] [DEBUG]   [Villarreal @ Girona] sigs=['sharp_money'] conf=25 pub=n/a ml_move=215→190
+[2026-04-06 07:57:27 ET] [DEBUG]     ✗ Villarreal @ Girona — conf 25 < 35 threshold
+[2026-04-06 07:57:28 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-04-06 07:57:32 ET] [INFO]   ESPN soccer_ita_serie_a: 3 games (fresh, 4 events found)
+[2026-04-06 07:57:32 ET] [INFO]   soccer_ita_serie_a: 3 games from espn
+[2026-04-06 07:57:37 ET] [DEBUG]   [Atalanta @ Lecce] sigs=['sharp_money'] conf=25 pub=n/a ml_move=350→390
+[2026-04-06 07:57:37 ET] [DEBUG]     ✗ Atalanta @ Lecce — conf 25 < 35 threshold
+[2026-04-06 07:57:41 ET] [DEBUG]   [Genoa @ Juventus] sigs=[] conf=0 pub=n/a ml_move=-290→-275
+[2026-04-06 07:57:41 ET] [DEBUG]     ✗ Genoa @ Juventus — only 0/1 signals (need 1 more)
+[2026-04-06 07:57:46 ET] [DEBUG]   [AC Milan @ Napoli] sigs=[] conf=0 pub=n/a ml_move=140→140
+[2026-04-06 07:57:46 ET] [DEBUG]     ✗ AC Milan @ Napoli — only 0/1 signals (need 1 more)
+[2026-04-06 07:57:46 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-04-06 07:57:47 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-04-06 07:57:47 ET] [INFO] Morning scan complete -- 26 games checked, 5 opportunities
+[2026-04-06 07:57:47 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-04-06 07:57:47 ET] [INFO] Morning briefing sent: 3 opportunities
+[2026-04-06 07:57:47 ET] [INFO] Morning briefing complete
+[2026-04-06 07:57:47 ET] [INFO] ============================================================
