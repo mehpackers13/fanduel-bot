@@ -6372,3 +6372,59 @@
 [2026-04-07 17:09:53 ET] [INFO] Injury scan complete — no new key injuries
 [2026-04-07 18:03:00 ET] [INFO] Running injury scan
 [2026-04-07 18:03:04 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-07 18:30:01 ET] [INFO] ============================================================
+[2026-04-07 18:30:01 ET] [INFO] Starting full scan
+[2026-04-07 18:30:01 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-07 18:30:02 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-04-07 18:30:09 ET] [INFO]   ESPN basketball_nba: 6 games (fresh, 10 events found)
+[2026-04-07 18:30:09 ET] [INFO]   basketball_nba: 6 games from espn
+[2026-04-07 18:30:09 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-04-07 18:30:19 ET] [DEBUG]   [Charlotte Hornets @ Boston Celtics] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-230→-198
+[2026-04-07 18:30:19 ET] [DEBUG]     ✗ Charlotte Hornets @ Boston Celtics — conf 25 < 35 threshold
+[2026-04-07 18:30:28 ET] [DEBUG]   [Utah Jazz @ New Orleans Pelicans] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-600→-550
+[2026-04-07 18:30:28 ET] [DEBUG]     ✗ Utah Jazz @ New Orleans Pelicans — conf 25 < 35 threshold
+[2026-04-07 18:30:37 ET] [DEBUG]   [Sacramento Kings @ Golden State Warriors] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-1100→-1000
+[2026-04-07 18:30:37 ET] [DEBUG]     ✗ Sacramento Kings @ Golden State Warriors — conf 25 < 35 threshold
+[2026-04-07 18:30:47 ET] [DEBUG]   [Oklahoma City Thunder @ Los Angeles Lakers] sigs=['sharp_money'] conf=25 pub=n/a ml_move=750→1100
+[2026-04-07 18:30:47 ET] [DEBUG]     ✗ Oklahoma City Thunder @ Los Angeles Lakers — conf 25 < 35 threshold
+[2026-04-07 18:30:56 ET] [DEBUG]   [Dallas Mavericks @ LA Clippers] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-535→-625
+[2026-04-07 18:30:56 ET] [DEBUG]     ✗ Dallas Mavericks @ LA Clippers — conf 25 < 35 threshold
+[2026-04-07 18:31:06 ET] [DEBUG]   [Houston Rockets @ Phoenix Suns] sigs=['sharp_money'] conf=25 pub=n/a ml_move=105→-112
+[2026-04-07 18:31:06 ET] [DEBUG]     ✗ Houston Rockets @ Phoenix Suns — conf 25 < 35 threshold
+[2026-04-07 18:31:14 ET] [INFO]   ESPN baseball_mlb: 5 games (fresh, 15 events found)
+[2026-04-07 18:31:14 ET] [INFO]   baseball_mlb: 5 games from espn
+[2026-04-07 18:31:14 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-04-07 18:31:36 ET] [DEBUG]   [Detroit Tigers @ Minnesota Twins] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=135→141
+[2026-04-07 18:31:36 ET] [DEBUG]     ✗ Detroit Tigers @ Minnesota Twins — conf 15 < 35 threshold
+[2026-04-07 18:31:57 ET] [DEBUG]   [Seattle Mariners @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-105→-102
+[2026-04-07 18:31:57 ET] [DEBUG]     ✗ Seattle Mariners @ Texas Rangers — conf 15 < 35 threshold
+[2026-04-07 18:32:17 ET] [DEBUG]   [Houston Astros @ Colorado Rockies] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=153→139
+[2026-04-07 18:32:17 ET] [DEBUG]     ✗ Houston Astros @ Colorado Rockies — conf 15 < 35 threshold
+[2026-04-07 18:32:38 ET] [DEBUG]   [Atlanta Braves @ Los Angeles Angels] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=109→109
+[2026-04-07 18:32:38 ET] [DEBUG]     ✗ Atlanta Braves @ Los Angeles Angels — conf 15 < 35 threshold
+[2026-04-07 18:32:59 ET] [DEBUG]   [Philadelphia Phillies @ San Francisco Giants] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=123→129
+[2026-04-07 18:32:59 ET] [DEBUG]     ✗ Philadelphia Phillies @ San Francisco Giants — conf 15 < 35 threshold
+[2026-04-07 18:33:07 ET] [INFO]   ESPN icehockey_nhl: 6 games (fresh, 11 events found)
+[2026-04-07 18:33:07 ET] [INFO]   icehockey_nhl: 6 games from espn
+[2026-04-07 18:33:07 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-04-07 18:33:19 ET] [DEBUG]   [Colorado Avalanche @ St. Louis Blues] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=136→130
+[2026-04-07 18:33:19 ET] [DEBUG]     ✗ Colorado Avalanche @ St. Louis Blues — conf 15 < 35 threshold
+[2026-04-07 18:33:31 ET] [DEBUG]   [Calgary Flames @ Dallas Stars] sigs=[] conf=0 pub=n/a ml_move=-250→-245
+[2026-04-07 18:33:31 ET] [DEBUG]     ✗ Calgary Flames @ Dallas Stars — only 0/1 signals (need 1 more)
+[2026-04-07 18:33:43 ET] [DEBUG]   [Seattle Kraken @ Minnesota Wild] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-250→-250
+[2026-04-07 18:33:43 ET] [DEBUG]     ✗ Seattle Kraken @ Minnesota Wild — conf 15 < 35 threshold
+[2026-04-07 18:33:55 ET] [DEBUG]   [Edmonton Oilers @ Utah Mammoth] sigs=[] conf=0 pub=n/a ml_move=-125→-142
+[2026-04-07 18:33:55 ET] [DEBUG]     ✗ Edmonton Oilers @ Utah Mammoth — only 0/1 signals (need 1 more)
+[2026-04-07 18:34:08 ET] [DEBUG]   [Vegas Golden Knights @ Vancouver Canucks] sigs=[] conf=0 pub=n/a ml_move=190→210
+[2026-04-07 18:34:08 ET] [DEBUG]     ✗ Vegas Golden Knights @ Vancouver Canucks — only 0/1 signals (need 1 more)
+[2026-04-07 18:34:20 ET] [DEBUG]   [Nashville Predators @ Anaheim Ducks] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-155→-148
+[2026-04-07 18:34:20 ET] [DEBUG]     ✗ Nashville Predators @ Anaheim Ducks — conf 15 < 35 threshold
+[2026-04-07 18:34:20 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-04-07 18:34:20 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-04-07 18:34:21 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-04-07 18:34:21 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-04-07 18:34:21 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-04-07 18:34:22 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-04-07 18:34:22 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-04-07 18:34:22 ET] [INFO] Scan complete -- 17 games checked, 0 alerts (silence = discipline)
+[2026-04-07 18:34:22 ET] [INFO] ============================================================
