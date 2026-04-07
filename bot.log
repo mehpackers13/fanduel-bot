@@ -5644,3 +5644,110 @@
 [2026-04-06 18:33:17 ET] [INFO] Injury scan complete — no new key injuries
 [2026-04-06 19:32:50 ET] [INFO] Running injury scan
 [2026-04-06 19:32:53 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-06 21:27:08 ET] [INFO] ============================================================
+[2026-04-06 21:27:08 ET] [INFO] Starting full scan
+[2026-04-06 21:27:08 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-06 21:27:08 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-04-06 21:27:13 ET] [INFO]   ESPN basketball_nba: 7 games (fresh, 10 events found)
+[2026-04-06 21:27:13 ET] [INFO]   basketball_nba: 7 games from espn
+[2026-04-06 21:27:14 ET] [INFO] Action Network nba/odds: 5 games fetched
+[2026-04-06 21:27:20 ET] [DEBUG]   [Minnesota Timberwolves @ Indiana Pacers] sigs=[] conf=0 pub=n/a ml_move=470→470
+[2026-04-06 21:27:20 ET] [DEBUG]     ✗ Minnesota Timberwolves @ Indiana Pacers — only 0/1 signals (need 1 more)
+[2026-04-06 21:27:26 ET] [DEBUG]   [Miami Heat @ Toronto Raptors] sigs=['sharp_money'] conf=25 pub=n/a ml_move=102→-108
+[2026-04-06 21:27:26 ET] [DEBUG]     ✗ Miami Heat @ Toronto Raptors — conf 25 < 35 threshold
+[2026-04-06 21:27:32 ET] [DEBUG]   [Charlotte Hornets @ Boston Celtics] sigs=[] conf=0 pub=n/a ml_move=-230→-230
+[2026-04-06 21:27:32 ET] [DEBUG]     ✗ Charlotte Hornets @ Boston Celtics — only 0/1 signals (need 1 more)
+[2026-04-06 21:27:38 ET] [DEBUG]   [Sacramento Kings @ Golden State Warriors] sigs=[] conf=0 pub=n/a ml_move=-1100→-1100
+[2026-04-06 21:27:38 ET] [DEBUG]     ✗ Sacramento Kings @ Golden State Warriors — only 0/1 signals (need 1 more)
+[2026-04-06 21:27:44 ET] [DEBUG]   [Oklahoma City Thunder @ Los Angeles Lakers] sigs=['sharp_money'] conf=25 pub=n/a ml_move=750→800
+[2026-04-06 21:27:44 ET] [DEBUG]     ✗ Oklahoma City Thunder @ Los Angeles Lakers — conf 25 < 35 threshold
+[2026-04-06 21:27:50 ET] [DEBUG]   [Dallas Mavericks @ LA Clippers] sigs=[] conf=0 pub=n/a ml_move=-535→-535
+[2026-04-06 21:27:50 ET] [DEBUG]     ✗ Dallas Mavericks @ LA Clippers — only 0/1 signals (need 1 more)
+[2026-04-06 21:27:55 ET] [DEBUG]   [Houston Rockets @ Phoenix Suns] sigs=[] conf=0 pub=n/a ml_move=105→100
+[2026-04-06 21:27:55 ET] [DEBUG]     ✗ Houston Rockets @ Phoenix Suns — only 0/1 signals (need 1 more)
+[2026-04-06 21:28:02 ET] [INFO]   ESPN baseball_mlb: 15 games (fresh, 15 events found)
+[2026-04-06 21:28:02 ET] [INFO]   baseball_mlb: 15 games from espn
+[2026-04-06 21:28:03 ET] [INFO] Action Network mlb/odds: 13 games fetched
+[2026-04-06 21:28:18 ET] [WARN] Weather fetch failed for Cleveland: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:28:18 ET] [DEBUG]   [Kansas City Royals @ Cleveland Guardians] sigs=['rest_disadvantage'] conf=15 pub=70%/30% ml_move=-118→-115
+[2026-04-06 21:28:18 ET] [DEBUG]     ✗ Kansas City Royals @ Cleveland Guardians — conf 15 < 35 threshold
+[2026-04-06 21:28:31 ET] [WARN] Weather fetch failed for Chicago: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:28:31 ET] [DEBUG]   [Baltimore Orioles @ Chicago White Sox] sigs=['rest_disadvantage'] conf=15 pub=0%/0% ml_move=113→113
+[2026-04-06 21:28:31 ET] [DEBUG]     ✗ Baltimore Orioles @ Chicago White Sox — conf 15 < 35 threshold
+[2026-04-06 21:28:44 ET] [WARN] Weather fetch failed for Queens: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:28:44 ET] [DEBUG]   [Arizona Diamondbacks @ New York Mets] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-156→-163
+[2026-04-06 21:28:44 ET] [DEBUG]     ✗ Arizona Diamondbacks @ New York Mets — conf 15 < 35 threshold
+[2026-04-06 21:28:58 ET] [WARN] Weather fetch failed for St. Petersburg: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:28:58 ET] [DEBUG]   [Chicago Cubs @ Tampa Bay Rays] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=42%/58% ml_move=-136→-131
+[2026-04-06 21:28:58 ET] [DEBUG]     power rating: Tampa Bay Rays wp=0.500 / Chicago Cubs wp=0.400 → true_home=0.628 vs mkt=0.567 (edge +6.1%)
+[2026-04-06 21:28:58 ET] [DEBUG]     ✗ Chicago Cubs @ Tampa Bay Rays — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-06 21:29:11 ET] [WARN] Weather fetch failed for Miami: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:29:11 ET] [DEBUG]   [Cincinnati Reds @ Miami Marlins] sigs=['rest_disadvantage'] conf=15 pub=74%/26% ml_move=-126→-131
+[2026-04-06 21:29:11 ET] [DEBUG]     ✗ Cincinnati Reds @ Miami Marlins — conf 15 < 35 threshold
+[2026-04-06 21:29:25 ET] [WARN] Weather fetch failed for Pittsburgh: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:29:25 ET] [DEBUG]   [San Diego Padres @ Pittsburgh Pirates] sigs=['rest_disadvantage'] conf=15 pub=27%/0% ml_move=-156→-156
+[2026-04-06 21:29:25 ET] [DEBUG]     ✗ San Diego Padres @ Pittsburgh Pirates — conf 15 < 35 threshold
+[2026-04-06 21:29:39 ET] [WARN] Weather fetch failed for Boston: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:29:39 ET] [DEBUG]   [Milwaukee Brewers @ Boston Red Sox] sigs=['rest_disadvantage'] conf=15 pub=0%/0% ml_move=-149→-156
+[2026-04-06 21:29:39 ET] [DEBUG]     ✗ Milwaukee Brewers @ Boston Red Sox — conf 15 < 35 threshold
+[2026-04-06 21:29:53 ET] [WARN] Weather fetch failed for Washington: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:29:53 ET] [DEBUG]   [St. Louis Cardinals @ Washington Nationals] sigs=['rest_disadvantage'] conf=15 pub=0%/0% ml_move=-110→-115
+[2026-04-06 21:29:53 ET] [DEBUG]     ✗ St. Louis Cardinals @ Washington Nationals — conf 15 < 35 threshold
+[2026-04-06 21:30:07 ET] [WARN] Weather fetch failed for Bronx: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:30:07 ET] [DEBUG]   [Athletics @ New York Yankees] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-207→-207
+[2026-04-06 21:30:07 ET] [DEBUG]     ✗ Athletics @ New York Yankees — conf 15 < 35 threshold
+[2026-04-06 21:30:20 ET] [WARN] Weather fetch failed for Toronto: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:30:20 ET] [DEBUG]   [Los Angeles Dodgers @ Toronto Blue Jays] sigs=['public_fade', 'sharp_money', 'rest_disadvantage'] conf=60 pub=80%/20% ml_move=135→129
+[2026-04-06 21:30:20 ET] [DEBUG]     power rating: Toronto Blue Jays wp=0.444 / Los Angeles Dodgers wp=0.778 → true_home=0.205 vs mkt=0.437 (edge -23.2%)
+[2026-04-06 21:30:34 ET] [WARN] Weather fetch failed for Minneapolis: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:30:34 ET] [DEBUG]   [Detroit Tigers @ Minnesota Twins] sigs=['rest_disadvantage'] conf=15 pub=0%/61% ml_move=135→141
+[2026-04-06 21:30:34 ET] [DEBUG]     ✗ Detroit Tigers @ Minnesota Twins — conf 15 < 35 threshold
+[2026-04-06 21:30:48 ET] [WARN] Weather fetch failed for Arlington: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:30:48 ET] [DEBUG]   [Seattle Mariners @ Texas Rangers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=0%/0% ml_move=-105→100
+[2026-04-06 21:30:48 ET] [DEBUG]     power rating: Texas Rangers wp=0.444 / Seattle Mariners wp=0.400 → true_home=0.575 vs mkt=0.500 (edge +7.5%)
+[2026-04-06 21:31:02 ET] [WARN] Weather fetch failed for Denver: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:31:02 ET] [DEBUG]   [Houston Astros @ Colorado Rockies] sigs=['rest_disadvantage'] conf=15 pub=0%/0% ml_move=153→159
+[2026-04-06 21:31:02 ET] [DEBUG]     ✗ Houston Astros @ Colorado Rockies — conf 15 < 35 threshold
+[2026-04-06 21:31:15 ET] [DEBUG]   [Atlanta Braves @ Los Angeles Angels] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=85%/15% ml_move=109→119
+[2026-04-06 21:31:15 ET] [DEBUG]     power rating: Los Angeles Angels wp=0.500 / Atlanta Braves wp=0.600 → true_home=0.429 vs mkt=0.457 (edge -2.8%)
+[2026-04-06 21:31:15 ET] [DEBUG]     ✗ Atlanta Braves @ Los Angeles Angels — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-06 21:31:29 ET] [WARN] Weather fetch failed for San Francisco: 'NoneType' object has no attribute 'get'
+[2026-04-06 21:31:29 ET] [DEBUG]   [Philadelphia Phillies @ San Francisco Giants] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=74%/26% ml_move=123→129
+[2026-04-06 21:31:29 ET] [DEBUG]     power rating: San Francisco Giants wp=0.300 / Philadelphia Phillies wp=0.556 → true_home=0.283 vs mkt=0.437 (edge -15.4%)
+[2026-04-06 21:31:34 ET] [INFO]   ESPN icehockey_nhl: 11 games (fresh, 11 events found)
+[2026-04-06 21:31:34 ET] [INFO]   icehockey_nhl: 11 games from espn
+[2026-04-06 21:31:35 ET] [INFO] Action Network nhl/odds: 4 games fetched
+[2026-04-06 21:31:43 ET] [DEBUG]   [Florida Panthers @ Montreal Canadiens] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-198→-218
+[2026-04-06 21:31:43 ET] [DEBUG]     ✗ Florida Panthers @ Montreal Canadiens — conf 15 < 35 threshold
+[2026-04-06 21:31:50 ET] [DEBUG]   [Tampa Bay Lightning @ Ottawa Senators] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=63%/37% ml_move=-122→-135
+[2026-04-06 21:31:50 ET] [DEBUG]     ✗ Tampa Bay Lightning @ Ottawa Senators — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-06 21:31:58 ET] [DEBUG]   [Columbus Blue Jackets @ Detroit Red Wings] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-120→-120
+[2026-04-06 21:31:58 ET] [DEBUG]     ✗ Columbus Blue Jackets @ Detroit Red Wings — conf 15 < 35 threshold
+[2026-04-06 21:32:05 ET] [DEBUG]   [Philadelphia Flyers @ New Jersey Devils] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-125→-125
+[2026-04-06 21:32:05 ET] [DEBUG]     ✗ Philadelphia Flyers @ New Jersey Devils — conf 15 < 35 threshold
+[2026-04-06 21:32:13 ET] [DEBUG]   [Boston Bruins @ Carolina Hurricanes] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-192→-185
+[2026-04-06 21:32:13 ET] [DEBUG]     ✗ Boston Bruins @ Carolina Hurricanes — conf 15 < 35 threshold
+[2026-04-06 21:32:21 ET] [DEBUG]   [Colorado Avalanche @ St. Louis Blues] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=136→130
+[2026-04-06 21:32:21 ET] [DEBUG]     ✗ Colorado Avalanche @ St. Louis Blues — conf 15 < 35 threshold
+[2026-04-06 21:32:28 ET] [DEBUG]   [Calgary Flames @ Dallas Stars] sigs=[] conf=0 pub=n/a ml_move=-250→-245
+[2026-04-06 21:32:28 ET] [DEBUG]     ✗ Calgary Flames @ Dallas Stars — only 0/1 signals (need 1 more)
+[2026-04-06 21:32:36 ET] [DEBUG]   [Seattle Kraken @ Minnesota Wild] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=12%/88% ml_move=-250→-250
+[2026-04-06 21:32:36 ET] [DEBUG]     ✗ Seattle Kraken @ Minnesota Wild — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-06 21:32:44 ET] [DEBUG]   [Edmonton Oilers @ Utah Mammoth] sigs=[] conf=0 pub=n/a ml_move=-125→-130
+[2026-04-06 21:32:44 ET] [DEBUG]     ✗ Edmonton Oilers @ Utah Mammoth — only 0/1 signals (need 1 more)
+[2026-04-06 21:32:51 ET] [DEBUG]   [Vegas Golden Knights @ Vancouver Canucks] sigs=[] conf=0 pub=n/a ml_move=190→200
+[2026-04-06 21:32:51 ET] [DEBUG]     ✗ Vegas Golden Knights @ Vancouver Canucks — only 0/1 signals (need 1 more)
+[2026-04-06 21:32:59 ET] [DEBUG]   [Nashville Predators @ Anaheim Ducks] sigs=['public_fade', 'sharp_money', 'rest_disadvantage'] conf=60 pub=21%/79% ml_move=-155→-142
+[2026-04-06 21:32:59 ET] [DEBUG]     ✗ Nashville Predators @ Anaheim Ducks — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-06 21:32:59 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-04-06 21:32:59 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-04-06 21:32:59 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-04-06 21:32:59 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-04-06 21:33:00 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-04-06 21:33:00 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-04-06 21:33:00 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-04-06 21:33:00 ET] [INFO] Sprinkle alert sent: Los Angeles Dodgers @ Toronto Blue Jays | moneyline Los Angeles Dodgers -156 | edge 18.6% | 1u
+[2026-04-06 21:33:00 ET] [INFO] Sprinkle alert sent: Philadelphia Phillies @ San Francisco Giants | moneyline Philadelphia Phillies -156 | edge 10.8% | 1u
+[2026-04-06 21:33:00 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-06 21:33:00 ET] [INFO] Scan complete -- 33 games checked, 2 alert(s) sent (2u at risk today)
+[2026-04-06 21:33:00 ET] [INFO] ============================================================
