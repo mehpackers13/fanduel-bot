@@ -215,6 +215,31 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
             signals[sig_name] = sig_desc
             confidence += config.SIGNAL_WEIGHTS.get(sig_name, 15)
 
+    # ── 7. Power rating model edge ────────────────────────────────────────────
+    # Use season W-L records (ESPN scoreboard) + log5 to get an independent
+    # true probability. If it diverges 5%+ from the market's implied prob,
+    # that's a real pricing discrepancy worth acting on.
+    win_pcts = espn_core_api.get_win_pcts(sport_key)
+    if win_pcts and game.get("h2h"):
+        home_wp = win_pcts.get(home)
+        away_wp = win_pcts.get(away)
+        if home_wp is not None and away_wp is not None:
+            true_h, true_a = _power_rating_prob(home_wp, away_wp)
+            mkt_h = game["h2h"]["home_prob"]
+            # Override circular devigged probs with independent model estimate
+            game["h2h"]["true_home_prob"] = true_h
+            game["h2h"]["true_away_prob"] = true_a
+            divergence = true_h - mkt_h          # + = home underpriced, - = away underpriced
+            if abs(divergence) >= 0.05:
+                if divergence > 0:
+                    side_desc = f"{home} underpriced (model {true_h:.1%} vs mkt {mkt_h:.1%})"
+                else:
+                    side_desc = f"{away} underpriced (model {true_a:.1%} vs mkt {game['h2h']['away_prob']:.1%})"
+                signals["model_edge"] = (
+                    f"Power rating: {home} wp={home_wp:.1%} / {away} wp={away_wp:.1%} — {side_desc}"
+                )
+                confidence += config.SIGNAL_WEIGHTS["model_edge"]
+
     # ── Diagnostic log: always show what was found per game ──────────────────
     sig_names = list(signals.keys()) if signals else []
     pub_pct   = f"pub={home_bets:.0f}%/{away_bets:.0f}%" if pub else "pub=n/a"
@@ -242,22 +267,6 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
             "DEBUG"
         )
         return None
-
-    # ── Power rating: replace circular true_prob with season win% model ──────
-    win_pcts = espn_core_api.get_win_pcts(sport_key)
-    if win_pcts and game.get("h2h"):
-        home_wp = win_pcts.get(home)
-        away_wp = win_pcts.get(away)
-        if home_wp is not None and away_wp is not None:
-            true_h, true_a = _power_rating_prob(home_wp, away_wp)
-            game["h2h"]["true_home_prob"] = true_h
-            game["h2h"]["true_away_prob"] = true_a
-            log(
-                f"    power rating: {home} wp={home_wp:.3f} / {away} wp={away_wp:.3f}"
-                f" → true_home={true_h:.3f} vs mkt={game['h2h']['home_prob']:.3f}"
-                f" (edge {(true_h - game['h2h']['home_prob'])*100:+.1f}%)",
-                "DEBUG"
-            )
 
     # ── Find the best betting line given our signals ──────────────────────────
     opp = _find_best_bet(game, signals, confidence, home_out, away_out, pub)

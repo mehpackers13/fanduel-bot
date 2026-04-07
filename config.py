@@ -38,6 +38,7 @@ SIGNAL_WEIGHTS = {
     "rest_disadvantage":  15,   # back-to-back or 3-in-4
     "travel_disadvantage":15,   # cross-country/red-eye travel
     "weather_edge":       20,   # wind>15mph or rain for outdoor games
+    "model_edge":         20,   # power rating (log5 win%) diverges 5%+ from market
     "prop_historical":    25,   # player prop vs historical matchup data
     "ufc_strike_diff":    20,   # significant strike differential
     "ufc_reach_adv":      15,   # reach advantage
