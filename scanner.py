@@ -16,7 +16,7 @@ from logger import log
 from odds_api import get_odds, parse_game
 import espn_core_api
 from edge_calculator import evaluate_game, BetOpportunity
-from outcomes import log_opportunity, ensure_log
+from outcomes import log_opportunity, ensure_log, auto_resolve_outcomes
 from discord_alerts import send_bet_alert, send_sprinkle_alert, send_parlay_suggestion
 from bankroll import bet_summary
 import kelly as kelly_mod
@@ -151,6 +151,11 @@ def run_scan(morning_mode: bool = False) -> list:
     log("=" * 60)
     log(f"Starting {'morning' if morning_mode else 'full'} scan")
     log(bet_summary())
+
+    # Auto-resolve any pending outcomes from completed games
+    resolved = auto_resolve_outcomes()
+    if resolved:
+        log(f"Auto-resolved {resolved} pending bet outcome(s) from ESPN scores")
 
     all_opps    = []
     total_games = 0

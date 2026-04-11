@@ -531,6 +531,74 @@ def get_win_pcts(sport_key: str) -> dict:
     return win_pcts
 
 
+# ── Game result lookup (for outcome auto-resolution) ─────────────────────────
+
+def get_game_result(game_id: str, sport_key: str) -> Optional[dict]:
+    """
+    Check whether a game has completed and return its final score.
+    game_id format: "espn_401695694"
+    Returns:
+      {"completed": False}                                   — game not finished yet
+      {"completed": True, "home_score": N, "away_score": N,
+       "home_team": str, "away_team": str}                   — final result
+      None                                                   — unable to fetch
+    """
+    espn_id = game_id.replace("espn_", "")
+    codes   = LEAGUES.get(sport_key)
+    if not codes or not espn_id:
+        return None
+    sport_code, league_code = codes
+
+    url = f"{BASE}/{sport_code}/leagues/{league_code}/events/{espn_id}"
+    ev  = _get(url)
+    if not ev:
+        return None
+
+    comps = ev.get("competitions", [])
+    if not comps:
+        return None
+    comp = comps[0]
+
+    # Status can live at event level or competition level
+    status_block = ev.get("status") or comp.get("status") or {}
+    if isinstance(status_block, dict) and status_block.get("$ref"):
+        status_block = _get(status_block["$ref"]) or {}
+    type_block = status_block.get("type", {})
+
+    completed = type_block.get("completed", False)
+    if not completed:
+        name = type_block.get("name", "")
+        completed = "FINAL" in name.upper()
+    if not completed:
+        return {"completed": False}
+
+    home_score, away_score = 0.0, 0.0
+    home_team,  away_team  = "", ""
+
+    for c in comp.get("competitors", []):
+        team_info  = c.get("team", {})
+        team_name  = team_info.get("displayName") or team_info.get("name") or ""
+        score_raw  = c.get("score", 0)
+        if isinstance(score_raw, dict):
+            score_raw = score_raw.get("value", 0)
+        try:
+            score = float(score_raw or 0)
+        except Exception:
+            score = 0.0
+        if c.get("homeAway") == "home":
+            home_score, home_team = score, team_name
+        else:
+            away_score, away_team = score, team_name
+
+    return {
+        "completed":   True,
+        "home_score":  home_score,
+        "away_score":  away_score,
+        "home_team":   home_team,
+        "away_team":   away_team,
+    }
+
+
 # ── Sharp line movement ───────────────────────────────────────────────────────
 
 def check_line_movement_sharp(game: dict) -> tuple:
