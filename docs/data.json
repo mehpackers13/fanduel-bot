@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-11T22:24:43.832151Z",
-  "last_scan": "2026-04-11 18:24:43 ET",
+  "generated_at": "2026-04-12T01:53:11.769810Z",
+  "last_scan": "2026-04-11 21:53:11 ET",
   "stats": {
-    "total_alerts": 17,
+    "total_alerts": 19,
     "completed_bets": 0,
     "win_rate": null,
     "total_pl": 0,
@@ -11,6 +11,50 @@
   },
   "performance": {},
   "recent_bets": [
+    {
+      "timestamp": "2026-04-11 21:53 ET",
+      "sport": "NBA",
+      "game": "Atlanta Hawks @ Miami Heat",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "+105",
+      "edge_pct": "3.2",
+      "confidence": "60",
+      "signals": "sharp_money + rest_disadvantage + model_edge",
+      "suggested_bet": "16.0",
+      "implied_prob": "48.8",
+      "true_prob": "52.0",
+      "reasoning": "Edge 3.2% on Atlanta Hawks moneyline. ML moved 325 pts on Miami Heat (+200\u2192-125) \u2014 steam toward Miami Heat. Miami Heat playing 3rd game in 4 nights.",
+      "outcome": "espn_401811044",
+      "profit_loss": "basketball_nba",
+      "notes": "",
+      "null": [
+        "",
+        ""
+      ]
+    },
+    {
+      "timestamp": "2026-04-11 21:53 ET",
+      "sport": "NBA",
+      "game": "Golden State Warriors @ LA Clippers",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "+195",
+      "edge_pct": "8.2",
+      "confidence": "60",
+      "signals": "sharp_money + rest_disadvantage + model_edge",
+      "suggested_bet": "31.0",
+      "implied_prob": "33.9",
+      "true_prob": "42.1",
+      "reasoning": "Edge 8.2% on Golden State Warriors moneyline. ML moved 122 pts on LA Clippers (-360\u2192-238) \u2014 steam toward Golden State Warriors. Golden State Warriors playing 3rd game in 4 nights.",
+      "outcome": "espn_401811054",
+      "profit_loss": "basketball_nba",
+      "notes": "",
+      "null": [
+        "",
+        ""
+      ]
+    },
     {
       "timestamp": "2026-04-10 21:28 ET",
       "sport": "MLB",
