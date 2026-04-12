@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-12T18:37:32.123490Z",
-  "last_scan": "2026-04-12 14:37:32 ET",
+  "generated_at": "2026-04-12T20:31:21.958684Z",
+  "last_scan": "2026-04-12 16:31:21 ET",
   "stats": {
-    "total_alerts": 19,
+    "total_alerts": 20,
     "completed_bets": 0,
     "win_rate": null,
     "total_pl": 0,
@@ -11,6 +11,28 @@
   },
   "performance": {},
   "recent_bets": [
+    {
+      "timestamp": "2026-04-12 16:31 ET",
+      "sport": "NBA",
+      "game": "Chicago Bulls @ Dallas Mavericks",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "+225",
+      "edge_pct": "24.0",
+      "confidence": "80",
+      "signals": "public_fade + sharp_money + rest_disadvantage + model_edge",
+      "suggested_bet": "50.0",
+      "implied_prob": "30.8",
+      "true_prob": "54.8",
+      "reasoning": "Edge 24.0% on Chicago Bulls moneyline. 87% public on Dallas Mavericks -- fade value on Chicago Bulls. Sharp money on Chicago Bulls -- line moved opposite to 87% public.",
+      "outcome": "espn_401811048",
+      "profit_loss": "basketball_nba",
+      "notes": "",
+      "null": [
+        "",
+        ""
+      ]
+    },
     {
       "timestamp": "2026-04-11 21:53 ET",
       "sport": "NBA",
