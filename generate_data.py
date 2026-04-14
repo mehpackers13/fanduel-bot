@@ -6,7 +6,7 @@ for the GitHub Pages dashboard.
 """
 import csv, json
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 BASE = Path(__file__).parent
@@ -34,17 +34,22 @@ def read_performance():
 
 
 def read_last_scan():
+    """Returns (last_scan_str, last_scan_iso) by parsing bot.log."""
     path = BASE / "bot.log"
     if not path.exists():
-        return "Never"
+        return "Never", None
     lines = [l for l in path.read_text().splitlines() if l.strip()]
     for line in reversed(lines):
-        if "scan" in line.lower():
+        if any(kw in line.lower() for kw in ["scan complete", "starting", "scan"]):
             try:
-                return line.split("]")[0].lstrip("[").strip()
+                ts_str = line.split("]")[0].lstrip("[").strip()
+                return ts_str, ts_str
             except Exception:
                 pass
-    return lines[-1].split("]")[0].lstrip("[").strip() if lines else "Unknown"
+    if lines:
+        ts_str = lines[-1].split("]")[0].lstrip("[").strip()
+        return ts_str, ts_str
+    return "Unknown", None
 
 
 def calc_stats(bets):
@@ -73,20 +78,59 @@ def calc_stats(bets):
     }
 
 
+UNIT_SIZE = 10.0   # 1 unit = 1% of $1000 bankroll = $10
+
+
+def calc_unit_total(bets):
+    """Sum units P&L from all resolved bets. 1u = $10."""
+    total = 0.0
+    for b in bets:
+        if b.get("outcome") not in ("W", "L", "P"):
+            continue
+        pl = float(b.get("profit_loss") or 0)
+        total += pl / UNIT_SIZE
+    return round(total, 2)
+
+
+def read_today_bets(bets):
+    """Return bets logged in the last 24 hours."""
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+    today = []
+    for b in bets:
+        ts_str = b.get("timestamp", "")
+        try:
+            # timestamps stored as "2026-04-13 07:42 ET" — parse date part
+            ts = datetime.strptime(ts_str[:16], "%Y-%m-%d %H:%M")
+            # treat as UTC-4 (ET) for comparison — close enough
+            if ts >= cutoff.replace(tzinfo=None) - timedelta(hours=4):
+                today.append(b)
+        except Exception:
+            pass
+    return list(reversed(today))
+
+
 def main():
     bets  = read_bets()
     stats = calc_stats(bets)
     perf  = read_performance()
-    recent= list(reversed(bets[-50:]))
+    recent = list(reversed(bets[-50:]))
+    last_scan_str, last_scan_ts = read_last_scan()
+    unit_total  = calc_unit_total(bets)
+    today_bets  = read_today_bets(bets)
+    generated   = datetime.utcnow().isoformat() + "Z"
     data  = {
-        "generated_at": datetime.utcnow().isoformat() + "Z",
-        "last_scan":    read_last_scan(),
-        "stats":        stats,
-        "performance":  perf,
-        "recent_bets":  recent,
+        "generated_at":  generated,
+        "last_scan":     last_scan_str,
+        "last_scan_ts":  generated,   # use generation time as reliable proxy
+        "stats":         stats,
+        "unit_total":    unit_total,
+        "today_bets":    today_bets,
+        "performance":   perf,
+        "recent_bets":   recent,
     }
     (DOCS/"data.json").write_text(json.dumps(data, indent=2))
-    print(f"docs/data.json written — {len(recent)} bets, stats: {stats['completed_bets']} completed")
+    u_sign = "+" if unit_total >= 0 else ""
+    print(f"docs/data.json written — {len(recent)} bets, {stats['completed_bets']} completed, units: {u_sign}{unit_total}u")
 
 
 if __name__ == "__main__":

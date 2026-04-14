@@ -216,20 +216,55 @@ def send_parlay_suggestion(bets: list) -> None:
     _sports({"embeds": [embed]})
 
 
-def send_morning_briefing(opps: list, date_str: str, ufc_section: str = "") -> None:
-    """Send daily 7am briefing with top opportunities."""
-    if not opps and not ufc_section:
-        embed = {
-            "title":       f"\u2600\ufe0f Morning Briefing -- {date_str}",
-            "description": "No qualifying opportunities found for today. Staying patient.",
-            "color":       _COLOR_INFO,
-            "footer":      {"text": "fanduel-bot"},
-            "timestamp":   datetime.datetime.utcnow().isoformat() + "Z",
-        }
-        _sports({"embeds": [embed]})
-        return
+def send_morning_briefing(opps: list, date_str: str, ufc_section: str = "",
+                          unit_summary: dict = None) -> None:
+    """Send daily 7am briefing with top opportunities, unit totals, and VIX."""
+    us = unit_summary or {}
+
+    # Build unit summary line
+    fd_u  = us.get("fanduel")
+    kal_u = us.get("kalshi")
+    opt_u = us.get("options")
+
+    def _fmt_u(v):
+        if v is None:
+            return "—"
+        sign = "+" if v >= 0 else ""
+        color = "🟢" if v > 0 else "🔴" if v < 0 else "⚪"
+        return f"{color} {sign}{v:.1f}u"
+
+    combined = None
+    try:
+        parts = [x for x in [fd_u, kal_u, opt_u] if x is not None]
+        combined = round(sum(parts), 2) if parts else None
+    except Exception:
+        pass
+
+    combined_str = _fmt_u(combined) if combined is not None else "—"
+    vix_str = us.get("vix", "N/A")
 
     fields = []
+
+    # Unit summary block — always shown first
+    unit_block = (
+        f"Sports (FanDuel): {_fmt_u(fd_u)}\n"
+        f"Prediction (Kalshi): {_fmt_u(kal_u)}\n"
+        f"Options signals: {_fmt_u(opt_u)}"
+    )
+    fields.append({"name": f"📊 COMBINED UNITS: {combined_str}", "value": unit_block, "inline": False})
+    fields.append({"name": "📈 VIX Level",    "value": vix_str,              "inline": True})
+    fields.append({"name": "🎯 Opportunities", "value": str(len(opps)),      "inline": True})
+
+    # Overnight resolutions
+    overnight = us.get("overnight", [])
+    if overnight:
+        o_lines = []
+        for b in overnight[-5:]:
+            icon = "✅" if b.get("outcome") == "W" else "❌" if b.get("outcome") == "L" else "⚪"
+            game = b.get("game", b.get("sport", "?"))
+            o_lines.append(f"{icon} {game}")
+        fields.append({"name": "🌙 Resolved Overnight", "value": "\n".join(o_lines), "inline": False})
+
     for i, opp in enumerate(opps[:3], 1):
         game  = f"{opp.away_team} @ {opp.home_team}"
         side  = _side_name(opp)
@@ -252,16 +287,19 @@ def send_morning_briefing(opps: list, date_str: str, ufc_section: str = "") -> N
             "inline": False,
         })
 
+    desc = f"**{len(opps)} opportunity{'s' if len(opps) != 1 else ''} found** — top 3 below." if opps \
+        else "No qualifying opportunities found for today. Staying patient."
+
     embed = {
-        "title":       f"\u2600\ufe0f Morning Briefing -- {date_str}",
-        "description": f"**{len(opps)} opportunity{'s' if len(opps) != 1 else ''} found** -- top 3 shown below.",
+        "title":       f"\u2600\ufe0f Morning Briefing — {date_str}",
+        "description": desc,
         "color":       _COLOR_INFO,
         "fields":      fields,
-        "footer":      {"text": "fanduel-bot"},
+        "footer":      {"text": "fanduel-bot + kalshi-bot + options-bot"},
         "timestamp":   datetime.datetime.utcnow().isoformat() + "Z",
     }
     _sports({"embeds": [embed]})
-    log(f"Morning briefing sent: {len(opps)} opportunities")
+    log(f"Morning briefing sent: {len(opps)} opportunities | combined units: {combined_str}")
 
 
 def send_weekly_report(stats: dict) -> None:
