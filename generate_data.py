@@ -82,13 +82,26 @@ UNIT_SIZE = 10.0   # 1 unit = 1% of $1000 bankroll = $10
 
 
 def calc_unit_total(bets):
-    """Sum units P&L from all resolved bets. 1u = $10."""
+    """Sum units P&L from all resolved bets. 1u = $10. Falls back to implied_prob calculation if profit_loss missing."""
     total = 0.0
     for b in bets:
         if b.get("outcome") not in ("W", "L", "P"):
             continue
-        pl = float(b.get("profit_loss") or 0)
-        total += pl / UNIT_SIZE
+        pl_str = b.get("profit_loss", "")
+        if pl_str not in (None, ""):
+            total += float(pl_str) / UNIT_SIZE
+        elif b.get("outcome") in ("W", "L"):
+            # Calculate on-the-fly from suggested_bet and implied_prob
+            try:
+                dollars  = float(b.get("suggested_bet") or 0)
+                imp_prob = float(b.get("implied_prob") or 0)
+                if dollars > 0 and imp_prob > 0:
+                    if b["outcome"] == "W":
+                        total += dollars * (1.0 / imp_prob - 1.0) / UNIT_SIZE
+                    else:
+                        total -= dollars / UNIT_SIZE
+            except Exception:
+                pass
     return round(total, 2)
 
 

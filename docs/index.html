@@ -200,7 +200,7 @@ function setStatus(ts) {
   try {
     const gen = new Date(ts);
     const ageMin = (Date.now() - gen.getTime()) / 60000;
-    if (ageMin < 90) { dot.className = "dot green"; txt.textContent = "Live — scanned " + Math.round(ageMin) + "m ago"; }
+    if (ageMin < 120) { dot.className = "dot green"; txt.textContent = "Live — scanned " + Math.round(ageMin) + "m ago"; }
     else if (ageMin < 480) { dot.className = "dot yellow"; txt.textContent = "Idle — last scan " + Math.round(ageMin/60) + "h ago"; }
     else { dot.className = "dot red"; txt.textContent = "Stale — last scan " + gen.toLocaleDateString(); }
   } catch { dot.className = "dot red"; txt.textContent = "Status unknown"; }
