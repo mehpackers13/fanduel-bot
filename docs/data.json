@@ -1,17 +1,85 @@
 {
-  "generated_at": "2026-04-15T00:07:28.986055Z",
-  "last_scan": "2026-04-14 18:39:40 ET",
-  "last_scan_ts": "2026-04-15T00:07:28.986055Z",
+  "generated_at": "2026-04-15T01:46:45.635393Z",
+  "last_scan": "2026-04-14 21:46:45 ET",
+  "last_scan_ts": "2026-04-15T01:46:45.635393Z",
   "stats": {
-    "total_alerts": 24,
-    "completed_bets": 0,
-    "win_rate": null,
-    "total_pl": 0,
-    "by_sport": {},
-    "by_signal": {}
+    "total_alerts": 26,
+    "completed_bets": 5,
+    "win_rate": 0.0,
+    "total_pl": 0.0,
+    "by_sport": {
+      "NBA": {
+        "bets": 3,
+        "wins": 0,
+        "pl": 0.0
+      },
+      "MLB": {
+        "bets": 2,
+        "wins": 0,
+        "pl": 0.0
+      }
+    },
+    "by_signal": {
+      "sharp_money": {
+        "bets": 3,
+        "wins": 0
+      },
+      "rest_disadvantage": {
+        "bets": 5,
+        "wins": 0
+      },
+      "model_edge": {
+        "bets": 5,
+        "wins": 0
+      },
+      "public_fade": {
+        "bets": 1,
+        "wins": 0
+      }
+    }
   },
   "unit_total": 0.0,
   "today_bets": [
+    {
+      "timestamp": "2026-04-14 21:46 ET",
+      "sport": "MLB",
+      "game": "San Francisco Giants @ Cincinnati Reds",
+      "bet_type": "moneyline",
+      "bet_side": "home",
+      "line": "+100",
+      "edge_pct": "24.8",
+      "confidence": "60",
+      "signals": "sharp_money + rest_disadvantage + model_edge",
+      "suggested_bet": "50.0",
+      "implied_prob": "50.0",
+      "true_prob": "74.8",
+      "reasoning": "Edge 24.8% on Cincinnati Reds moneyline. ML moved 205 pts on Cincinnati Reds (-105\u2192+100) \u2014 steam toward San Francisco Giants. Cincinnati Reds on back-to-back -- fatigue factor.",
+      "game_id": "espn_401814951",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-04-14 21:46 ET",
+      "sport": "MLB",
+      "game": "Cleveland Guardians @ St. Louis Cardinals",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u8.5",
+      "edge_pct": "5.0",
+      "confidence": "80",
+      "signals": "sharp_money + rest_disadvantage + weather_edge + model_edge",
+      "suggested_bet": "27.0",
+      "implied_prob": "53.5",
+      "true_prob": "58.5",
+      "reasoning": "Edge 5.0% on UNDER total. Sharp money on St. Louis Cardinals -- line moved opposite to 30% public. St. Louis Cardinals on back-to-back -- fatigue factor.",
+      "game_id": "espn_401814954",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-04-13 21:55 ET",
       "sport": "MLB",
@@ -55,6 +123,46 @@
   ],
   "performance": {},
   "recent_bets": [
+    {
+      "timestamp": "2026-04-14 21:46 ET",
+      "sport": "MLB",
+      "game": "San Francisco Giants @ Cincinnati Reds",
+      "bet_type": "moneyline",
+      "bet_side": "home",
+      "line": "+100",
+      "edge_pct": "24.8",
+      "confidence": "60",
+      "signals": "sharp_money + rest_disadvantage + model_edge",
+      "suggested_bet": "50.0",
+      "implied_prob": "50.0",
+      "true_prob": "74.8",
+      "reasoning": "Edge 24.8% on Cincinnati Reds moneyline. ML moved 205 pts on Cincinnati Reds (-105\u2192+100) \u2014 steam toward San Francisco Giants. Cincinnati Reds on back-to-back -- fatigue factor.",
+      "game_id": "espn_401814951",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-04-14 21:46 ET",
+      "sport": "MLB",
+      "game": "Cleveland Guardians @ St. Louis Cardinals",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u8.5",
+      "edge_pct": "5.0",
+      "confidence": "80",
+      "signals": "sharp_money + rest_disadvantage + weather_edge + model_edge",
+      "suggested_bet": "27.0",
+      "implied_prob": "53.5",
+      "true_prob": "58.5",
+      "reasoning": "Edge 5.0% on UNDER total. Sharp money on St. Louis Cardinals -- line moved opposite to 30% public. St. Louis Cardinals on back-to-back -- fatigue factor.",
+      "game_id": "espn_401814954",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-04-13 21:55 ET",
       "sport": "MLB",
@@ -111,8 +219,8 @@
       "reasoning": "Edge 18.6% on Los Angeles Dodgers moneyline. Los Angeles Dodgers on back-to-back -- fatigue factor. Power rating: Los Angeles Dodgers wp=73.3% / New York Mets wp=43.8% \u2014 Los Angeles Dodgers underpriced (model 80.6% vs mkt 62.0%).",
       "game_id": "espn_401814929",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -131,8 +239,8 @@
       "reasoning": "Edge 26.7% on Minnesota Twins moneyline. Minnesota Twins on back-to-back -- fatigue factor. Power rating: Minnesota Twins wp=56.2% / Boston Red Sox wp=40.0% \u2014 Minnesota Twins underpriced (model 68.6% vs mkt 41.8%).",
       "game_id": "espn_401814926",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -151,8 +259,8 @@
       "reasoning": "Edge 24.0% on Chicago Bulls moneyline. 87% public on Dallas Mavericks -- fade value on Chicago Bulls. Sharp money on Chicago Bulls -- line moved opposite to 87% public.",
       "game_id": "espn_401811048",
       "sport_key": "basketball_nba",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -171,8 +279,8 @@
       "reasoning": "Edge 3.2% on Atlanta Hawks moneyline. ML moved 325 pts on Miami Heat (+200\u2192-125) \u2014 steam toward Miami Heat. Miami Heat playing 3rd game in 4 nights.",
       "game_id": "espn_401811044",
       "sport_key": "basketball_nba",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -191,8 +299,8 @@
       "reasoning": "Edge 8.2% on Golden State Warriors moneyline. ML moved 122 pts on LA Clippers (-360\u2192-238) \u2014 steam toward Golden State Warriors. Golden State Warriors playing 3rd game in 4 nights.",
       "game_id": "espn_401811054",
       "sport_key": "basketball_nba",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -212,8 +320,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-10 21:28 ET",
@@ -232,8 +340,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-06 21:33 ET",
@@ -252,8 +360,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-06 21:33 ET",
@@ -272,8 +380,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-06 18:28 ET",
@@ -292,8 +400,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-06 12:41 ET",
@@ -312,8 +420,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-05 21:33 ET",
@@ -332,8 +440,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-04 22:40 ET",
@@ -352,8 +460,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-04 22:40 ET",
@@ -372,8 +480,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-04 08:41 ET",
@@ -392,8 +500,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-04 00:17 ET",
@@ -412,8 +520,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-03 10:42 ET",
@@ -432,8 +540,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-03 00:25 ET",
@@ -452,8 +560,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-02 08:57 ET",
@@ -472,8 +580,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-01 21:24 ET",
@@ -492,8 +600,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-01 09:04 ET",
@@ -512,8 +620,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     },
     {
       "timestamp": "2026-04-01 09:04 ET",
@@ -532,8 +640,8 @@
       "game_id": "",
       "sport_key": "",
       "outcome": "",
-      "profit_loss": null,
-      "notes": null
+      "profit_loss": "",
+      "notes": ""
     }
   ]
 }
