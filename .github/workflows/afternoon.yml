@@ -1,0 +1,40 @@
+name: Evening Parlay
+
+# Fires at 6pm ET (22:00 UTC) Monday through Friday.
+# Reads today's best bets and sends a parlay suggestion to Discord if 2+ qualify.
+
+on:
+  schedule:
+    - cron: "0 22 * * 1-5"   # 6pm ET Mon-Fri
+  workflow_dispatch:           # Manual trigger from GitHub Actions tab
+
+concurrency:
+  group: fanduel-git
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  parlay:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Send evening parlay suggestion
+        env:
+          DISCORD_SPORTS_WEBHOOK: ${{ secrets.DISCORD_SPORTS_WEBHOOK }}
+          DISCORD_HEALTH_WEBHOOK: ${{ secrets.DISCORD_HEALTH_WEBHOOK }}
+        run: python run_6pm.py
