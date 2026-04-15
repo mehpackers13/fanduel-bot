@@ -188,6 +188,17 @@ def auto_resolve_outcomes() -> int:
         if not result or not result.get("completed"):
             continue  # game not finished yet
 
+        # Only resolve bets logged >= 3 hours ago (game needs time to complete)
+        try:
+            ts_str = row.get("timestamp", "")[:16]  # "2026-04-13 21:55"
+            bet_ts = datetime.datetime.strptime(ts_str, "%Y-%m-%d %H:%M")
+            # Timestamps stored as ET (UTC-4); convert to UTC for comparison
+            bet_ts_utc = bet_ts + datetime.timedelta(hours=4)
+            if datetime.datetime.utcnow() < bet_ts_utc + datetime.timedelta(hours=3):
+                continue  # too soon — check again later
+        except Exception:
+            pass  # if we can't parse the timestamp, proceed with resolution
+
         home_score = result["home_score"]
         away_score = result["away_score"]
 

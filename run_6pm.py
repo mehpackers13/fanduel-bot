@@ -69,9 +69,11 @@ def _todays_best_bets() -> list[_ParlayLeg]:
             ts = row.get("timestamp", "")[:10]
             if ts not in (today_utc, today_et):
                 continue
-            # Only include best bets (suggested_bet >= 2 units)
+            # Only include best bets (suggested_bet >= 2 units AND confidence >= 60)
             bet_size = float(row.get("suggested_bet") or 0)
             if bet_size < config.UNIT_SIZE * 2:
+                continue
+            if int(float(row.get("confidence") or 0)) < 60:
                 continue
             game = row.get("game", "")
             if game in seen_games:

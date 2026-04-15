@@ -146,8 +146,8 @@
       <h2>By Sport</h2>
       <div class="tw">
         <table>
-          <thead><tr><th>Sport</th><th>Bets</th><th>Wins</th><th>Win %</th><th>P/L $</th></tr></thead>
-          <tbody id="sport-body"><tr><td colspan="5" class="empty">No data yet.</td></tr></tbody>
+          <thead><tr><th>Sport</th><th>Bets</th><th>Record</th><th>P/L $</th></tr></thead>
+          <tbody id="sport-body"><tr><td colspan="4" class="empty">No data yet.</td></tr></tbody>
         </table>
       </div>
     </section>
@@ -155,8 +155,8 @@
       <h2>By Signal</h2>
       <div class="tw">
         <table>
-          <thead><tr><th>Signal</th><th>Bets</th><th>Wins</th><th>Win %</th></tr></thead>
-          <tbody id="sig-body"><tr><td colspan="4" class="empty">No data yet.</td></tr></tbody>
+          <thead><tr><th>Signal</th><th>Bets</th><th>Record</th></tr></thead>
+          <tbody id="sig-body"><tr><td colspan="3" class="empty">No data yet.</td></tr></tbody>
         </table>
       </div>
     </section>
@@ -297,7 +297,8 @@ async function load() {
       sportEntries.sort((a,b) => (b[1].pl||0) - (a[1].pl||0));
       sportBody.innerHTML = sportEntries.map(([s, d]) => {
         const plCls = d.pl > 0 ? "pl-pos" : d.pl < 0 ? "pl-neg" : "";
-        return `<tr><td><span class="sport-tag">${s}</span></td><td>${d.bets}</td><td>${d.wins}</td><td>${wpct(d.wins,d.bets)}</td><td><span class="${plCls}">${d.pl >= 0 ? "+" : ""}$${Math.abs(d.pl||0).toFixed(2)}</span></td></tr>`;
+        const losses = (d.bets||0) - (d.wins||0);
+        return `<tr><td><span class="sport-tag">${s}</span></td><td>${d.bets}</td><td>${d.wins}W-${losses}L</td><td><span class="${plCls}">${d.pl >= 0 ? "+" : ""}$${Math.abs(d.pl||0).toFixed(2)}</span></td></tr>`;
       }).join("");
     }
 
@@ -309,10 +310,13 @@ async function load() {
       sigBody.innerHTML = '<tr><td colspan="4" class="empty">No completed bets yet.</td></tr>';
     } else {
       sigEntries.sort((a,b) => (b[1].wins/Math.max(b[1].bets,1)) - (a[1].wins/Math.max(a[1].bets,1)));
-      sigBody.innerHTML = sigEntries.map(([sig, d]) => `<tr>
-        <td><span class="sig">${sig.replace(/_/g," ")}</span></td>
-        <td>${d.bets}</td><td>${d.wins}</td><td>${wpct(d.wins,d.bets)}</td>
-      </tr>`).join("");
+      sigBody.innerHTML = sigEntries.map(([sig, d]) => {
+        const losses = (d.bets||0) - (d.wins||0);
+        return `<tr>
+          <td><span class="sig">${sig.replace(/_/g," ")}</span></td>
+          <td>${d.bets}</td><td>${d.wins}W-${losses}L</td>
+        </tr>`;
+      }).join("");
     }
 
   } catch(err) {
