@@ -11177,3 +11177,40 @@
 [2026-04-16 17:08:51 ET] [INFO] Injury scan complete — no new key injuries
 [2026-04-16 18:05:26 ET] [INFO] Running injury scan
 [2026-04-16 18:05:28 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-16 18:31:50 ET] [INFO] ============================================================
+[2026-04-16 18:31:50 ET] [INFO] Starting full scan
+[2026-04-16 18:31:50 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-16 18:31:50 ET] [INFO] Auto-resolved espn_401814970: Texas Rangers @ Athletics → P (home 0.0, away 0.0)
+[2026-04-16 18:31:50 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-04-16 18:31:50 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-04-16 18:31:51 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-04-16 18:31:51 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-04-16 18:31:59 ET] [INFO]   ESPN baseball_mlb: 2 games (fresh, 10 events found)
+[2026-04-16 18:31:59 ET] [INFO]   baseball_mlb: 2 games from espn
+[2026-04-16 18:32:00 ET] [INFO] Action Network mlb/odds: 10 games fetched
+[2026-04-16 18:32:26 ET] [DEBUG]   [Colorado Rockies @ Houston Astros] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=15%/85% ml_move=-199→-177
+[2026-04-16 18:32:26 ET] [DEBUG]     ✗ Colorado Rockies @ Houston Astros — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-16 18:32:50 ET] [DEBUG]   [Seattle Mariners @ San Diego Padres] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=51%/49% ml_move=-108→102
+[2026-04-16 18:32:56 ET] [INFO]   ESPN icehockey_nhl: 5 games (fresh, 6 events found)
+[2026-04-16 18:32:56 ET] [INFO]   icehockey_nhl: 5 games from espn
+[2026-04-16 18:32:56 ET] [INFO] Action Network nhl/odds: 6 games fetched
+[2026-04-16 18:33:12 ET] [DEBUG]   [Anaheim Ducks @ Nashville Predators] sigs=['sharp_money'] conf=25 pub=39%/61% ml_move=-105→110
+[2026-04-16 18:33:12 ET] [DEBUG]     ✗ Anaheim Ducks @ Nashville Predators — conf 25 < 35 threshold
+[2026-04-16 18:33:27 ET] [DEBUG]   [San Jose Sharks @ Winnipeg Jets] sigs=['public_fade', 'sharp_money', 'rest_disadvantage'] conf=60 pub=82%/18% ml_move=-170→-162
+[2026-04-16 18:33:27 ET] [DEBUG]     ✗ San Jose Sharks @ Winnipeg Jets — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-16 18:33:42 ET] [DEBUG]   [Los Angeles Kings @ Calgary Flames] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=21%/79% ml_move=114→136
+[2026-04-16 18:33:42 ET] [DEBUG]     ✗ Los Angeles Kings @ Calgary Flames — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-16 18:33:57 ET] [DEBUG]   [Vancouver Canucks @ Edmonton Oilers] sigs=['public_fade', 'sharp_money'] conf=45 pub=96%/4% ml_move=-285→-325
+[2026-04-16 18:33:57 ET] [DEBUG]     ✗ Vancouver Canucks @ Edmonton Oilers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-16 18:34:13 ET] [DEBUG]   [Seattle Kraken @ Colorado Avalanche] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=5%/95% ml_move=-192→-192
+[2026-04-16 18:34:13 ET] [DEBUG]     ✗ Seattle Kraken @ Colorado Avalanche — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-16 18:34:13 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-04-16 18:34:13 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-04-16 18:34:14 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-04-16 18:34:14 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-04-16 18:34:14 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-04-16 18:34:15 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-04-16 18:34:15 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-04-16 18:34:15 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-16 18:34:15 ET] [INFO] Scan complete -- 7 games checked, 0 alerts (silence = discipline)
+[2026-04-16 18:34:15 ET] [INFO] ============================================================
