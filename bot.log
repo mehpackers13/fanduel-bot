@@ -10772,3 +10772,55 @@
 [2026-04-15 21:56:52 ET] [INFO] ============================================================
 [2026-04-15 23:52:43 ET] [INFO] Running injury scan
 [2026-04-15 23:52:45 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-16 00:45:43 ET] [INFO] ============================================================
+[2026-04-16 00:45:43 ET] [INFO] Starting full scan
+[2026-04-16 00:45:43 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-16 00:45:44 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-04-16 00:45:45 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-04-16 00:45:52 ET] [INFO]   ESPN baseball_mlb: 10 games (fresh, 10 events found)
+[2026-04-16 00:45:52 ET] [INFO]   baseball_mlb: 10 games from espn
+[2026-04-16 00:45:52 ET] [INFO] Action Network mlb/odds: 15 games fetched
+[2026-04-16 00:46:12 ET] [DEBUG]   [Washington Nationals @ Pittsburgh Pirates] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=25%/75% ml_move=-168→-156
+[2026-04-16 00:46:32 ET] [DEBUG]   [San Francisco Giants @ Cincinnati Reds] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=41%/59% ml_move=-115→-131
+[2026-04-16 00:46:51 ET] [DEBUG]   [Kansas City Royals @ Detroit Tigers] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=68%/32% ml_move=-110→-110
+[2026-04-16 00:46:51 ET] [DEBUG]     ✗ Kansas City Royals @ Detroit Tigers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-16 00:47:09 ET] [DEBUG]   [Los Angeles Angels @ New York Yankees] sigs=['public_fade', 'sharp_money', 'rest_disadvantage', 'model_edge'] conf=80 pub=21%/79% ml_move=-226→-252
+[2026-04-16 00:47:29 ET] [DEBUG]   [Toronto Blue Jays @ Milwaukee Brewers] sigs=['sharp_money', 'rest_disadvantage', 'weather_edge', 'model_edge'] conf=80 pub=49%/51% ml_move=-118→-126
+[2026-04-16 00:47:48 ET] [DEBUG]   [Tampa Bay Rays @ Chicago White Sox] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=52%/48% ml_move=104→109
+[2026-04-16 00:48:06 ET] [DEBUG]   [Texas Rangers @ Athletics] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=50%/50% ml_move=-105→100
+[2026-04-16 00:48:25 ET] [DEBUG]   [Baltimore Orioles @ Cleveland Guardians] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=47%/53% ml_move=-120→-122
+[2026-04-16 00:48:25 ET] [DEBUG]     ✗ Baltimore Orioles @ Cleveland Guardians — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-16 00:48:44 ET] [DEBUG]   [Colorado Rockies @ Houston Astros] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=22%/78% ml_move=-199→-194
+[2026-04-16 00:48:44 ET] [DEBUG]     ✗ Colorado Rockies @ Houston Astros — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-16 00:49:04 ET] [DEBUG]   [Seattle Mariners @ San Diego Padres] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=0%/31% ml_move=-108→100
+[2026-04-16 00:49:09 ET] [INFO]   ESPN icehockey_nhl: 6 games (fresh, 6 events found)
+[2026-04-16 00:49:09 ET] [INFO]   icehockey_nhl: 6 games from espn
+[2026-04-16 00:49:09 ET] [INFO] Action Network nhl/odds: 6 games fetched
+[2026-04-16 00:49:21 ET] [DEBUG]   [St. Louis Blues @ Utah Mammoth] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-125→-115
+[2026-04-16 00:49:21 ET] [DEBUG]     ✗ St. Louis Blues @ Utah Mammoth — conf 15 < 35 threshold
+[2026-04-16 00:49:33 ET] [DEBUG]   [Anaheim Ducks @ Nashville Predators] sigs=[] conf=0 pub=n/a ml_move=-105→-110
+[2026-04-16 00:49:33 ET] [DEBUG]     ✗ Anaheim Ducks @ Nashville Predators — only 0/1 signals (need 1 more)
+[2026-04-16 00:49:44 ET] [DEBUG]   [San Jose Sharks @ Winnipeg Jets] sigs=['rest_disadvantage'] conf=15 pub=72%/28% ml_move=-170→-162
+[2026-04-16 00:49:44 ET] [DEBUG]     ✗ San Jose Sharks @ Winnipeg Jets — conf 15 < 35 threshold
+[2026-04-16 00:49:56 ET] [DEBUG]   [Los Angeles Kings @ Calgary Flames] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=114→110
+[2026-04-16 00:49:56 ET] [DEBUG]     ✗ Los Angeles Kings @ Calgary Flames — conf 15 < 35 threshold
+[2026-04-16 00:50:08 ET] [DEBUG]   [Vancouver Canucks @ Edmonton Oilers] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-285→-325
+[2026-04-16 00:50:08 ET] [DEBUG]     ✗ Vancouver Canucks @ Edmonton Oilers — conf 25 < 35 threshold
+[2026-04-16 00:50:19 ET] [DEBUG]   [Seattle Kraken @ Colorado Avalanche] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=10%/90% ml_move=-192→-180
+[2026-04-16 00:50:19 ET] [DEBUG]     ✗ Seattle Kraken @ Colorado Avalanche — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-16 00:50:20 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-04-16 00:50:20 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-04-16 00:50:20 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-04-16 00:50:20 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-04-16 00:50:21 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-04-16 00:50:21 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-04-16 00:50:21 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-04-16 00:50:22 ET] [INFO] Best bet alert sent: Toronto Blue Jays @ Milwaukee Brewers | moneyline Milwaukee Brewers -126 | edge 8.7% | 4u
+[2026-04-16 00:50:22 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-16 00:50:22 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-16 00:50:22 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-16 00:50:22 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-16 00:50:22 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-16 00:50:22 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-16 00:50:22 ET] [INFO] Scan complete -- 16 games checked, 1 alert(s) sent (6u at risk today)
+[2026-04-16 00:50:22 ET] [INFO] ============================================================
