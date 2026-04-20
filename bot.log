@@ -14019,3 +14019,65 @@
 [2026-04-20 08:08:12 ET] [INFO] ============================================================
 [2026-04-20 08:45:38 ET] [INFO] Running injury scan
 [2026-04-20 08:45:43 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-20 09:08:30 ET] [INFO] ============================================================
+[2026-04-20 09:08:30 ET] [INFO] Starting full scan
+[2026-04-20 09:08:30 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-20 09:08:31 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-04-20 09:08:31 ET] [INFO]   ESPN basketball_nba: 3 games (cached)
+[2026-04-20 09:08:31 ET] [INFO]   basketball_nba: 3 games from espn
+[2026-04-20 09:08:31 ET] [INFO] Action Network nba/odds: 4 games fetched
+[2026-04-20 09:08:39 ET] [DEBUG]   [Toronto Raptors @ Cleveland Cavaliers] sigs=['public_fade', 'sharp_money'] conf=45 pub=90%/10% ml_move=-375→-345
+[2026-04-20 09:08:39 ET] [DEBUG]     ✗ Toronto Raptors @ Cleveland Cavaliers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-20 09:08:46 ET] [DEBUG]   [Atlanta Hawks @ New York Knicks] sigs=['public_fade'] conf=20 pub=86%/14% ml_move=-245→-230
+[2026-04-20 09:08:46 ET] [DEBUG]     ✗ Atlanta Hawks @ New York Knicks — conf 20 < 35 threshold
+[2026-04-20 09:08:53 ET] [DEBUG]   [Minnesota Timberwolves @ Denver Nuggets] sigs=['public_fade'] conf=20 pub=91%/9% ml_move=-245→-258
+[2026-04-20 09:08:53 ET] [DEBUG]     ✗ Minnesota Timberwolves @ Denver Nuggets — conf 20 < 35 threshold
+[2026-04-20 09:08:53 ET] [INFO]   ESPN baseball_mlb: 10 games (cached)
+[2026-04-20 09:08:53 ET] [INFO]   baseball_mlb: 10 games from espn
+[2026-04-20 09:08:53 ET] [INFO] Action Network mlb/odds: 15 games fetched
+[2026-04-20 09:09:21 ET] [DEBUG]   [Detroit Tigers @ Boston Red Sox] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=30%/70% ml_move=-136→-136
+[2026-04-20 09:09:21 ET] [DEBUG]     ✗ Detroit Tigers @ Boston Red Sox — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-20 09:09:47 ET] [DEBUG]   [Houston Astros @ Cleveland Guardians] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=76%/24% ml_move=-115→-115
+[2026-04-20 09:10:14 ET] [DEBUG]   [Cincinnati Reds @ Tampa Bay Rays] sigs=['public_fade', 'rest_disadvantage', 'weather_edge', 'model_edge'] conf=75 pub=22%/78% ml_move=-115→-115
+[2026-04-20 09:10:40 ET] [DEBUG]   [St. Louis Cardinals @ Miami Marlins] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=42%/58% ml_move=-131→-136
+[2026-04-20 09:11:07 ET] [DEBUG]   [Atlanta Braves @ Washington Nationals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=41%/59% ml_move=141→141
+[2026-04-20 09:11:33 ET] [DEBUG]   [Baltimore Orioles @ Kansas City Royals] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=88%/12% ml_move=-102→-102
+[2026-04-20 09:12:00 ET] [DEBUG]   [Philadelphia Phillies @ Chicago Cubs] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=38%/62% ml_move=-105→-105
+[2026-04-20 09:12:26 ET] [DEBUG]   [Los Angeles Dodgers @ Colorado Rockies] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=4%/96% ml_move=214→218
+[2026-04-20 09:12:26 ET] [DEBUG]     ✗ Los Angeles Dodgers @ Colorado Rockies — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-20 09:12:53 ET] [DEBUG]   [Toronto Blue Jays @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=26%/74% ml_move=104→104
+[2026-04-20 09:13:19 ET] [DEBUG]   [Athletics @ Seattle Mariners] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=30%/70% ml_move=-163→-163
+[2026-04-20 09:13:19 ET] [DEBUG]     ✗ Athletics @ Seattle Mariners — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-20 09:13:19 ET] [INFO]   ESPN icehockey_nhl: 4 games (cached)
+[2026-04-20 09:13:19 ET] [INFO]   icehockey_nhl: 4 games from espn
+[2026-04-20 09:13:20 ET] [INFO] Action Network nhl/odds: 4 games fetched
+[2026-04-20 09:13:25 ET] [DEBUG]   [Philadelphia Flyers @ Pittsburgh Penguins] sigs=[] conf=0 pub=72%/28% ml_move=-142→-155
+[2026-04-20 09:13:25 ET] [DEBUG]     ✗ Philadelphia Flyers @ Pittsburgh Penguins — only 0/1 signals (need 1 more)
+[2026-04-20 09:13:30 ET] [DEBUG]   [Ottawa Senators @ Carolina Hurricanes] sigs=['public_fade'] conf=20 pub=81%/19% ml_move=-148→-148
+[2026-04-20 09:13:30 ET] [DEBUG]     ✗ Ottawa Senators @ Carolina Hurricanes — conf 20 < 35 threshold
+[2026-04-20 09:13:36 ET] [DEBUG]   [Minnesota Wild @ Dallas Stars] sigs=[] conf=0 pub=28%/72% ml_move=-120→-135
+[2026-04-20 09:13:36 ET] [DEBUG]     ✗ Minnesota Wild @ Dallas Stars — only 0/1 signals (need 1 more)
+[2026-04-20 09:13:42 ET] [DEBUG]   [Anaheim Ducks @ Edmonton Oilers] sigs=['public_fade'] conf=20 pub=25%/75% ml_move=-155→-175
+[2026-04-20 09:13:42 ET] [DEBUG]     ✗ Anaheim Ducks @ Edmonton Oilers — conf 20 < 35 threshold
+[2026-04-20 09:13:42 ET] [INFO]   ESPN soccer_usa_mls: 0 games (cached)
+[2026-04-20 09:13:42 ET] [INFO]   ESPN soccer_epl: 1 games (cached)
+[2026-04-20 09:13:42 ET] [INFO]   soccer_epl: 1 games from espn
+[2026-04-20 09:13:49 ET] [DEBUG]   [West Ham United @ Crystal Palace] sigs=['sharp_money'] conf=25 pub=n/a ml_move=115→155
+[2026-04-20 09:13:49 ET] [DEBUG]     ✗ West Ham United @ Crystal Palace — conf 25 < 35 threshold
+[2026-04-20 09:13:49 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (cached)
+[2026-04-20 09:13:49 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-04-20 09:13:49 ET] [INFO]   ESPN soccer_ita_serie_a: 1 games (cached)
+[2026-04-20 09:13:49 ET] [INFO]   soccer_ita_serie_a: 1 games from espn
+[2026-04-20 09:13:56 ET] [DEBUG]   [Fiorentina @ Lecce] sigs=[] conf=0 pub=n/a ml_move=240→240
+[2026-04-20 09:13:56 ET] [DEBUG]     ✗ Fiorentina @ Lecce — only 0/1 signals (need 1 more)
+[2026-04-20 09:13:56 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-04-20 09:13:56 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-04-20 09:13:56 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-20 09:13:56 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-20 09:13:56 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-20 09:13:56 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-20 09:13:56 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-20 09:13:56 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-20 09:13:56 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-20 09:13:56 ET] [INFO] Scan complete -- 19 games checked, 0 alerts (silence = discipline)
+[2026-04-20 09:13:56 ET] [INFO] ============================================================
