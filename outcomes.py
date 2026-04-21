@@ -14,7 +14,8 @@ import config
 from logger import log
 
 FIELDS = [
-    "timestamp", "sport", "game", "bet_type", "bet_side", "line",
+    "timestamp", "sport", "game", "home_team", "away_team",
+    "bet_type", "bet_side", "line",
     "edge_pct", "confidence", "signals", "suggested_bet",
     "implied_prob", "true_prob", "reasoning",
     "game_id",    # ESPN game ID for auto-resolving outcomes
@@ -40,6 +41,8 @@ def log_opportunity(opp) -> None:
         "timestamp":    dt.datetime.now(tz).strftime("%Y-%m-%d %H:%M ET"),
         "sport":        opp.sport,
         "game":         f"{opp.away_team} @ {opp.home_team}",
+        "home_team":    opp.home_team,
+        "away_team":    opp.away_team,
         "bet_type":     opp.bet_type,
         "bet_side":     opp.bet_side,
         "line":         opp.line,
