@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-20T22:36:29.592394Z",
-  "last_scan": "2026-04-20 18:36:29 ET",
-  "last_scan_ts": "2026-04-20T22:36:29.592394Z",
+  "generated_at": "2026-04-21T01:52:11.923296Z",
+  "last_scan": "2026-04-20 21:52:11 ET",
+  "last_scan_ts": "2026-04-21T01:52:11.923296Z",
   "stats": {
-    "total_alerts": 39,
-    "completed_bets": 21,
-    "win_rate": 4.8,
+    "total_alerts": 41,
+    "completed_bets": 22,
+    "win_rate": 4.5,
     "total_pl": 23.47,
     "by_sport": {
       "NBA": {
@@ -14,7 +14,7 @@
         "pl": 0.0
       },
       "MLB": {
-        "bets": 18,
+        "bets": 19,
         "wins": 1,
         "pl": 23.47
       }
@@ -25,11 +25,11 @@
         "wins": 1
       },
       "rest_disadvantage": {
-        "bets": 21,
+        "bets": 22,
         "wins": 1
       },
       "model_edge": {
-        "bets": 19,
+        "bets": 20,
         "wins": 1
       },
       "public_fade": {
@@ -45,6 +45,46 @@
   "unit_total": 2.35,
   "today_bets": [
     {
+      "timestamp": "2026-04-20 21:52 ET",
+      "sport": "MLB",
+      "game": "Cincinnati Reds @ Tampa Bay Rays",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "-112",
+      "edge_pct": "5.2",
+      "confidence": "55",
+      "signals": "rest_disadvantage + weather_edge + model_edge",
+      "suggested_bet": "28.0",
+      "implied_prob": "52.8",
+      "true_prob": "58.0",
+      "reasoning": "Edge 5.2% on Cincinnati Reds moneyline. Tampa Bay Rays on back-to-back -- fatigue factor. Wind 25mph at MLB game \u2014 strong headwind expected, affects totals.",
+      "game_id": "espn_401815027",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-04-20 21:52 ET",
+      "sport": "MLB",
+      "game": "St. Louis Cardinals @ Miami Marlins",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "+102",
+      "edge_pct": "8.8",
+      "confidence": "55",
+      "signals": "rest_disadvantage + weather_edge + model_edge",
+      "suggested_bet": "44.0",
+      "implied_prob": "49.5",
+      "true_prob": "58.3",
+      "reasoning": "Edge 8.8% on St. Louis Cardinals moneyline. Miami Marlins on back-to-back -- fatigue factor. Wind 18mph at MLB game \u2014 check wind direction, affects totals.",
+      "game_id": "espn_401815032",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-04-19 21:55 ET",
       "sport": "MLB",
       "game": "Detroit Tigers @ Boston Red Sox",
@@ -80,14 +120,54 @@
       "reasoning": "Edge 16.4% on St. Louis Cardinals moneyline. Miami Marlins on back-to-back -- fatigue factor. Power rating: Miami Marlins wp=45.5% / St. Louis Cardinals wp=61.9% \u2014 St. Louis Cardinals underpriced (model 63.3% vs mkt 46.9%).",
       "game_id": "espn_401815020",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     }
   ],
   "performance": {},
   "recent_bets": [
     {
+      "timestamp": "2026-04-20 21:52 ET",
+      "sport": "MLB",
+      "game": "Cincinnati Reds @ Tampa Bay Rays",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "-112",
+      "edge_pct": "5.2",
+      "confidence": "55",
+      "signals": "rest_disadvantage + weather_edge + model_edge",
+      "suggested_bet": "28.0",
+      "implied_prob": "52.8",
+      "true_prob": "58.0",
+      "reasoning": "Edge 5.2% on Cincinnati Reds moneyline. Tampa Bay Rays on back-to-back -- fatigue factor. Wind 25mph at MLB game \u2014 strong headwind expected, affects totals.",
+      "game_id": "espn_401815027",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-04-20 21:52 ET",
+      "sport": "MLB",
+      "game": "St. Louis Cardinals @ Miami Marlins",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "+102",
+      "edge_pct": "8.8",
+      "confidence": "55",
+      "signals": "rest_disadvantage + weather_edge + model_edge",
+      "suggested_bet": "44.0",
+      "implied_prob": "49.5",
+      "true_prob": "58.3",
+      "reasoning": "Edge 8.8% on St. Louis Cardinals moneyline. Miami Marlins on back-to-back -- fatigue factor. Wind 18mph at MLB game \u2014 check wind direction, affects totals.",
+      "game_id": "espn_401815032",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-04-19 21:55 ET",
       "sport": "MLB",
       "game": "Detroit Tigers @ Boston Red Sox",
@@ -123,8 +203,8 @@
       "reasoning": "Edge 16.4% on St. Louis Cardinals moneyline. Miami Marlins on back-to-back -- fatigue factor. Power rating: Miami Marlins wp=45.5% / St. Louis Cardinals wp=61.9% \u2014 St. Louis Cardinals underpriced (model 63.3% vs mkt 46.9%).",
       "game_id": "espn_401815020",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {

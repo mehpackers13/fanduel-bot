@@ -14373,3 +14373,76 @@
 [2026-04-20 19:08:03 ET] [INFO] Injury scan complete — no new key injuries
 [2026-04-20 20:04:34 ET] [INFO] Running injury scan
 [2026-04-20 20:04:37 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-20 21:47:30 ET] [INFO] ============================================================
+[2026-04-20 21:47:30 ET] [INFO] Starting full scan
+[2026-04-20 21:47:30 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-20 21:47:31 ET] [INFO] Auto-resolved espn_401815020: St. Louis Cardinals @ Miami Marlins → P (home 0.0, away 0.0)
+[2026-04-20 21:47:31 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-04-20 21:47:31 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-04-20 21:47:31 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-04-20 21:47:34 ET] [INFO]   ESPN basketball_nba: 3 games (fresh, 3 events found)
+[2026-04-20 21:47:34 ET] [INFO]   basketball_nba: 3 games from espn
+[2026-04-20 21:47:34 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-04-20 21:47:40 ET] [DEBUG]   [Philadelphia 76ers @ Boston Celtics] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-750→-850
+[2026-04-20 21:47:40 ET] [DEBUG]     ✗ Philadelphia 76ers @ Boston Celtics — conf 25 < 35 threshold
+[2026-04-20 21:47:46 ET] [DEBUG]   [Portland Trail Blazers @ San Antonio Spurs] sigs=[] conf=0 pub=n/a ml_move=-650→-650
+[2026-04-20 21:47:46 ET] [DEBUG]     ✗ Portland Trail Blazers @ San Antonio Spurs — only 0/1 signals (need 1 more)
+[2026-04-20 21:47:52 ET] [DEBUG]   [Houston Rockets @ Los Angeles Lakers] sigs=[] conf=0 pub=n/a ml_move=140→160
+[2026-04-20 21:47:52 ET] [DEBUG]     ✗ Houston Rockets @ Los Angeles Lakers — only 0/1 signals (need 1 more)
+[2026-04-20 21:48:02 ET] [INFO]   ESPN baseball_mlb: 11 games (fresh, 15 events found)
+[2026-04-20 21:48:02 ET] [INFO]   baseball_mlb: 11 games from espn
+[2026-04-20 21:48:02 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-04-20 21:48:21 ET] [DEBUG]   [Cincinnati Reds @ Tampa Bay Rays] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=n/a ml_move=-105→-108
+[2026-04-20 21:48:39 ET] [DEBUG]   [Milwaukee Brewers @ Detroit Tigers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-120→-115
+[2026-04-20 21:48:39 ET] [DEBUG]     ✗ Milwaukee Brewers @ Detroit Tigers — conf 15 < 35 threshold
+[2026-04-20 21:48:58 ET] [DEBUG]   [St. Louis Cardinals @ Miami Marlins] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=n/a ml_move=-108→-122
+[2026-04-20 21:49:16 ET] [DEBUG]   [Atlanta Braves @ Washington Nationals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=123→113
+[2026-04-20 21:49:35 ET] [DEBUG]   [New York Yankees @ Boston Red Sox] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-118→-105
+[2026-04-20 21:49:35 ET] [DEBUG]     ✗ New York Yankees @ Boston Red Sox — conf 15 < 35 threshold
+[2026-04-20 21:49:53 ET] [DEBUG]   [Minnesota Twins @ New York Mets] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=-171→-175
+[2026-04-20 21:50:12 ET] [DEBUG]   [Baltimore Orioles @ Kansas City Royals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-126→-131
+[2026-04-20 21:50:30 ET] [DEBUG]   [Philadelphia Phillies @ Chicago Cubs] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-122→-126
+[2026-04-20 21:50:48 ET] [DEBUG]   [Toronto Blue Jays @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-118→-115
+[2026-04-20 21:51:07 ET] [DEBUG]   [Athletics @ Seattle Mariners] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-175→-186
+[2026-04-20 21:51:25 ET] [DEBUG]   [Chicago White Sox @ Arizona Diamondbacks] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-156→-156
+[2026-04-20 21:51:25 ET] [DEBUG]     ✗ Chicago White Sox @ Arizona Diamondbacks — conf 15 < 35 threshold
+[2026-04-20 21:51:29 ET] [INFO]   ESPN icehockey_nhl: 4 games (fresh, 4 events found)
+[2026-04-20 21:51:29 ET] [INFO]   icehockey_nhl: 4 games from espn
+[2026-04-20 21:51:29 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-04-20 21:51:35 ET] [DEBUG]   [Montreal Canadiens @ Tampa Bay Lightning] sigs=[] conf=0 pub=n/a ml_move=-180→-192
+[2026-04-20 21:51:35 ET] [DEBUG]     ✗ Montreal Canadiens @ Tampa Bay Lightning — only 0/1 signals (need 1 more)
+[2026-04-20 21:51:41 ET] [DEBUG]   [Boston Bruins @ Buffalo Sabres] sigs=[] conf=0 pub=n/a ml_move=-170→-170
+[2026-04-20 21:51:41 ET] [DEBUG]     ✗ Boston Bruins @ Buffalo Sabres — only 0/1 signals (need 1 more)
+[2026-04-20 21:51:47 ET] [DEBUG]   [Utah Mammoth @ Vegas Golden Knights] sigs=[] conf=0 pub=n/a ml_move=-162→-155
+[2026-04-20 21:51:47 ET] [DEBUG]     ✗ Utah Mammoth @ Vegas Golden Knights — only 0/1 signals (need 1 more)
+[2026-04-20 21:51:53 ET] [DEBUG]   [Los Angeles Kings @ Colorado Avalanche] sigs=[] conf=0 pub=n/a ml_move=-278→-278
+[2026-04-20 21:51:53 ET] [DEBUG]     ✗ Los Angeles Kings @ Colorado Avalanche — only 0/1 signals (need 1 more)
+[2026-04-20 21:51:53 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-04-20 21:51:54 ET] [INFO]   ESPN soccer_epl: 1 games (fresh, 1 events found)
+[2026-04-20 21:51:54 ET] [INFO]   soccer_epl: 1 games from espn
+[2026-04-20 21:52:00 ET] [DEBUG]   [Chelsea @ Brighton & Hove Albion] sigs=[] conf=0 pub=n/a ml_move=140→145
+[2026-04-20 21:52:00 ET] [DEBUG]     ✗ Chelsea @ Brighton & Hove Albion — only 0/1 signals (need 1 more)
+[2026-04-20 21:52:04 ET] [INFO]   ESPN soccer_esp_la_liga: 4 games (fresh, 4 events found)
+[2026-04-20 21:52:04 ET] [INFO]   soccer_esp_la_liga: 4 games from espn
+[2026-04-20 21:52:05 ET] [DEBUG]   [Osasuna @ Athletic Club] sigs=[] conf=0 pub=n/a ml_move=-120→-120
+[2026-04-20 21:52:05 ET] [DEBUG]     ✗ Osasuna @ Athletic Club — only 0/1 signals (need 1 more)
+[2026-04-20 21:52:07 ET] [DEBUG]   [Valencia @ Mallorca] sigs=[] conf=0 pub=n/a ml_move=150→155
+[2026-04-20 21:52:07 ET] [DEBUG]     ✗ Valencia @ Mallorca — only 0/1 signals (need 1 more)
+[2026-04-20 21:52:08 ET] [DEBUG]   [Real Betis @ Girona] sigs=[] conf=0 pub=n/a ml_move=155→145
+[2026-04-20 21:52:08 ET] [DEBUG]     ✗ Real Betis @ Girona — only 0/1 signals (need 1 more)
+[2026-04-20 21:52:10 ET] [DEBUG]   [Alavés @ Real Madrid] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-360→-390
+[2026-04-20 21:52:10 ET] [DEBUG]     ✗ Alavés @ Real Madrid — conf 25 < 35 threshold
+[2026-04-20 21:52:10 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-04-20 21:52:10 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-04-20 21:52:11 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-04-20 21:52:11 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-04-20 21:52:11 ET] [INFO] Sprinkle alert sent: St. Louis Cardinals @ Miami Marlins | moneyline St. Louis Cardinals +102 | edge 8.8% | 1u
+[2026-04-20 21:52:11 ET] [INFO] Sprinkle alert sent: Cincinnati Reds @ Tampa Bay Rays | moneyline Cincinnati Reds -112 | edge 5.2% | 1u
+[2026-04-20 21:52:11 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-20 21:52:11 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-20 21:52:11 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-20 21:52:11 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-20 21:52:11 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-20 21:52:11 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-20 21:52:11 ET] [INFO] Scan complete -- 23 games checked, 2 alert(s) sent (2u at risk today)
+[2026-04-20 21:52:11 ET] [INFO] ============================================================
