@@ -15119,3 +15119,49 @@
 [2026-04-21 18:35:55 ET] [INFO] Injury scan complete — no new key injuries
 [2026-04-21 19:32:19 ET] [INFO] Running injury scan
 [2026-04-21 19:32:22 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-21 19:34:21 ET] [INFO] ============================================================
+[2026-04-21 19:34:21 ET] [INFO] Starting full scan
+[2026-04-21 19:34:21 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-21 19:34:22 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-04-21 19:34:22 ET] [INFO]   ESPN basketball_nba: 2 games (cached)
+[2026-04-21 19:34:22 ET] [INFO]   basketball_nba: 2 games from espn
+[2026-04-21 19:34:22 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-04-21 19:34:24 ET] [DEBUG]   [Portland Trail Blazers @ San Antonio Spurs] sigs=['model_edge'] conf=20 pub=n/a ml_move=-650→-650
+[2026-04-21 19:34:24 ET] [DEBUG]     ✗ Portland Trail Blazers @ San Antonio Spurs — conf 20 < 35 threshold
+[2026-04-21 19:34:25 ET] [DEBUG]   [Houston Rockets @ Los Angeles Lakers] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=140→170
+[2026-04-21 19:34:25 ET] [INFO]   ESPN baseball_mlb: 8 games (cached)
+[2026-04-21 19:34:25 ET] [INFO]   baseball_mlb: 8 games from espn
+[2026-04-21 19:34:25 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-04-21 19:34:28 ET] [DEBUG]   [Baltimore Orioles @ Kansas City Royals] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=n/a ml_move=-126→-122
+[2026-04-21 19:34:31 ET] [DEBUG]   [Philadelphia Phillies @ Chicago Cubs] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-122→-131
+[2026-04-21 19:34:33 ET] [DEBUG]   [Pittsburgh Pirates @ Texas Rangers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-120→-118
+[2026-04-21 19:34:36 ET] [DEBUG]   [San Diego Padres @ Colorado Rockies] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=119→123
+[2026-04-21 19:34:39 ET] [DEBUG]   [Toronto Blue Jays @ Los Angeles Angels] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-118→-115
+[2026-04-21 19:34:39 ET] [DEBUG]     ✗ Toronto Blue Jays @ Los Angeles Angels — conf 15 < 35 threshold
+[2026-04-21 19:34:42 ET] [DEBUG]   [Athletics @ Seattle Mariners] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-175→-173
+[2026-04-21 19:34:44 ET] [DEBUG]   [Chicago White Sox @ Arizona Diamondbacks] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-156→-156
+[2026-04-21 19:34:47 ET] [DEBUG]   [Los Angeles Dodgers @ San Francisco Giants] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=n/a ml_move=184→153
+[2026-04-21 19:34:47 ET] [DEBUG]     ✗ Los Angeles Dodgers @ San Francisco Giants — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-21 19:34:47 ET] [INFO]   ESPN icehockey_nhl: 2 games (cached)
+[2026-04-21 19:34:47 ET] [INFO]   icehockey_nhl: 2 games from espn
+[2026-04-21 19:34:47 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-04-21 19:34:48 ET] [DEBUG]   [Utah Mammoth @ Vegas Golden Knights] sigs=[] conf=0 pub=n/a ml_move=-162→-155
+[2026-04-21 19:34:48 ET] [DEBUG]     ✗ Utah Mammoth @ Vegas Golden Knights — only 0/1 signals (need 1 more)
+[2026-04-21 19:34:49 ET] [DEBUG]   [Los Angeles Kings @ Colorado Avalanche] sigs=[] conf=0 pub=n/a ml_move=-278→-285
+[2026-04-21 19:34:49 ET] [DEBUG]     ✗ Los Angeles Kings @ Colorado Avalanche — only 0/1 signals (need 1 more)
+[2026-04-21 19:34:49 ET] [INFO]   ESPN soccer_usa_mls: 0 games (cached)
+[2026-04-21 19:34:49 ET] [INFO]   ESPN soccer_epl: 0 games (cached)
+[2026-04-21 19:34:49 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (cached)
+[2026-04-21 19:34:49 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-04-21 19:34:49 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (cached)
+[2026-04-21 19:34:49 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-04-21 19:34:49 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-04-21 19:34:49 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-21 19:34:49 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-21 19:34:49 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-21 19:34:49 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-21 19:34:49 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-21 19:34:49 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-21 19:34:49 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-21 19:34:49 ET] [INFO] Scan complete -- 12 games checked, 0 alerts (silence = discipline)
+[2026-04-21 19:34:49 ET] [INFO] ============================================================
