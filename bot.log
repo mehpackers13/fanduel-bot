@@ -16623,3 +16623,39 @@
 [2026-04-23 16:49:11 ET] [INFO] Injury scan complete — no new key injuries
 [2026-04-23 17:42:27 ET] [INFO] Running injury scan
 [2026-04-23 17:42:31 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-23 18:35:54 ET] [INFO] ============================================================
+[2026-04-23 18:35:54 ET] [INFO] Starting full scan
+[2026-04-23 18:35:54 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-23 18:35:55 ET] [INFO] Auto-resolved espn_401815062: San Diego Padres @ Colorado Rockies → P (home 0.0, away 0.0)
+[2026-04-23 18:35:55 ET] [INFO] Auto-resolved espn_401815060: Philadelphia Phillies @ Chicago Cubs → P (home 0.0, away 0.0)
+[2026-04-23 18:35:55 ET] [INFO] Auto-resolved espn_401815060: Philadelphia Phillies @ Chicago Cubs → P (home 0.0, away 0.0)
+[2026-04-23 18:35:56 ET] [INFO] Auto-resolved espn_401815060: Philadelphia Phillies @ Chicago Cubs → P (home 0.0, away 0.0)
+[2026-04-23 18:35:56 ET] [INFO] Wrote 4 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-04-23 18:35:56 ET] [INFO] Auto-resolved 4 pending bet outcome(s) from ESPN scores
+[2026-04-23 18:35:56 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-04-23 18:35:57 ET] [INFO]   ESPN basketball_nba: 2 games (fresh, 3 events found)
+[2026-04-23 18:35:57 ET] [INFO]   basketball_nba: 2 games from espn
+[2026-04-23 18:35:58 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-04-23 18:36:01 ET] [DEBUG]   [Cleveland Cavaliers @ Toronto Raptors] sigs=[] conf=0 pub=n/a ml_move=120→124
+[2026-04-23 18:36:01 ET] [DEBUG]     ✗ Cleveland Cavaliers @ Toronto Raptors — only 0/1 signals (need 1 more)
+[2026-04-23 18:36:03 ET] [DEBUG]   [Denver Nuggets @ Minnesota Timberwolves] sigs=['sharp_money'] conf=25 pub=n/a ml_move=105→-102
+[2026-04-23 18:36:03 ET] [DEBUG]     ✗ Denver Nuggets @ Minnesota Timberwolves — conf 25 < 35 threshold
+[2026-04-23 18:36:06 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 9 events found)
+[2026-04-23 18:36:06 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-04-23 18:36:06 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-04-23 18:36:17 ET] [DEBUG]   [Pittsburgh Pirates @ Texas Rangers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-163→-156
+[2026-04-23 18:36:19 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 3 events found)
+[2026-04-23 18:36:19 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-04-23 18:36:19 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-04-23 18:36:22 ET] [DEBUG]   [Colorado Avalanche @ Los Angeles Kings] sigs=[] conf=0 pub=n/a ml_move=130→140
+[2026-04-23 18:36:22 ET] [DEBUG]     ✗ Colorado Avalanche @ Los Angeles Kings — only 0/1 signals (need 1 more)
+[2026-04-23 18:36:22 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-04-23 18:36:23 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-04-23 18:36:24 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 3 events found)
+[2026-04-23 18:36:24 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-04-23 18:36:24 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-04-23 18:36:24 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-04-23 18:36:24 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-04-23 18:36:24 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-23 18:36:24 ET] [INFO] Scan complete -- 4 games checked, 0 alerts (silence = discipline)
+[2026-04-23 18:36:24 ET] [INFO] ============================================================
