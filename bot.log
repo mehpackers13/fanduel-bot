@@ -16579,3 +16579,43 @@
 [2026-04-23 14:57:20 ET] [INFO] ============================================================
 [2026-04-23 15:49:25 ET] [INFO] Running injury scan
 [2026-04-23 15:49:28 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-23 16:43:38 ET] [INFO] ============================================================
+[2026-04-23 16:43:38 ET] [INFO] Starting full scan
+[2026-04-23 16:43:38 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-23 16:43:40 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-04-23 16:43:41 ET] [INFO]   ESPN basketball_nba: 3 games (fresh, 3 events found)
+[2026-04-23 16:43:41 ET] [INFO]   basketball_nba: 3 games from espn
+[2026-04-23 16:43:41 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-04-23 16:43:45 ET] [DEBUG]   [New York Knicks @ Atlanta Hawks] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-115→105
+[2026-04-23 16:43:45 ET] [DEBUG]     ✗ New York Knicks @ Atlanta Hawks — conf 25 < 35 threshold
+[2026-04-23 16:43:48 ET] [DEBUG]   [Cleveland Cavaliers @ Toronto Raptors] sigs=[] conf=0 pub=n/a ml_move=120→130
+[2026-04-23 16:43:48 ET] [DEBUG]     ✗ Cleveland Cavaliers @ Toronto Raptors — only 0/1 signals (need 1 more)
+[2026-04-23 16:43:51 ET] [DEBUG]   [Denver Nuggets @ Minnesota Timberwolves] sigs=[] conf=0 pub=n/a ml_move=105→110
+[2026-04-23 16:43:51 ET] [DEBUG]     ✗ Denver Nuggets @ Minnesota Timberwolves — only 0/1 signals (need 1 more)
+[2026-04-23 16:43:55 ET] [INFO]   ESPN baseball_mlb: 3 games (fresh, 9 events found)
+[2026-04-23 16:43:55 ET] [INFO]   baseball_mlb: 3 games from espn
+[2026-04-23 16:43:55 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-04-23 16:44:10 ET] [DEBUG]   [New York Yankees @ Boston Red Sox] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=129→119
+[2026-04-23 16:44:21 ET] [DEBUG]   [Minnesota Twins @ New York Mets] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-108→-108
+[2026-04-23 16:44:33 ET] [DEBUG]   [Pittsburgh Pirates @ Texas Rangers] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=n/a ml_move=-163→-163
+[2026-04-23 16:44:35 ET] [INFO]   ESPN icehockey_nhl: 3 games (fresh, 3 events found)
+[2026-04-23 16:44:35 ET] [INFO]   icehockey_nhl: 3 games from espn
+[2026-04-23 16:44:35 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-04-23 16:44:39 ET] [DEBUG]   [Buffalo Sabres @ Boston Bruins] sigs=[] conf=0 pub=n/a ml_move=-105→-115
+[2026-04-23 16:44:39 ET] [DEBUG]     ✗ Buffalo Sabres @ Boston Bruins — only 0/1 signals (need 1 more)
+[2026-04-23 16:44:43 ET] [DEBUG]   [Carolina Hurricanes @ Ottawa Senators] sigs=[] conf=0 pub=n/a ml_move=-110→-122
+[2026-04-23 16:44:43 ET] [DEBUG]     ✗ Carolina Hurricanes @ Ottawa Senators — only 0/1 signals (need 1 more)
+[2026-04-23 16:44:46 ET] [DEBUG]   [Colorado Avalanche @ Los Angeles Kings] sigs=[] conf=0 pub=n/a ml_move=130→140
+[2026-04-23 16:44:46 ET] [DEBUG]     ✗ Colorado Avalanche @ Los Angeles Kings — only 0/1 signals (need 1 more)
+[2026-04-23 16:44:47 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-04-23 16:44:47 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-04-23 16:44:48 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 3 events found)
+[2026-04-23 16:44:48 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-04-23 16:44:48 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-04-23 16:44:49 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-04-23 16:44:49 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-04-23 16:44:49 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-23 16:44:49 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-23 16:44:49 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-23 16:44:49 ET] [INFO] Scan complete -- 9 games checked, 0 alerts (silence = discipline)
+[2026-04-23 16:44:49 ET] [INFO] ============================================================
