@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-25T01:30:20.580199Z",
-  "last_scan": "2026-04-24 21:30:20 ET",
-  "last_scan_ts": "2026-04-25T01:30:20.580199Z",
+  "generated_at": "2026-04-25T04:34:42.614020Z",
+  "last_scan": "2026-04-25 00:34:42 ET",
+  "last_scan_ts": "2026-04-25T04:34:42.614020Z",
   "stats": {
     "total_alerts": 55,
-    "completed_bets": 34,
-    "win_rate": 2.9,
+    "completed_bets": 36,
+    "win_rate": 2.8,
     "total_pl": 23.47,
     "by_sport": {
       "NBA": {
@@ -14,7 +14,7 @@
         "pl": 0.0
       },
       "MLB": {
-        "bets": 31,
+        "bets": 33,
         "wins": 1,
         "pl": 23.47
       }
@@ -25,11 +25,11 @@
         "wins": 1
       },
       "rest_disadvantage": {
-        "bets": 34,
+        "bets": 36,
         "wins": 1
       },
       "model_edge": {
-        "bets": 32,
+        "bets": 34,
         "wins": 1
       },
       "public_fade": {
@@ -83,50 +83,6 @@
       "true_prob": "84.7",
       "reasoning": "Edge 28.9% on Atlanta Braves moneyline. Atlanta Braves on back-to-back -- fatigue factor. Power rating: Atlanta Braves wp=69.2% / Philadelphia Phillies wp=32.0% \u2014 Atlanta Braves underpriced (model 84.7% vs mkt 55.8%).",
       "game_id": "espn_401815085",
-      "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-04-23 21:51 ET",
-      "sport": "MLB",
-      "game": "Colorado Rockies @ New York Mets",
-      "home_team": "New York Mets",
-      "away_team": "Colorado Rockies",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "+179",
-      "edge_pct": "16.4",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "35.8",
-      "true_prob": "52.3",
-      "reasoning": "Edge 16.4% on Colorado Rockies moneyline. New York Mets on back-to-back -- fatigue factor. Power rating: New York Mets wp=33.3% / Colorado Rockies wp=38.5% \u2014 Colorado Rockies underpriced (model 52.3% vs mkt 35.8%).",
-      "game_id": "espn_401815067",
-      "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-04-23 21:51 ET",
-      "sport": "MLB",
-      "game": "Philadelphia Phillies @ Atlanta Braves",
-      "home_team": "Atlanta Braves",
-      "away_team": "Philadelphia Phillies",
-      "bet_type": "moneyline",
-      "bet_side": "home",
-      "line": "-143",
-      "edge_pct": "25.8",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "58.9",
-      "true_prob": "84.7",
-      "reasoning": "Edge 25.8% on Atlanta Braves moneyline. Atlanta Braves on back-to-back -- fatigue factor. Power rating: Atlanta Braves wp=69.2% / Philadelphia Phillies wp=32.0% \u2014 Atlanta Braves underpriced (model 84.7% vs mkt 58.9%).",
-      "game_id": "espn_401815070",
       "sport_key": "baseball_mlb",
       "outcome": "",
       "profit_loss": "",
@@ -197,8 +153,8 @@
       "reasoning": "Edge 16.4% on Colorado Rockies moneyline. New York Mets on back-to-back -- fatigue factor. Power rating: New York Mets wp=33.3% / Colorado Rockies wp=38.5% \u2014 Colorado Rockies underpriced (model 52.3% vs mkt 35.8%).",
       "game_id": "espn_401815067",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -219,8 +175,8 @@
       "reasoning": "Edge 25.8% on Atlanta Braves moneyline. Atlanta Braves on back-to-back -- fatigue factor. Power rating: Atlanta Braves wp=69.2% / Philadelphia Phillies wp=32.0% \u2014 Atlanta Braves underpriced (model 84.7% vs mkt 58.9%).",
       "game_id": "espn_401815070",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
