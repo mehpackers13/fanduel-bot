@@ -19327,3 +19327,40 @@
 [2026-04-26 15:26:42 ET] [INFO] Injury scan complete — no new key injuries
 [2026-04-26 16:02:34 ET] [INFO] Running injury scan
 [2026-04-26 16:02:37 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-26 16:29:07 ET] [INFO] ============================================================
+[2026-04-26 16:29:07 ET] [INFO] Starting full scan
+[2026-04-26 16:29:07 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-26 16:29:07 ET] [INFO] Auto-resolved espn_401815097: Colorado Rockies @ New York Mets → P (home 0.0, away 0.0)
+[2026-04-26 16:29:07 ET] [INFO] Auto-resolved espn_401815100: Philadelphia Phillies @ Atlanta Braves → P (home 0.0, away 0.0)
+[2026-04-26 16:29:07 ET] [INFO] Auto-resolved espn_401815097: Colorado Rockies @ New York Mets → P (home 0.0, away 0.0)
+[2026-04-26 16:29:08 ET] [INFO] Wrote 3 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-04-26 16:29:08 ET] [INFO] Auto-resolved 3 pending bet outcome(s) from ESPN scores
+[2026-04-26 16:29:08 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-04-26 16:29:09 ET] [INFO]   ESPN basketball_nba: 2 games (fresh, 4 events found)
+[2026-04-26 16:29:09 ET] [INFO]   basketball_nba: 2 games from espn
+[2026-04-26 16:29:10 ET] [INFO] Action Network nba/odds: 4 games fetched
+[2026-04-26 16:29:12 ET] [DEBUG]   [Boston Celtics @ Philadelphia 76ers] sigs=['public_fade', 'sharp_money', 'model_edge'] conf=65 pub=75%/25% ml_move=225→245
+[2026-04-26 16:29:12 ET] [DEBUG]     ✗ Boston Celtics @ Philadelphia 76ers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-26 16:29:14 ET] [DEBUG]   [Los Angeles Lakers @ Houston Rockets] sigs=['sharp_money', 'model_edge'] conf=45 pub=66%/34% ml_move=-162→-135
+[2026-04-26 16:29:14 ET] [DEBUG]     ✗ Los Angeles Lakers @ Houston Rockets — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-26 16:29:19 ET] [INFO]   ESPN baseball_mlb: 0 games (fresh, 16 events found)
+[2026-04-26 16:29:20 ET] [INFO]   ESPN icehockey_nhl: 2 games (fresh, 4 events found)
+[2026-04-26 16:29:20 ET] [INFO]   icehockey_nhl: 2 games from espn
+[2026-04-26 16:29:20 ET] [INFO] Action Network nhl/odds: 4 games fetched
+[2026-04-26 16:29:22 ET] [DEBUG]   [Tampa Bay Lightning @ Montreal Canadiens] sigs=['sharp_money'] conf=25 pub=41%/59% ml_move=-105→-105
+[2026-04-26 16:29:22 ET] [DEBUG]     ✗ Tampa Bay Lightning @ Montreal Canadiens — conf 25 < 35 threshold
+[2026-04-26 16:29:25 ET] [DEBUG]   [Edmonton Oilers @ Anaheim Ducks] sigs=[] conf=0 pub=39%/61% ml_move=120→114
+[2026-04-26 16:29:25 ET] [DEBUG]     ✗ Edmonton Oilers @ Anaheim Ducks — only 0/1 signals (need 1 more)
+[2026-04-26 16:29:25 ET] [INFO]   ESPN soccer_usa_mls: 1 games (fresh, 1 events found)
+[2026-04-26 16:29:25 ET] [INFO]   soccer_usa_mls: 1 games from espn
+[2026-04-26 16:29:25 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 404
+[2026-04-26 16:29:28 ET] [DEBUG]   [Real Salt Lake @ LA Galaxy] sigs=['sharp_money'] conf=25 pub=n/a ml_move=105→145
+[2026-04-26 16:29:28 ET] [DEBUG]     ✗ Real Salt Lake @ LA Galaxy — conf 25 < 35 threshold
+[2026-04-26 16:29:28 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-04-26 16:29:30 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 4 events found)
+[2026-04-26 16:29:30 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 2 events found)
+[2026-04-26 16:29:31 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 4 events found)
+[2026-04-26 16:29:33 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 5 events found)
+[2026-04-26 16:29:33 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-04-26 16:29:33 ET] [INFO] Scan complete -- 5 games checked, 0 alerts (silence = discipline)
+[2026-04-26 16:29:33 ET] [INFO] ============================================================
