@@ -1,10 +1,10 @@
 {
   "americanfootball_nfl": {
-    "ts": "2026-04-27T20:53:20.776842",
+    "ts": "2026-04-27T22:40:57.581861",
     "games": []
   },
   "basketball_nba": {
-    "ts": "2026-04-27T20:53:22.069829",
+    "ts": "2026-04-27T22:40:58.973622",
     "games": [
       {
         "game_id": "espn_401869415",
@@ -13,7 +13,7 @@
         "home_team": "Orlando Magic",
         "away_team": "Detroit Pistons",
         "commence": "2026-04-28T00:00Z",
-        "hours_out": 3.1,
+        "hours_out": 1.3,
         "venue_city": "Orlando",
         "source": "espn",
         "h2h": {
@@ -65,47 +65,47 @@
         "home_team": "Phoenix Suns",
         "away_team": "Oklahoma City Thunder",
         "commence": "2026-04-28T01:30Z",
-        "hours_out": 4.6,
+        "hours_out": 2.8,
         "venue_city": "Phoenix",
         "source": "espn",
         "h2h": {
-          "home_odds": 380,
-          "away_odds": -500,
-          "home_prob": 0.2083,
-          "away_prob": 0.8333,
-          "true_home_prob": 0.2,
-          "true_away_prob": 0.8,
-          "best_home_odds": 380,
-          "best_away_odds": -500,
-          "spread_point": 10.5,
+          "home_odds": 400,
+          "away_odds": -535,
+          "home_prob": 0.2,
+          "away_prob": 0.8425,
+          "true_home_prob": 0.1918,
+          "true_away_prob": 0.8082,
+          "best_home_odds": 400,
+          "best_away_odds": -535,
+          "spread_point": 11.5,
           "book_count": 1
         },
         "spread": {
-          "home_odds": -105,
-          "away_odds": -115,
-          "home_prob": 0.5121951219512195,
-          "away_prob": 0.5348837209302325,
+          "home_odds": -115,
+          "away_odds": -105,
+          "home_prob": 0.5348837209302325,
+          "away_prob": 0.5121951219512195,
           "true_home_prob": 0.5,
           "true_away_prob": 0.5,
-          "spread_point": 10.5,
-          "best_home_odds": -105,
-          "best_away_odds": -115,
+          "spread_point": 11.5,
+          "best_home_odds": -115,
+          "best_away_odds": -105,
           "book_count": 1
         },
         "total": {
-          "line": 214.5,
-          "over_odds": -115,
-          "under_odds": -105,
-          "over_prob": 0.5348837209302325,
-          "under_prob": 0.5121951219512195
+          "line": 215.5,
+          "over_odds": -105,
+          "under_odds": -115,
+          "over_prob": 0.5121951219512195,
+          "under_prob": 0.5348837209302325
         },
         "line_movement": {
           "open_home_ml": 370,
           "open_away_ml": -485,
-          "current_home_ml": 380,
-          "current_away_ml": -500,
+          "current_home_ml": 400,
+          "current_away_ml": -535,
           "open_spread": null,
-          "current_spread": 10.5,
+          "current_spread": 11.5,
           "spread_moved": null,
           "is_sharp": false
         }
@@ -117,7 +117,7 @@
         "home_team": "Denver Nuggets",
         "away_team": "Minnesota Timberwolves",
         "commence": "2026-04-28T02:30Z",
-        "hours_out": 5.6,
+        "hours_out": 3.8,
         "venue_city": "Denver",
         "source": "espn",
         "h2h": {
@@ -146,10 +146,10 @@
         },
         "total": {
           "line": 224.5,
-          "over_odds": -110,
-          "under_odds": -110,
-          "over_prob": 0.5238095238095238,
-          "under_prob": 0.5238095238095238
+          "over_odds": -105,
+          "under_odds": -115,
+          "over_prob": 0.5121951219512195,
+          "under_prob": 0.5348837209302325
         },
         "line_movement": {
           "open_home_ml": -470,
@@ -165,268 +165,8 @@
     ]
   },
   "baseball_mlb": {
-    "ts": "2026-04-27T20:53:31.776269",
+    "ts": "2026-04-27T22:41:06.078514",
     "games": [
-      {
-        "game_id": "espn_401815112",
-        "sport_key": "baseball_mlb",
-        "sport": "MLB",
-        "home_team": "Cleveland Guardians",
-        "away_team": "Tampa Bay Rays",
-        "commence": "2026-04-27T22:10Z",
-        "hours_out": 1.3,
-        "venue_city": "Cleveland",
-        "source": "espn",
-        "h2h": {
-          "home_odds": -136,
-          "away_odds": 113,
-          "home_prob": 0.5763,
-          "away_prob": 0.4695,
-          "true_home_prob": 0.5511,
-          "true_away_prob": 0.4489,
-          "best_home_odds": -136,
-          "best_away_odds": 113,
-          "spread_point": -1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": -110,
-          "away_odds": -110,
-          "home_prob": 0.5238095238095238,
-          "away_prob": 0.5238095238095238,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": -1.5,
-          "best_home_odds": -110,
-          "best_away_odds": -110,
-          "book_count": 1
-        },
-        "total": {
-          "line": 8.5,
-          "over_odds": -102,
-          "under_odds": -119,
-          "over_prob": 0.504950495049505,
-          "under_prob": 0.54337899543379
-        },
-        "line_movement": {
-          "open_home_ml": -143,
-          "open_away_ml": 119,
-          "current_home_ml": -136,
-          "current_away_ml": 113,
-          "open_spread": null,
-          "current_spread": -1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
-      {
-        "game_id": "espn_401815111",
-        "sport_key": "baseball_mlb",
-        "sport": "MLB",
-        "home_team": "Pittsburgh Pirates",
-        "away_team": "St. Louis Cardinals",
-        "commence": "2026-04-27T22:40Z",
-        "hours_out": 1.8,
-        "venue_city": "Pittsburgh",
-        "source": "espn",
-        "h2h": {
-          "home_odds": -120,
-          "away_odds": 100,
-          "home_prob": 0.5455,
-          "away_prob": 0.5,
-          "true_home_prob": 0.5217,
-          "true_away_prob": 0.4783,
-          "best_home_odds": -120,
-          "best_away_odds": 100,
-          "spread_point": 1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": -110,
-          "away_odds": -110,
-          "home_prob": 0.5238095238095238,
-          "away_prob": 0.5238095238095238,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": 1.5,
-          "best_home_odds": -110,
-          "best_away_odds": -110,
-          "book_count": 1
-        },
-        "total": {
-          "line": 8.0,
-          "over_odds": -118,
-          "under_odds": -102,
-          "over_prob": 0.5412844036697247,
-          "under_prob": 0.504950495049505
-        },
-        "line_movement": {
-          "open_home_ml": -136,
-          "open_away_ml": 113,
-          "current_home_ml": -120,
-          "current_away_ml": 100,
-          "open_spread": null,
-          "current_spread": 1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
-      {
-        "game_id": "espn_401815110",
-        "sport_key": "baseball_mlb",
-        "sport": "MLB",
-        "home_team": "Toronto Blue Jays",
-        "away_team": "Boston Red Sox",
-        "commence": "2026-04-27T23:07Z",
-        "hours_out": 2.2,
-        "venue_city": "Toronto",
-        "source": "espn",
-        "h2h": {
-          "home_odds": -136,
-          "away_odds": 113,
-          "home_prob": 0.5763,
-          "away_prob": 0.4695,
-          "true_home_prob": 0.5511,
-          "true_away_prob": 0.4489,
-          "best_home_odds": -136,
-          "best_away_odds": 113,
-          "spread_point": -1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": -110,
-          "away_odds": -110,
-          "home_prob": 0.5238095238095238,
-          "away_prob": 0.5238095238095238,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": -1.5,
-          "best_home_odds": -110,
-          "best_away_odds": -110,
-          "book_count": 1
-        },
-        "total": {
-          "line": 7.0,
-          "over_odds": -112,
-          "under_odds": -108,
-          "over_prob": 0.5283018867924528,
-          "under_prob": 0.5192307692307693
-        },
-        "line_movement": {
-          "open_home_ml": -136,
-          "open_away_ml": 113,
-          "current_home_ml": -136,
-          "current_away_ml": 113,
-          "open_spread": null,
-          "current_spread": -1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
-      {
-        "game_id": "espn_401815113",
-        "sport_key": "baseball_mlb",
-        "sport": "MLB",
-        "home_team": "Chicago White Sox",
-        "away_team": "Los Angeles Angels",
-        "commence": "2026-04-27T23:40Z",
-        "hours_out": 2.8,
-        "venue_city": "Chicago",
-        "source": "espn",
-        "h2h": {
-          "home_odds": -112,
-          "away_odds": -108,
-          "home_prob": 0.5283,
-          "away_prob": 0.5192,
-          "true_home_prob": 0.5043,
-          "true_away_prob": 0.4957,
-          "best_home_odds": -112,
-          "best_away_odds": -108,
-          "spread_point": 1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": -110,
-          "away_odds": -110,
-          "home_prob": 0.5238095238095238,
-          "away_prob": 0.5238095238095238,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": 1.5,
-          "best_home_odds": -110,
-          "best_away_odds": -110,
-          "book_count": 1
-        },
-        "total": {
-          "line": 9.0,
-          "over_odds": -105,
-          "under_odds": -115,
-          "over_prob": 0.5121951219512195,
-          "under_prob": 0.5348837209302325
-        },
-        "line_movement": {
-          "open_home_ml": -102,
-          "open_away_ml": -118,
-          "current_home_ml": -112,
-          "current_away_ml": -108,
-          "open_spread": null,
-          "current_spread": 1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
-      {
-        "game_id": "espn_401815115",
-        "sport_key": "baseball_mlb",
-        "sport": "MLB",
-        "home_team": "Minnesota Twins",
-        "away_team": "Seattle Mariners",
-        "commence": "2026-04-27T23:40Z",
-        "hours_out": 2.8,
-        "venue_city": "Minneapolis",
-        "source": "espn",
-        "h2h": {
-          "home_odds": 109,
-          "away_odds": -131,
-          "home_prob": 0.4785,
-          "away_prob": 0.5671,
-          "true_home_prob": 0.4576,
-          "true_away_prob": 0.5424,
-          "best_home_odds": 109,
-          "best_away_odds": -131,
-          "spread_point": 1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": -110,
-          "away_odds": -110,
-          "home_prob": 0.5238095238095238,
-          "away_prob": 0.5238095238095238,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": 1.5,
-          "best_home_odds": -110,
-          "best_away_odds": -110,
-          "book_count": 1
-        },
-        "total": {
-          "line": 9.0,
-          "over_odds": -108,
-          "under_odds": -112,
-          "over_prob": 0.5192307692307693,
-          "under_prob": 0.5283018867924528
-        },
-        "line_movement": {
-          "open_home_ml": 104,
-          "open_away_ml": -126,
-          "current_home_ml": 109,
-          "current_away_ml": -131,
-          "open_spread": null,
-          "current_spread": 1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
       {
         "game_id": "espn_401815114",
         "sport_key": "baseball_mlb",
@@ -434,18 +174,18 @@
         "home_team": "Texas Rangers",
         "away_team": "New York Yankees",
         "commence": "2026-04-28T00:05Z",
-        "hours_out": 3.2,
+        "hours_out": 1.4,
         "venue_city": "Arlington",
         "source": "espn",
         "h2h": {
-          "home_odds": 139,
-          "away_odds": -168,
-          "home_prob": 0.4184,
-          "away_prob": 0.6269,
-          "true_home_prob": 0.4003,
-          "true_away_prob": 0.5997,
-          "best_home_odds": 139,
-          "best_away_odds": -168,
+          "home_odds": 135,
+          "away_odds": -163,
+          "home_prob": 0.4255,
+          "away_prob": 0.6198,
+          "true_home_prob": 0.4071,
+          "true_away_prob": 0.5929,
+          "best_home_odds": 135,
+          "best_away_odds": -163,
           "spread_point": 1.5,
           "book_count": 1
         },
@@ -471,8 +211,8 @@
         "line_movement": {
           "open_home_ml": 149,
           "open_away_ml": -181,
-          "current_home_ml": 139,
-          "current_away_ml": -168,
+          "current_home_ml": 135,
+          "current_away_ml": -163,
           "open_spread": null,
           "current_spread": 1.5,
           "spread_moved": null,
@@ -486,18 +226,18 @@
         "home_team": "San Diego Padres",
         "away_team": "Chicago Cubs",
         "commence": "2026-04-28T01:40Z",
-        "hours_out": 4.8,
+        "hours_out": 3.0,
         "venue_city": "San Diego",
         "source": "espn",
         "h2h": {
-          "home_odds": -120,
-          "away_odds": 100,
-          "home_prob": 0.5455,
-          "away_prob": 0.5,
-          "true_home_prob": 0.5217,
-          "true_away_prob": 0.4783,
-          "best_home_odds": -120,
-          "best_away_odds": 100,
+          "home_odds": -118,
+          "away_odds": -102,
+          "home_prob": 0.5413,
+          "away_prob": 0.505,
+          "true_home_prob": 0.5174,
+          "true_away_prob": 0.4826,
+          "best_home_odds": -118,
+          "best_away_odds": -102,
           "spread_point": 1.5,
           "book_count": 1
         },
@@ -515,16 +255,16 @@
         },
         "total": {
           "line": 7.5,
-          "over_odds": -112,
-          "under_odds": -108,
-          "over_prob": 0.5283018867924528,
-          "under_prob": 0.5192307692307693
+          "over_odds": -110,
+          "under_odds": -110,
+          "over_prob": 0.5238095238095238,
+          "under_prob": 0.5238095238095238
         },
         "line_movement": {
           "open_home_ml": -108,
           "open_away_ml": -112,
-          "current_home_ml": -120,
-          "current_away_ml": 100,
+          "current_home_ml": -118,
+          "current_away_ml": -102,
           "open_spread": null,
           "current_spread": 1.5,
           "spread_moved": null,
@@ -538,7 +278,7 @@
         "home_team": "Los Angeles Dodgers",
         "away_team": "Miami Marlins",
         "commence": "2026-04-28T02:10Z",
-        "hours_out": 5.3,
+        "hours_out": 3.5,
         "venue_city": "Los Angeles",
         "source": "espn",
         "h2h": {
@@ -586,60 +326,8 @@
     ]
   },
   "icehockey_nhl": {
-    "ts": "2026-04-27T20:54:33.555708",
+    "ts": "2026-04-27T22:41:18.825074",
     "games": [
-      {
-        "game_id": "espn_401869801",
-        "sport_key": "icehockey_nhl",
-        "sport": "NHL",
-        "home_team": "Pittsburgh Penguins",
-        "away_team": "Philadelphia Flyers",
-        "commence": "2026-04-27T23:00Z",
-        "hours_out": 2.1,
-        "venue_city": "Pittsburgh",
-        "source": "espn",
-        "h2h": {
-          "home_odds": -135,
-          "away_odds": 114,
-          "home_prob": 0.5745,
-          "away_prob": 0.4673,
-          "true_home_prob": 0.5514,
-          "true_away_prob": 0.4486,
-          "best_home_odds": -135,
-          "best_away_odds": 114,
-          "spread_point": -1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": 180,
-          "away_odds": -218,
-          "home_prob": 0.35714285714285715,
-          "away_prob": 0.6855345911949685,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": -1.5,
-          "best_home_odds": 180,
-          "best_away_odds": -218,
-          "book_count": 1
-        },
-        "total": {
-          "line": 5.5,
-          "over_odds": -120,
-          "under_odds": 100,
-          "over_prob": 0.5454545454545454,
-          "under_prob": 0.5
-        },
-        "line_movement": {
-          "open_home_ml": -135,
-          "open_away_ml": 114,
-          "current_home_ml": -135,
-          "current_away_ml": 114,
-          "open_spread": null,
-          "current_spread": -1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
       {
         "game_id": "espn_401869760",
         "sport_key": "icehockey_nhl",
@@ -647,7 +335,7 @@
         "home_team": "Utah Mammoth",
         "away_team": "Vegas Golden Knights",
         "commence": "2026-04-28T01:30Z",
-        "hours_out": 4.6,
+        "hours_out": 2.8,
         "venue_city": "Salt Lake City",
         "source": "espn",
         "h2h": {
@@ -695,31 +383,31 @@
     ]
   },
   "soccer_usa_mls": {
-    "ts": "2026-04-27T20:54:38.530476",
+    "ts": "2026-04-27T22:41:20.462305",
     "games": []
   },
   "soccer_epl": {
-    "ts": "2026-04-27T20:54:38.894093",
+    "ts": "2026-04-27T22:41:20.704642",
     "games": []
   },
   "soccer_esp_la_liga": {
-    "ts": "2026-04-27T20:54:39.248728",
+    "ts": "2026-04-27T22:41:20.941648",
     "games": []
   },
   "soccer_ger_bundesliga": {
-    "ts": "2026-04-27T20:54:39.346677",
+    "ts": "2026-04-27T22:41:21.004696",
     "games": []
   },
   "soccer_ita_serie_a": {
-    "ts": "2026-04-27T20:54:39.988829",
+    "ts": "2026-04-27T22:41:21.425744",
     "games": []
   },
   "soccer_fra_ligue_one": {
-    "ts": "2026-04-27T20:54:40.089431",
+    "ts": "2026-04-27T22:41:21.488565",
     "games": []
   },
   "mma_mixed_martial_arts": {
-    "ts": "2026-04-27T20:54:40.207125",
+    "ts": "2026-04-27T22:41:21.543340",
     "games": []
   }
 }
