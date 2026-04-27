@@ -19842,3 +19842,51 @@
 [2026-04-27 13:19:01 ET] [INFO] Injury scan complete — no new key injuries
 [2026-04-27 14:48:29 ET] [INFO] Running injury scan
 [2026-04-27 14:48:32 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-27 15:04:56 ET] [INFO] ============================================================
+[2026-04-27 15:04:56 ET] [INFO] Starting full scan
+[2026-04-27 15:04:56 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-27 15:04:56 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-04-27 15:04:58 ET] [INFO]   ESPN basketball_nba: 3 games (fresh, 3 events found)
+[2026-04-27 15:04:58 ET] [INFO]   basketball_nba: 3 games from espn
+[2026-04-27 15:04:58 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-04-27 15:05:03 ET] [DEBUG]   [Detroit Pistons @ Orlando Magic] sigs=['model_edge'] conf=20 pub=n/a ml_move=136→130
+[2026-04-27 15:05:03 ET] [DEBUG]     ✗ Detroit Pistons @ Orlando Magic — conf 20 < 35 threshold
+[2026-04-27 15:05:07 ET] [DEBUG]   [Oklahoma City Thunder @ Phoenix Suns] sigs=['model_edge'] conf=20 pub=n/a ml_move=370→380
+[2026-04-27 15:05:07 ET] [DEBUG]     ✗ Oklahoma City Thunder @ Phoenix Suns — conf 20 < 35 threshold
+[2026-04-27 15:05:10 ET] [DEBUG]   [Minnesota Timberwolves @ Denver Nuggets] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-470→-500
+[2026-04-27 15:05:10 ET] [DEBUG]     ✗ Minnesota Timberwolves @ Denver Nuggets — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-27 15:05:14 ET] [INFO]   ESPN baseball_mlb: 8 games (fresh, 8 events found)
+[2026-04-27 15:05:14 ET] [INFO]   baseball_mlb: 8 games from espn
+[2026-04-27 15:05:14 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-04-27 15:05:30 ET] [DEBUG]   [Tampa Bay Rays @ Cleveland Guardians] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-143→-143
+[2026-04-27 15:05:43 ET] [DEBUG]   [St. Louis Cardinals @ Pittsburgh Pirates] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-136
+[2026-04-27 15:05:43 ET] [DEBUG]     ✗ St. Louis Cardinals @ Pittsburgh Pirates — conf 15 < 35 threshold
+[2026-04-27 15:05:57 ET] [DEBUG]   [Boston Red Sox @ Toronto Blue Jays] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-143
+[2026-04-27 15:05:57 ET] [DEBUG]     ✗ Boston Red Sox @ Toronto Blue Jays — conf 15 < 35 threshold
+[2026-04-27 15:06:11 ET] [DEBUG]   [Los Angeles Angels @ Chicago White Sox] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=-102→-102
+[2026-04-27 15:06:24 ET] [DEBUG]   [Seattle Mariners @ Minnesota Twins] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=104→109
+[2026-04-27 15:06:37 ET] [DEBUG]   [New York Yankees @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=149→139
+[2026-04-27 15:06:37 ET] [DEBUG]     ✗ New York Yankees @ Texas Rangers — conf 15 < 35 threshold
+[2026-04-27 15:06:50 ET] [DEBUG]   [Chicago Cubs @ San Diego Padres] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-108→-118
+[2026-04-27 15:07:03 ET] [DEBUG]   [Miami Marlins @ Los Angeles Dodgers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-300→-314
+[2026-04-27 15:07:03 ET] [DEBUG]     ✗ Miami Marlins @ Los Angeles Dodgers — conf 15 < 35 threshold
+[2026-04-27 15:07:05 ET] [INFO]   ESPN icehockey_nhl: 2 games (fresh, 2 events found)
+[2026-04-27 15:07:05 ET] [INFO]   icehockey_nhl: 2 games from espn
+[2026-04-27 15:07:05 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-04-27 15:07:09 ET] [DEBUG]   [Philadelphia Flyers @ Pittsburgh Penguins] sigs=[] conf=0 pub=n/a ml_move=-135→-135
+[2026-04-27 15:07:09 ET] [DEBUG]     ✗ Philadelphia Flyers @ Pittsburgh Penguins — only 0/1 signals (need 1 more)
+[2026-04-27 15:07:12 ET] [DEBUG]   [Vegas Golden Knights @ Utah Mammoth] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-105→105
+[2026-04-27 15:07:12 ET] [DEBUG]     ✗ Vegas Golden Knights @ Utah Mammoth — conf 25 < 35 threshold
+[2026-04-27 15:07:12 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-04-27 15:07:13 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 1 events found)
+[2026-04-27 15:07:13 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 1 events found)
+[2026-04-27 15:07:14 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-04-27 15:07:15 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 2 events found)
+[2026-04-27 15:07:15 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-04-27 15:07:15 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-04-27 15:07:15 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-27 15:07:15 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-27 15:07:15 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-27 15:07:15 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-27 15:07:15 ET] [INFO] Scan complete -- 13 games checked, 0 alerts (silence = discipline)
+[2026-04-27 15:07:15 ET] [INFO] ============================================================
