@@ -19597,3 +19597,62 @@
 [2026-04-27 08:21:54 ET] [INFO] Unit totals — FanDuel: +2.35u | Kalshi: 0.0 | Options: 0
 [2026-04-27 08:21:54 ET] [INFO] Morning briefing complete
 [2026-04-27 08:21:54 ET] [INFO] ============================================================
+[2026-04-27 09:19:27 ET] [INFO] ============================================================
+[2026-04-27 09:19:27 ET] [INFO] Starting full scan
+[2026-04-27 09:19:27 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-27 09:19:28 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-04-27 09:19:28 ET] [INFO]   ESPN basketball_nba: 3 games (cached)
+[2026-04-27 09:19:28 ET] [INFO]   basketball_nba: 3 games from espn
+[2026-04-27 09:19:28 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-04-27 09:19:33 ET] [DEBUG]   [Detroit Pistons @ Orlando Magic] sigs=[] conf=0 pub=n/a ml_move=136→124
+[2026-04-27 09:19:33 ET] [DEBUG]     ✗ Detroit Pistons @ Orlando Magic — only 0/1 signals (need 1 more)
+[2026-04-27 09:19:36 ET] [DEBUG]   [Oklahoma City Thunder @ Phoenix Suns] sigs=[] conf=0 pub=n/a ml_move=370→380
+[2026-04-27 09:19:36 ET] [DEBUG]     ✗ Oklahoma City Thunder @ Phoenix Suns — only 0/1 signals (need 1 more)
+[2026-04-27 09:19:40 ET] [DEBUG]   [Minnesota Timberwolves @ Denver Nuggets] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-470→-500
+[2026-04-27 09:19:40 ET] [DEBUG]     ✗ Minnesota Timberwolves @ Denver Nuggets — conf 25 < 35 threshold
+[2026-04-27 09:19:40 ET] [INFO]   ESPN baseball_mlb: 8 games (cached)
+[2026-04-27 09:19:40 ET] [INFO]   baseball_mlb: 8 games from espn
+[2026-04-27 09:19:40 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-04-27 09:19:54 ET] [DEBUG]   [Tampa Bay Rays @ Cleveland Guardians] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-143→-143
+[2026-04-27 09:20:07 ET] [DEBUG]   [St. Louis Cardinals @ Pittsburgh Pirates] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-136
+[2026-04-27 09:20:07 ET] [DEBUG]     ✗ St. Louis Cardinals @ Pittsburgh Pirates — conf 15 < 35 threshold
+[2026-04-27 09:20:19 ET] [DEBUG]   [Boston Red Sox @ Toronto Blue Jays] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-143
+[2026-04-27 09:20:19 ET] [DEBUG]     ✗ Boston Red Sox @ Toronto Blue Jays — conf 15 < 35 threshold
+[2026-04-27 09:20:31 ET] [DEBUG]   [Los Angeles Angels @ Chicago White Sox] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-102→100
+[2026-04-27 09:20:31 ET] [DEBUG]     ✗ Los Angeles Angels @ Chicago White Sox — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-27 09:20:43 ET] [DEBUG]   [Seattle Mariners @ Minnesota Twins] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=104→113
+[2026-04-27 09:20:43 ET] [DEBUG]     ✗ Seattle Mariners @ Minnesota Twins — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-27 09:20:56 ET] [DEBUG]   [New York Yankees @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=149→153
+[2026-04-27 09:20:56 ET] [DEBUG]     ✗ New York Yankees @ Texas Rangers — conf 15 < 35 threshold
+[2026-04-27 09:21:08 ET] [DEBUG]   [Chicago Cubs @ San Diego Padres] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-108→-108
+[2026-04-27 09:21:20 ET] [DEBUG]   [Miami Marlins @ Los Angeles Dodgers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-300→-314
+[2026-04-27 09:21:20 ET] [DEBUG]     ✗ Miami Marlins @ Los Angeles Dodgers — conf 15 < 35 threshold
+[2026-04-27 09:21:20 ET] [INFO]   ESPN icehockey_nhl: 2 games (cached)
+[2026-04-27 09:21:20 ET] [INFO]   icehockey_nhl: 2 games from espn
+[2026-04-27 09:21:20 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-04-27 09:21:23 ET] [DEBUG]   [Philadelphia Flyers @ Pittsburgh Penguins] sigs=[] conf=0 pub=n/a ml_move=-135→-135
+[2026-04-27 09:21:23 ET] [DEBUG]     ✗ Philadelphia Flyers @ Pittsburgh Penguins — only 0/1 signals (need 1 more)
+[2026-04-27 09:21:27 ET] [DEBUG]   [Vegas Golden Knights @ Utah Mammoth] sigs=[] conf=0 pub=n/a ml_move=-105→-105
+[2026-04-27 09:21:27 ET] [DEBUG]     ✗ Vegas Golden Knights @ Utah Mammoth — only 0/1 signals (need 1 more)
+[2026-04-27 09:21:27 ET] [INFO]   ESPN soccer_usa_mls: 0 games (cached)
+[2026-04-27 09:21:27 ET] [INFO]   ESPN soccer_epl: 1 games (cached)
+[2026-04-27 09:21:27 ET] [INFO]   soccer_epl: 1 games from espn
+[2026-04-27 09:21:29 ET] [DEBUG]   [Brentford @ Manchester United] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-140→-105
+[2026-04-27 09:21:29 ET] [DEBUG]     ✗ Brentford @ Manchester United — conf 25 < 35 threshold
+[2026-04-27 09:21:29 ET] [INFO]   ESPN soccer_esp_la_liga: 1 games (cached)
+[2026-04-27 09:21:29 ET] [INFO]   soccer_esp_la_liga: 1 games from espn
+[2026-04-27 09:21:33 ET] [DEBUG]   [Levante @ Espanyol] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-115→105
+[2026-04-27 09:21:33 ET] [DEBUG]     ✗ Levante @ Espanyol — conf 25 < 35 threshold
+[2026-04-27 09:21:33 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-04-27 09:21:33 ET] [INFO]   ESPN soccer_ita_serie_a: 2 games (cached)
+[2026-04-27 09:21:33 ET] [INFO]   soccer_ita_serie_a: 2 games from espn
+[2026-04-27 09:21:36 ET] [DEBUG]   [Atalanta @ Cagliari] sigs=[] conf=0 pub=n/a ml_move=330→340
+[2026-04-27 09:21:36 ET] [DEBUG]     ✗ Atalanta @ Cagliari — only 0/1 signals (need 1 more)
+[2026-04-27 09:21:39 ET] [DEBUG]   [Udinese @ Lazio] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-110→105
+[2026-04-27 09:21:39 ET] [DEBUG]     ✗ Udinese @ Lazio — conf 25 < 35 threshold
+[2026-04-27 09:21:39 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-04-27 09:21:39 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-04-27 09:21:39 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-27 09:21:39 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-04-27 09:21:39 ET] [INFO] Scan complete -- 17 games checked, 0 alerts (silence = discipline)
+[2026-04-27 09:21:39 ET] [INFO] ============================================================
