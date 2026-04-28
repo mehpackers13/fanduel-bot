@@ -20450,3 +20450,41 @@
 [2026-04-28 17:00:52 ET] [INFO] ============================================================
 [2026-04-28 17:54:30 ET] [INFO] Running injury scan
 [2026-04-28 17:54:34 ET] [INFO] Injury scan complete — no new key injuries
+[2026-04-28 18:46:54 ET] [INFO] ============================================================
+[2026-04-28 18:46:54 ET] [INFO] Starting full scan
+[2026-04-28 18:46:54 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-28 18:46:55 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-04-28 18:46:57 ET] [INFO]   ESPN basketball_nba: 2 games (fresh, 3 events found)
+[2026-04-28 18:46:57 ET] [INFO]   basketball_nba: 2 games from espn
+[2026-04-28 18:46:58 ET] [INFO] Action Network nba/odds: 3 games fetched
+[2026-04-28 18:47:02 ET] [DEBUG]   [Atlanta Hawks @ New York Knicks] sigs=['public_fade', 'model_edge'] conf=40 pub=83%/17% ml_move=-238→-250
+[2026-04-28 18:47:06 ET] [DEBUG]   [Portland Trail Blazers @ San Antonio Spurs] sigs=['public_fade', 'sharp_money', 'model_edge'] conf=65 pub=91%/9% ml_move=-550→-575
+[2026-04-28 18:47:06 ET] [DEBUG]     ✗ Portland Trail Blazers @ San Antonio Spurs — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-28 18:47:17 ET] [INFO]   ESPN baseball_mlb: 4 games (fresh, 15 events found)
+[2026-04-28 18:47:17 ET] [INFO]   baseball_mlb: 4 games from espn
+[2026-04-28 18:47:17 ET] [INFO] Action Network mlb/odds: 15 games fetched
+[2026-04-28 18:47:33 ET] [DEBUG]   [New York Yankees @ Texas Rangers] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=18%/82% ml_move=102→104
+[2026-04-28 18:47:45 ET] [DEBUG]   [Chicago Cubs @ San Diego Padres] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=35%/65% ml_move=-110→104
+[2026-04-28 18:47:57 ET] [DEBUG]   [Kansas City Royals @ Athletics] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=57%/43% ml_move=-102→-108
+[2026-04-28 18:48:09 ET] [DEBUG]   [Miami Marlins @ Los Angeles Dodgers] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=6%/94% ml_move=-293→-286
+[2026-04-28 18:48:09 ET] [DEBUG]     ✗ Miami Marlins @ Los Angeles Dodgers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-28 18:48:10 ET] [INFO]   ESPN icehockey_nhl: 2 games (fresh, 3 events found)
+[2026-04-28 18:48:10 ET] [INFO]   icehockey_nhl: 2 games from espn
+[2026-04-28 18:48:11 ET] [INFO] Action Network nhl/odds: 3 games fetched
+[2026-04-28 18:48:14 ET] [DEBUG]   [Minnesota Wild @ Dallas Stars] sigs=['public_fade'] conf=20 pub=23%/77% ml_move=-142→-125
+[2026-04-28 18:48:14 ET] [DEBUG]     ✗ Minnesota Wild @ Dallas Stars — conf 20 < 35 threshold
+[2026-04-28 18:48:18 ET] [DEBUG]   [Anaheim Ducks @ Edmonton Oilers] sigs=['public_fade', 'sharp_money'] conf=45 pub=20%/80% ml_move=-175→-155
+[2026-04-28 18:48:18 ET] [DEBUG]     ✗ Anaheim Ducks @ Edmonton Oilers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-28 18:48:18 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-04-28 18:48:18 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-04-28 18:48:18 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-04-28 18:48:19 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-04-28 18:48:19 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-04-28 18:48:19 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-04-28 18:48:19 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-04-28 18:48:19 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-28 18:48:19 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-28 18:48:19 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-28 18:48:19 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-04-28 18:48:19 ET] [INFO] Scan complete -- 8 games checked, 0 alerts (silence = discipline)
+[2026-04-28 18:48:19 ET] [INFO] ============================================================
