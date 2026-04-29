@@ -20756,3 +20756,63 @@
 [2026-04-29 09:25:53 ET] [WARN]   Sprinkle cap reached (2) — skipping
 [2026-04-29 09:25:53 ET] [INFO] Scan complete -- 21 games checked, 0 alerts (silence = discipline)
 [2026-04-29 09:25:53 ET] [INFO] ============================================================
+[2026-04-29 09:44:01 ET] [INFO] ============================================================
+[2026-04-29 09:44:01 ET] [INFO] Running morning briefing scan (7am)
+[2026-04-29 09:44:01 ET] [INFO] ============================================================
+[2026-04-29 09:44:01 ET] [INFO] Starting morning scan
+[2026-04-29 09:44:01 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-04-29 09:44:02 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-04-29 09:44:02 ET] [INFO]   ESPN basketball_nba: 3 games (cached)
+[2026-04-29 09:44:02 ET] [INFO]   basketball_nba: 3 games from espn
+[2026-04-29 09:44:02 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-04-29 09:44:07 ET] [DEBUG]   [Orlando Magic @ Detroit Pistons] sigs=[] conf=0 pub=n/a ml_move=-410→-395
+[2026-04-29 09:44:07 ET] [DEBUG]     ✗ Orlando Magic @ Detroit Pistons — only 0/1 signals (need 1 more)
+[2026-04-29 09:44:10 ET] [DEBUG]   [Toronto Raptors @ Cleveland Cavaliers] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-250→-375
+[2026-04-29 09:44:10 ET] [DEBUG]     ✗ Toronto Raptors @ Cleveland Cavaliers — conf 25 < 35 threshold
+[2026-04-29 09:44:13 ET] [DEBUG]   [Houston Rockets @ Los Angeles Lakers] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-142→-180
+[2026-04-29 09:44:13 ET] [DEBUG]     ✗ Houston Rockets @ Los Angeles Lakers — conf 25 < 35 threshold
+[2026-04-29 09:44:13 ET] [INFO]   ESPN baseball_mlb: 15 games (cached)
+[2026-04-29 09:44:13 ET] [INFO]   baseball_mlb: 15 games from espn
+[2026-04-29 09:44:14 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-04-29 09:44:26 ET] [DEBUG]   [Tampa Bay Rays @ Cleveland Guardians] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-118→-122
+[2026-04-29 09:44:36 ET] [DEBUG]   [Los Angeles Angels @ Chicago White Sox] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=104→102
+[2026-04-29 09:44:47 ET] [DEBUG]   [Seattle Mariners @ Minnesota Twins] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=109→109
+[2026-04-29 09:44:47 ET] [DEBUG]     ✗ Seattle Mariners @ Minnesota Twins — conf 15 < 35 threshold
+[2026-04-29 09:44:58 ET] [DEBUG]   [New York Yankees @ Texas Rangers] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=n/a ml_move=-102→100
+[2026-04-29 09:45:09 ET] [DEBUG]   [Boston Red Sox @ Toronto Blue Jays] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-131→-136
+[2026-04-29 09:45:09 ET] [DEBUG]     ✗ Boston Red Sox @ Toronto Blue Jays — conf 15 < 35 threshold
+[2026-04-29 09:45:19 ET] [DEBUG]   [Miami Marlins @ Los Angeles Dodgers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-207→-232
+[2026-04-29 09:45:19 ET] [DEBUG]     ✗ Miami Marlins @ Los Angeles Dodgers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-04-29 09:45:30 ET] [DEBUG]   [Chicago Cubs @ San Diego Padres] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-110→-105
+[2026-04-29 09:45:41 ET] [DEBUG]   [Houston Astros @ Baltimore Orioles] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-120→-126
+[2026-04-29 09:45:51 ET] [DEBUG]   [Colorado Rockies @ Cincinnati Reds] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-149→-149
+[2026-04-29 09:46:02 ET] [DEBUG]   [San Francisco Giants @ Philadelphia Phillies] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-143→-149
+[2026-04-29 09:46:12 ET] [DEBUG]   [St. Louis Cardinals @ Pittsburgh Pirates] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-156→-156
+[2026-04-29 09:46:23 ET] [DEBUG]   [Washington Nationals @ New York Mets] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-168→-168
+[2026-04-29 09:46:33 ET] [DEBUG]   [Detroit Tigers @ Atlanta Braves] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=123→123
+[2026-04-29 09:46:44 ET] [DEBUG]   [Arizona Diamondbacks @ Milwaukee Brewers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-120→-126
+[2026-04-29 09:46:44 ET] [DEBUG]     ✗ Arizona Diamondbacks @ Milwaukee Brewers — conf 15 < 35 threshold
+[2026-04-29 09:46:54 ET] [DEBUG]   [Kansas City Royals @ Athletics] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-120→-122
+[2026-04-29 09:46:54 ET] [INFO]   ESPN icehockey_nhl: 3 games (cached)
+[2026-04-29 09:46:54 ET] [INFO]   icehockey_nhl: 3 games from espn
+[2026-04-29 09:46:54 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-04-29 09:46:58 ET] [DEBUG]   [Montreal Canadiens @ Tampa Bay Lightning] sigs=[] conf=0 pub=n/a ml_move=-185→-170
+[2026-04-29 09:46:58 ET] [DEBUG]     ✗ Montreal Canadiens @ Tampa Bay Lightning — only 0/1 signals (need 1 more)
+[2026-04-29 09:47:01 ET] [DEBUG]   [Pittsburgh Penguins @ Philadelphia Flyers] sigs=[] conf=0 pub=n/a ml_move=-122→-122
+[2026-04-29 09:47:01 ET] [DEBUG]     ✗ Pittsburgh Penguins @ Philadelphia Flyers — only 0/1 signals (need 1 more)
+[2026-04-29 09:47:04 ET] [DEBUG]   [Utah Mammoth @ Vegas Golden Knights] sigs=[] conf=0 pub=n/a ml_move=-162→-166
+[2026-04-29 09:47:04 ET] [DEBUG]     ✗ Utah Mammoth @ Vegas Golden Knights — only 0/1 signals (need 1 more)
+[2026-04-29 09:47:04 ET] [INFO]   ESPN soccer_usa_mls: 0 games (cached)
+[2026-04-29 09:47:04 ET] [INFO]   ESPN soccer_epl: 0 games (cached)
+[2026-04-29 09:47:04 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (cached)
+[2026-04-29 09:47:04 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-04-29 09:47:04 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (cached)
+[2026-04-29 09:47:04 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-04-29 09:47:04 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-04-29 09:47:04 ET] [INFO] Morning scan complete -- 21 games checked, 11 opportunities
+[2026-04-29 09:47:04 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-04-29 09:47:05 ET] [INFO] Morning briefing sent: 3 opportunities | combined units: 🟢 +4.6u
+[2026-04-29 09:47:05 ET] [INFO] Running record: 4.2% win rate | +2.1% ROI on 48 bets
+[2026-04-29 09:47:05 ET] [INFO] Unit totals — FanDuel: +4.64u | Kalshi: 0.0 | Options: 0
+[2026-04-29 09:47:05 ET] [INFO] Morning briefing complete
+[2026-04-29 09:47:05 ET] [INFO] ============================================================
