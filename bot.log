@@ -24100,3 +24100,36 @@
 [2026-05-03 14:46:22 ET] [INFO] ============================================================
 [2026-05-03 15:32:07 ET] [INFO] Running injury scan
 [2026-05-03 15:32:08 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-03 16:33:37 ET] [INFO] ============================================================
+[2026-05-03 16:33:37 ET] [INFO] Starting full scan
+[2026-05-03 16:33:37 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-03 16:33:37 ET] [INFO] Auto-resolved espn_401815191: Philadelphia Phillies @ Miami Marlins → P (home 0.0, away 0.0)
+[2026-05-03 16:33:37 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-05-03 16:33:37 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-05-03 16:33:37 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-03 16:33:38 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 2 events found)
+[2026-05-03 16:33:38 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-03 16:33:38 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-03 16:33:40 ET] [DEBUG]   [Toronto Raptors @ Cleveland Cavaliers] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-285→-310
+[2026-05-03 16:33:42 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 15 events found)
+[2026-05-03 16:33:42 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-05-03 16:33:42 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-03 16:33:47 ET] [DEBUG]   [Texas Rangers @ Detroit Tigers] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=-115→-122
+[2026-05-03 16:33:47 ET] [DEBUG]     ✗ Texas Rangers @ Detroit Tigers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-03 16:33:47 ET] [INFO]   ESPN icehockey_nhl: 2 games (fresh, 2 events found)
+[2026-05-03 16:33:47 ET] [INFO]   icehockey_nhl: 2 games from espn
+[2026-05-03 16:33:47 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-03 16:33:48 ET] [DEBUG]   [Montreal Canadiens @ Tampa Bay Lightning] sigs=[] conf=0 pub=n/a ml_move=-170→-170
+[2026-05-03 16:33:48 ET] [DEBUG]     ✗ Montreal Canadiens @ Tampa Bay Lightning — only 0/1 signals (need 1 more)
+[2026-05-03 16:33:49 ET] [DEBUG]   [Minnesota Wild @ Colorado Avalanche] sigs=[] conf=0 pub=n/a ml_move=-185→-205
+[2026-05-03 16:33:49 ET] [DEBUG]     ✗ Minnesota Wild @ Colorado Avalanche — only 0/1 signals (need 1 more)
+[2026-05-03 16:33:49 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 2 events found)
+[2026-05-03 16:33:50 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 3 events found)
+[2026-05-03 16:33:51 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 4 events found)
+[2026-05-03 16:33:51 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 3 events found)
+[2026-05-03 16:33:52 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 4 events found)
+[2026-05-03 16:33:53 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 5 events found)
+[2026-05-03 16:33:53 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-03 16:33:53 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-03 16:33:53 ET] [INFO] Scan complete -- 4 games checked, 0 alerts (silence = discipline)
+[2026-05-03 16:33:53 ET] [INFO] ============================================================
