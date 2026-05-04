@@ -24650,3 +24650,57 @@
 [2026-05-04 13:24:31 ET] [INFO] ============================================================
 [2026-05-04 15:02:35 ET] [INFO] Running injury scan
 [2026-05-04 15:02:37 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-04 15:15:26 ET] [INFO] ============================================================
+[2026-05-04 15:15:26 ET] [INFO] Starting full scan
+[2026-05-04 15:15:26 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-04 15:15:27 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-04 15:15:29 ET] [INFO]   ESPN basketball_nba: 2 games (fresh, 2 events found)
+[2026-05-04 15:15:29 ET] [INFO]   basketball_nba: 2 games from espn
+[2026-05-04 15:15:29 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-04 15:15:32 ET] [DEBUG]   [Philadelphia 76ers @ New York Knicks] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-218→-290
+[2026-05-04 15:15:34 ET] [DEBUG]   [Minnesota Timberwolves @ San Antonio Spurs] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-850→-380
+[2026-05-04 15:15:40 ET] [INFO]   ESPN baseball_mlb: 12 games (fresh, 12 events found)
+[2026-05-04 15:15:40 ET] [INFO]   baseball_mlb: 12 games from espn
+[2026-05-04 15:15:40 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-04 15:15:53 ET] [DEBUG]   [New York Mets @ Colorado Rockies] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=123→119
+[2026-05-04 15:16:06 ET] [DEBUG]   [Boston Red Sox @ Detroit Tigers] sigs=['sharp_money', 'rest_disadvantage', 'weather_edge', 'model_edge'] conf=80 pub=n/a ml_move=-219→-110
+[2026-05-04 15:16:18 ET] [DEBUG]   [Philadelphia Phillies @ Miami Marlins] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-102→-110
+[2026-05-04 15:16:31 ET] [DEBUG]   [Toronto Blue Jays @ Tampa Bay Rays] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-115→-126
+[2026-05-04 15:16:43 ET] [DEBUG]   [Baltimore Orioles @ New York Yankees] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-199→-219
+[2026-05-04 15:16:43 ET] [DEBUG]     ✗ Baltimore Orioles @ New York Yankees — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-04 15:16:55 ET] [DEBUG]   [Cincinnati Reds @ Chicago Cubs] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-199→-219
+[2026-05-04 15:17:07 ET] [DEBUG]   [Cleveland Guardians @ Kansas City Royals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-126→-118
+[2026-05-04 15:17:19 ET] [DEBUG]   [Milwaukee Brewers @ St. Louis Cardinals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-105→-105
+[2026-05-04 15:17:31 ET] [DEBUG]   [Los Angeles Dodgers @ Houston Astros] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=163→163
+[2026-05-04 15:17:31 ET] [DEBUG]     ✗ Los Angeles Dodgers @ Houston Astros — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-04 15:17:44 ET] [DEBUG]   [Chicago White Sox @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-156→-156
+[2026-05-04 15:17:56 ET] [DEBUG]   [Atlanta Braves @ Seattle Mariners] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=n/a ml_move=-181→-143
+[2026-05-04 15:18:08 ET] [DEBUG]   [San Diego Padres @ San Francisco Giants] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=123→113
+[2026-05-04 15:18:09 ET] [INFO]   ESPN icehockey_nhl: 2 games (fresh, 2 events found)
+[2026-05-04 15:18:09 ET] [INFO]   icehockey_nhl: 2 games from espn
+[2026-05-04 15:18:09 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-04 15:18:12 ET] [DEBUG]   [Philadelphia Flyers @ Carolina Hurricanes] sigs=[] conf=0 pub=n/a ml_move=-245→-258
+[2026-05-04 15:18:12 ET] [DEBUG]     ✗ Philadelphia Flyers @ Carolina Hurricanes — only 0/1 signals (need 1 more)
+[2026-05-04 15:18:14 ET] [DEBUG]   [Anaheim Ducks @ Vegas Golden Knights] sigs=[] conf=0 pub=n/a ml_move=-166→-166
+[2026-05-04 15:18:14 ET] [DEBUG]     ✗ Anaheim Ducks @ Vegas Golden Knights — only 0/1 signals (need 1 more)
+[2026-05-04 15:18:14 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-04 15:18:15 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 2 events found)
+[2026-05-04 15:18:16 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 1 events found)
+[2026-05-04 15:18:16 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-04 15:18:17 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 2 events found)
+[2026-05-04 15:18:17 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-04 15:18:17 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-04 15:18:17 ET] [WARN]   Daily units cap would be exceeded (10u + 4u > 10u) — skipping
+[2026-05-04 15:18:17 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-04 15:18:17 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-04 15:18:17 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-04 15:18:17 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-04 15:18:17 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-04 15:18:17 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-04 15:18:17 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-04 15:18:17 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-04 15:18:17 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-04 15:18:17 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-04 15:18:17 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-04 15:18:17 ET] [INFO] Scan complete -- 16 games checked, 0 alerts (silence = discipline)
+[2026-05-04 15:18:17 ET] [INFO] ============================================================
