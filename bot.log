@@ -24855,3 +24855,66 @@
 [2026-05-04 23:27:16 ET] [INFO] Injury scan complete — no new key injuries
 [2026-05-05 02:01:49 ET] [INFO] Running injury scan
 [2026-05-05 02:01:51 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-05 02:09:53 ET] [INFO] ============================================================
+[2026-05-05 02:09:53 ET] [INFO] Starting full scan
+[2026-05-05 02:09:53 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-05 02:09:54 ET] [INFO] Auto-resolved espn_401815211: Atlanta Braves @ Seattle Mariners → P (home 0.0, away 0.0)
+[2026-05-05 02:09:54 ET] [INFO] Auto-resolved espn_401815211: Atlanta Braves @ Seattle Mariners → P (home 0.0, away 0.0)
+[2026-05-05 02:09:55 ET] [INFO] Auto-resolved espn_401815213: San Diego Padres @ San Francisco Giants → P (home 0.0, away 0.0)
+[2026-05-05 02:09:55 ET] [INFO] Wrote 3 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-05-05 02:09:55 ET] [INFO] Auto-resolved 3 pending bet outcome(s) from ESPN scores
+[2026-05-05 02:09:55 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-05 02:09:56 ET] [INFO]   ESPN basketball_nba: 2 games (fresh, 2 events found)
+[2026-05-05 02:09:56 ET] [INFO]   basketball_nba: 2 games from espn
+[2026-05-05 02:09:56 ET] [INFO] Action Network nba/odds: 1 games fetched
+[2026-05-05 02:09:58 ET] [DEBUG]   [Cleveland Cavaliers @ Detroit Pistons] sigs=[] conf=0 pub=n/a ml_move=-155→-148
+[2026-05-05 02:09:58 ET] [DEBUG]     ✗ Cleveland Cavaliers @ Detroit Pistons — only 0/1 signals (need 1 more)
+[2026-05-05 02:09:59 ET] [DEBUG]   [Los Angeles Lakers @ Oklahoma City Thunder] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-1000→-1100
+[2026-05-05 02:09:59 ET] [DEBUG]     ✗ Los Angeles Lakers @ Oklahoma City Thunder — conf 25 < 35 threshold
+[2026-05-05 02:10:03 ET] [INFO]   ESPN baseball_mlb: 15 games (fresh, 15 events found)
+[2026-05-05 02:10:03 ET] [INFO]   baseball_mlb: 15 games from espn
+[2026-05-05 02:10:03 ET] [INFO] Action Network mlb/odds: 12 games fetched
+[2026-05-05 02:10:08 ET] [DEBUG]   [Athletics @ Philadelphia Phillies] sigs=['sharp_money', 'rest_disadvantage', 'travel_disadvantage'] conf=55 pub=52%/48% ml_move=-177→-186
+[2026-05-05 02:10:08 ET] [DEBUG]     ✗ Athletics @ Philadelphia Phillies — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-05 02:10:12 ET] [DEBUG]   [Baltimore Orioles @ Miami Marlins] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=48%/52% ml_move=-121→-121
+[2026-05-05 02:10:12 ET] [DEBUG]     ✗ Baltimore Orioles @ Miami Marlins — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-05 02:10:15 ET] [DEBUG]   [Boston Red Sox @ Detroit Tigers] sigs=['public_fade', 'sharp_money', 'rest_disadvantage'] conf=60 pub=82%/18% ml_move=-194→-186
+[2026-05-05 02:10:15 ET] [DEBUG]     ✗ Boston Red Sox @ Detroit Tigers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-05 02:10:19 ET] [DEBUG]   [Toronto Blue Jays @ Tampa Bay Rays] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=64%/36% ml_move=-122→-126
+[2026-05-05 02:10:22 ET] [DEBUG]   [Minnesota Twins @ Washington Nationals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-118→-115
+[2026-05-05 02:10:22 ET] [DEBUG]     ✗ Minnesota Twins @ Washington Nationals — conf 15 < 35 threshold
+[2026-05-05 02:10:26 ET] [DEBUG]   [Texas Rangers @ New York Yankees] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=90%/10% ml_move=-121→-116
+[2026-05-05 02:10:26 ET] [DEBUG]     ✗ Texas Rangers @ New York Yankees — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-05 02:10:29 ET] [DEBUG]   [Cincinnati Reds @ Chicago Cubs] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=84%/16% ml_move=-163→-168
+[2026-05-05 02:10:29 ET] [DEBUG]     ✗ Cincinnati Reds @ Chicago Cubs — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-05 02:10:33 ET] [DEBUG]   [Cleveland Guardians @ Kansas City Royals] sigs=['rest_disadvantage'] conf=15 pub=47%/53% ml_move=104→102
+[2026-05-05 02:10:33 ET] [DEBUG]     ✗ Cleveland Guardians @ Kansas City Royals — conf 15 < 35 threshold
+[2026-05-05 02:10:37 ET] [DEBUG]   [Milwaukee Brewers @ St. Louis Cardinals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=54%/46% ml_move=-118→-112
+[2026-05-05 02:10:40 ET] [DEBUG]   [Los Angeles Dodgers @ Houston Astros] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=86%/14% ml_move=169→179
+[2026-05-05 02:10:40 ET] [DEBUG]     ✗ Los Angeles Dodgers @ Houston Astros — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-05 02:10:44 ET] [DEBUG]   [New York Mets @ Colorado Rockies] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=55%/45% ml_move=139→135
+[2026-05-05 02:10:48 ET] [DEBUG]   [Chicago White Sox @ Los Angeles Angels] sigs=['public_fade', 'sharp_money', 'rest_disadvantage', 'model_edge'] conf=80 pub=18%/82% ml_move=-115→-115
+[2026-05-05 02:10:48 ET] [DEBUG]     ✗ Chicago White Sox @ Los Angeles Angels — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-05 02:10:52 ET] [DEBUG]   [Atlanta Braves @ Seattle Mariners] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=53%/47% ml_move=-149→-149
+[2026-05-05 02:10:52 ET] [DEBUG]     ✗ Atlanta Braves @ Seattle Mariners — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-05 02:10:57 ET] [DEBUG]   [Pittsburgh Pirates @ Arizona Diamondbacks] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-122→-126
+[2026-05-05 02:10:57 ET] [DEBUG]     ✗ Pittsburgh Pirates @ Arizona Diamondbacks — conf 15 < 35 threshold
+[2026-05-05 02:11:00 ET] [DEBUG]   [San Diego Padres @ San Francisco Giants] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=79%/21% ml_move=-134→-136
+[2026-05-05 02:11:01 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-05-05 02:11:01 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-05 02:11:01 ET] [INFO] Action Network nhl/odds: 2 games fetched
+[2026-05-05 02:11:02 ET] [DEBUG]   [Minnesota Wild @ Colorado Avalanche] sigs=[] conf=0 pub=n/a ml_move=-192→-205
+[2026-05-05 02:11:02 ET] [DEBUG]     ✗ Minnesota Wild @ Colorado Avalanche — only 0/1 signals (need 1 more)
+[2026-05-05 02:11:02 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-05 02:11:02 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-05-05 02:11:02 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-05 02:11:02 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-05 02:11:02 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-05 02:11:02 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-05 02:11:02 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-05 02:11:02 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-05 02:11:02 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-05 02:11:02 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-05 02:11:02 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-05 02:11:02 ET] [INFO] Scan complete -- 18 games checked, 0 alerts (silence = discipline)
+[2026-05-05 02:11:02 ET] [INFO] ============================================================
