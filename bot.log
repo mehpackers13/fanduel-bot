@@ -25325,3 +25325,60 @@
 [2026-05-05 19:00:38 ET] [INFO] Injury scan complete — no new key injuries
 [2026-05-05 20:11:07 ET] [INFO] Running injury scan
 [2026-05-05 20:11:08 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-05 21:59:27 ET] [INFO] ============================================================
+[2026-05-05 21:59:27 ET] [INFO] Starting full scan
+[2026-05-05 21:59:27 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-05 21:59:28 ET] [INFO] Auto-resolved espn_401815219: Toronto Blue Jays @ Tampa Bay Rays → P (home 0.0, away 0.0)
+[2026-05-05 21:59:29 ET] [INFO] Auto-resolved espn_401815214: Athletics @ Philadelphia Phillies → P (home 0.0, away 0.0)
+[2026-05-05 21:59:29 ET] [INFO] Auto-resolved espn_401815214: Athletics @ Philadelphia Phillies → P (home 0.0, away 0.0)
+[2026-05-05 21:59:29 ET] [INFO] Wrote 3 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-05-05 21:59:29 ET] [INFO] Auto-resolved 3 pending bet outcome(s) from ESPN scores
+[2026-05-05 21:59:29 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-05 21:59:30 ET] [INFO]   ESPN basketball_nba: 2 games (fresh, 2 events found)
+[2026-05-05 21:59:30 ET] [INFO]   basketball_nba: 2 games from espn
+[2026-05-05 21:59:31 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-05 21:59:34 ET] [DEBUG]   [Philadelphia 76ers @ New York Knicks] sigs=[] conf=0 pub=n/a ml_move=-278→-270
+[2026-05-05 21:59:34 ET] [DEBUG]     ✗ Philadelphia 76ers @ New York Knicks — only 0/1 signals (need 1 more)
+[2026-05-05 21:59:36 ET] [DEBUG]   [Minnesota Timberwolves @ San Antonio Spurs] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-485→-395
+[2026-05-05 21:59:36 ET] [DEBUG]     ✗ Minnesota Timberwolves @ San Antonio Spurs — conf 25 < 35 threshold
+[2026-05-05 21:59:43 ET] [INFO]   ESPN baseball_mlb: 11 games (fresh, 15 events found)
+[2026-05-05 21:59:43 ET] [INFO]   baseball_mlb: 11 games from espn
+[2026-05-05 21:59:43 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-05 21:59:58 ET] [DEBUG]   [Toronto Blue Jays @ Tampa Bay Rays] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-149→-136
+[2026-05-05 22:00:11 ET] [DEBUG]   [Los Angeles Dodgers @ Houston Astros] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=184→179
+[2026-05-05 22:00:11 ET] [DEBUG]     ✗ Los Angeles Dodgers @ Houston Astros — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-05 22:00:24 ET] [DEBUG]   [San Diego Padres @ San Francisco Giants] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-108→-105
+[2026-05-05 22:00:37 ET] [DEBUG]   [Atlanta Braves @ Seattle Mariners] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-136→-136
+[2026-05-05 22:00:51 ET] [DEBUG]   [Athletics @ Philadelphia Phillies] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-186→-175
+[2026-05-05 22:01:04 ET] [DEBUG]   [Baltimore Orioles @ Miami Marlins] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-131→-131
+[2026-05-05 22:01:04 ET] [DEBUG]     ✗ Baltimore Orioles @ Miami Marlins — conf 15 < 35 threshold
+[2026-05-05 22:01:17 ET] [DEBUG]   [Minnesota Twins @ Washington Nationals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=113→113
+[2026-05-05 22:01:30 ET] [DEBUG]   [Texas Rangers @ New York Yankees] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=n/a ml_move=-199→-193
+[2026-05-05 22:01:43 ET] [DEBUG]   [Cincinnati Reds @ Chicago Cubs] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-168→-175
+[2026-05-05 22:01:43 ET] [DEBUG]     ✗ Cincinnati Reds @ Chicago Cubs — conf 15 < 35 threshold
+[2026-05-05 22:01:56 ET] [DEBUG]   [Cleveland Guardians @ Kansas City Royals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-136→-131
+[2026-05-05 22:01:56 ET] [DEBUG]     ✗ Cleveland Guardians @ Kansas City Royals — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-05 22:02:10 ET] [DEBUG]   [Pittsburgh Pirates @ Arizona Diamondbacks] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=129→129
+[2026-05-05 22:02:10 ET] [DEBUG]     ✗ Pittsburgh Pirates @ Arizona Diamondbacks — conf 15 < 35 threshold
+[2026-05-05 22:02:11 ET] [INFO]   ESPN icehockey_nhl: 2 games (fresh, 2 events found)
+[2026-05-05 22:02:11 ET] [INFO]   icehockey_nhl: 2 games from espn
+[2026-05-05 22:02:11 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-05 22:02:13 ET] [DEBUG]   [Montreal Canadiens @ Buffalo Sabres] sigs=[] conf=0 pub=n/a ml_move=-125→-130
+[2026-05-05 22:02:13 ET] [DEBUG]     ✗ Montreal Canadiens @ Buffalo Sabres — only 0/1 signals (need 1 more)
+[2026-05-05 22:02:16 ET] [DEBUG]   [Anaheim Ducks @ Vegas Golden Knights] sigs=[] conf=0 pub=n/a ml_move=-162→-162
+[2026-05-05 22:02:16 ET] [DEBUG]     ✗ Anaheim Ducks @ Vegas Golden Knights — only 0/1 signals (need 1 more)
+[2026-05-05 22:02:16 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-05 22:02:16 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-05-05 22:02:16 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-05 22:02:17 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-05 22:02:17 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-05 22:02:17 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-05 22:02:17 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-05 22:02:18 ET] [INFO] Sprinkle alert sent: Texas Rangers @ New York Yankees | total UNDER u8.5 | edge 5.0% | 1u
+[2026-05-05 22:02:18 ET] [INFO] Sprinkle alert sent: Atlanta Braves @ Seattle Mariners | moneyline Atlanta Braves +113 | edge 22.3% | 1u
+[2026-05-05 22:02:18 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-05 22:02:18 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-05 22:02:18 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-05 22:02:18 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-05 22:02:18 ET] [INFO] Scan complete -- 15 games checked, 2 alert(s) sent (2u at risk today)
+[2026-05-05 22:02:18 ET] [INFO] ============================================================
