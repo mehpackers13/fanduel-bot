@@ -25856,3 +25856,36 @@
 [2026-05-06 17:08:10 ET] [INFO] Injury scan complete — no new key injuries
 [2026-05-06 18:12:19 ET] [INFO] Running injury scan
 [2026-05-06 18:12:23 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-06 18:44:01 ET] [INFO] ============================================================
+[2026-05-06 18:44:01 ET] [INFO] Starting full scan
+[2026-05-06 18:44:01 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-06 18:44:02 ET] [INFO] Auto-resolved espn_401815240: Atlanta Braves @ Seattle Mariners → P (home 0.0, away 0.0)
+[2026-05-06 18:44:02 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-05-06 18:44:02 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-05-06 18:44:02 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-06 18:44:03 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 2 events found)
+[2026-05-06 18:44:03 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-06 18:44:03 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-06 18:44:04 ET] [DEBUG]   [Minnesota Timberwolves @ San Antonio Spurs] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-485→-410
+[2026-05-06 18:44:04 ET] [DEBUG]     ✗ Minnesota Timberwolves @ San Antonio Spurs — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-06 18:44:07 ET] [INFO]   ESPN baseball_mlb: 2 games (fresh, 15 events found)
+[2026-05-06 18:44:07 ET] [INFO]   baseball_mlb: 2 games from espn
+[2026-05-06 18:44:07 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-06 18:44:12 ET] [DEBUG]   [New York Mets @ Colorado Rockies] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=139→129
+[2026-05-06 18:44:16 ET] [DEBUG]   [Pittsburgh Pirates @ Arizona Diamondbacks] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=129→104
+[2026-05-06 18:44:16 ET] [DEBUG]     ✗ Pittsburgh Pirates @ Arizona Diamondbacks — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-06 18:44:16 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 2 events found)
+[2026-05-06 18:44:16 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-06 18:44:16 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-06 18:44:17 ET] [DEBUG]   [Anaheim Ducks @ Vegas Golden Knights] sigs=[] conf=0 pub=n/a ml_move=-162→-166
+[2026-05-06 18:44:17 ET] [DEBUG]     ✗ Anaheim Ducks @ Vegas Golden Knights — only 0/1 signals (need 1 more)
+[2026-05-06 18:44:17 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-06 18:44:17 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-05-06 18:44:17 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-06 18:44:17 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-06 18:44:18 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-06 18:44:18 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-06 18:44:18 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-06 18:44:18 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-06 18:44:18 ET] [INFO] Scan complete -- 4 games checked, 0 alerts (silence = discipline)
+[2026-05-06 18:44:18 ET] [INFO] ============================================================
