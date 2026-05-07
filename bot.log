@@ -26276,3 +26276,42 @@
 [2026-05-07 15:27:14 ET] [INFO] ============================================================
 [2026-05-07 15:58:24 ET] [INFO] Running injury scan
 [2026-05-07 15:58:28 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-07 16:58:07 ET] [INFO] ============================================================
+[2026-05-07 16:58:07 ET] [INFO] Starting full scan
+[2026-05-07 16:58:07 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-07 16:58:08 ET] [INFO] Auto-resolved espn_401815248: Texas Rangers @ New York Yankees → P (home 0.0, away 0.0)
+[2026-05-07 16:58:08 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-05-07 16:58:08 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-05-07 16:58:08 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-07 16:58:09 ET] [INFO]   ESPN basketball_nba: 2 games (fresh, 2 events found)
+[2026-05-07 16:58:09 ET] [INFO]   basketball_nba: 2 games from espn
+[2026-05-07 16:58:09 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-07 16:58:11 ET] [DEBUG]   [Cleveland Cavaliers @ Detroit Pistons] sigs=[] conf=0 pub=n/a ml_move=-155→-162
+[2026-05-07 16:58:11 ET] [DEBUG]     ✗ Cleveland Cavaliers @ Detroit Pistons — only 0/1 signals (need 1 more)
+[2026-05-07 16:58:13 ET] [DEBUG]   [Los Angeles Lakers @ Oklahoma City Thunder] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-1050→-950
+[2026-05-07 16:58:13 ET] [DEBUG]     ✗ Los Angeles Lakers @ Oklahoma City Thunder — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-07 16:58:15 ET] [INFO]   ESPN baseball_mlb: 4 games (fresh, 10 events found)
+[2026-05-07 16:58:15 ET] [INFO]   baseball_mlb: 4 games from espn
+[2026-05-07 16:58:15 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-07 16:58:22 ET] [DEBUG]   [Athletics @ Philadelphia Phillies] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-136→-137
+[2026-05-07 16:58:28 ET] [DEBUG]   [Baltimore Orioles @ Miami Marlins] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-126→-131
+[2026-05-07 16:58:28 ET] [DEBUG]     ✗ Baltimore Orioles @ Miami Marlins — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-07 16:58:34 ET] [DEBUG]   [Tampa Bay Rays @ Boston Red Sox] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-120→-121
+[2026-05-07 16:58:39 ET] [DEBUG]   [St. Louis Cardinals @ San Diego Padres] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-175→-168
+[2026-05-07 16:58:40 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-05-07 16:58:40 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-07 16:58:40 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-07 16:58:41 ET] [DEBUG]   [Carolina Hurricanes @ Philadelphia Flyers] sigs=[] conf=0 pub=n/a ml_move=130→140
+[2026-05-07 16:58:41 ET] [DEBUG]     ✗ Carolina Hurricanes @ Philadelphia Flyers — only 0/1 signals (need 1 more)
+[2026-05-07 16:58:41 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-07 16:58:41 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-05-07 16:58:41 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-07 16:58:41 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-07 16:58:42 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-07 16:58:42 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-07 16:58:42 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-07 16:58:42 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-07 16:58:42 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-07 16:58:42 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-07 16:58:42 ET] [INFO] Scan complete -- 7 games checked, 0 alerts (silence = discipline)
+[2026-05-07 16:58:42 ET] [INFO] ============================================================
