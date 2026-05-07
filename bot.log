@@ -26238,3 +26238,39 @@
 [2026-05-07 13:50:49 ET] [INFO] ============================================================
 [2026-05-07 14:05:39 ET] [INFO] Running injury scan
 [2026-05-07 14:05:41 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-07 15:26:54 ET] [INFO] ============================================================
+[2026-05-07 15:26:54 ET] [INFO] Starting full scan
+[2026-05-07 15:26:54 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-07 15:26:54 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-07 15:26:55 ET] [INFO]   ESPN basketball_nba: 2 games (fresh, 2 events found)
+[2026-05-07 15:26:55 ET] [INFO]   basketball_nba: 2 games from espn
+[2026-05-07 15:26:55 ET] [INFO] Action Network nba/odds: 2 games fetched
+[2026-05-07 15:26:57 ET] [DEBUG]   [Cleveland Cavaliers @ Detroit Pistons] sigs=['sharp_money'] conf=25 pub=69%/31% ml_move=-155→-162
+[2026-05-07 15:26:57 ET] [DEBUG]     ✗ Cleveland Cavaliers @ Detroit Pistons — conf 25 < 35 threshold
+[2026-05-07 15:26:57 ET] [DEBUG]   [Los Angeles Lakers @ Oklahoma City Thunder] sigs=['public_fade', 'sharp_money', 'model_edge'] conf=65 pub=23%/77% ml_move=-1050→-900
+[2026-05-07 15:26:57 ET] [DEBUG]     ✗ Los Angeles Lakers @ Oklahoma City Thunder — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-07 15:26:59 ET] [INFO]   ESPN baseball_mlb: 4 games (fresh, 10 events found)
+[2026-05-07 15:26:59 ET] [INFO]   baseball_mlb: 4 games from espn
+[2026-05-07 15:27:00 ET] [INFO] Action Network mlb/odds: 10 games fetched
+[2026-05-07 15:27:04 ET] [DEBUG]   [Athletics @ Philadelphia Phillies] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=74%/26% ml_move=-136→-131
+[2026-05-07 15:27:07 ET] [DEBUG]   [Baltimore Orioles @ Miami Marlins] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=66%/34% ml_move=-126→-131
+[2026-05-07 15:27:07 ET] [DEBUG]     ✗ Baltimore Orioles @ Miami Marlins — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-07 15:27:10 ET] [DEBUG]   [Tampa Bay Rays @ Boston Red Sox] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=53%/47% ml_move=-120→-115
+[2026-05-07 15:27:12 ET] [DEBUG]   [St. Louis Cardinals @ San Diego Padres] sigs=['public_fade', 'sharp_money', 'rest_disadvantage', 'model_edge'] conf=80 pub=79%/21% ml_move=-175→-168
+[2026-05-07 15:27:12 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-05-07 15:27:12 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-07 15:27:13 ET] [INFO] Action Network nhl/odds: 1 games fetched
+[2026-05-07 15:27:14 ET] [DEBUG]   [Carolina Hurricanes @ Philadelphia Flyers] sigs=['public_fade'] conf=20 pub=24%/76% ml_move=130→140
+[2026-05-07 15:27:14 ET] [DEBUG]     ✗ Carolina Hurricanes @ Philadelphia Flyers — conf 20 < 35 threshold
+[2026-05-07 15:27:14 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-07 15:27:14 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-05-07 15:27:14 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-07 15:27:14 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-07 15:27:14 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-07 15:27:14 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-07 15:27:14 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-07 15:27:14 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-07 15:27:14 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-07 15:27:14 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-07 15:27:14 ET] [INFO] Scan complete -- 7 games checked, 0 alerts (silence = discipline)
+[2026-05-07 15:27:14 ET] [INFO] ============================================================
