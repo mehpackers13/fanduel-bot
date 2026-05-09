@@ -28023,3 +28023,47 @@
 [2026-05-09 16:48:04 ET] [INFO] Injury scan complete — no new key injuries
 [2026-05-09 17:39:37 ET] [INFO] Running injury scan
 [2026-05-09 17:39:39 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-09 18:33:50 ET] [INFO] ============================================================
+[2026-05-09 18:33:50 ET] [INFO] Starting full scan
+[2026-05-09 18:33:50 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-09 18:33:51 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-09 18:33:52 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 2 events found)
+[2026-05-09 18:33:52 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-09 18:33:52 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-09 18:33:54 ET] [DEBUG]   [Oklahoma City Thunder @ Los Angeles Lakers] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=260→295
+[2026-05-09 18:33:58 ET] [INFO]   ESPN baseball_mlb: 2 games (fresh, 15 events found)
+[2026-05-09 18:33:58 ET] [INFO]   baseball_mlb: 2 games from espn
+[2026-05-09 18:33:58 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-09 18:34:06 ET] [DEBUG]   [Pittsburgh Pirates @ San Francisco Giants] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-108→-110
+[2026-05-09 18:34:13 ET] [DEBUG]   [Atlanta Braves @ Los Angeles Dodgers] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=n/a ml_move=-126→-186
+[2026-05-09 18:34:13 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 2 events found)
+[2026-05-09 18:34:13 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-09 18:34:13 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-09 18:34:15 ET] [DEBUG]   [Colorado Avalanche @ Minnesota Wild] sigs=[] conf=0 pub=n/a ml_move=105→110
+[2026-05-09 18:34:15 ET] [DEBUG]     ✗ Colorado Avalanche @ Minnesota Wild — only 0/1 signals (need 1 more)
+[2026-05-09 18:34:19 ET] [INFO]   ESPN soccer_usa_mls: 6 games (fresh, 12 events found)
+[2026-05-09 18:34:19 ET] [INFO]   soccer_usa_mls: 6 games from espn
+[2026-05-09 18:34:19 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-05-09 18:34:20 ET] [DEBUG]   [Real Salt Lake @ FC Dallas] sigs=[] conf=0 pub=n/a ml_move=110→120
+[2026-05-09 18:34:20 ET] [DEBUG]     ✗ Real Salt Lake @ FC Dallas — only 0/1 signals (need 1 more)
+[2026-05-09 18:34:21 ET] [DEBUG]   [D.C. United @ Nashville SC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-210→-155
+[2026-05-09 18:34:21 ET] [DEBUG]     ✗ D.C. United @ Nashville SC — conf 25 < 35 threshold
+[2026-05-09 18:34:22 ET] [DEBUG]   [St. Louis CITY SC @ Colorado Rapids] sigs=['sharp_money'] conf=25 pub=n/a ml_move=100→-105
+[2026-05-09 18:34:22 ET] [DEBUG]     ✗ St. Louis CITY SC @ Colorado Rapids — conf 25 < 35 threshold
+[2026-05-09 18:34:23 ET] [DEBUG]   [Sporting Kansas City @ Portland Timbers] sigs=[] conf=0 pub=n/a ml_move=-210→-205
+[2026-05-09 18:34:23 ET] [DEBUG]     ✗ Sporting Kansas City @ Portland Timbers — only 0/1 signals (need 1 more)
+[2026-05-09 18:34:24 ET] [DEBUG]   [Vancouver Whitecaps @ San Jose Earthquakes] sigs=[] conf=0 pub=n/a ml_move=205→225
+[2026-05-09 18:34:24 ET] [DEBUG]     ✗ Vancouver Whitecaps @ San Jose Earthquakes — only 0/1 signals (need 1 more)
+[2026-05-09 18:34:25 ET] [DEBUG]   [San Diego FC @ Seattle Sounders FC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-145→-175
+[2026-05-09 18:34:25 ET] [DEBUG]     ✗ San Diego FC @ Seattle Sounders FC — conf 25 < 35 threshold
+[2026-05-09 18:34:26 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 5 events found)
+[2026-05-09 18:34:27 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 4 events found)
+[2026-05-09 18:34:28 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 5 events found)
+[2026-05-09 18:34:29 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 3 events found)
+[2026-05-09 18:34:30 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-09 18:34:30 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 1 events found)
+[2026-05-09 18:34:30 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-09 18:34:30 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-09 18:34:30 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-09 18:34:30 ET] [INFO] Scan complete -- 10 games checked, 0 alerts (silence = discipline)
+[2026-05-09 18:34:30 ET] [INFO] ============================================================
