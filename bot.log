@@ -27951,3 +27951,71 @@
 [2026-05-09 14:56:24 ET] [INFO] Injury scan complete — no new key injuries
 [2026-05-09 15:57:05 ET] [INFO] Running injury scan
 [2026-05-09 15:57:07 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-09 16:35:37 ET] [INFO] ============================================================
+[2026-05-09 16:35:37 ET] [INFO] Starting full scan
+[2026-05-09 16:35:37 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-09 16:35:38 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-09 16:35:38 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 2 events found)
+[2026-05-09 16:35:38 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-09 16:35:38 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-09 16:35:40 ET] [DEBUG]   [Oklahoma City Thunder @ Los Angeles Lakers] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=260→295
+[2026-05-09 16:35:43 ET] [INFO]   ESPN baseball_mlb: 10 games (fresh, 15 events found)
+[2026-05-09 16:35:43 ET] [INFO]   baseball_mlb: 10 games from espn
+[2026-05-09 16:35:43 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-09 16:35:46 ET] [DEBUG]   [Colorado Rockies @ Philadelphia Phillies] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-194→-192
+[2026-05-09 16:35:48 ET] [DEBUG]   [Minnesota Twins @ Cleveland Guardians] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=n/a ml_move=-112→-122
+[2026-05-09 16:35:51 ET] [DEBUG]   [Chicago Cubs @ Texas Rangers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=113→113
+[2026-05-09 16:35:53 ET] [DEBUG]   [Detroit Tigers @ Kansas City Royals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-130
+[2026-05-09 16:35:53 ET] [DEBUG]     ✗ Detroit Tigers @ Kansas City Royals — conf 15 < 35 threshold
+[2026-05-09 16:35:56 ET] [DEBUG]   [New York Yankees @ Milwaukee Brewers] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=n/a ml_move=119→113
+[2026-05-09 16:35:58 ET] [DEBUG]   [Seattle Mariners @ Chicago White Sox] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=113→109
+[2026-05-09 16:35:58 ET] [DEBUG]     ✗ Seattle Mariners @ Chicago White Sox — conf 15 < 35 threshold
+[2026-05-09 16:36:02 ET] [DEBUG]   [New York Mets @ Arizona Diamondbacks] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=n/a ml_move=104→-108
+[2026-05-09 16:36:04 ET] [DEBUG]   [St. Louis Cardinals @ San Diego Padres] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-136→-143
+[2026-05-09 16:36:07 ET] [DEBUG]   [Pittsburgh Pirates @ San Francisco Giants] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-108→-110
+[2026-05-09 16:36:09 ET] [DEBUG]   [Atlanta Braves @ Los Angeles Dodgers] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=n/a ml_move=-126→-186
+[2026-05-09 16:36:09 ET] [INFO]   ESPN icehockey_nhl: 2 games (fresh, 2 events found)
+[2026-05-09 16:36:09 ET] [INFO]   icehockey_nhl: 2 games from espn
+[2026-05-09 16:36:09 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-09 16:36:10 ET] [DEBUG]   [Carolina Hurricanes @ Philadelphia Flyers] sigs=[] conf=0 pub=n/a ml_move=145→160
+[2026-05-09 16:36:10 ET] [DEBUG]     ✗ Carolina Hurricanes @ Philadelphia Flyers — only 0/1 signals (need 1 more)
+[2026-05-09 16:36:11 ET] [DEBUG]   [Colorado Avalanche @ Minnesota Wild] sigs=[] conf=0 pub=n/a ml_move=105→110
+[2026-05-09 16:36:11 ET] [DEBUG]     ✗ Colorado Avalanche @ Minnesota Wild — only 0/1 signals (need 1 more)
+[2026-05-09 16:36:13 ET] [INFO]   ESPN soccer_usa_mls: 9 games (fresh, 12 events found)
+[2026-05-09 16:36:13 ET] [INFO]   soccer_usa_mls: 9 games from espn
+[2026-05-09 16:36:14 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-05-09 16:36:14 ET] [DEBUG]   [LA Galaxy @ Atlanta United FC] sigs=[] conf=0 pub=n/a ml_move=140→130
+[2026-05-09 16:36:14 ET] [DEBUG]     ✗ LA Galaxy @ Atlanta United FC — only 0/1 signals (need 1 more)
+[2026-05-09 16:36:15 ET] [DEBUG]   [FC Cincinnati @ Charlotte FC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-105→110
+[2026-05-09 16:36:15 ET] [DEBUG]     ✗ FC Cincinnati @ Charlotte FC — conf 25 < 35 threshold
+[2026-05-09 16:36:15 ET] [DEBUG]   [Philadelphia Union @ New England Revolution] sigs=['sharp_money'] conf=25 pub=n/a ml_move=190→165
+[2026-05-09 16:36:15 ET] [DEBUG]     ✗ Philadelphia Union @ New England Revolution — conf 25 < 35 threshold
+[2026-05-09 16:36:16 ET] [DEBUG]   [Real Salt Lake @ FC Dallas] sigs=[] conf=0 pub=n/a ml_move=110→120
+[2026-05-09 16:36:16 ET] [DEBUG]     ✗ Real Salt Lake @ FC Dallas — only 0/1 signals (need 1 more)
+[2026-05-09 16:36:17 ET] [DEBUG]   [D.C. United @ Nashville SC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-210→-160
+[2026-05-09 16:36:17 ET] [DEBUG]     ✗ D.C. United @ Nashville SC — conf 25 < 35 threshold
+[2026-05-09 16:36:17 ET] [DEBUG]   [St. Louis CITY SC @ Colorado Rapids] sigs=['sharp_money'] conf=25 pub=n/a ml_move=100→-105
+[2026-05-09 16:36:17 ET] [DEBUG]     ✗ St. Louis CITY SC @ Colorado Rapids — conf 25 < 35 threshold
+[2026-05-09 16:36:18 ET] [DEBUG]   [Sporting Kansas City @ Portland Timbers] sigs=[] conf=0 pub=n/a ml_move=-210→-205
+[2026-05-09 16:36:18 ET] [DEBUG]     ✗ Sporting Kansas City @ Portland Timbers — only 0/1 signals (need 1 more)
+[2026-05-09 16:36:18 ET] [DEBUG]   [Vancouver Whitecaps @ San Jose Earthquakes] sigs=[] conf=0 pub=n/a ml_move=205→215
+[2026-05-09 16:36:18 ET] [DEBUG]     ✗ Vancouver Whitecaps @ San Jose Earthquakes — only 0/1 signals (need 1 more)
+[2026-05-09 16:36:19 ET] [DEBUG]   [San Diego FC @ Seattle Sounders FC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-145→-175
+[2026-05-09 16:36:19 ET] [DEBUG]     ✗ San Diego FC @ Seattle Sounders FC — conf 25 < 35 threshold
+[2026-05-09 16:36:20 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 5 events found)
+[2026-05-09 16:36:21 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 4 events found)
+[2026-05-09 16:36:21 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 5 events found)
+[2026-05-09 16:36:22 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 3 events found)
+[2026-05-09 16:36:22 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-09 16:36:22 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 1 events found)
+[2026-05-09 16:36:22 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-09 16:36:22 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-09 16:36:22 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-09 16:36:22 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-09 16:36:22 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-09 16:36:22 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-09 16:36:22 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-09 16:36:22 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-09 16:36:22 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-09 16:36:22 ET] [INFO] Scan complete -- 22 games checked, 0 alerts (silence = discipline)
+[2026-05-09 16:36:22 ET] [INFO] ============================================================
