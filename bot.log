@@ -28898,3 +28898,42 @@
 [2026-05-10 14:58:06 ET] [INFO] Injury scan complete — no new key injuries
 [2026-05-10 15:59:59 ET] [INFO] Running injury scan
 [2026-05-10 16:00:01 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-10 16:38:26 ET] [INFO] ============================================================
+[2026-05-10 16:38:26 ET] [INFO] Starting full scan
+[2026-05-10 16:38:26 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-10 16:38:27 ET] [INFO] Auto-resolved espn_401815285: Colorado Rockies @ Philadelphia Phillies → P (home 0.0, away 0.0)
+[2026-05-10 16:38:27 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-05-10 16:38:27 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-05-10 16:38:27 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-10 16:38:27 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 2 events found)
+[2026-05-10 16:38:27 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-10 16:38:28 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-10 16:38:29 ET] [DEBUG]   [San Antonio Spurs @ Minnesota Timberwolves] sigs=[] conf=0 pub=n/a ml_move=150→160
+[2026-05-10 16:38:29 ET] [DEBUG]     ✗ San Antonio Spurs @ Minnesota Timberwolves — only 0/1 signals (need 1 more)
+[2026-05-10 16:38:34 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 15 events found)
+[2026-05-10 16:38:34 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-05-10 16:38:34 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-10 16:38:41 ET] [DEBUG]   [Detroit Tigers @ Kansas City Royals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-131→-126
+[2026-05-10 16:38:41 ET] [DEBUG]     ✗ Detroit Tigers @ Kansas City Royals — conf 15 < 35 threshold
+[2026-05-10 16:38:42 ET] [INFO]   ESPN icehockey_nhl: 2 games (fresh, 2 events found)
+[2026-05-10 16:38:42 ET] [INFO]   icehockey_nhl: 2 games from espn
+[2026-05-10 16:38:42 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-10 16:38:43 ET] [DEBUG]   [Buffalo Sabres @ Montreal Canadiens] sigs=[] conf=0 pub=n/a ml_move=-125→-122
+[2026-05-10 16:38:43 ET] [DEBUG]     ✗ Buffalo Sabres @ Montreal Canadiens — only 0/1 signals (need 1 more)
+[2026-05-10 16:38:45 ET] [DEBUG]   [Vegas Golden Knights @ Anaheim Ducks] sigs=['sharp_money'] conf=25 pub=n/a ml_move=102→-108
+[2026-05-10 16:38:45 ET] [DEBUG]     ✗ Vegas Golden Knights @ Anaheim Ducks — conf 25 < 35 threshold
+[2026-05-10 16:38:46 ET] [INFO]   ESPN soccer_usa_mls: 2 games (fresh, 3 events found)
+[2026-05-10 16:38:46 ET] [INFO]   soccer_usa_mls: 2 games from espn
+[2026-05-10 16:38:46 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-05-10 16:38:49 ET] [DEBUG]   [Austin FC @ Minnesota United FC] sigs=[] conf=0 pub=n/a ml_move=-145→-165
+[2026-05-10 16:38:49 ET] [DEBUG]     ✗ Austin FC @ Minnesota United FC — only 0/1 signals (need 1 more)
+[2026-05-10 16:38:51 ET] [DEBUG]   [Houston Dynamo FC @ LAFC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-175→-150
+[2026-05-10 16:38:51 ET] [DEBUG]     ✗ Houston Dynamo FC @ LAFC — conf 25 < 35 threshold
+[2026-05-10 16:38:52 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 4 events found)
+[2026-05-10 16:38:54 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 4 events found)
+[2026-05-10 16:38:54 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 3 events found)
+[2026-05-10 16:38:56 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 5 events found)
+[2026-05-10 16:38:58 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 8 events found)
+[2026-05-10 16:38:58 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-10 16:38:58 ET] [INFO] Scan complete -- 6 games checked, 0 alerts (silence = discipline)
+[2026-05-10 16:38:58 ET] [INFO] ============================================================
