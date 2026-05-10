@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-05-10T02:04:55.237700Z",
-  "last_scan": "2026-05-09 22:04:55 ET",
-  "last_scan_ts": "2026-05-10T02:04:55.237700Z",
+  "generated_at": "2026-05-10T06:29:56.874310Z",
+  "last_scan": "2026-05-10 02:29:56 ET",
+  "last_scan_ts": "2026-05-10T06:29:56.874310Z",
   "stats": {
     "total_alerts": 102,
-    "completed_bets": 79,
-    "win_rate": 3.8,
+    "completed_bets": 82,
+    "win_rate": 3.7,
     "total_pl": 70.32,
     "by_sport": {
       "NBA": {
-        "bets": 3,
+        "bets": 5,
         "wins": 0,
         "pl": 0.0
       },
       "MLB": {
-        "bets": 76,
+        "bets": 77,
         "wins": 3,
         "pl": 70.32
       }
     },
     "by_signal": {
       "sharp_money": {
-        "bets": 34,
+        "bets": 37,
         "wins": 2
       },
       "rest_disadvantage": {
-        "bets": 79,
+        "bets": 80,
         "wins": 3
       },
       "model_edge": {
-        "bets": 76,
+        "bets": 79,
         "wins": 3
       },
       "public_fade": {
-        "bets": 23,
+        "bets": 25,
         "wins": 1
       },
       "weather_edge": {
@@ -110,8 +110,8 @@
       "reasoning": "Edge 11.7% on Los Angeles Lakers moneyline. 89% public on Oklahoma City Thunder -- fade value on Los Angeles Lakers. ML moved 35 pts on Los Angeles Lakers (+260\u2192+295) \u2014 steam toward Oklahoma City Thunder.",
       "game_id": "espn_401871328",
       "sport_key": "basketball_nba",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -132,52 +132,8 @@
       "reasoning": "Edge 11.7% on Los Angeles Lakers moneyline. 94% public on Oklahoma City Thunder -- fade value on Los Angeles Lakers. ML moved 35 pts on Los Angeles Lakers (+260\u2192+295) \u2014 steam toward Oklahoma City Thunder.",
       "game_id": "espn_401871328",
       "sport_key": "basketball_nba",
-      "outcome": "",
-      "profit_loss": "",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-05-08 22:05 ET",
-      "sport": "MLB",
-      "game": "Tampa Bay Rays @ Boston Red Sox",
-      "home_team": "Boston Red Sox",
-      "away_team": "Tampa Bay Rays",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "+123",
-      "edge_pct": "24.0",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "44.8",
-      "true_prob": "68.8",
-      "reasoning": "Edge 24.0% on Tampa Bay Rays moneyline. Boston Red Sox on back-to-back -- fatigue factor. Power rating: Boston Red Sox wp=43.6% / Tampa Bay Rays wp=65.8% \u2014 Tampa Bay Rays underpriced (model 68.8% vs mkt 44.8%).",
-      "game_id": "espn_401815273",
-      "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-05-08 22:05 ET",
-      "sport": "MLB",
-      "game": "Atlanta Braves @ Los Angeles Dodgers",
-      "home_team": "Los Angeles Dodgers",
-      "away_team": "Atlanta Braves",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "+139",
-      "edge_pct": "11.8",
-      "confidence": "60",
-      "signals": "sharp_money + rest_disadvantage + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "41.8",
-      "true_prob": "53.7",
-      "reasoning": "Edge 11.8% on Atlanta Braves moneyline. ML moved 42 pts on Los Angeles Dodgers (-126\u2192-168) \u2014 steam toward Los Angeles Dodgers. Los Angeles Dodgers on back-to-back -- fatigue factor.",
-      "game_id": "espn_401815279",
-      "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     }
   ],
@@ -270,8 +226,8 @@
       "reasoning": "Edge 11.7% on Los Angeles Lakers moneyline. 89% public on Oklahoma City Thunder -- fade value on Los Angeles Lakers. ML moved 35 pts on Los Angeles Lakers (+260\u2192+295) \u2014 steam toward Oklahoma City Thunder.",
       "game_id": "espn_401871328",
       "sport_key": "basketball_nba",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -292,8 +248,8 @@
       "reasoning": "Edge 11.7% on Los Angeles Lakers moneyline. 94% public on Oklahoma City Thunder -- fade value on Los Angeles Lakers. ML moved 35 pts on Los Angeles Lakers (+260\u2192+295) \u2014 steam toward Oklahoma City Thunder.",
       "game_id": "espn_401871328",
       "sport_key": "basketball_nba",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -336,8 +292,8 @@
       "reasoning": "Edge 11.8% on Atlanta Braves moneyline. ML moved 42 pts on Los Angeles Dodgers (-126\u2192-168) \u2014 steam toward Los Angeles Dodgers. Los Angeles Dodgers on back-to-back -- fatigue factor.",
       "game_id": "espn_401815279",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
