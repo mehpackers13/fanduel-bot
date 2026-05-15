@@ -31363,3 +31363,63 @@
 [2026-05-15 05:45:04 ET] [INFO] Injury scan complete — no new key injuries
 [2026-05-15 07:53:12 ET] [INFO] Running injury scan
 [2026-05-15 07:53:14 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-15 08:52:38 ET] [INFO] ============================================================
+[2026-05-15 08:52:38 ET] [INFO] Running morning briefing scan (7am)
+[2026-05-15 08:52:38 ET] [INFO] ============================================================
+[2026-05-15 08:52:38 ET] [INFO] Starting morning scan
+[2026-05-15 08:52:38 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-15 08:52:38 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-15 08:52:39 ET] [INFO]   ESPN basketball_nba: 2 games (fresh, 2 events found)
+[2026-05-15 08:52:39 ET] [INFO]   basketball_nba: 2 games from espn
+[2026-05-15 08:52:39 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-15 08:52:40 ET] [DEBUG]   [Detroit Pistons @ Cleveland Cavaliers] sigs=['model_edge'] conf=20 pub=n/a ml_move=-170→-175
+[2026-05-15 08:52:40 ET] [DEBUG]     ✗ Detroit Pistons @ Cleveland Cavaliers — conf 20 < 35 threshold
+[2026-05-15 08:52:41 ET] [DEBUG]   [San Antonio Spurs @ Minnesota Timberwolves] sigs=['sharp_money'] conf=25 pub=n/a ml_move=150→180
+[2026-05-15 08:52:41 ET] [DEBUG]     ✗ San Antonio Spurs @ Minnesota Timberwolves — conf 25 < 35 threshold
+[2026-05-15 08:52:44 ET] [INFO]   ESPN baseball_mlb: 15 games (fresh, 15 events found)
+[2026-05-15 08:52:44 ET] [INFO]   baseball_mlb: 15 games from espn
+[2026-05-15 08:52:44 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-15 08:52:49 ET] [DEBUG]   [Philadelphia Phillies @ Pittsburgh Pirates] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-136
+[2026-05-15 08:52:49 ET] [DEBUG]     ✗ Philadelphia Phillies @ Pittsburgh Pirates — conf 15 < 35 threshold
+[2026-05-15 08:52:52 ET] [DEBUG]   [Toronto Blue Jays @ Detroit Tigers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=113→109
+[2026-05-15 08:52:52 ET] [DEBUG]     ✗ Toronto Blue Jays @ Detroit Tigers — conf 15 < 35 threshold
+[2026-05-15 08:52:56 ET] [DEBUG]   [Baltimore Orioles @ Washington Nationals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=119→119
+[2026-05-15 08:52:56 ET] [DEBUG]     ✗ Baltimore Orioles @ Washington Nationals — conf 15 < 35 threshold
+[2026-05-15 08:52:59 ET] [DEBUG]   [Cincinnati Reds @ Cleveland Guardians] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-137
+[2026-05-15 08:52:59 ET] [DEBUG]     ✗ Cincinnati Reds @ Cleveland Guardians — conf 15 < 35 threshold
+[2026-05-15 08:53:02 ET] [DEBUG]   [Miami Marlins @ Tampa Bay Rays] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-118→-125
+[2026-05-15 08:53:02 ET] [DEBUG]     ✗ Miami Marlins @ Tampa Bay Rays — conf 15 < 35 threshold
+[2026-05-15 08:53:06 ET] [DEBUG]   [New York Yankees @ New York Mets] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=123→130
+[2026-05-15 08:53:06 ET] [DEBUG]     ✗ New York Yankees @ New York Mets — conf 15 < 35 threshold
+[2026-05-15 08:53:09 ET] [DEBUG]   [Milwaukee Brewers @ Minnesota Twins] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-110→-110
+[2026-05-15 08:53:12 ET] [DEBUG]   [Boston Red Sox @ Atlanta Braves] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-156→-157
+[2026-05-15 08:53:16 ET] [DEBUG]   [Chicago Cubs @ Chicago White Sox] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=123→124
+[2026-05-15 08:53:16 ET] [DEBUG]     ✗ Chicago Cubs @ Chicago White Sox — conf 15 < 35 threshold
+[2026-05-15 08:53:19 ET] [DEBUG]   [Texas Rangers @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-110→-110
+[2026-05-15 08:53:19 ET] [DEBUG]     ✗ Texas Rangers @ Houston Astros — conf 15 < 35 threshold
+[2026-05-15 08:53:23 ET] [DEBUG]   [Kansas City Royals @ St. Louis Cardinals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-112→-114
+[2026-05-15 08:53:26 ET] [DEBUG]   [Arizona Diamondbacks @ Colorado Rockies] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=109→104
+[2026-05-15 08:53:26 ET] [DEBUG]     ✗ Arizona Diamondbacks @ Colorado Rockies — conf 15 < 35 threshold
+[2026-05-15 08:53:30 ET] [DEBUG]   [Los Angeles Dodgers @ Los Angeles Angels] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=184→198
+[2026-05-15 08:53:30 ET] [DEBUG]     ✗ Los Angeles Dodgers @ Los Angeles Angels — conf 15 < 35 threshold
+[2026-05-15 08:53:33 ET] [DEBUG]   [San Diego Padres @ Seattle Mariners] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-143→-136
+[2026-05-15 08:53:36 ET] [DEBUG]   [San Francisco Giants @ Athletics] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-143→-143
+[2026-05-15 08:53:36 ET] [DEBUG]     ✗ San Francisco Giants @ Athletics — conf 15 < 35 threshold
+[2026-05-15 08:53:36 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-05-15 08:53:37 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-15 08:53:37 ET] [INFO]   ESPN soccer_epl: 1 games (fresh, 1 events found)
+[2026-05-15 08:53:37 ET] [INFO]   soccer_epl: 1 games from espn
+[2026-05-15 08:53:38 ET] [DEBUG]   [Liverpool @ Aston Villa] sigs=['sharp_money'] conf=25 pub=n/a ml_move=230→195
+[2026-05-15 08:53:38 ET] [DEBUG]     ✗ Liverpool @ Aston Villa — conf 25 < 35 threshold
+[2026-05-15 08:53:38 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-15 08:53:38 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-15 08:53:38 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-15 08:53:38 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-15 08:53:38 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-15 08:53:38 ET] [INFO] Morning scan complete -- 18 games checked, 4 opportunities
+[2026-05-15 08:53:38 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-05-15 08:53:39 ET] [INFO] Morning briefing sent: 3 opportunities | combined units: 🟢 +11.7u
+[2026-05-15 08:53:39 ET] [INFO] Running record: 5.4% win rate | +2.8% ROI on 92 bets
+[2026-05-15 08:53:39 ET] [INFO] Unit totals — FanDuel: +11.74u | Kalshi: 0.0 | Options: 0
+[2026-05-15 08:53:39 ET] [INFO] Morning briefing complete
+[2026-05-15 08:53:39 ET] [INFO] ============================================================
