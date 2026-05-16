@@ -32632,3 +32632,43 @@
 [2026-05-16 17:10:34 ET] [INFO] Injury scan complete — no new key injuries
 [2026-05-16 18:09:38 ET] [INFO] Running injury scan
 [2026-05-16 18:09:42 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-16 18:36:49 ET] [INFO] ============================================================
+[2026-05-16 18:36:49 ET] [INFO] Starting full scan
+[2026-05-16 18:36:49 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-16 18:36:50 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-16 18:36:51 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-05-16 18:36:54 ET] [INFO]   ESPN baseball_mlb: 2 games (fresh, 15 events found)
+[2026-05-16 18:36:54 ET] [INFO]   baseball_mlb: 2 games from espn
+[2026-05-16 18:36:54 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-16 18:36:59 ET] [DEBUG]   [Los Angeles Dodgers @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=113→113
+[2026-05-16 18:37:02 ET] [DEBUG]   [San Francisco Giants @ Athletics] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=n/a ml_move=-131→-136
+[2026-05-16 18:37:03 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-05-16 18:37:03 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-16 18:37:03 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-16 18:37:04 ET] [DEBUG]   [Buffalo Sabres @ Montreal Canadiens] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-148→-180
+[2026-05-16 18:37:04 ET] [DEBUG]     ✗ Buffalo Sabres @ Montreal Canadiens — conf 25 < 35 threshold
+[2026-05-16 18:37:07 ET] [INFO]   ESPN soccer_usa_mls: 6 games (fresh, 13 events found)
+[2026-05-16 18:37:07 ET] [INFO]   soccer_usa_mls: 6 games from espn
+[2026-05-16 18:37:07 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-05-16 18:37:09 ET] [DEBUG]   [Sporting Kansas City @ Austin FC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-230→-175
+[2026-05-16 18:37:09 ET] [DEBUG]     ✗ Sporting Kansas City @ Austin FC — conf 25 < 35 threshold
+[2026-05-16 18:37:10 ET] [DEBUG]   [Vancouver Whitecaps @ Houston Dynamo FC] sigs=[] conf=0 pub=n/a ml_move=250→265
+[2026-05-16 18:37:10 ET] [DEBUG]     ✗ Vancouver Whitecaps @ Houston Dynamo FC — only 0/1 signals (need 1 more)
+[2026-05-16 18:37:12 ET] [DEBUG]   [LA Galaxy @ Seattle Sounders FC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-155→-180
+[2026-05-16 18:37:12 ET] [DEBUG]     ✗ LA Galaxy @ Seattle Sounders FC — conf 25 < 35 threshold
+[2026-05-16 18:37:13 ET] [DEBUG]   [Colorado Rapids @ Real Salt Lake] sigs=[] conf=0 pub=n/a ml_move=-160→-165
+[2026-05-16 18:37:13 ET] [DEBUG]     ✗ Colorado Rapids @ Real Salt Lake — only 0/1 signals (need 1 more)
+[2026-05-16 18:37:15 ET] [DEBUG]   [FC Cincinnati @ San Diego FC] sigs=[] conf=0 pub=n/a ml_move=-110→-110
+[2026-05-16 18:37:15 ET] [DEBUG]     ✗ FC Cincinnati @ San Diego FC — only 0/1 signals (need 1 more)
+[2026-05-16 18:37:16 ET] [DEBUG]   [FC Dallas @ San Jose Earthquakes] sigs=[] conf=0 pub=n/a ml_move=-125→-115
+[2026-05-16 18:37:16 ET] [DEBUG]     ✗ FC Dallas @ San Jose Earthquakes — only 0/1 signals (need 1 more)
+[2026-05-16 18:37:16 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-05-16 18:37:16 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-16 18:37:18 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 9 events found)
+[2026-05-16 18:37:18 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-16 18:37:18 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-16 18:37:19 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 1 events found)
+[2026-05-16 18:37:19 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-16 18:37:19 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-16 18:37:19 ET] [INFO] Scan complete -- 9 games checked, 0 alerts (silence = discipline)
+[2026-05-16 18:37:19 ET] [INFO] ============================================================
