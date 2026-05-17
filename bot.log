@@ -33531,3 +33531,36 @@
 [2026-05-17 15:07:21 ET] [INFO] Injury scan complete — no new key injuries
 [2026-05-17 16:12:00 ET] [INFO] Running injury scan
 [2026-05-17 16:12:02 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-17 16:39:43 ET] [INFO] ============================================================
+[2026-05-17 16:39:43 ET] [INFO] Starting full scan
+[2026-05-17 16:39:43 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-17 16:39:43 ET] [INFO] Auto-resolved espn_401815378: Miami Marlins @ Tampa Bay Rays → P (home 0.0, away 0.0)
+[2026-05-17 16:39:44 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-05-17 16:39:44 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-05-17 16:39:44 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-17 16:39:44 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 1 events found)
+[2026-05-17 16:39:44 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-17 16:39:44 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-17 16:39:46 ET] [DEBUG]   [Cleveland Cavaliers @ Detroit Pistons] sigs=[] conf=0 pub=n/a ml_move=-185→-180
+[2026-05-17 16:39:46 ET] [DEBUG]     ✗ Cleveland Cavaliers @ Detroit Pistons — only 0/1 signals (need 1 more)
+[2026-05-17 16:39:50 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 15 events found)
+[2026-05-17 16:39:50 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-05-17 16:39:50 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-17 16:39:59 ET] [DEBUG]   [San Diego Padres @ Seattle Mariners] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-163→-163
+[2026-05-17 16:39:59 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-05-17 16:40:00 ET] [INFO]   ESPN soccer_usa_mls: 2 games (fresh, 2 events found)
+[2026-05-17 16:40:00 ET] [INFO]   soccer_usa_mls: 2 games from espn
+[2026-05-17 16:40:00 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-05-17 16:40:03 ET] [DEBUG]   [Portland Timbers @ Inter Miami CF] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-300→-370
+[2026-05-17 16:40:03 ET] [DEBUG]     ✗ Portland Timbers @ Inter Miami CF — conf 25 < 35 threshold
+[2026-05-17 16:40:06 ET] [DEBUG]   [LAFC @ Nashville SC] sigs=[] conf=0 pub=n/a ml_move=100→115
+[2026-05-17 16:40:06 ET] [DEBUG]     ✗ LAFC @ Nashville SC — only 0/1 signals (need 1 more)
+[2026-05-17 16:40:07 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 6 events found)
+[2026-05-17 16:40:10 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 10 events found)
+[2026-05-17 16:40:10 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-17 16:40:13 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 10 events found)
+[2026-05-17 16:40:16 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 9 events found)
+[2026-05-17 16:40:16 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-17 16:40:16 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-17 16:40:16 ET] [INFO] Scan complete -- 4 games checked, 0 alerts (silence = discipline)
+[2026-05-17 16:40:16 ET] [INFO] ============================================================
