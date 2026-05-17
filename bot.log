@@ -33416,3 +33416,76 @@
 [2026-05-17 10:51:35 ET] [INFO] ============================================================
 [2026-05-17 11:36:06 ET] [INFO] Running injury scan
 [2026-05-17 11:36:09 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-17 12:47:16 ET] [INFO] ============================================================
+[2026-05-17 12:47:16 ET] [INFO] Starting full scan
+[2026-05-17 12:47:16 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-17 12:47:17 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-17 12:47:18 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 1 events found)
+[2026-05-17 12:47:18 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-17 12:47:18 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-17 12:47:19 ET] [DEBUG]   [Cleveland Cavaliers @ Detroit Pistons] sigs=[] conf=0 pub=n/a ml_move=-185→-185
+[2026-05-17 12:47:19 ET] [DEBUG]     ✗ Cleveland Cavaliers @ Detroit Pistons — only 0/1 signals (need 1 more)
+[2026-05-17 12:47:22 ET] [INFO]   ESPN baseball_mlb: 8 games (fresh, 15 events found)
+[2026-05-17 12:47:22 ET] [INFO]   baseball_mlb: 8 games from espn
+[2026-05-17 12:47:22 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-17 12:47:27 ET] [DEBUG]   [Chicago Cubs @ Chicago White Sox] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=119→109
+[2026-05-17 12:47:29 ET] [DEBUG]   [Milwaukee Brewers @ Minnesota Twins] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=100→107
+[2026-05-17 12:47:32 ET] [DEBUG]   [Texas Rangers @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=100→104
+[2026-05-17 12:47:32 ET] [DEBUG]     ✗ Texas Rangers @ Houston Astros — conf 15 < 35 threshold
+[2026-05-17 12:47:34 ET] [DEBUG]   [Kansas City Royals @ St. Louis Cardinals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-115→-122
+[2026-05-17 12:47:36 ET] [DEBUG]   [Arizona Diamondbacks @ Colorado Rockies] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=129→113
+[2026-05-17 12:47:36 ET] [DEBUG]     ✗ Arizona Diamondbacks @ Colorado Rockies — conf 15 < 35 threshold
+[2026-05-17 12:47:39 ET] [DEBUG]   [San Francisco Giants @ Athletics] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-149→-149
+[2026-05-17 12:47:39 ET] [DEBUG]     ✗ San Francisco Giants @ Athletics — conf 15 < 35 threshold
+[2026-05-17 12:47:41 ET] [DEBUG]   [Los Angeles Dodgers @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=123→118
+[2026-05-17 12:47:44 ET] [DEBUG]   [San Diego Padres @ Seattle Mariners] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-163→-168
+[2026-05-17 12:47:44 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-05-17 12:47:44 ET] [INFO]   ESPN soccer_usa_mls: 2 games (fresh, 2 events found)
+[2026-05-17 12:47:44 ET] [INFO]   soccer_usa_mls: 2 games from espn
+[2026-05-17 12:47:44 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-05-17 12:47:46 ET] [DEBUG]   [Portland Timbers @ Inter Miami CF] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-300→-390
+[2026-05-17 12:47:46 ET] [DEBUG]     ✗ Portland Timbers @ Inter Miami CF — conf 25 < 35 threshold
+[2026-05-17 12:47:47 ET] [DEBUG]   [LAFC @ Nashville SC] sigs=[] conf=0 pub=n/a ml_move=100→120
+[2026-05-17 12:47:47 ET] [DEBUG]     ✗ LAFC @ Nashville SC — only 0/1 signals (need 1 more)
+[2026-05-17 12:47:48 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 6 events found)
+[2026-05-17 12:47:50 ET] [INFO]   ESPN soccer_esp_la_liga: 1 games (fresh, 10 events found)
+[2026-05-17 12:47:50 ET] [INFO]   soccer_esp_la_liga: 1 games from espn
+[2026-05-17 12:47:50 ET] [DEBUG]   [Real Betis @ Barcelona] sigs=[] conf=0 pub=n/a ml_move=-320→-310
+[2026-05-17 12:47:50 ET] [DEBUG]     ✗ Real Betis @ Barcelona — only 0/1 signals (need 1 more)
+[2026-05-17 12:47:50 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-17 12:47:52 ET] [INFO]   ESPN soccer_ita_serie_a: 3 games (fresh, 10 events found)
+[2026-05-17 12:47:52 ET] [INFO]   soccer_ita_serie_a: 3 games from espn
+[2026-05-17 12:47:53 ET] [DEBUG]   [Torino @ Cagliari] sigs=[] conf=0 pub=n/a ml_move=130→130
+[2026-05-17 12:47:53 ET] [DEBUG]     ✗ Torino @ Cagliari — only 0/1 signals (need 1 more)
+[2026-05-17 12:47:53 ET] [DEBUG]   [Lecce @ Sassuolo] sigs=['sharp_money'] conf=25 pub=n/a ml_move=120→160
+[2026-05-17 12:47:53 ET] [DEBUG]     ✗ Lecce @ Sassuolo — conf 25 < 35 threshold
+[2026-05-17 12:47:54 ET] [DEBUG]   [Cremonese @ Udinese] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-110→140
+[2026-05-17 12:47:54 ET] [DEBUG]     ✗ Cremonese @ Udinese — conf 25 < 35 threshold
+[2026-05-17 12:47:56 ET] [INFO]   ESPN soccer_fra_ligue_one: 9 games (fresh, 9 events found)
+[2026-05-17 12:47:56 ET] [INFO]   soccer_fra_ligue_one: 9 games from espn
+[2026-05-17 12:47:57 ET] [DEBUG]   [Angers @ Brest] sigs=[] conf=0 pub=n/a ml_move=-125→-120
+[2026-05-17 12:47:57 ET] [DEBUG]     ✗ Angers @ Brest — only 0/1 signals (need 1 more)
+[2026-05-17 12:47:57 ET] [DEBUG]   [AJ Auxerre @ Lille] sigs=[] conf=0 pub=n/a ml_move=-235→-245
+[2026-05-17 12:47:57 ET] [DEBUG]     ✗ AJ Auxerre @ Lille — only 0/1 signals (need 1 more)
+[2026-05-17 12:47:58 ET] [DEBUG]   [Le Havre AC @ Lorient] sigs=[] conf=0 pub=n/a ml_move=150→165
+[2026-05-17 12:47:58 ET] [DEBUG]     ✗ Le Havre AC @ Lorient — only 0/1 signals (need 1 more)
+[2026-05-17 12:47:58 ET] [DEBUG]   [Lens @ Lyon] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-115→-140
+[2026-05-17 12:47:58 ET] [DEBUG]     ✗ Lens @ Lyon — conf 25 < 35 threshold
+[2026-05-17 12:47:59 ET] [DEBUG]   [Stade Rennais @ Marseille] sigs=[] conf=0 pub=n/a ml_move=105→105
+[2026-05-17 12:47:59 ET] [DEBUG]     ✗ Stade Rennais @ Marseille — only 0/1 signals (need 1 more)
+[2026-05-17 12:48:00 ET] [DEBUG]   [Toulouse @ Nantes] sigs=[] conf=0 pub=n/a ml_move=150→160
+[2026-05-17 12:48:00 ET] [DEBUG]     ✗ Toulouse @ Nantes — only 0/1 signals (need 1 more)
+[2026-05-17 12:48:00 ET] [DEBUG]   [Metz @ Nice] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-280→-310
+[2026-05-17 12:48:00 ET] [DEBUG]     ✗ Metz @ Nice — conf 25 < 35 threshold
+[2026-05-17 12:48:01 ET] [DEBUG]   [Paris Saint-Germain @ Paris FC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=500→400
+[2026-05-17 12:48:01 ET] [DEBUG]     ✗ Paris Saint-Germain @ Paris FC — conf 25 < 35 threshold
+[2026-05-17 12:48:01 ET] [DEBUG]   [AS Monaco @ Strasbourg] sigs=['sharp_money'] conf=25 pub=n/a ml_move=180→215
+[2026-05-17 12:48:01 ET] [DEBUG]     ✗ AS Monaco @ Strasbourg — conf 25 < 35 threshold
+[2026-05-17 12:48:01 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-17 12:48:01 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-17 12:48:01 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-17 12:48:01 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-17 12:48:01 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-17 12:48:01 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-17 12:48:01 ET] [INFO] Scan complete -- 24 games checked, 0 alerts (silence = discipline)
+[2026-05-17 12:48:01 ET] [INFO] ============================================================
