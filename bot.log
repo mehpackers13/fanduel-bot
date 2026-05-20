@@ -34655,3 +34655,59 @@
 [2026-05-19 22:32:07 ET] [INFO] ============================================================
 [2026-05-20 00:44:36 ET] [INFO] Running injury scan
 [2026-05-20 00:44:40 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-20 03:35:41 ET] [INFO] ============================================================
+[2026-05-20 03:35:41 ET] [INFO] Starting full scan
+[2026-05-20 03:35:41 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-20 03:35:42 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-20 03:35:42 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 1 events found)
+[2026-05-20 03:35:42 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-20 03:35:43 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-20 03:35:44 ET] [DEBUG]   [San Antonio Spurs @ Oklahoma City Thunder] sigs=[] conf=0 pub=n/a ml_move=-258→-238
+[2026-05-20 03:35:44 ET] [DEBUG]     ✗ San Antonio Spurs @ Oklahoma City Thunder — only 0/1 signals (need 1 more)
+[2026-05-20 03:35:47 ET] [INFO]   ESPN baseball_mlb: 15 games (fresh, 15 events found)
+[2026-05-20 03:35:47 ET] [INFO]   baseball_mlb: 15 games from espn
+[2026-05-20 03:35:47 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-20 03:35:51 ET] [DEBUG]   [Cincinnati Reds @ Philadelphia Phillies] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-143→-144
+[2026-05-20 03:35:51 ET] [DEBUG]     ✗ Cincinnati Reds @ Philadelphia Phillies — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-20 03:35:53 ET] [DEBUG]   [Baltimore Orioles @ Tampa Bay Rays] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=n/a ml_move=-118→-131
+[2026-05-20 03:35:56 ET] [DEBUG]   [Houston Astros @ Minnesota Twins] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-163→-155
+[2026-05-20 03:35:56 ET] [DEBUG]     ✗ Houston Astros @ Minnesota Twins — conf 15 < 35 threshold
+[2026-05-20 03:35:59 ET] [DEBUG]   [Texas Rangers @ Colorado Rockies] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=109→113
+[2026-05-20 03:35:59 ET] [DEBUG]     ✗ Texas Rangers @ Colorado Rockies — conf 15 < 35 threshold
+[2026-05-20 03:36:02 ET] [DEBUG]   [San Francisco Giants @ Arizona Diamondbacks] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-131→-136
+[2026-05-20 03:36:04 ET] [DEBUG]   [Chicago White Sox @ Seattle Mariners] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-156→-149
+[2026-05-20 03:36:08 ET] [DEBUG]   [Atlanta Braves @ Miami Marlins] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=163→168
+[2026-05-20 03:36:08 ET] [DEBUG]     ✗ Atlanta Braves @ Miami Marlins — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-20 03:36:10 ET] [DEBUG]   [Cleveland Guardians @ Detroit Tigers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=109→109
+[2026-05-20 03:36:13 ET] [DEBUG]   [New York Mets @ Washington Nationals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=104→104
+[2026-05-20 03:36:15 ET] [DEBUG]   [Toronto Blue Jays @ New York Yankees] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-163→-175
+[2026-05-20 03:36:18 ET] [DEBUG]   [Boston Red Sox @ Kansas City Royals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-120→-120
+[2026-05-20 03:36:18 ET] [DEBUG]     ✗ Boston Red Sox @ Kansas City Royals — conf 15 < 35 threshold
+[2026-05-20 03:36:20 ET] [DEBUG]   [Milwaukee Brewers @ Chicago Cubs] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-115→-117
+[2026-05-20 03:36:20 ET] [DEBUG]     ✗ Milwaukee Brewers @ Chicago Cubs — conf 15 < 35 threshold
+[2026-05-20 03:36:23 ET] [DEBUG]   [Pittsburgh Pirates @ St. Louis Cardinals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-126→-120
+[2026-05-20 03:36:26 ET] [DEBUG]   [Los Angeles Dodgers @ San Diego Padres] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=139→144
+[2026-05-20 03:36:30 ET] [DEBUG]   [Athletics @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=102→104
+[2026-05-20 03:36:30 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-05-20 03:36:30 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-20 03:36:30 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-20 03:36:31 ET] [DEBUG]   [Vegas Golden Knights @ Colorado Avalanche] sigs=[] conf=0 pub=n/a ml_move=-192→-192
+[2026-05-20 03:36:31 ET] [DEBUG]     ✗ Vegas Golden Knights @ Colorado Avalanche — only 0/1 signals (need 1 more)
+[2026-05-20 03:36:31 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-20 03:36:31 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-05-20 03:36:31 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-20 03:36:31 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-20 03:36:31 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-20 03:36:31 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-20 03:36:31 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-20 03:36:31 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-20 03:36:31 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-20 03:36:31 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-20 03:36:31 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-20 03:36:31 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-20 03:36:31 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-20 03:36:31 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-20 03:36:31 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-20 03:36:31 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-20 03:36:31 ET] [INFO] Scan complete -- 17 games checked, 0 alerts (silence = discipline)
+[2026-05-20 03:36:31 ET] [INFO] ============================================================
