@@ -34973,3 +34973,43 @@
 [2026-05-20 17:44:30 ET] [INFO] ============================================================
 [2026-05-20 18:09:32 ET] [INFO] Running injury scan
 [2026-05-20 18:09:34 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-20 19:04:57 ET] [INFO] ============================================================
+[2026-05-20 19:04:57 ET] [INFO] Starting full scan
+[2026-05-20 19:04:57 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-20 19:04:58 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-05-20 19:04:58 ET] [INFO]   ESPN basketball_nba: 1 games (cached)
+[2026-05-20 19:04:58 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-20 19:04:59 ET] [INFO] Action Network nba/odds: 1 games fetched
+[2026-05-20 19:05:01 ET] [DEBUG]   [San Antonio Spurs @ Oklahoma City Thunder] sigs=['sharp_money', 'model_edge'] conf=45 pub=36%/64% ml_move=-258→-230
+[2026-05-20 19:05:01 ET] [DEBUG]     ✗ San Antonio Spurs @ Oklahoma City Thunder — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-20 19:05:01 ET] [INFO]   ESPN baseball_mlb: 7 games (cached)
+[2026-05-20 19:05:01 ET] [INFO]   baseball_mlb: 7 games from espn
+[2026-05-20 19:05:01 ET] [INFO] Action Network mlb/odds: 15 games fetched
+[2026-05-20 19:05:15 ET] [DEBUG]   [New York Mets @ Washington Nationals] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=38%/62% ml_move=104→105
+[2026-05-20 19:05:26 ET] [DEBUG]   [Toronto Blue Jays @ New York Yankees] sigs=['public_fade', 'rest_disadvantage', 'weather_edge', 'model_edge'] conf=75 pub=81%/19% ml_move=-163→-175
+[2026-05-20 19:05:38 ET] [DEBUG]   [Boston Red Sox @ Kansas City Royals] sigs=['rest_disadvantage'] conf=15 pub=0%/0% ml_move=-120→-120
+[2026-05-20 19:05:38 ET] [DEBUG]     ✗ Boston Red Sox @ Kansas City Royals — conf 15 < 35 threshold
+[2026-05-20 19:05:49 ET] [DEBUG]   [Milwaukee Brewers @ Chicago Cubs] sigs=['rest_disadvantage'] conf=15 pub=55%/45% ml_move=-115→-125
+[2026-05-20 19:05:49 ET] [DEBUG]     ✗ Milwaukee Brewers @ Chicago Cubs — conf 15 < 35 threshold
+[2026-05-20 19:06:01 ET] [DEBUG]   [Pittsburgh Pirates @ St. Louis Cardinals] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=77%/23% ml_move=-126→-115
+[2026-05-20 19:06:12 ET] [DEBUG]   [Los Angeles Dodgers @ San Diego Padres] sigs=['public_fade', 'sharp_money', 'rest_disadvantage', 'model_edge'] conf=80 pub=18%/82% ml_move=139→158
+[2026-05-20 19:06:23 ET] [DEBUG]   [Athletics @ Los Angeles Angels] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=81%/19% ml_move=102→108
+[2026-05-20 19:06:23 ET] [INFO]   ESPN icehockey_nhl: 1 games (cached)
+[2026-05-20 19:06:23 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-20 19:06:24 ET] [INFO] Action Network nhl/odds: 1 games fetched
+[2026-05-20 19:06:25 ET] [DEBUG]   [Vegas Golden Knights @ Colorado Avalanche] sigs=['public_fade'] conf=20 pub=14%/86% ml_move=-192→-175
+[2026-05-20 19:06:25 ET] [DEBUG]     ✗ Vegas Golden Knights @ Colorado Avalanche — conf 20 < 35 threshold
+[2026-05-20 19:06:25 ET] [INFO]   ESPN soccer_usa_mls: 0 games (cached)
+[2026-05-20 19:06:25 ET] [INFO]   ESPN soccer_epl: 0 games (cached)
+[2026-05-20 19:06:25 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (cached)
+[2026-05-20 19:06:25 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-05-20 19:06:25 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (cached)
+[2026-05-20 19:06:25 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-05-20 19:06:25 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-05-20 19:06:25 ET] [INFO] Best bet alert sent: Los Angeles Dodgers @ San Diego Padres | moneyline San Diego Padres +158 | edge 13.6% | 4u
+[2026-05-20 19:06:25 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-20 19:06:25 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-20 19:06:25 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-20 19:06:25 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-20 19:06:25 ET] [INFO] Scan complete -- 9 games checked, 1 alert(s) sent (10u at risk today)
+[2026-05-20 19:06:25 ET] [INFO] ============================================================
