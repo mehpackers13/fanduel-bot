@@ -35015,3 +35015,44 @@
 [2026-05-20 19:06:25 ET] [INFO] ============================================================
 [2026-05-20 19:47:03 ET] [INFO] Running injury scan
 [2026-05-20 19:47:05 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-20 22:30:16 ET] [INFO] ============================================================
+[2026-05-20 22:30:16 ET] [INFO] Starting full scan
+[2026-05-20 22:30:16 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-20 22:30:17 ET] [INFO] Auto-resolved espn_401815419: Atlanta Braves @ Miami Marlins → W (home 0.0, away 0.0)
+[2026-05-20 22:30:17 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-05-20 22:30:17 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-05-20 22:30:17 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-20 22:30:18 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 1 events found)
+[2026-05-20 22:30:18 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-20 22:30:18 ET] [INFO] Action Network nba/odds: 1 games fetched
+[2026-05-20 22:30:19 ET] [DEBUG]   [Cleveland Cavaliers @ New York Knicks] sigs=[] conf=0 pub=n/a ml_move=-238→-218
+[2026-05-20 22:30:19 ET] [DEBUG]     ✗ Cleveland Cavaliers @ New York Knicks — only 0/1 signals (need 1 more)
+[2026-05-20 22:30:22 ET] [INFO]   ESPN baseball_mlb: 6 games (fresh, 7 events found)
+[2026-05-20 22:30:22 ET] [INFO]   baseball_mlb: 6 games from espn
+[2026-05-20 22:30:22 ET] [INFO] Action Network mlb/odds: 15 games fetched
+[2026-05-20 22:30:30 ET] [DEBUG]   [Cleveland Guardians @ Detroit Tigers] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=40%/60% ml_move=-118→-115
+[2026-05-20 22:30:30 ET] [DEBUG]     ✗ Cleveland Guardians @ Detroit Tigers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-20 22:30:38 ET] [DEBUG]   [Pittsburgh Pirates @ St. Louis Cardinals] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=77%/23% ml_move=104→104
+[2026-05-20 22:30:51 ET] [DEBUG]   [New York Mets @ Washington Nationals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=38%/62% ml_move=-108→-105
+[2026-05-20 22:30:59 ET] [DEBUG]   [Atlanta Braves @ Miami Marlins] sigs=['public_fade', 'rest_disadvantage', 'weather_edge', 'model_edge'] conf=75 pub=89%/11% ml_move=119→119
+[2026-05-20 22:31:07 ET] [DEBUG]   [Toronto Blue Jays @ New York Yankees] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=81%/19% ml_move=-156→-163
+[2026-05-20 22:31:15 ET] [DEBUG]   [Athletics @ Los Angeles Angels] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=81%/19% ml_move=-115→-112
+[2026-05-20 22:31:15 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-05-20 22:31:15 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-20 22:31:15 ET] [INFO] Action Network nhl/odds: 1 games fetched
+[2026-05-20 22:31:17 ET] [DEBUG]   [Montreal Canadiens @ Carolina Hurricanes] sigs=[] conf=0 pub=n/a ml_move=-198→-205
+[2026-05-20 22:31:17 ET] [DEBUG]     ✗ Montreal Canadiens @ Carolina Hurricanes — only 0/1 signals (need 1 more)
+[2026-05-20 22:31:17 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-20 22:31:17 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-05-20 22:31:17 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-20 22:31:17 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-20 22:31:17 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-20 22:31:17 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-20 22:31:17 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-20 22:31:18 ET] [INFO] Best bet alert sent: Atlanta Braves @ Miami Marlins | moneyline Atlanta Braves -143 | edge 11.7% | 4u
+[2026-05-20 22:31:18 ET] [INFO] Sprinkle alert sent: Pittsburgh Pirates @ St. Louis Cardinals | moneyline St. Louis Cardinals +104 | edge 13.6% | 1u
+[2026-05-20 22:31:18 ET] [INFO] Sprinkle alert sent: Athletics @ Los Angeles Angels | moneyline Athletics -107 | edge 10.6% | 1u
+[2026-05-20 22:31:18 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-20 22:31:18 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-20 22:31:18 ET] [INFO] Scan complete -- 8 games checked, 3 alert(s) sent (6u at risk today)
+[2026-05-20 22:31:18 ET] [INFO] ============================================================
