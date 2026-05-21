@@ -35308,3 +35308,40 @@
 [2026-05-21 15:44:57 ET] [INFO] ============================================================
 [2026-05-21 17:10:29 ET] [INFO] Running injury scan
 [2026-05-21 17:10:31 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-21 17:21:53 ET] [INFO] ============================================================
+[2026-05-21 17:21:53 ET] [INFO] Starting full scan
+[2026-05-21 17:21:53 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-21 17:21:54 ET] [INFO] Auto-resolved espn_401815438: Pittsburgh Pirates @ St. Louis Cardinals → P (home 0.0, away 0.0)
+[2026-05-21 17:21:55 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-05-21 17:21:55 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-05-21 17:21:55 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-21 17:21:56 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 1 events found)
+[2026-05-21 17:21:56 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-21 17:21:56 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-21 17:21:58 ET] [DEBUG]   [Cleveland Cavaliers @ New York Knicks] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-238→-205
+[2026-05-21 17:22:01 ET] [INFO]   ESPN baseball_mlb: 4 games (fresh, 7 events found)
+[2026-05-21 17:22:01 ET] [INFO]   baseball_mlb: 4 games from espn
+[2026-05-21 17:22:01 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-21 17:22:16 ET] [DEBUG]   [Atlanta Braves @ Miami Marlins] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=119→114
+[2026-05-21 17:22:29 ET] [DEBUG]   [Toronto Blue Jays @ New York Yankees] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-156→-149
+[2026-05-21 17:22:43 ET] [DEBUG]   [Athletics @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-115→-120
+[2026-05-21 17:22:56 ET] [DEBUG]   [Colorado Rockies @ Arizona Diamondbacks] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-194→-205
+[2026-05-21 17:22:56 ET] [DEBUG]     ✗ Colorado Rockies @ Arizona Diamondbacks — conf 15 < 35 threshold
+[2026-05-21 17:22:56 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-05-21 17:22:56 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-21 17:22:57 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-21 17:22:58 ET] [DEBUG]   [Montreal Canadiens @ Carolina Hurricanes] sigs=[] conf=0 pub=n/a ml_move=-198→-205
+[2026-05-21 17:22:58 ET] [DEBUG]     ✗ Montreal Canadiens @ Carolina Hurricanes — only 0/1 signals (need 1 more)
+[2026-05-21 17:22:59 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-21 17:22:59 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-05-21 17:22:59 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-21 17:22:59 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-21 17:22:59 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-21 17:22:59 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-21 17:23:00 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-21 17:23:00 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-21 17:23:00 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-21 17:23:00 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-21 17:23:00 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-21 17:23:00 ET] [INFO] Scan complete -- 6 games checked, 0 alerts (silence = discipline)
+[2026-05-21 17:23:00 ET] [INFO] ============================================================
