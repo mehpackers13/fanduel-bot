@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-22T02:34:08.020451Z",
-  "last_scan": "2026-05-21 22:34:07 ET",
-  "last_scan_ts": "2026-05-22T02:34:08.020451Z",
+  "generated_at": "2026-05-22T07:39:45.441162Z",
+  "last_scan": "2026-05-22 03:39:45 ET",
+  "last_scan_ts": "2026-05-22T07:39:45.441162Z",
   "stats": {
-    "total_alerts": 136,
-    "completed_bets": 116,
+    "total_alerts": 137,
+    "completed_bets": 117,
     "win_rate": 6.0,
     "total_pl": 163.97,
     "by_sport": {
@@ -14,7 +14,7 @@
         "pl": 0.0
       },
       "MLB": {
-        "bets": 111,
+        "bets": 112,
         "wins": 7,
         "pl": 163.97
       }
@@ -25,15 +25,15 @@
         "wins": 4
       },
       "rest_disadvantage": {
-        "bets": 114,
+        "bets": 115,
         "wins": 7
       },
       "model_edge": {
-        "bets": 111,
+        "bets": 112,
         "wins": 5
       },
       "public_fade": {
-        "bets": 40,
+        "bets": 41,
         "wins": 1
       },
       "weather_edge": {
@@ -48,6 +48,28 @@
   },
   "unit_total": 16.4,
   "today_bets": [
+    {
+      "timestamp": "2026-05-22 03:39 ET",
+      "sport": "MLB",
+      "game": "New York Mets @ Miami Marlins",
+      "home_team": "Miami Marlins",
+      "away_team": "New York Mets",
+      "bet_type": "moneyline",
+      "bet_side": "home",
+      "line": "+105",
+      "edge_pct": "3.4",
+      "confidence": "40",
+      "signals": "sharp_money + rest_disadvantage",
+      "suggested_bet": "16.0",
+      "implied_prob": "48.8",
+      "true_prob": "52.2",
+      "reasoning": "Edge 3.4% on Miami Marlins moneyline. Sharp money on Miami Marlins -- line moved opposite to 37% public. Miami Marlins on back-to-back -- fatigue factor.",
+      "game_id": "espn_401815444",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-05-21 22:34 ET",
       "sport": "MLB",
@@ -100,6 +122,28 @@
   },
   "recent_bets": [
     {
+      "timestamp": "2026-05-22 03:39 ET",
+      "sport": "MLB",
+      "game": "New York Mets @ Miami Marlins",
+      "home_team": "Miami Marlins",
+      "away_team": "New York Mets",
+      "bet_type": "moneyline",
+      "bet_side": "home",
+      "line": "+105",
+      "edge_pct": "3.4",
+      "confidence": "40",
+      "signals": "sharp_money + rest_disadvantage",
+      "suggested_bet": "16.0",
+      "implied_prob": "48.8",
+      "true_prob": "52.2",
+      "reasoning": "Edge 3.4% on Miami Marlins moneyline. Sharp money on Miami Marlins -- line moved opposite to 37% public. Miami Marlins on back-to-back -- fatigue factor.",
+      "game_id": "espn_401815444",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-05-21 22:34 ET",
       "sport": "MLB",
       "game": "Pittsburgh Pirates @ Toronto Blue Jays",
@@ -139,8 +183,8 @@
       "reasoning": "Edge 10.6% on Athletics moneyline. 81% public on Los Angeles Angels -- fade value on Athletics. Los Angeles Angels on back-to-back -- fatigue factor.",
       "game_id": "espn_401815439",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -1172,28 +1216,6 @@
       "true_prob": "57.0",
       "reasoning": "Edge 18.4% on Athletics moneyline. 79% public on Philadelphia Phillies -- fade value on Athletics. Sharp money on Athletics -- line moved opposite to 79% public.",
       "game_id": "espn_401815214",
-      "sport_key": "baseball_mlb",
-      "outcome": "P",
-      "profit_loss": "0.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-05-04 22:02 ET",
-      "sport": "MLB",
-      "game": "Toronto Blue Jays @ Tampa Bay Rays",
-      "home_team": "Tampa Bay Rays",
-      "away_team": "Toronto Blue Jays",
-      "bet_type": "moneyline",
-      "bet_side": "home",
-      "line": "-126",
-      "edge_pct": "15.6",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "55.8",
-      "true_prob": "71.4",
-      "reasoning": "Edge 15.6% on Tampa Bay Rays moneyline. Tampa Bay Rays on back-to-back -- fatigue factor. Power rating: Tampa Bay Rays wp=64.7% / Toronto Blue Jays wp=45.7% \u2014 Tampa Bay Rays underpriced (model 71.4% vs mkt 55.8%).",
-      "game_id": "espn_401815219",
       "sport_key": "baseball_mlb",
       "outcome": "P",
       "profit_loss": "0.0",
