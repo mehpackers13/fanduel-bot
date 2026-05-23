@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-22T22:51:10.366052Z",
-  "last_scan": "2026-05-22 18:51:10 ET",
-  "last_scan_ts": "2026-05-22T22:51:10.366052Z",
+  "generated_at": "2026-05-23T02:09:57.256352Z",
+  "last_scan": "2026-05-22 22:09:57 ET",
+  "last_scan_ts": "2026-05-23T02:09:57.256352Z",
   "stats": {
-    "total_alerts": 137,
-    "completed_bets": 117,
-    "win_rate": 6.0,
+    "total_alerts": 139,
+    "completed_bets": 119,
+    "win_rate": 5.9,
     "total_pl": 163.97,
     "by_sport": {
       "NBA": {
@@ -14,22 +14,22 @@
         "pl": 0.0
       },
       "MLB": {
-        "bets": 112,
+        "bets": 114,
         "wins": 7,
         "pl": 163.97
       }
     },
     "by_signal": {
       "sharp_money": {
-        "bets": 46,
+        "bets": 47,
         "wins": 4
       },
       "rest_disadvantage": {
-        "bets": 115,
+        "bets": 117,
         "wins": 7
       },
       "model_edge": {
-        "bets": 112,
+        "bets": 113,
         "wins": 5
       },
       "public_fade": {
@@ -49,6 +49,50 @@
   "unit_total": 16.4,
   "today_bets": [
     {
+      "timestamp": "2026-05-22 22:09 ET",
+      "sport": "MLB",
+      "game": "Tampa Bay Rays @ New York Yankees",
+      "home_team": "New York Yankees",
+      "away_team": "Tampa Bay Rays",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "-108",
+      "edge_pct": "7.6",
+      "confidence": "60",
+      "signals": "sharp_money + rest_disadvantage + model_edge",
+      "suggested_bet": "39.0",
+      "implied_prob": "51.9",
+      "true_prob": "59.5",
+      "reasoning": "Edge 7.6% on Tampa Bay Rays moneyline. Sharp money on Tampa Bay Rays -- line moved opposite to 51% public. New York Yankees on back-to-back -- fatigue factor.",
+      "game_id": "espn_401815462",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-05-22 22:09 ET",
+      "sport": "MLB",
+      "game": "Cleveland Guardians @ Philadelphia Phillies",
+      "home_team": "Philadelphia Phillies",
+      "away_team": "Cleveland Guardians",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "+163",
+      "edge_pct": "18.5",
+      "confidence": "60",
+      "signals": "sharp_money + rest_disadvantage + model_edge",
+      "suggested_bet": "50.0",
+      "implied_prob": "38.0",
+      "true_prob": "56.5",
+      "reasoning": "Edge 18.5% on Cleveland Guardians moneyline. Sharp money on Cleveland Guardians -- line moved opposite to 71% public. Philadelphia Phillies on back-to-back -- fatigue factor.",
+      "game_id": "espn_401815456",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-05-22 03:39 ET",
       "sport": "MLB",
       "game": "New York Mets @ Miami Marlins",
@@ -66,8 +110,8 @@
       "reasoning": "Edge 3.4% on Miami Marlins moneyline. Sharp money on Miami Marlins -- line moved opposite to 37% public. Miami Marlins on back-to-back -- fatigue factor.",
       "game_id": "espn_401815444",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -88,8 +132,8 @@
       "reasoning": "Edge 11.0% on Pittsburgh Pirates moneyline. Toronto Blue Jays on back-to-back -- fatigue factor. Power rating: Toronto Blue Jays wp=46.0% / Pittsburgh Pirates wp=52.0% \u2014 Pittsburgh Pirates underpriced (model 53.0% vs mkt 42.0%).",
       "game_id": "espn_401815445",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     }
   ],
@@ -122,6 +166,50 @@
   },
   "recent_bets": [
     {
+      "timestamp": "2026-05-22 22:09 ET",
+      "sport": "MLB",
+      "game": "Tampa Bay Rays @ New York Yankees",
+      "home_team": "New York Yankees",
+      "away_team": "Tampa Bay Rays",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "-108",
+      "edge_pct": "7.6",
+      "confidence": "60",
+      "signals": "sharp_money + rest_disadvantage + model_edge",
+      "suggested_bet": "39.0",
+      "implied_prob": "51.9",
+      "true_prob": "59.5",
+      "reasoning": "Edge 7.6% on Tampa Bay Rays moneyline. Sharp money on Tampa Bay Rays -- line moved opposite to 51% public. New York Yankees on back-to-back -- fatigue factor.",
+      "game_id": "espn_401815462",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-05-22 22:09 ET",
+      "sport": "MLB",
+      "game": "Cleveland Guardians @ Philadelphia Phillies",
+      "home_team": "Philadelphia Phillies",
+      "away_team": "Cleveland Guardians",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "+163",
+      "edge_pct": "18.5",
+      "confidence": "60",
+      "signals": "sharp_money + rest_disadvantage + model_edge",
+      "suggested_bet": "50.0",
+      "implied_prob": "38.0",
+      "true_prob": "56.5",
+      "reasoning": "Edge 18.5% on Cleveland Guardians moneyline. Sharp money on Cleveland Guardians -- line moved opposite to 71% public. Philadelphia Phillies on back-to-back -- fatigue factor.",
+      "game_id": "espn_401815456",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-05-22 03:39 ET",
       "sport": "MLB",
       "game": "New York Mets @ Miami Marlins",
@@ -139,8 +227,8 @@
       "reasoning": "Edge 3.4% on Miami Marlins moneyline. Sharp money on Miami Marlins -- line moved opposite to 37% public. Miami Marlins on back-to-back -- fatigue factor.",
       "game_id": "espn_401815444",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -161,8 +249,8 @@
       "reasoning": "Edge 11.0% on Pittsburgh Pirates moneyline. Toronto Blue Jays on back-to-back -- fatigue factor. Power rating: Toronto Blue Jays wp=46.0% / Pittsburgh Pirates wp=52.0% \u2014 Pittsburgh Pirates underpriced (model 53.0% vs mkt 42.0%).",
       "game_id": "espn_401815445",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -1175,50 +1263,6 @@
       "sport_key": "baseball_mlb",
       "outcome": "W",
       "profit_loss": "23.94",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-05-05 16:57 ET",
-      "sport": "MLB",
-      "game": "Athletics @ Philadelphia Phillies",
-      "home_team": "Philadelphia Phillies",
-      "away_team": "Athletics",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "+169",
-      "edge_pct": "19.9",
-      "confidence": "95",
-      "signals": "sharp_money + rest_disadvantage + travel_disadvantage + weather_edge + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "37.2",
-      "true_prob": "57.0",
-      "reasoning": "Edge 19.9% on Athletics moneyline. ML moved 30 pts on Philadelphia Phillies (-177\u2192-207) \u2014 steam toward Philadelphia Phillies. Philadelphia Phillies on back-to-back -- fatigue factor.",
-      "game_id": "espn_401815214",
-      "sport_key": "baseball_mlb",
-      "outcome": "P",
-      "profit_loss": "0.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-05-05 13:17 ET",
-      "sport": "MLB",
-      "game": "Athletics @ Philadelphia Phillies",
-      "home_team": "Philadelphia Phillies",
-      "away_team": "Athletics",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "+159",
-      "edge_pct": "18.4",
-      "confidence": "95",
-      "signals": "public_fade + sharp_money + rest_disadvantage + travel_disadvantage + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "38.6",
-      "true_prob": "57.0",
-      "reasoning": "Edge 18.4% on Athletics moneyline. 79% public on Philadelphia Phillies -- fade value on Athletics. Sharp money on Athletics -- line moved opposite to 79% public.",
-      "game_id": "espn_401815214",
-      "sport_key": "baseball_mlb",
-      "outcome": "P",
-      "profit_loss": "0.0",
       "notes": ""
     }
   ]
