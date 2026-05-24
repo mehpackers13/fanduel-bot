@@ -37590,3 +37590,43 @@
 [2026-05-24 15:05:12 ET] [INFO] ============================================================
 [2026-05-24 16:02:09 ET] [INFO] Running injury scan
 [2026-05-24 16:02:10 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-24 16:42:59 ET] [INFO] ============================================================
+[2026-05-24 16:42:59 ET] [INFO] Starting full scan
+[2026-05-24 16:42:59 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-24 16:43:00 ET] [INFO] Auto-resolved espn_401815477: Tampa Bay Rays @ New York Yankees → P (home 0.0, away 0.0)
+[2026-05-24 16:43:00 ET] [INFO] Auto-resolved espn_401815474: New York Mets @ Miami Marlins → W (home 0.0, away 0.0)
+[2026-05-24 16:43:00 ET] [INFO] Wrote 2 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-05-24 16:43:00 ET] [INFO] Auto-resolved 2 pending bet outcome(s) from ESPN scores
+[2026-05-24 16:43:00 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-24 16:43:00 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 1 events found)
+[2026-05-24 16:43:00 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-24 16:43:00 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-24 16:43:02 ET] [DEBUG]   [Oklahoma City Thunder @ San Antonio Spurs] sigs=['model_edge'] conf=20 pub=n/a ml_move=-135→-155
+[2026-05-24 16:43:02 ET] [DEBUG]     ✗ Oklahoma City Thunder @ San Antonio Spurs — conf 20 < 35 threshold
+[2026-05-24 16:43:04 ET] [INFO]   ESPN baseball_mlb: 2 games (fresh, 16 events found)
+[2026-05-24 16:43:04 ET] [INFO]   baseball_mlb: 2 games from espn
+[2026-05-24 16:43:04 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-24 16:43:08 ET] [DEBUG]   [Detroit Tigers @ Baltimore Orioles] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-121→-125
+[2026-05-24 16:43:08 ET] [DEBUG]     ✗ Detroit Tigers @ Baltimore Orioles — conf 15 < 35 threshold
+[2026-05-24 16:43:11 ET] [DEBUG]   [Texas Rangers @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-126→-118
+[2026-05-24 16:43:11 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-05-24 16:43:11 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-24 16:43:11 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-24 16:43:12 ET] [DEBUG]   [Colorado Avalanche @ Vegas Golden Knights] sigs=[] conf=0 pub=n/a ml_move=124→124
+[2026-05-24 16:43:12 ET] [DEBUG]     ✗ Colorado Avalanche @ Vegas Golden Knights — only 0/1 signals (need 1 more)
+[2026-05-24 16:43:13 ET] [INFO]   ESPN soccer_usa_mls: 2 games (fresh, 3 events found)
+[2026-05-24 16:43:13 ET] [INFO]   soccer_usa_mls: 2 games from espn
+[2026-05-24 16:43:13 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-05-24 16:43:14 ET] [DEBUG]   [Philadelphia Union @ Inter Miami CF] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-250→-290
+[2026-05-24 16:43:14 ET] [DEBUG]     ✗ Philadelphia Union @ Inter Miami CF — conf 25 < 35 threshold
+[2026-05-24 16:43:15 ET] [DEBUG]   [Seattle Sounders FC @ LAFC] sigs=[] conf=0 pub=n/a ml_move=-120→-110
+[2026-05-24 16:43:15 ET] [DEBUG]     ✗ Seattle Sounders FC @ LAFC — only 0/1 signals (need 1 more)
+[2026-05-24 16:43:17 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 10 events found)
+[2026-05-24 16:43:17 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 1 events found)
+[2026-05-24 16:43:17 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-24 16:43:18 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 7 events found)
+[2026-05-24 16:43:18 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-24 16:43:18 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-24 16:43:18 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-24 16:43:18 ET] [INFO] Scan complete -- 6 games checked, 0 alerts (silence = discipline)
+[2026-05-24 16:43:18 ET] [INFO] ============================================================
