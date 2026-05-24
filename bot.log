@@ -36971,3 +36971,104 @@
 [2026-05-23 22:29:44 ET] [INFO] ============================================================
 [2026-05-24 01:58:39 ET] [INFO] Running injury scan
 [2026-05-24 01:58:41 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-24 02:53:54 ET] [INFO] ============================================================
+[2026-05-24 02:53:54 ET] [INFO] Starting full scan
+[2026-05-24 02:53:54 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-24 02:53:55 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-24 02:53:56 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 1 events found)
+[2026-05-24 02:53:56 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-24 02:53:56 ET] [INFO] Action Network nba/odds: 1 games fetched
+[2026-05-24 02:53:57 ET] [DEBUG]   [Oklahoma City Thunder @ San Antonio Spurs] sigs=[] conf=0 pub=n/a ml_move=-135→-135
+[2026-05-24 02:53:57 ET] [DEBUG]     ✗ Oklahoma City Thunder @ San Antonio Spurs — only 0/1 signals (need 1 more)
+[2026-05-24 02:54:03 ET] [INFO]   ESPN baseball_mlb: 14 games (fresh, 16 events found)
+[2026-05-24 02:54:03 ET] [INFO]   baseball_mlb: 14 games from espn
+[2026-05-24 02:54:03 ET] [INFO] Action Network mlb/odds: 16 games fetched
+[2026-05-24 02:54:11 ET] [DEBUG]   [Pittsburgh Pirates @ Toronto Blue Jays] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=67%/33% ml_move=-156→-163
+[2026-05-24 02:54:18 ET] [DEBUG]   [Detroit Tigers @ Baltimore Orioles] sigs=['rest_disadvantage'] conf=15 pub=37%/63% ml_move=-136→-127
+[2026-05-24 02:54:18 ET] [DEBUG]     ✗ Detroit Tigers @ Baltimore Orioles — conf 15 < 35 threshold
+[2026-05-24 02:54:25 ET] [DEBUG]   [Cleveland Guardians @ Philadelphia Phillies] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=76%/24% ml_move=113→108
+[2026-05-24 02:54:25 ET] [DEBUG]     ✗ Cleveland Guardians @ Philadelphia Phillies — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-24 02:54:32 ET] [DEBUG]   [Minnesota Twins @ Boston Red Sox] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=63%/37% ml_move=-156→-157
+[2026-05-24 02:54:32 ET] [DEBUG]     ✗ Minnesota Twins @ Boston Red Sox — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-24 02:54:39 ET] [DEBUG]   [Tampa Bay Rays @ New York Yankees] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=65%/35% ml_move=-136→-136
+[2026-05-24 02:54:46 ET] [DEBUG]   [New York Mets @ Miami Marlins] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=62%/38% ml_move=-105→-102
+[2026-05-24 02:54:53 ET] [DEBUG]   [St. Louis Cardinals @ Cincinnati Reds] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=62%/38% ml_move=-112→-122
+[2026-05-24 02:54:59 ET] [DEBUG]   [Los Angeles Dodgers @ Milwaukee Brewers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=35%/65% ml_move=144→148
+[2026-05-24 02:55:06 ET] [DEBUG]   [Seattle Mariners @ Kansas City Royals] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=79%/21% ml_move=113→119
+[2026-05-24 02:55:06 ET] [DEBUG]     ✗ Seattle Mariners @ Kansas City Royals — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-24 02:55:13 ET] [DEBUG]   [Houston Astros @ Chicago Cubs] sigs=['rest_disadvantage'] conf=15 pub=64%/36% ml_move=-168→-180
+[2026-05-24 02:55:13 ET] [DEBUG]     ✗ Houston Astros @ Chicago Cubs — conf 15 < 35 threshold
+[2026-05-24 02:55:20 ET] [DEBUG]   [Chicago White Sox @ San Francisco Giants] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=37%/63% ml_move=-105→-110
+[2026-05-24 02:55:27 ET] [DEBUG]   [Washington Nationals @ Atlanta Braves] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=10%/0% ml_move=-175→-167
+[2026-05-24 02:55:34 ET] [DEBUG]   [Athletics @ San Diego Padres] sigs=['rest_disadvantage'] conf=15 pub=57%/43% ml_move=-168→-171
+[2026-05-24 02:55:34 ET] [DEBUG]     ✗ Athletics @ San Diego Padres — conf 15 < 35 threshold
+[2026-05-24 02:55:41 ET] [DEBUG]   [Colorado Rockies @ Arizona Diamondbacks] sigs=['public_fade', 'rest_disadvantage'] conf=35 pub=10%/90% ml_move=-175→-198
+[2026-05-24 02:55:41 ET] [DEBUG]     ✗ Colorado Rockies @ Arizona Diamondbacks — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-24 02:55:41 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-05-24 02:55:41 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-24 02:55:42 ET] [INFO] Action Network nhl/odds: 1 games fetched
+[2026-05-24 02:55:43 ET] [DEBUG]   [Colorado Avalanche @ Vegas Golden Knights] sigs=[] conf=0 pub=n/a ml_move=124→124
+[2026-05-24 02:55:43 ET] [DEBUG]     ✗ Colorado Avalanche @ Vegas Golden Knights — only 0/1 signals (need 1 more)
+[2026-05-24 02:55:44 ET] [INFO]   ESPN soccer_usa_mls: 3 games (fresh, 3 events found)
+[2026-05-24 02:55:44 ET] [INFO]   soccer_usa_mls: 3 games from espn
+[2026-05-24 02:55:44 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 404
+[2026-05-24 02:55:47 ET] [DEBUG]   [Atlanta United FC @ Columbus Crew] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-215→-190
+[2026-05-24 02:55:47 ET] [DEBUG]     ✗ Atlanta United FC @ Columbus Crew — conf 25 < 35 threshold
+[2026-05-24 02:55:50 ET] [DEBUG]   [Philadelphia Union @ Inter Miami CF] sigs=[] conf=0 pub=n/a ml_move=-250→-250
+[2026-05-24 02:55:50 ET] [DEBUG]     ✗ Philadelphia Union @ Inter Miami CF — only 0/1 signals (need 1 more)
+[2026-05-24 02:55:52 ET] [DEBUG]   [Seattle Sounders FC @ LAFC] sigs=[] conf=0 pub=n/a ml_move=-120→-115
+[2026-05-24 02:55:52 ET] [DEBUG]     ✗ Seattle Sounders FC @ LAFC — only 0/1 signals (need 1 more)
+[2026-05-24 02:55:56 ET] [INFO]   ESPN soccer_epl: 10 games (fresh, 10 events found)
+[2026-05-24 02:55:56 ET] [INFO]   soccer_epl: 10 games from espn
+[2026-05-24 02:55:57 ET] [DEBUG]   [Manchester United @ Brighton & Hove Albion] sigs=['sharp_money'] conf=25 pub=n/a ml_move=100→-125
+[2026-05-24 02:55:57 ET] [DEBUG]     ✗ Manchester United @ Brighton & Hove Albion — conf 25 < 35 threshold
+[2026-05-24 02:55:58 ET] [DEBUG]   [Wolverhampton Wanderers @ Burnley] sigs=[] conf=0 pub=n/a ml_move=150→145
+[2026-05-24 02:55:58 ET] [DEBUG]     ✗ Wolverhampton Wanderers @ Burnley — only 0/1 signals (need 1 more)
+[2026-05-24 02:55:59 ET] [DEBUG]   [Arsenal @ Crystal Palace] sigs=['sharp_money'] conf=25 pub=n/a ml_move=600→280
+[2026-05-24 02:55:59 ET] [DEBUG]     ✗ Arsenal @ Crystal Palace — conf 25 < 35 threshold
+[2026-05-24 02:55:59 ET] [DEBUG]   [Newcastle United @ Fulham] sigs=[] conf=0 pub=n/a ml_move=170→170
+[2026-05-24 02:55:59 ET] [DEBUG]     ✗ Newcastle United @ Fulham — only 0/1 signals (need 1 more)
+[2026-05-24 02:56:00 ET] [DEBUG]   [Brentford @ Liverpool] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-145→-120
+[2026-05-24 02:56:00 ET] [DEBUG]     ✗ Brentford @ Liverpool — conf 25 < 35 threshold
+[2026-05-24 02:56:01 ET] [DEBUG]   [Aston Villa @ Manchester City] sigs=[] conf=0 pub=n/a ml_move=-320→-310
+[2026-05-24 02:56:01 ET] [DEBUG]     ✗ Aston Villa @ Manchester City — only 0/1 signals (need 1 more)
+[2026-05-24 02:56:02 ET] [DEBUG]   [AFC Bournemouth @ Nottingham Forest] sigs=['sharp_money'] conf=25 pub=n/a ml_move=170→250
+[2026-05-24 02:56:02 ET] [DEBUG]     ✗ AFC Bournemouth @ Nottingham Forest — conf 25 < 35 threshold
+[2026-05-24 02:56:03 ET] [DEBUG]   [Chelsea @ Sunderland] sigs=['sharp_money'] conf=25 pub=n/a ml_move=280→240
+[2026-05-24 02:56:03 ET] [DEBUG]     ✗ Chelsea @ Sunderland — conf 25 < 35 threshold
+[2026-05-24 02:56:04 ET] [DEBUG]   [Everton @ Tottenham Hotspur] sigs=[] conf=0 pub=n/a ml_move=-115→-115
+[2026-05-24 02:56:04 ET] [DEBUG]     ✗ Everton @ Tottenham Hotspur — only 0/1 signals (need 1 more)
+[2026-05-24 02:56:04 ET] [DEBUG]   [Leeds United @ West Ham United] sigs=[] conf=0 pub=n/a ml_move=-120→-135
+[2026-05-24 02:56:04 ET] [DEBUG]     ✗ Leeds United @ West Ham United — only 0/1 signals (need 1 more)
+[2026-05-24 02:56:05 ET] [INFO]   ESPN soccer_esp_la_liga: 1 games (fresh, 1 events found)
+[2026-05-24 02:56:05 ET] [INFO]   soccer_esp_la_liga: 1 games from espn
+[2026-05-24 02:56:07 ET] [DEBUG]   [Atlético Madrid @ Villarreal] sigs=[] conf=0 pub=n/a ml_move=140→150
+[2026-05-24 02:56:07 ET] [DEBUG]     ✗ Atlético Madrid @ Villarreal — only 0/1 signals (need 1 more)
+[2026-05-24 02:56:07 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-24 02:56:10 ET] [INFO]   ESPN soccer_ita_serie_a: 7 games (fresh, 7 events found)
+[2026-05-24 02:56:10 ET] [INFO]   soccer_ita_serie_a: 7 games from espn
+[2026-05-24 02:56:12 ET] [DEBUG]   [Sassuolo @ Parma] sigs=[] conf=0 pub=n/a ml_move=170→165
+[2026-05-24 02:56:12 ET] [DEBUG]     ✗ Sassuolo @ Parma — only 0/1 signals (need 1 more)
+[2026-05-24 02:56:13 ET] [DEBUG]   [Udinese @ Napoli] sigs=[] conf=0 pub=n/a ml_move=-215→-200
+[2026-05-24 02:56:13 ET] [DEBUG]     ✗ Udinese @ Napoli — only 0/1 signals (need 1 more)
+[2026-05-24 02:56:14 ET] [DEBUG]   [Cagliari @ AC Milan] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-245→-360
+[2026-05-24 02:56:14 ET] [DEBUG]     ✗ Cagliari @ AC Milan — conf 25 < 35 threshold
+[2026-05-24 02:56:15 ET] [DEBUG]   [Como @ Cremonese] sigs=['sharp_money'] conf=25 pub=n/a ml_move=475→450
+[2026-05-24 02:56:15 ET] [DEBUG]     ✗ Como @ Cremonese — conf 25 < 35 threshold
+[2026-05-24 02:56:17 ET] [DEBUG]   [AS Roma @ Hellas Verona] sigs=['sharp_money'] conf=25 pub=n/a ml_move=600→750
+[2026-05-24 02:56:17 ET] [DEBUG]     ✗ AS Roma @ Hellas Verona — conf 25 < 35 threshold
+[2026-05-24 02:56:18 ET] [DEBUG]   [Genoa @ Lecce] sigs=[] conf=0 pub=n/a ml_move=-140→-130
+[2026-05-24 02:56:18 ET] [DEBUG]     ✗ Genoa @ Lecce — only 0/1 signals (need 1 more)
+[2026-05-24 02:56:19 ET] [DEBUG]   [Juventus @ Torino] sigs=[] conf=0 pub=n/a ml_move=500→500
+[2026-05-24 02:56:19 ET] [DEBUG]     ✗ Juventus @ Torino — only 0/1 signals (need 1 more)
+[2026-05-24 02:56:19 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-24 02:56:19 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-24 02:56:19 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-24 02:56:19 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-24 02:56:19 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-24 02:56:19 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-24 02:56:19 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-24 02:56:19 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-24 02:56:19 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-24 02:56:19 ET] [INFO] Scan complete -- 37 games checked, 0 alerts (silence = discipline)
+[2026-05-24 02:56:19 ET] [INFO] ============================================================
