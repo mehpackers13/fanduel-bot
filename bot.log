@@ -38069,3 +38069,33 @@
 [2026-05-25 16:57:46 ET] [INFO] ============================================================
 [2026-05-25 18:05:24 ET] [INFO] Running injury scan
 [2026-05-25 18:05:27 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-25 18:51:37 ET] [INFO] ============================================================
+[2026-05-25 18:51:37 ET] [INFO] Starting full scan
+[2026-05-25 18:51:37 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-25 18:51:39 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-25 18:51:40 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 1 events found)
+[2026-05-25 18:51:40 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-25 18:51:40 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-25 18:51:42 ET] [DEBUG]   [New York Knicks @ Cleveland Cavaliers] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-115→120
+[2026-05-25 18:51:47 ET] [INFO]   ESPN baseball_mlb: 2 games (fresh, 13 events found)
+[2026-05-25 18:51:47 ET] [INFO]   baseball_mlb: 2 games from espn
+[2026-05-25 18:51:47 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-25 18:51:59 ET] [DEBUG]   [Colorado Rockies @ Los Angeles Dodgers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-280→-330
+[2026-05-25 18:51:59 ET] [DEBUG]     ✗ Colorado Rockies @ Los Angeles Dodgers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-25 18:52:11 ET] [DEBUG]   [Seattle Mariners @ Athletics] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=n/a ml_move=102→-105
+[2026-05-25 18:52:11 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-05-25 18:52:11 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-25 18:52:11 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-25 18:52:13 ET] [DEBUG]   [Carolina Hurricanes @ Montreal Canadiens] sigs=[] conf=0 pub=n/a ml_move=110→130
+[2026-05-25 18:52:13 ET] [DEBUG]     ✗ Carolina Hurricanes @ Montreal Canadiens — only 0/1 signals (need 1 more)
+[2026-05-25 18:52:14 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-25 18:52:14 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-05-25 18:52:14 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-25 18:52:14 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-25 18:52:14 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-25 18:52:14 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-25 18:52:14 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-25 18:52:14 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-25 18:52:14 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-05-25 18:52:14 ET] [INFO] Scan complete -- 4 games checked, 0 alerts (silence = discipline)
+[2026-05-25 18:52:14 ET] [INFO] ============================================================
