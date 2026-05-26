@@ -38509,3 +38509,39 @@
 [2026-05-26 17:29:37 ET] [INFO] ============================================================
 [2026-05-26 17:41:04 ET] [INFO] Running injury scan
 [2026-05-26 17:41:07 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-26 19:01:15 ET] [INFO] ============================================================
+[2026-05-26 19:01:15 ET] [INFO] Starting full scan
+[2026-05-26 19:01:15 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-26 19:01:16 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-26 19:01:16 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 1 events found)
+[2026-05-26 19:01:16 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-26 19:01:16 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-26 19:01:18 ET] [DEBUG]   [San Antonio Spurs @ Oklahoma City Thunder] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-198→-162
+[2026-05-26 19:01:18 ET] [DEBUG]     ✗ San Antonio Spurs @ Oklahoma City Thunder — conf 25 < 35 threshold
+[2026-05-26 19:01:21 ET] [INFO]   ESPN baseball_mlb: 5 games (fresh, 15 events found)
+[2026-05-26 19:01:21 ET] [INFO]   baseball_mlb: 5 games from espn
+[2026-05-26 19:01:21 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-26 19:01:26 ET] [DEBUG]   [Houston Astros @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-149→-132
+[2026-05-26 19:01:26 ET] [DEBUG]     ✗ Houston Astros @ Texas Rangers — conf 15 < 35 threshold
+[2026-05-26 19:01:29 ET] [DEBUG]   [Philadelphia Phillies @ San Diego Padres] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-126→-110
+[2026-05-26 19:01:32 ET] [DEBUG]   [Seattle Mariners @ Athletics] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-110→-112
+[2026-05-26 19:01:32 ET] [DEBUG]     ✗ Seattle Mariners @ Athletics — conf 15 < 35 threshold
+[2026-05-26 19:01:34 ET] [DEBUG]   [Arizona Diamondbacks @ San Francisco Giants] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=n/a ml_move=-115→-115
+[2026-05-26 19:01:37 ET] [DEBUG]   [Colorado Rockies @ Los Angeles Dodgers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-246→-244
+[2026-05-26 19:01:37 ET] [DEBUG]     ✗ Colorado Rockies @ Los Angeles Dodgers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-26 19:01:37 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-05-26 19:01:37 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-26 19:01:37 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-26 19:01:38 ET] [DEBUG]   [Colorado Avalanche @ Vegas Golden Knights] sigs=['sharp_money'] conf=25 pub=n/a ml_move=100→-105
+[2026-05-26 19:01:38 ET] [DEBUG]     ✗ Colorado Avalanche @ Vegas Golden Knights — conf 25 < 35 threshold
+[2026-05-26 19:01:38 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-26 19:01:38 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-05-26 19:01:38 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-26 19:01:38 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-26 19:01:38 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-26 19:01:38 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-26 19:01:38 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-26 19:01:38 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-26 19:01:38 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-26 19:01:38 ET] [INFO] Scan complete -- 7 games checked, 0 alerts (silence = discipline)
+[2026-05-26 19:01:38 ET] [INFO] ============================================================
