@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-26T02:27:18.321204Z",
-  "last_scan": "2026-05-25 22:27:18 ET",
-  "last_scan_ts": "2026-05-26T02:27:18.321204Z",
+  "generated_at": "2026-05-26T07:39:50.219705Z",
+  "last_scan": "2026-05-26 03:39:50 ET",
+  "last_scan_ts": "2026-05-26T07:39:50.219705Z",
   "stats": {
     "total_alerts": 147,
-    "completed_bets": 125,
-    "win_rate": 6.4,
+    "completed_bets": 126,
+    "win_rate": 6.3,
     "total_pl": 186.88,
     "by_sport": {
       "NBA": {
@@ -14,22 +14,22 @@
         "pl": 0.0
       },
       "MLB": {
-        "bets": 120,
+        "bets": 121,
         "wins": 8,
         "pl": 186.88
       }
     },
     "by_signal": {
       "sharp_money": {
-        "bets": 51,
+        "bets": 52,
         "wins": 5
       },
       "rest_disadvantage": {
-        "bets": 123,
+        "bets": 124,
         "wins": 8
       },
       "model_edge": {
-        "bets": 118,
+        "bets": 119,
         "wins": 5
       },
       "public_fade": {
@@ -134,50 +134,6 @@
       "sport_key": "baseball_mlb",
       "outcome": "P",
       "profit_loss": "0.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-05-24 22:39 ET",
-      "sport": "MLB",
-      "game": "Philadelphia Phillies @ San Diego Padres",
-      "home_team": "San Diego Padres",
-      "away_team": "Philadelphia Phillies",
-      "bet_type": "moneyline",
-      "bet_side": "home",
-      "line": "+108",
-      "edge_pct": "15.4",
-      "confidence": "50",
-      "signals": "rest_disadvantage + travel_disadvantage + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "48.1",
-      "true_prob": "63.5",
-      "reasoning": "Edge 15.4% on San Diego Padres moneyline. San Diego Padres on back-to-back -- fatigue factor. Philadelphia Phillies cross-country travel to San Diego.",
-      "game_id": "espn_401815497",
-      "sport_key": "baseball_mlb",
-      "outcome": "P",
-      "profit_loss": "0.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-05-24 22:39 ET",
-      "sport": "MLB",
-      "game": "Seattle Mariners @ Athletics",
-      "home_team": "Athletics",
-      "away_team": "Seattle Mariners",
-      "bet_type": "moneyline",
-      "bet_side": "home",
-      "line": "-102",
-      "edge_pct": "7.1",
-      "confidence": "60",
-      "signals": "sharp_money + rest_disadvantage + model_edge",
-      "suggested_bet": "36.0",
-      "implied_prob": "50.5",
-      "true_prob": "57.6",
-      "reasoning": "Edge 7.1% on Athletics moneyline. ML moved 204 pts on Athletics (+102\u2192-102) \u2014 steam toward Athletics. Athletics on back-to-back -- fatigue factor.",
-      "game_id": "espn_401815498",
-      "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
       "notes": ""
     }
   ],
@@ -337,8 +293,8 @@
       "reasoning": "Edge 7.1% on Athletics moneyline. ML moved 204 pts on Athletics (+102\u2192-102) \u2014 steam toward Athletics. Athletics on back-to-back -- fatigue factor.",
       "game_id": "espn_401815498",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
