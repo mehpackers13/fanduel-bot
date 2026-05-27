@@ -38902,3 +38902,39 @@
 [2026-05-27 17:47:25 ET] [INFO] ============================================================
 [2026-05-27 18:16:13 ET] [INFO] Running injury scan
 [2026-05-27 18:16:15 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-27 19:10:36 ET] [INFO] ============================================================
+[2026-05-27 19:10:36 ET] [INFO] Starting full scan
+[2026-05-27 19:10:36 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-27 19:10:37 ET] [INFO] Auto-resolved espn_401815525: Arizona Diamondbacks @ San Francisco Giants → W (home 0.0, away 0.0)
+[2026-05-27 19:10:37 ET] [INFO] Auto-resolved espn_401815527: Philadelphia Phillies @ San Diego Padres → P (home 0.0, away 0.0)
+[2026-05-27 19:10:37 ET] [INFO] Wrote 2 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-05-27 19:10:37 ET] [INFO] Auto-resolved 2 pending bet outcome(s) from ESPN scores
+[2026-05-27 19:10:37 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-05-27 19:10:37 ET] [INFO]   ESPN basketball_nba: 0 games (cached)
+[2026-05-27 19:10:37 ET] [INFO]   ESPN baseball_mlb: 5 games (cached)
+[2026-05-27 19:10:37 ET] [INFO]   baseball_mlb: 5 games from espn
+[2026-05-27 19:10:37 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-27 19:10:46 ET] [DEBUG]   [Cincinnati Reds @ New York Mets] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-122→-119
+[2026-05-27 19:10:54 ET] [DEBUG]   [Minnesota Twins @ Chicago White Sox] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-131→-112
+[2026-05-27 19:10:54 ET] [DEBUG]     ✗ Minnesota Twins @ Chicago White Sox — conf 15 < 35 threshold
+[2026-05-27 19:11:01 ET] [DEBUG]   [New York Yankees @ Kansas City Royals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=119→130
+[2026-05-27 19:11:08 ET] [DEBUG]   [Houston Astros @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-168→-149
+[2026-05-27 19:11:08 ET] [DEBUG]     ✗ Houston Astros @ Texas Rangers — conf 15 < 35 threshold
+[2026-05-27 19:11:16 ET] [DEBUG]   [Colorado Rockies @ Los Angeles Dodgers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-400→-427
+[2026-05-27 19:11:16 ET] [DEBUG]     ✗ Colorado Rockies @ Los Angeles Dodgers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-27 19:11:16 ET] [INFO]   ESPN icehockey_nhl: 1 games (cached)
+[2026-05-27 19:11:16 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-27 19:11:16 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-27 19:11:17 ET] [DEBUG]   [Carolina Hurricanes @ Montreal Canadiens] sigs=[] conf=0 pub=n/a ml_move=114→130
+[2026-05-27 19:11:17 ET] [DEBUG]     ✗ Carolina Hurricanes @ Montreal Canadiens — only 0/1 signals (need 1 more)
+[2026-05-27 19:11:17 ET] [INFO]   ESPN soccer_usa_mls: 0 games (cached)
+[2026-05-27 19:11:17 ET] [INFO]   ESPN soccer_epl: 0 games (cached)
+[2026-05-27 19:11:17 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (cached)
+[2026-05-27 19:11:17 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-05-27 19:11:17 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (cached)
+[2026-05-27 19:11:17 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-05-27 19:11:17 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-05-27 19:11:17 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-27 19:11:17 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-27 19:11:17 ET] [INFO] Scan complete -- 6 games checked, 0 alerts (silence = discipline)
+[2026-05-27 19:11:17 ET] [INFO] ============================================================
