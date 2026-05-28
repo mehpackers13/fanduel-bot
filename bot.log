@@ -39130,3 +39130,33 @@
 [2026-05-28 11:37:17 ET] [INFO] ============================================================
 [2026-05-28 14:08:06 ET] [INFO] Running injury scan
 [2026-05-28 14:08:10 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-28 14:30:29 ET] [INFO] ============================================================
+[2026-05-28 14:30:29 ET] [INFO] Starting full scan
+[2026-05-28 14:30:29 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-28 14:30:30 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-28 14:30:31 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 1 events found)
+[2026-05-28 14:30:31 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-05-28 14:30:31 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-05-28 14:30:32 ET] [DEBUG]   [Oklahoma City Thunder @ San Antonio Spurs] sigs=['model_edge'] conf=20 pub=n/a ml_move=-142→-155
+[2026-05-28 14:30:32 ET] [DEBUG]     ✗ Oklahoma City Thunder @ San Antonio Spurs — conf 20 < 35 threshold
+[2026-05-28 14:30:34 ET] [INFO]   ESPN baseball_mlb: 4 games (fresh, 6 events found)
+[2026-05-28 14:30:34 ET] [INFO]   baseball_mlb: 4 games from espn
+[2026-05-28 14:30:34 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-28 14:30:44 ET] [DEBUG]   [Atlanta Braves @ Boston Red Sox] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=119→109
+[2026-05-28 14:30:51 ET] [DEBUG]   [Toronto Blue Jays @ Baltimore Orioles] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-131→-131
+[2026-05-28 14:30:51 ET] [DEBUG]     ✗ Toronto Blue Jays @ Baltimore Orioles — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-28 14:30:59 ET] [DEBUG]   [Chicago Cubs @ Pittsburgh Pirates] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-175→-175
+[2026-05-28 14:31:07 ET] [DEBUG]   [Houston Astros @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-156→-136
+[2026-05-28 14:31:07 ET] [DEBUG]     ✗ Houston Astros @ Texas Rangers — conf 15 < 35 threshold
+[2026-05-28 14:31:07 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-05-28 14:31:07 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-28 14:31:07 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-05-28 14:31:07 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-28 14:31:07 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-28 14:31:07 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-28 14:31:08 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-28 14:31:08 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-28 14:31:08 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-28 14:31:08 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-28 14:31:08 ET] [INFO] Scan complete -- 5 games checked, 0 alerts (silence = discipline)
+[2026-05-28 14:31:08 ET] [INFO] ============================================================
