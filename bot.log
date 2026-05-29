@@ -39600,3 +39600,49 @@
 [2026-05-29 17:47:39 ET] [INFO] ============================================================
 [2026-05-29 18:48:42 ET] [INFO] Running injury scan
 [2026-05-29 18:48:44 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-29 19:04:12 ET] [INFO] ============================================================
+[2026-05-29 19:04:12 ET] [INFO] Starting full scan
+[2026-05-29 19:04:12 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-29 19:04:12 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-05-29 19:04:12 ET] [INFO]   ESPN basketball_nba: 0 games (cached)
+[2026-05-29 19:04:12 ET] [INFO]   ESPN baseball_mlb: 12 games (cached)
+[2026-05-29 19:04:12 ET] [INFO]   baseball_mlb: 12 games from espn
+[2026-05-29 19:04:13 ET] [INFO] Action Network mlb/odds: 15 games fetched
+[2026-05-29 19:04:17 ET] [DEBUG]   [Toronto Blue Jays @ Baltimore Orioles] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=51%/49% ml_move=-115→-130
+[2026-05-29 19:04:17 ET] [DEBUG]     ✗ Toronto Blue Jays @ Baltimore Orioles — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-29 19:04:20 ET] [DEBUG]   [Los Angeles Angels @ Tampa Bay Rays] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=13%/87% ml_move=-181→-173
+[2026-05-29 19:04:22 ET] [DEBUG]   [Boston Red Sox @ Cleveland Guardians] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=70%/30% ml_move=-118→-131
+[2026-05-29 19:04:25 ET] [DEBUG]   [Miami Marlins @ New York Mets] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=56%/44% ml_move=-126→-117
+[2026-05-29 19:04:25 ET] [DEBUG]     ✗ Miami Marlins @ New York Mets — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-29 19:04:27 ET] [DEBUG]   [Chicago Cubs @ St. Louis Cardinals] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=26%/74% ml_move=113→114
+[2026-05-29 19:04:30 ET] [DEBUG]   [Detroit Tigers @ Chicago White Sox] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=30%/70% ml_move=102→-112
+[2026-05-29 19:04:32 ET] [DEBUG]   [Kansas City Royals @ Texas Rangers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=70%/30% ml_move=-126→-137
+[2026-05-29 19:04:32 ET] [DEBUG]     ✗ Kansas City Royals @ Texas Rangers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-29 19:04:35 ET] [DEBUG]   [Milwaukee Brewers @ Houston Astros] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=68%/32% ml_move=102→119
+[2026-05-29 19:04:37 ET] [DEBUG]   [San Francisco Giants @ Colorado Rockies] sigs=['public_fade', 'rest_disadvantage', 'weather_edge'] conf=55 pub=14%/86% ml_move=141→128
+[2026-05-29 19:04:40 ET] [DEBUG]   [New York Yankees @ Athletics] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=10%/90% ml_move=123→119
+[2026-05-29 19:04:40 ET] [DEBUG]     ✗ New York Yankees @ Athletics — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-29 19:04:42 ET] [DEBUG]   [Arizona Diamondbacks @ Seattle Mariners] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=32%/68% ml_move=-149→-137
+[2026-05-29 19:04:42 ET] [DEBUG]     ✗ Arizona Diamondbacks @ Seattle Mariners — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-29 19:04:45 ET] [DEBUG]   [Philadelphia Phillies @ Los Angeles Dodgers] sigs=['public_fade', 'rest_disadvantage', 'model_edge'] conf=55 pub=23%/77% ml_move=-120→-120
+[2026-05-29 19:04:45 ET] [INFO]   ESPN icehockey_nhl: 1 games (cached)
+[2026-05-29 19:04:45 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-29 19:04:45 ET] [INFO] Action Network nhl/odds: 1 games fetched
+[2026-05-29 19:04:46 ET] [DEBUG]   [Montreal Canadiens @ Carolina Hurricanes] sigs=['public_fade', 'sharp_money'] conf=45 pub=86%/14% ml_move=-225→-250
+[2026-05-29 19:04:46 ET] [DEBUG]     ✗ Montreal Canadiens @ Carolina Hurricanes — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-29 19:04:46 ET] [INFO]   ESPN soccer_usa_mls: 0 games (cached)
+[2026-05-29 19:04:46 ET] [INFO]   ESPN soccer_epl: 0 games (cached)
+[2026-05-29 19:04:46 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (cached)
+[2026-05-29 19:04:46 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-05-29 19:04:46 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (cached)
+[2026-05-29 19:04:46 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-05-29 19:04:46 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-05-29 19:04:46 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-29 19:04:46 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-29 19:04:46 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-29 19:04:46 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-29 19:04:46 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-29 19:04:46 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-29 19:04:46 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-05-29 19:04:46 ET] [INFO] Scan complete -- 13 games checked, 0 alerts (silence = discipline)
+[2026-05-29 19:04:46 ET] [INFO] ============================================================
