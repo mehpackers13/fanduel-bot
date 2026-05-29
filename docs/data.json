@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-29T02:17:01.987362Z",
-  "last_scan": "2026-05-28 22:17:01 ET",
-  "last_scan_ts": "2026-05-29T02:17:01.987362Z",
+  "generated_at": "2026-05-29T07:47:48.802299Z",
+  "last_scan": "2026-05-29 03:47:48 ET",
+  "last_scan_ts": "2026-05-29T07:47:48.802299Z",
   "stats": {
-    "total_alerts": 152,
+    "total_alerts": 153,
     "completed_bets": 132,
     "win_rate": 6.8,
     "total_pl": 210.5,
@@ -48,6 +48,28 @@
   },
   "unit_total": 21.05,
   "today_bets": [
+    {
+      "timestamp": "2026-05-29 03:47 ET",
+      "sport": "MLB",
+      "game": "Detroit Tigers @ Chicago White Sox",
+      "home_team": "Chicago White Sox",
+      "away_team": "Detroit Tigers",
+      "bet_type": "moneyline",
+      "bet_side": "home",
+      "line": "-101",
+      "edge_pct": "15.6",
+      "confidence": "60",
+      "signals": "sharp_money + rest_disadvantage + model_edge",
+      "suggested_bet": "50.0",
+      "implied_prob": "50.2",
+      "true_prob": "65.8",
+      "reasoning": "Edge 15.6% on Chicago White Sox moneyline. ML moved 203 pts on Chicago White Sox (+102\u2192-101) \u2014 steam toward Chicago White Sox. Chicago White Sox on back-to-back -- fatigue factor.",
+      "game_id": "espn_401815543",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-05-28 22:17 ET",
       "sport": "MLB",
@@ -99,6 +121,28 @@
     }
   },
   "recent_bets": [
+    {
+      "timestamp": "2026-05-29 03:47 ET",
+      "sport": "MLB",
+      "game": "Detroit Tigers @ Chicago White Sox",
+      "home_team": "Chicago White Sox",
+      "away_team": "Detroit Tigers",
+      "bet_type": "moneyline",
+      "bet_side": "home",
+      "line": "-101",
+      "edge_pct": "15.6",
+      "confidence": "60",
+      "signals": "sharp_money + rest_disadvantage + model_edge",
+      "suggested_bet": "50.0",
+      "implied_prob": "50.2",
+      "true_prob": "65.8",
+      "reasoning": "Edge 15.6% on Chicago White Sox moneyline. ML moved 203 pts on Chicago White Sox (+102\u2192-101) \u2014 steam toward Chicago White Sox. Chicago White Sox on back-to-back -- fatigue factor.",
+      "game_id": "espn_401815543",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-05-28 22:17 ET",
       "sport": "MLB",
@@ -1175,28 +1219,6 @@
       "sport_key": "baseball_mlb",
       "outcome": "P",
       "profit_loss": "0.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-05-10 22:13 ET",
-      "sport": "MLB",
-      "game": "New York Yankees @ Baltimore Orioles",
-      "home_team": "Baltimore Orioles",
-      "away_team": "New York Yankees",
-      "bet_type": "total",
-      "bet_side": "under",
-      "line": "u9.0",
-      "edge_pct": "5.0",
-      "confidence": "55",
-      "signals": "rest_disadvantage + weather_edge + model_edge",
-      "suggested_bet": "26.0",
-      "implied_prob": "52.4",
-      "true_prob": "57.4",
-      "reasoning": "Edge 5.0% on UNDER total. Baltimore Orioles on back-to-back -- fatigue factor. Rain 4.3mm forecast \u2014 potential delays/cancellations, affects totals.",
-      "game_id": "espn_401815299",
-      "sport_key": "baseball_mlb",
-      "outcome": "W",
-      "profit_loss": "23.62",
       "notes": ""
     }
   ]
