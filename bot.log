@@ -39214,3 +39214,57 @@
 [2026-05-28 19:07:50 ET] [INFO] ============================================================
 [2026-05-28 20:08:16 ET] [INFO] Running injury scan
 [2026-05-28 20:08:18 ET] [INFO] Injury scan complete — no new key injuries
+[2026-05-28 22:15:22 ET] [INFO] ============================================================
+[2026-05-28 22:15:22 ET] [INFO] Starting full scan
+[2026-05-28 22:15:22 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-05-28 22:15:23 ET] [INFO] Auto-resolved espn_401815530: Atlanta Braves @ Boston Red Sox → P (home 0.0, away 0.0)
+[2026-05-28 22:15:23 ET] [INFO] Auto-resolved espn_401815531: Chicago Cubs @ Pittsburgh Pirates → P (home 0.0, away 0.0)
+[2026-05-28 22:15:23 ET] [INFO] Wrote 2 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-05-28 22:15:23 ET] [INFO] Auto-resolved 2 pending bet outcome(s) from ESPN scores
+[2026-05-28 22:15:23 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-05-28 22:15:23 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-05-28 22:15:28 ET] [INFO]   ESPN baseball_mlb: 14 games (fresh, 15 events found)
+[2026-05-28 22:15:28 ET] [INFO]   baseball_mlb: 14 games from espn
+[2026-05-28 22:15:28 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-05-28 22:15:36 ET] [DEBUG]   [Atlanta Braves @ Cincinnati Reds] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=119→119
+[2026-05-28 22:15:36 ET] [DEBUG]     ✗ Atlanta Braves @ Cincinnati Reds — conf 15 < 35 threshold
+[2026-05-28 22:15:42 ET] [DEBUG]   [Minnesota Twins @ Pittsburgh Pirates] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-143→-143
+[2026-05-28 22:15:42 ET] [DEBUG]     ✗ Minnesota Twins @ Pittsburgh Pirates — conf 15 < 35 threshold
+[2026-05-28 22:15:49 ET] [DEBUG]   [San Diego Padres @ Washington Nationals] sigs=['rest_disadvantage', 'travel_disadvantage'] conf=30 pub=n/a ml_move=-110→-108
+[2026-05-28 22:15:49 ET] [DEBUG]     ✗ San Diego Padres @ Washington Nationals — conf 30 < 35 threshold
+[2026-05-28 22:15:55 ET] [DEBUG]   [Los Angeles Angels @ Tampa Bay Rays] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-181→-181
+[2026-05-28 22:15:55 ET] [DEBUG]     ✗ Los Angeles Angels @ Tampa Bay Rays — conf 15 < 35 threshold
+[2026-05-28 22:16:01 ET] [DEBUG]   [Boston Red Sox @ Cleveland Guardians] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-118→-119
+[2026-05-28 22:16:01 ET] [DEBUG]     ✗ Boston Red Sox @ Cleveland Guardians — conf 15 < 35 threshold
+[2026-05-28 22:16:08 ET] [DEBUG]   [Miami Marlins @ New York Mets] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-126→-126
+[2026-05-28 22:16:08 ET] [DEBUG]     ✗ Miami Marlins @ New York Mets — conf 15 < 35 threshold
+[2026-05-28 22:16:14 ET] [DEBUG]   [Chicago Cubs @ St. Louis Cardinals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=113→114
+[2026-05-28 22:16:14 ET] [DEBUG]     ✗ Chicago Cubs @ St. Louis Cardinals — conf 15 < 35 threshold
+[2026-05-28 22:16:20 ET] [DEBUG]   [Detroit Tigers @ Chicago White Sox] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=102→102
+[2026-05-28 22:16:26 ET] [DEBUG]   [Kansas City Royals @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-126→-126
+[2026-05-28 22:16:26 ET] [DEBUG]     ✗ Kansas City Royals @ Texas Rangers — conf 15 < 35 threshold
+[2026-05-28 22:16:33 ET] [DEBUG]   [Milwaukee Brewers @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=102→102
+[2026-05-28 22:16:33 ET] [DEBUG]     ✗ Milwaukee Brewers @ Houston Astros — conf 15 < 35 threshold
+[2026-05-28 22:16:39 ET] [DEBUG]   [San Francisco Giants @ Colorado Rockies] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=141→141
+[2026-05-28 22:16:39 ET] [DEBUG]     ✗ San Francisco Giants @ Colorado Rockies — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-05-28 22:16:46 ET] [DEBUG]   [New York Yankees @ Athletics] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=123→123
+[2026-05-28 22:16:46 ET] [DEBUG]     ✗ New York Yankees @ Athletics — conf 15 < 35 threshold
+[2026-05-28 22:16:52 ET] [DEBUG]   [Arizona Diamondbacks @ Seattle Mariners] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-149→-149
+[2026-05-28 22:16:52 ET] [DEBUG]     ✗ Arizona Diamondbacks @ Seattle Mariners — conf 15 < 35 threshold
+[2026-05-28 22:16:58 ET] [DEBUG]   [Philadelphia Phillies @ Los Angeles Dodgers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-120→-120
+[2026-05-28 22:16:58 ET] [DEBUG]     ✗ Philadelphia Phillies @ Los Angeles Dodgers — conf 15 < 35 threshold
+[2026-05-28 22:16:59 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-05-28 22:16:59 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-05-28 22:16:59 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-05-28 22:17:00 ET] [DEBUG]   [Montreal Canadiens @ Carolina Hurricanes] sigs=[] conf=0 pub=n/a ml_move=-225→-238
+[2026-05-28 22:17:00 ET] [DEBUG]     ✗ Montreal Canadiens @ Carolina Hurricanes — only 0/1 signals (need 1 more)
+[2026-05-28 22:17:00 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-05-28 22:17:00 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-05-28 22:17:01 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-05-28 22:17:01 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-05-28 22:17:01 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-05-28 22:17:01 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-05-28 22:17:01 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-05-28 22:17:01 ET] [INFO] Sprinkle alert sent: Detroit Tigers @ Chicago White Sox | moneyline Chicago White Sox +102 | edge 16.3% | 1u
+[2026-05-28 22:17:01 ET] [INFO] Scan complete -- 15 games checked, 1 alert(s) sent (1u at risk today)
+[2026-05-28 22:17:01 ET] [INFO] ============================================================

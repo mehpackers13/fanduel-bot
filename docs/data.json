@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-28T23:07:50.614371Z",
-  "last_scan": "2026-05-28 19:07:50 ET",
-  "last_scan_ts": "2026-05-28T23:07:50.614371Z",
+  "generated_at": "2026-05-29T02:17:01.987362Z",
+  "last_scan": "2026-05-28 22:17:01 ET",
+  "last_scan_ts": "2026-05-29T02:17:01.987362Z",
   "stats": {
-    "total_alerts": 151,
-    "completed_bets": 130,
-    "win_rate": 6.9,
+    "total_alerts": 152,
+    "completed_bets": 132,
+    "win_rate": 6.8,
     "total_pl": 210.5,
     "by_sport": {
       "NBA": {
@@ -14,7 +14,7 @@
         "pl": 0.0
       },
       "MLB": {
-        "bets": 125,
+        "bets": 127,
         "wins": 9,
         "pl": 210.5
       }
@@ -25,11 +25,11 @@
         "wins": 5
       },
       "rest_disadvantage": {
-        "bets": 128,
+        "bets": 130,
         "wins": 9
       },
       "model_edge": {
-        "bets": 123,
+        "bets": 125,
         "wins": 6
       },
       "public_fade": {
@@ -49,44 +49,22 @@
   "unit_total": 21.05,
   "today_bets": [
     {
-      "timestamp": "2026-05-27 22:11 ET",
+      "timestamp": "2026-05-28 22:17 ET",
       "sport": "MLB",
-      "game": "Chicago Cubs @ Pittsburgh Pirates",
-      "home_team": "Pittsburgh Pirates",
-      "away_team": "Chicago Cubs",
+      "game": "Detroit Tigers @ Chicago White Sox",
+      "home_team": "Chicago White Sox",
+      "away_team": "Detroit Tigers",
       "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "+144",
-      "edge_pct": "7.8",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "33.0",
-      "implied_prob": "41.0",
-      "true_prob": "48.8",
-      "reasoning": "Edge 7.8% on Chicago Cubs moneyline. Pittsburgh Pirates on back-to-back -- fatigue factor. Power rating: Pittsburgh Pirates wp=51.8% / Chicago Cubs wp=53.6% \u2014 Chicago Cubs underpriced (model 48.8% vs mkt 41.0%).",
-      "game_id": "espn_401815531",
-      "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-05-27 22:11 ET",
-      "sport": "MLB",
-      "game": "Atlanta Braves @ Boston Red Sox",
-      "home_team": "Boston Red Sox",
-      "away_team": "Atlanta Braves",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "-137",
-      "edge_pct": "12.1",
+      "bet_side": "home",
+      "line": "+102",
+      "edge_pct": "16.3",
       "confidence": "35",
       "signals": "rest_disadvantage + model_edge",
       "suggested_bet": "50.0",
-      "implied_prob": "57.8",
-      "true_prob": "69.9",
-      "reasoning": "Edge 12.1% on Atlanta Braves moneyline. Boston Red Sox on back-to-back -- fatigue factor. Power rating: Boston Red Sox wp=42.6% / Atlanta Braves wp=66.1% \u2014 Atlanta Braves underpriced (model 69.9% vs mkt 57.8%).",
-      "game_id": "espn_401815530",
+      "implied_prob": "49.5",
+      "true_prob": "65.8",
+      "reasoning": "Edge 16.3% on Chicago White Sox moneyline. Chicago White Sox on back-to-back -- fatigue factor. Power rating: Chicago White Sox wp=51.8% / Detroit Tigers wp=38.6% \u2014 Chicago White Sox underpriced (model 65.8% vs mkt 49.5%).",
+      "game_id": "espn_401815543",
       "sport_key": "baseball_mlb",
       "outcome": "",
       "profit_loss": "",
@@ -122,6 +100,28 @@
   },
   "recent_bets": [
     {
+      "timestamp": "2026-05-28 22:17 ET",
+      "sport": "MLB",
+      "game": "Detroit Tigers @ Chicago White Sox",
+      "home_team": "Chicago White Sox",
+      "away_team": "Detroit Tigers",
+      "bet_type": "moneyline",
+      "bet_side": "home",
+      "line": "+102",
+      "edge_pct": "16.3",
+      "confidence": "35",
+      "signals": "rest_disadvantage + model_edge",
+      "suggested_bet": "50.0",
+      "implied_prob": "49.5",
+      "true_prob": "65.8",
+      "reasoning": "Edge 16.3% on Chicago White Sox moneyline. Chicago White Sox on back-to-back -- fatigue factor. Power rating: Chicago White Sox wp=51.8% / Detroit Tigers wp=38.6% \u2014 Chicago White Sox underpriced (model 65.8% vs mkt 49.5%).",
+      "game_id": "espn_401815543",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-05-27 22:11 ET",
       "sport": "MLB",
       "game": "Chicago Cubs @ Pittsburgh Pirates",
@@ -139,8 +139,8 @@
       "reasoning": "Edge 7.8% on Chicago Cubs moneyline. Pittsburgh Pirates on back-to-back -- fatigue factor. Power rating: Pittsburgh Pirates wp=51.8% / Chicago Cubs wp=53.6% \u2014 Chicago Cubs underpriced (model 48.8% vs mkt 41.0%).",
       "game_id": "espn_401815531",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -161,8 +161,8 @@
       "reasoning": "Edge 12.1% on Atlanta Braves moneyline. Boston Red Sox on back-to-back -- fatigue factor. Power rating: Boston Red Sox wp=42.6% / Atlanta Braves wp=66.1% \u2014 Atlanta Braves underpriced (model 69.9% vs mkt 57.8%).",
       "game_id": "espn_401815530",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -1197,28 +1197,6 @@
       "sport_key": "baseball_mlb",
       "outcome": "W",
       "profit_loss": "23.62",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-05-09 22:04 ET",
-      "sport": "MLB",
-      "game": "Colorado Rockies @ Philadelphia Phillies",
-      "home_team": "Philadelphia Phillies",
-      "away_team": "Colorado Rockies",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "+244",
-      "edge_pct": "12.9",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "45.0",
-      "implied_prob": "29.1",
-      "true_prob": "41.9",
-      "reasoning": "Edge 12.9% on Colorado Rockies moneyline. Philadelphia Phillies on back-to-back -- fatigue factor. Power rating: Philadelphia Phillies wp=45.0% / Colorado Rockies wp=40.0% \u2014 Colorado Rockies underpriced (model 41.9% vs mkt 29.1%).",
-      "game_id": "espn_401815285",
-      "sport_key": "baseball_mlb",
-      "outcome": "P",
-      "profit_loss": "0.0",
       "notes": ""
     }
   ]
