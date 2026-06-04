@@ -41828,3 +41828,27 @@
 [2026-06-04 17:25:58 ET] [INFO] ============================================================
 [2026-06-04 18:18:08 ET] [INFO] Running injury scan
 [2026-06-04 18:18:12 ET] [INFO] Injury scan complete — no new key injuries
+[2026-06-04 19:01:34 ET] [INFO] ============================================================
+[2026-06-04 19:01:34 ET] [INFO] Starting full scan
+[2026-06-04 19:01:34 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-06-04 19:01:36 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-06-04 19:01:36 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-06-04 19:01:40 ET] [INFO]   ESPN baseball_mlb: 3 games (fresh, 9 events found)
+[2026-06-04 19:01:40 ET] [INFO]   baseball_mlb: 3 games from espn
+[2026-06-04 19:01:40 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 403
+[2026-06-04 19:01:55 ET] [DEBUG]   [Athletics @ Chicago Cubs] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-148
+[2026-06-04 19:01:55 ET] [DEBUG]     ✗ Athletics @ Chicago Cubs — conf 15 < 35 threshold
+[2026-06-04 19:02:07 ET] [DEBUG]   [Pittsburgh Pirates @ Houston Astros] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-112→-112
+[2026-06-04 19:02:20 ET] [DEBUG]   [Los Angeles Dodgers @ Arizona Diamondbacks] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=123→114
+[2026-06-04 19:02:20 ET] [DEBUG]     ✗ Los Angeles Dodgers @ Arizona Diamondbacks — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-04 19:02:20 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 1 events found)
+[2026-06-04 19:02:20 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-06-04 19:02:20 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-06-04 19:02:21 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-06-04 19:02:21 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-06-04 19:02:21 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-06-04 19:02:21 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-06-04 19:02:21 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-06-04 19:02:21 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-04 19:02:21 ET] [INFO] Scan complete -- 3 games checked, 0 alerts (silence = discipline)
+[2026-06-04 19:02:21 ET] [INFO] ============================================================
