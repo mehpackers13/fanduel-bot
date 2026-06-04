@@ -41794,3 +41794,35 @@
 [2026-06-04 14:21:04 ET] [INFO] Injury scan complete — no new key injuries
 [2026-06-04 16:30:55 ET] [INFO] Running injury scan
 [2026-06-04 16:30:59 ET] [INFO] Injury scan complete — no new key injuries
+[2026-06-04 17:24:44 ET] [INFO] ============================================================
+[2026-06-04 17:24:44 ET] [INFO] Starting full scan
+[2026-06-04 17:24:44 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-06-04 17:24:46 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-06-04 17:24:46 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-06-04 17:24:51 ET] [INFO]   ESPN baseball_mlb: 5 games (fresh, 9 events found)
+[2026-06-04 17:24:51 ET] [INFO]   baseball_mlb: 5 games from espn
+[2026-06-04 17:24:51 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-06-04 17:25:05 ET] [DEBUG]   [Toronto Blue Jays @ Atlanta Braves] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-186→-261
+[2026-06-04 17:25:05 ET] [DEBUG]     ✗ Toronto Blue Jays @ Atlanta Braves — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-04 17:25:17 ET] [DEBUG]   [Kansas City Royals @ Minnesota Twins] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-102→-105
+[2026-06-04 17:25:30 ET] [DEBUG]   [Athletics @ Chicago Cubs] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-148
+[2026-06-04 17:25:30 ET] [DEBUG]     ✗ Athletics @ Chicago Cubs — conf 15 < 35 threshold
+[2026-06-04 17:25:42 ET] [DEBUG]   [Pittsburgh Pirates @ Houston Astros] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-112→-114
+[2026-06-04 17:25:54 ET] [DEBUG]   [Los Angeles Dodgers @ Arizona Diamondbacks] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=123→119
+[2026-06-04 17:25:54 ET] [DEBUG]     ✗ Los Angeles Dodgers @ Arizona Diamondbacks — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-04 17:25:55 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-06-04 17:25:55 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-06-04 17:25:55 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-06-04 17:25:56 ET] [DEBUG]   [Vegas Golden Knights @ Carolina Hurricanes] sigs=[] conf=0 pub=n/a ml_move=-162→-162
+[2026-06-04 17:25:56 ET] [DEBUG]     ✗ Vegas Golden Knights @ Carolina Hurricanes — only 0/1 signals (need 1 more)
+[2026-06-04 17:25:57 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-06-04 17:25:57 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-06-04 17:25:57 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-06-04 17:25:57 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-06-04 17:25:57 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-06-04 17:25:58 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-06-04 17:25:58 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-06-04 17:25:58 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-04 17:25:58 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-04 17:25:58 ET] [INFO] Scan complete -- 6 games checked, 0 alerts (silence = discipline)
+[2026-06-04 17:25:58 ET] [INFO] ============================================================
