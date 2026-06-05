@@ -42026,3 +42026,55 @@
 [2026-06-05 09:52:38 ET] [INFO] ============================================================
 [2026-06-05 10:05:46 ET] [INFO] Running injury scan
 [2026-06-05 10:05:48 ET] [INFO] Injury scan complete — no new key injuries
+[2026-06-05 10:26:36 ET] [INFO] ============================================================
+[2026-06-05 10:26:36 ET] [INFO] Starting full scan
+[2026-06-05 10:26:36 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-06-05 10:26:36 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-06-05 10:26:36 ET] [INFO]   ESPN basketball_nba: 1 games (cached)
+[2026-06-05 10:26:36 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-06-05 10:26:37 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-06-05 10:26:37 ET] [DEBUG]   [New York Knicks @ San Antonio Spurs] sigs=[] conf=0 pub=n/a ml_move=-218→-218
+[2026-06-05 10:26:37 ET] [DEBUG]     ✗ New York Knicks @ San Antonio Spurs — only 0/1 signals (need 1 more)
+[2026-06-05 10:26:37 ET] [INFO]   ESPN baseball_mlb: 15 games (cached)
+[2026-06-05 10:26:37 ET] [INFO]   baseball_mlb: 15 games from espn
+[2026-06-05 10:26:37 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-06-05 10:26:41 ET] [DEBUG]   [San Francisco Giants @ Chicago Cubs] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-163→-181
+[2026-06-05 10:26:41 ET] [DEBUG]     ✗ San Francisco Giants @ Chicago Cubs — conf 15 < 35 threshold
+[2026-06-05 10:26:44 ET] [DEBUG]   [Chicago White Sox @ Philadelphia Phillies] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-186→-186
+[2026-06-05 10:26:44 ET] [DEBUG]     ✗ Chicago White Sox @ Philadelphia Phillies — conf 15 < 35 threshold
+[2026-06-05 10:26:46 ET] [DEBUG]   [Seattle Mariners @ Detroit Tigers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=109→102
+[2026-06-05 10:26:46 ET] [DEBUG]     ✗ Seattle Mariners @ Detroit Tigers — conf 15 < 35 threshold
+[2026-06-05 10:26:49 ET] [DEBUG]   [Boston Red Sox @ New York Yankees] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-149→-149
+[2026-06-05 10:26:51 ET] [DEBUG]   [Baltimore Orioles @ Toronto Blue Jays] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-156→-155
+[2026-06-05 10:26:55 ET] [DEBUG]   [Tampa Bay Rays @ Miami Marlins] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=119→118
+[2026-06-05 10:26:55 ET] [DEBUG]     ✗ Tampa Bay Rays @ Miami Marlins — conf 15 < 35 threshold
+[2026-06-05 10:26:57 ET] [DEBUG]   [Pittsburgh Pirates @ Atlanta Braves] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-143→-149
+[2026-06-05 10:27:00 ET] [DEBUG]   [Athletics @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-105→-110
+[2026-06-05 10:27:00 ET] [DEBUG]     ✗ Athletics @ Houston Astros — conf 15 < 35 threshold
+[2026-06-05 10:27:02 ET] [DEBUG]   [Cincinnati Reds @ St. Louis Cardinals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-144
+[2026-06-05 10:27:02 ET] [DEBUG]     ✗ Cincinnati Reds @ St. Louis Cardinals — conf 15 < 35 threshold
+[2026-06-05 10:27:04 ET] [DEBUG]   [Cleveland Guardians @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=119→113
+[2026-06-05 10:27:04 ET] [DEBUG]     ✗ Cleveland Guardians @ Texas Rangers — conf 15 < 35 threshold
+[2026-06-05 10:27:07 ET] [DEBUG]   [Kansas City Royals @ Minnesota Twins] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-115→-114
+[2026-06-05 10:27:09 ET] [DEBUG]   [Milwaukee Brewers @ Colorado Rockies] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=129→130
+[2026-06-05 10:27:09 ET] [DEBUG]     ✗ Milwaukee Brewers @ Colorado Rockies — conf 15 < 35 threshold
+[2026-06-05 10:27:11 ET] [DEBUG]   [New York Mets @ San Diego Padres] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-131→-132
+[2026-06-05 10:27:11 ET] [DEBUG]     ✗ New York Mets @ San Diego Padres — conf 15 < 35 threshold
+[2026-06-05 10:27:14 ET] [DEBUG]   [Washington Nationals @ Arizona Diamondbacks] sigs=['rest_disadvantage', 'travel_disadvantage'] conf=30 pub=n/a ml_move=-136→-136
+[2026-06-05 10:27:14 ET] [DEBUG]     ✗ Washington Nationals @ Arizona Diamondbacks — conf 30 < 35 threshold
+[2026-06-05 10:27:16 ET] [DEBUG]   [Los Angeles Angels @ Los Angeles Dodgers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-186→-199
+[2026-06-05 10:27:16 ET] [DEBUG]     ✗ Los Angeles Angels @ Los Angeles Dodgers — conf 15 < 35 threshold
+[2026-06-05 10:27:16 ET] [INFO]   ESPN icehockey_nhl: 0 games (cached)
+[2026-06-05 10:27:16 ET] [INFO]   ESPN soccer_usa_mls: 0 games (cached)
+[2026-06-05 10:27:16 ET] [INFO]   ESPN soccer_epl: 0 games (cached)
+[2026-06-05 10:27:16 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (cached)
+[2026-06-05 10:27:16 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-06-05 10:27:16 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (cached)
+[2026-06-05 10:27:16 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-06-05 10:27:16 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-06-05 10:27:16 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-05 10:27:16 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-05 10:27:16 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-05 10:27:16 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-05 10:27:16 ET] [INFO] Scan complete -- 16 games checked, 0 alerts (silence = discipline)
+[2026-06-05 10:27:16 ET] [INFO] ============================================================
