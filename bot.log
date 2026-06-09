@@ -43900,3 +43900,55 @@
 [2026-06-09 13:53:49 ET] [INFO] ============================================================
 [2026-06-09 15:33:13 ET] [INFO] Running injury scan
 [2026-06-09 15:33:17 ET] [INFO] Injury scan complete — no new key injuries
+[2026-06-09 15:56:48 ET] [INFO] ============================================================
+[2026-06-09 15:56:48 ET] [INFO] Starting full scan
+[2026-06-09 15:56:48 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-06-09 15:56:50 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-06-09 15:56:50 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-06-09 15:56:57 ET] [INFO]   ESPN baseball_mlb: 15 games (fresh, 15 events found)
+[2026-06-09 15:56:57 ET] [INFO]   baseball_mlb: 15 games from espn
+[2026-06-09 15:56:57 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-06-09 15:57:12 ET] [DEBUG]   [Seattle Mariners @ Baltimore Orioles] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=104→103
+[2026-06-09 15:57:12 ET] [DEBUG]     ✗ Seattle Mariners @ Baltimore Orioles — conf 15 < 35 threshold
+[2026-06-09 15:57:24 ET] [DEBUG]   [Arizona Diamondbacks @ Miami Marlins] sigs=['rest_disadvantage', 'travel_disadvantage', 'model_edge'] conf=50 pub=n/a ml_move=-120→-132
+[2026-06-09 15:57:36 ET] [DEBUG]   [Boston Red Sox @ Tampa Bay Rays] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-115→-104
+[2026-06-09 15:57:48 ET] [DEBUG]   [Los Angeles Dodgers @ Pittsburgh Pirates] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-105→-117
+[2026-06-09 15:57:59 ET] [DEBUG]   [Minnesota Twins @ Detroit Tigers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-120→-132
+[2026-06-09 15:58:11 ET] [DEBUG]   [New York Yankees @ Cleveland Guardians] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=109→-101
+[2026-06-09 15:58:11 ET] [DEBUG]     ✗ New York Yankees @ Cleveland Guardians — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-09 15:58:22 ET] [DEBUG]   [Philadelphia Phillies @ Toronto Blue Jays] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-105→-110
+[2026-06-09 15:58:22 ET] [DEBUG]     ✗ Philadelphia Phillies @ Toronto Blue Jays — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-09 15:58:34 ET] [DEBUG]   [St. Louis Cardinals @ New York Mets] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-126→-131
+[2026-06-09 15:58:45 ET] [DEBUG]   [Atlanta Braves @ Chicago White Sox] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=129→130
+[2026-06-09 15:58:57 ET] [DEBUG]   [Texas Rangers @ Kansas City Royals] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-102→104
+[2026-06-09 15:58:57 ET] [DEBUG]     ✗ Texas Rangers @ Kansas City Royals — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-09 15:59:08 ET] [DEBUG]   [Chicago Cubs @ Colorado Rockies] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=123→134
+[2026-06-09 15:59:20 ET] [DEBUG]   [Houston Astros @ Los Angeles Angels] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=104→104
+[2026-06-09 15:59:20 ET] [DEBUG]     ✗ Houston Astros @ Los Angeles Angels — conf 15 < 35 threshold
+[2026-06-09 15:59:32 ET] [DEBUG]   [Cincinnati Reds @ San Diego Padres] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=n/a ml_move=-110→104
+[2026-06-09 15:59:43 ET] [DEBUG]   [Washington Nationals @ San Francisco Giants] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-126→-108
+[2026-06-09 15:59:54 ET] [DEBUG]   [Milwaukee Brewers @ Athletics] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=n/a ml_move=100→-112
+[2026-06-09 15:59:55 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-06-09 15:59:55 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-06-09 16:00:00 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-06-09 16:00:02 ET] [DEBUG]   [Carolina Hurricanes @ Vegas Golden Knights] sigs=[] conf=0 pub=n/a ml_move=-105→-105
+[2026-06-09 16:00:02 ET] [DEBUG]     ✗ Carolina Hurricanes @ Vegas Golden Knights — only 0/1 signals (need 1 more)
+[2026-06-09 16:00:02 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-06-09 16:00:02 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-06-09 16:00:03 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-06-09 16:00:03 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-06-09 16:00:03 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-06-09 16:00:03 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-06-09 16:00:03 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-06-09 16:00:03 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-06-09 16:00:03 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-06-09 16:00:03 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-06-09 16:00:03 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-06-09 16:00:03 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-06-09 16:00:03 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-06-09 16:00:03 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-06-09 16:00:03 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-06-09 16:00:03 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-06-09 16:00:03 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-06-09 16:00:03 ET] [INFO] Scan complete -- 16 games checked, 0 alerts (silence = discipline)
+[2026-06-09 16:00:03 ET] [INFO] ============================================================
