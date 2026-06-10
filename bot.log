@@ -44394,3 +44394,39 @@
 [2026-06-10 17:52:34 ET] [INFO] ============================================================
 [2026-06-10 18:26:30 ET] [INFO] Running injury scan
 [2026-06-10 18:26:34 ET] [INFO] Injury scan complete — no new key injuries
+[2026-06-10 19:19:08 ET] [INFO] ============================================================
+[2026-06-10 19:19:08 ET] [INFO] Starting full scan
+[2026-06-10 19:19:08 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-06-10 19:19:09 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-06-10 19:19:09 ET] [INFO]   ESPN basketball_nba: 1 games (cached)
+[2026-06-10 19:19:09 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-06-10 19:19:10 ET] [INFO] Action Network nba/odds: 1 games fetched
+[2026-06-10 19:19:11 ET] [DEBUG]   [San Antonio Spurs @ New York Knicks] sigs=['sharp_money', 'model_edge'] conf=45 pub=37%/63% ml_move=-122→-135
+[2026-06-10 19:19:11 ET] [DEBUG]     ✗ San Antonio Spurs @ New York Knicks — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-10 19:19:11 ET] [INFO]   ESPN baseball_mlb: 7 games (cached)
+[2026-06-10 19:19:11 ET] [INFO]   baseball_mlb: 7 games from espn
+[2026-06-10 19:19:11 ET] [INFO] Action Network mlb/odds: 15 games fetched
+[2026-06-10 19:19:16 ET] [DEBUG]   [Philadelphia Phillies @ Toronto Blue Jays] sigs=['rest_disadvantage'] conf=15 pub=66%/34% ml_move=119→113
+[2026-06-10 19:19:16 ET] [DEBUG]     ✗ Philadelphia Phillies @ Toronto Blue Jays — conf 15 < 35 threshold
+[2026-06-10 19:19:18 ET] [DEBUG]   [St. Louis Cardinals @ New York Mets] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=0%/52% ml_move=-136→-136
+[2026-06-10 19:19:21 ET] [DEBUG]   [Atlanta Braves @ Chicago White Sox] sigs=['public_fade', 'rest_disadvantage', 'weather_edge', 'model_edge'] conf=75 pub=84%/16% ml_move=129→128
+[2026-06-10 19:19:21 ET] [DEBUG]     ✗ Atlanta Braves @ Chicago White Sox — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-10 19:19:23 ET] [DEBUG]   [Texas Rangers @ Kansas City Royals] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=61%/39% ml_move=-102→-105
+[2026-06-10 19:19:23 ET] [DEBUG]     ✗ Texas Rangers @ Kansas City Royals — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-10 19:19:26 ET] [DEBUG]   [Chicago Cubs @ Colorado Rockies] sigs=['public_fade', 'sharp_money', 'rest_disadvantage'] conf=60 pub=21%/79% ml_move=139→144
+[2026-06-10 19:19:26 ET] [DEBUG]     ✗ Chicago Cubs @ Colorado Rockies — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-10 19:19:28 ET] [DEBUG]   [Milwaukee Brewers @ Athletics] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=65%/35% ml_move=-102→-110
+[2026-06-10 19:19:31 ET] [DEBUG]   [Houston Astros @ Los Angeles Angels] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=53%/47% ml_move=-122→-115
+[2026-06-10 19:19:31 ET] [DEBUG]     ✗ Houston Astros @ Los Angeles Angels — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-10 19:19:31 ET] [INFO]   ESPN icehockey_nhl: 0 games (cached)
+[2026-06-10 19:19:31 ET] [INFO]   ESPN soccer_usa_mls: 0 games (cached)
+[2026-06-10 19:19:31 ET] [INFO]   ESPN soccer_epl: 0 games (cached)
+[2026-06-10 19:19:31 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (cached)
+[2026-06-10 19:19:31 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-06-10 19:19:31 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (cached)
+[2026-06-10 19:19:31 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-06-10 19:19:31 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-06-10 19:19:31 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-10 19:19:31 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-10 19:19:31 ET] [INFO] Scan complete -- 8 games checked, 0 alerts (silence = discipline)
+[2026-06-10 19:19:31 ET] [INFO] ============================================================
