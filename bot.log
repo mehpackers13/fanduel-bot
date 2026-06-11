@@ -44703,3 +44703,29 @@
 [2026-06-11 17:54:17 ET] [INFO] ============================================================
 [2026-06-11 18:00:00 ET] [INFO] Running injury scan
 [2026-06-11 18:00:05 ET] [INFO] Injury scan complete — no new key injuries
+[2026-06-11 19:14:28 ET] [INFO] ============================================================
+[2026-06-11 19:14:28 ET] [INFO] Starting full scan
+[2026-06-11 19:14:28 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-06-11 19:14:28 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-06-11 19:14:28 ET] [INFO]   ESPN basketball_nba: 0 games (cached)
+[2026-06-11 19:14:28 ET] [INFO]   ESPN baseball_mlb: 2 games (cached)
+[2026-06-11 19:14:28 ET] [INFO]   baseball_mlb: 2 games from espn
+[2026-06-11 19:14:28 ET] [INFO] Action Network mlb/odds: 8 games fetched
+[2026-06-11 19:14:34 ET] [DEBUG]   [Seattle Mariners @ Baltimore Orioles] sigs=['rest_disadvantage'] conf=15 pub=58%/42% ml_move=-108→-101
+[2026-06-11 19:14:34 ET] [DEBUG]     ✗ Seattle Mariners @ Baltimore Orioles — conf 15 < 35 threshold
+[2026-06-11 19:14:37 ET] [DEBUG]   [Atlanta Braves @ Chicago White Sox] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=74%/26% ml_move=102→103
+[2026-06-11 19:14:37 ET] [INFO]   ESPN icehockey_nhl: 1 games (cached)
+[2026-06-11 19:14:37 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-06-11 19:14:37 ET] [INFO] Action Network nhl/odds: 1 games fetched
+[2026-06-11 19:14:38 ET] [DEBUG]   [Vegas Golden Knights @ Carolina Hurricanes] sigs=['public_fade', 'sharp_money'] conf=45 pub=19%/81% ml_move=-148→-155
+[2026-06-11 19:14:38 ET] [DEBUG]     ✗ Vegas Golden Knights @ Carolina Hurricanes — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-11 19:14:38 ET] [INFO]   ESPN soccer_usa_mls: 0 games (cached)
+[2026-06-11 19:14:38 ET] [INFO]   ESPN soccer_epl: 0 games (cached)
+[2026-06-11 19:14:38 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (cached)
+[2026-06-11 19:14:38 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-06-11 19:14:38 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (cached)
+[2026-06-11 19:14:38 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-06-11 19:14:38 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-06-11 19:14:38 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-11 19:14:38 ET] [INFO] Scan complete -- 3 games checked, 0 alerts (silence = discipline)
+[2026-06-11 19:14:38 ET] [INFO] ============================================================
