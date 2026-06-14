@@ -45949,3 +45949,30 @@
 [2026-06-14 15:10:38 ET] [INFO] ============================================================
 [2026-06-14 16:04:24 ET] [INFO] Running injury scan
 [2026-06-14 16:04:27 ET] [INFO] Injury scan complete — no new key injuries
+[2026-06-14 17:00:07 ET] [INFO] ============================================================
+[2026-06-14 17:00:07 ET] [INFO] Starting full scan
+[2026-06-14 17:00:07 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-06-14 17:00:08 ET] [INFO] Auto-resolved espn_401815759: Philadelphia Phillies @ Milwaukee Brewers → P (home 0.0, away 0.0)
+[2026-06-14 17:00:08 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-06-14 17:00:08 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-06-14 17:00:08 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-06-14 17:00:08 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-06-14 17:00:12 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 15 events found)
+[2026-06-14 17:00:12 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-06-14 17:00:12 ET] [INFO] Action Network mlb/odds: 15 games fetched
+[2026-06-14 17:00:23 ET] [DEBUG]   [Texas Rangers @ Boston Red Sox] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=46%/54% ml_move=-112→-118
+[2026-06-14 17:00:24 ET] [INFO]   ESPN icehockey_nhl: 1 games (fresh, 1 events found)
+[2026-06-14 17:00:24 ET] [INFO]   icehockey_nhl: 1 games from espn
+[2026-06-14 17:00:24 ET] [INFO] Action Network nhl/odds: 1 games fetched
+[2026-06-14 17:00:25 ET] [DEBUG]   [Carolina Hurricanes @ Vegas Golden Knights] sigs=['sharp_money'] conf=25 pub=50%/50% ml_move=-110→-105
+[2026-06-14 17:00:25 ET] [DEBUG]     ✗ Carolina Hurricanes @ Vegas Golden Knights — conf 25 < 35 threshold
+[2026-06-14 17:00:25 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-06-14 17:00:25 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-06-14 17:00:25 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-06-14 17:00:26 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-06-14 17:00:26 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-06-14 17:00:26 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-06-14 17:00:26 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 1 events found)
+[2026-06-14 17:00:26 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-14 17:00:26 ET] [INFO] Scan complete -- 2 games checked, 0 alerts (silence = discipline)
+[2026-06-14 17:00:26 ET] [INFO] ============================================================
