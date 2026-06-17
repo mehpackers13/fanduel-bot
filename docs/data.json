@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-16T23:18:11.908307Z",
-  "last_scan": "2026-06-16 19:18:11 ET",
-  "last_scan_ts": "2026-06-16T23:18:11.908307Z",
+  "generated_at": "2026-06-17T02:48:15.844279Z",
+  "last_scan": "2026-06-16 22:48:15 ET",
+  "last_scan_ts": "2026-06-17T02:48:15.844279Z",
   "stats": {
-    "total_alerts": 197,
-    "completed_bets": 174,
+    "total_alerts": 199,
+    "completed_bets": 175,
     "win_rate": 6.3,
     "total_pl": 256.87,
     "by_sport": {
@@ -14,7 +14,7 @@
         "pl": 0.0
       },
       "MLB": {
-        "bets": 169,
+        "bets": 170,
         "wins": 11,
         "pl": 256.87
       }
@@ -25,11 +25,11 @@
         "wins": 5
       },
       "rest_disadvantage": {
-        "bets": 172,
+        "bets": 173,
         "wins": 11
       },
       "model_edge": {
-        "bets": 167,
+        "bets": 168,
         "wins": 8
       },
       "public_fade": {
@@ -48,6 +48,50 @@
   },
   "unit_total": 25.69,
   "today_bets": [
+    {
+      "timestamp": "2026-06-16 22:48 ET",
+      "sport": "MLB",
+      "game": "New York Mets @ Cincinnati Reds",
+      "home_team": "Cincinnati Reds",
+      "away_team": "New York Mets",
+      "bet_type": "moneyline",
+      "bet_side": "home",
+      "line": "+108",
+      "edge_pct": "9.7",
+      "confidence": "35",
+      "signals": "rest_disadvantage + model_edge",
+      "suggested_bet": "47.0",
+      "implied_prob": "48.1",
+      "true_prob": "57.7",
+      "reasoning": "Edge 9.7% on Cincinnati Reds moneyline. Cincinnati Reds on back-to-back -- fatigue factor. Power rating: Cincinnati Reds wp=48.6% / New York Mets wp=43.8% \u2014 Cincinnati Reds underpriced (model 57.7% vs mkt 48.1%).",
+      "game_id": "espn_401815792",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-06-16 22:48 ET",
+      "sport": "MLB",
+      "game": "San Francisco Giants @ Atlanta Braves",
+      "home_team": "Atlanta Braves",
+      "away_team": "San Francisco Giants",
+      "bet_type": "moneyline",
+      "bet_side": "home",
+      "line": "-143",
+      "edge_pct": "16.9",
+      "confidence": "35",
+      "signals": "rest_disadvantage + model_edge",
+      "suggested_bet": "50.0",
+      "implied_prob": "58.9",
+      "true_prob": "75.7",
+      "reasoning": "Edge 16.9% on Atlanta Braves moneyline. Atlanta Braves on back-to-back -- fatigue factor. Power rating: Atlanta Braves wp=64.8% / San Francisco Giants wp=40.3% \u2014 Atlanta Braves underpriced (model 75.7% vs mkt 58.9%).",
+      "game_id": "espn_401815793",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-06-16 16:42 ET",
       "sport": "MLB",
@@ -88,8 +132,8 @@
       "reasoning": "Edge 8.3% on Washington Nationals moneyline. Washington Nationals on back-to-back -- fatigue factor. Power rating: Washington Nationals wp=52.0% / Kansas City Royals wp=39.7% \u2014 Washington Nationals underpriced (model 65.0% vs mkt 56.7%).",
       "game_id": "espn_401815775",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -144,6 +188,50 @@
   },
   "recent_bets": [
     {
+      "timestamp": "2026-06-16 22:48 ET",
+      "sport": "MLB",
+      "game": "New York Mets @ Cincinnati Reds",
+      "home_team": "Cincinnati Reds",
+      "away_team": "New York Mets",
+      "bet_type": "moneyline",
+      "bet_side": "home",
+      "line": "+108",
+      "edge_pct": "9.7",
+      "confidence": "35",
+      "signals": "rest_disadvantage + model_edge",
+      "suggested_bet": "47.0",
+      "implied_prob": "48.1",
+      "true_prob": "57.7",
+      "reasoning": "Edge 9.7% on Cincinnati Reds moneyline. Cincinnati Reds on back-to-back -- fatigue factor. Power rating: Cincinnati Reds wp=48.6% / New York Mets wp=43.8% \u2014 Cincinnati Reds underpriced (model 57.7% vs mkt 48.1%).",
+      "game_id": "espn_401815792",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-06-16 22:48 ET",
+      "sport": "MLB",
+      "game": "San Francisco Giants @ Atlanta Braves",
+      "home_team": "Atlanta Braves",
+      "away_team": "San Francisco Giants",
+      "bet_type": "moneyline",
+      "bet_side": "home",
+      "line": "-143",
+      "edge_pct": "16.9",
+      "confidence": "35",
+      "signals": "rest_disadvantage + model_edge",
+      "suggested_bet": "50.0",
+      "implied_prob": "58.9",
+      "true_prob": "75.7",
+      "reasoning": "Edge 16.9% on Atlanta Braves moneyline. Atlanta Braves on back-to-back -- fatigue factor. Power rating: Atlanta Braves wp=64.8% / San Francisco Giants wp=40.3% \u2014 Atlanta Braves underpriced (model 75.7% vs mkt 58.9%).",
+      "game_id": "espn_401815793",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-06-16 16:42 ET",
       "sport": "MLB",
       "game": "San Francisco Giants @ Atlanta Braves",
@@ -183,8 +271,8 @@
       "reasoning": "Edge 8.3% on Washington Nationals moneyline. Washington Nationals on back-to-back -- fatigue factor. Power rating: Washington Nationals wp=52.0% / Kansas City Royals wp=39.7% \u2014 Washington Nationals underpriced (model 65.0% vs mkt 56.7%).",
       "game_id": "espn_401815775",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -1197,50 +1285,6 @@
       "sport_key": "baseball_mlb",
       "outcome": "P",
       "profit_loss": "0.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-05-26 22:36 ET",
-      "sport": "MLB",
-      "game": "Philadelphia Phillies @ San Diego Padres",
-      "home_team": "San Diego Padres",
-      "away_team": "Philadelphia Phillies",
-      "bet_type": "moneyline",
-      "bet_side": "home",
-      "line": "+129",
-      "edge_pct": "17.8",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "43.7",
-      "true_prob": "61.5",
-      "reasoning": "Edge 17.8% on San Diego Padres moneyline. San Diego Padres on back-to-back -- fatigue factor. Power rating: San Diego Padres wp=58.5% / Philadelphia Phillies wp=50.0% \u2014 San Diego Padres underpriced (model 61.5% vs mkt 43.7%).",
-      "game_id": "espn_401815527",
-      "sport_key": "baseball_mlb",
-      "outcome": "P",
-      "profit_loss": "0.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-05-26 22:36 ET",
-      "sport": "MLB",
-      "game": "Arizona Diamondbacks @ San Francisco Giants",
-      "home_team": "San Francisco Giants",
-      "away_team": "Arizona Diamondbacks",
-      "bet_type": "total",
-      "bet_side": "under",
-      "line": "u7.5",
-      "edge_pct": "5.0",
-      "confidence": "55",
-      "signals": "rest_disadvantage + weather_edge + model_edge",
-      "suggested_bet": "26.0",
-      "implied_prob": "52.4",
-      "true_prob": "57.4",
-      "reasoning": "Edge 5.0% on UNDER total. San Francisco Giants on back-to-back -- fatigue factor. Wind 20mph at MLB game \u2014 check wind direction, affects totals.",
-      "game_id": "espn_401815525",
-      "sport_key": "baseball_mlb",
-      "outcome": "W",
-      "profit_loss": "23.62",
       "notes": ""
     }
   ]
