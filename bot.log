@@ -49629,3 +49629,43 @@
 [2026-06-24 18:59:42 ET] [INFO] ============================================================
 [2026-06-24 20:07:50 ET] [INFO] Running injury scan
 [2026-06-24 20:07:52 ET] [INFO] Injury scan complete — no new key injuries
+[2026-06-24 22:29:00 ET] [INFO] ============================================================
+[2026-06-24 22:29:00 ET] [INFO] Starting full scan
+[2026-06-24 22:29:00 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-06-24 22:29:01 ET] [INFO] Auto-resolved espn_401815886: New York Yankees @ Detroit Tigers → P (home 0.0, away 0.0)
+[2026-06-24 22:29:01 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-06-24 22:29:01 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-06-24 22:29:02 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-06-24 22:29:02 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-06-24 22:29:06 ET] [INFO]   ESPN baseball_mlb: 9 games (fresh, 9 events found)
+[2026-06-24 22:29:06 ET] [INFO]   baseball_mlb: 9 games from espn
+[2026-06-24 22:29:06 ET] [INFO] Action Network mlb/odds: 16 games fetched
+[2026-06-24 22:29:19 ET] [DEBUG]   [Kansas City Royals @ Tampa Bay Rays] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=40%/60% ml_move=-149→-143
+[2026-06-24 22:29:19 ET] [DEBUG]     ✗ Kansas City Royals @ Tampa Bay Rays — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-24 22:29:31 ET] [DEBUG]   [Seattle Mariners @ Pittsburgh Pirates] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=51%/49% ml_move=113→119
+[2026-06-24 22:29:43 ET] [DEBUG]   [Athletics @ San Francisco Giants] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=41%/59% ml_move=-136→-136
+[2026-06-24 22:29:55 ET] [DEBUG]   [Houston Astros @ Detroit Tigers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=56%/44% ml_move=-126→-126
+[2026-06-24 22:30:07 ET] [DEBUG]   [Philadelphia Phillies @ Washington Nationals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=26%/74% ml_move=149→153
+[2026-06-24 22:30:19 ET] [DEBUG]   [Texas Rangers @ Toronto Blue Jays] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=0%/43% ml_move=-149→-156
+[2026-06-24 22:30:39 ET] [WARN] Weather fetch failed for Queens: HTTPSConnectionPool(host='wttr.in', port=443): Read timed out. (read timeout=8)
+[2026-06-24 22:30:39 ET] [DEBUG]   [Chicago Cubs @ New York Mets] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=40%/60% ml_move=-115→-114
+[2026-06-24 22:30:39 ET] [DEBUG]     ✗ Chicago Cubs @ New York Mets — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-24 22:30:51 ET] [DEBUG]   [New York Yankees @ Boston Red Sox] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=49%/51% ml_move=129→130
+[2026-06-24 22:31:02 ET] [DEBUG]   [Arizona Diamondbacks @ St. Louis Cardinals] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=55%/45% ml_move=-136→-136
+[2026-06-24 22:31:02 ET] [DEBUG]     ✗ Arizona Diamondbacks @ St. Louis Cardinals — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-24 22:31:02 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-06-24 22:31:03 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-06-24 22:31:03 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-06-24 22:31:03 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-06-24 22:31:03 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-06-24 22:31:03 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-06-24 22:31:03 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-06-24 22:31:04 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-06-24 22:31:04 ET] [INFO] Sprinkle alert sent: Athletics @ San Francisco Giants | moneyline Athletics +113 | edge 7.1% | 1u
+[2026-06-24 22:31:04 ET] [INFO] Sprinkle alert sent: Philadelphia Phillies @ Washington Nationals | moneyline Washington Nationals +153 | edge 9.1% | 1u
+[2026-06-24 22:31:04 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-24 22:31:04 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-24 22:31:04 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-24 22:31:04 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-24 22:31:04 ET] [INFO] Scan complete -- 9 games checked, 2 alert(s) sent (2u at risk today)
+[2026-06-24 22:31:04 ET] [INFO] ============================================================
