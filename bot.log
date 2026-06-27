@@ -50698,3 +50698,54 @@
 [2026-06-27 12:59:05 ET] [INFO] ============================================================
 [2026-06-27 13:36:11 ET] [INFO] Running injury scan
 [2026-06-27 13:36:13 ET] [INFO] Injury scan complete — no new key injuries
+[2026-06-27 15:05:06 ET] [INFO] ============================================================
+[2026-06-27 15:05:06 ET] [INFO] Starting full scan
+[2026-06-27 15:05:06 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-06-27 15:05:07 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-06-27 15:05:07 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-06-27 15:05:10 ET] [INFO]   ESPN baseball_mlb: 11 games (fresh, 15 events found)
+[2026-06-27 15:05:10 ET] [INFO]   baseball_mlb: 11 games from espn
+[2026-06-27 15:05:10 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-06-27 15:05:21 ET] [WARN] Weather fetch failed for Queens: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Queens?format=j1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wttr.in', port=443) at 0x7fd485085590>, 'Connection to wttr.in timed out. (connect timeout=8)'))
+[2026-06-27 15:05:21 ET] [DEBUG]   [Philadelphia Phillies @ New York Mets] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-143→-131
+[2026-06-27 15:05:31 ET] [WARN] Weather fetch failed for Chicago: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Chicago?format=j1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wttr.in', port=443) at 0x7fd48502efd0>, 'Connection to wttr.in timed out. (connect timeout=8)'))
+[2026-06-27 15:05:31 ET] [DEBUG]   [Kansas City Royals @ Chicago White Sox] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-143→-128
+[2026-06-27 15:05:41 ET] [WARN] Weather fetch failed for St. Petersburg: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /St.+Petersburg?format=j1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wttr.in', port=443) at 0x7fd4850b0a50>, 'Connection to wttr.in timed out. (connect timeout=8)'))
+[2026-06-27 15:05:41 ET] [DEBUG]   [Arizona Diamondbacks @ Tampa Bay Rays] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-186→-148
+[2026-06-27 15:05:41 ET] [DEBUG]     ✗ Arizona Diamondbacks @ Tampa Bay Rays — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-27 15:05:51 ET] [WARN] Weather fetch failed for Baltimore: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Baltimore?format=j1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wttr.in', port=443) at 0x7fd483b56cd0>, 'Connection to wttr.in timed out. (connect timeout=8)'))
+[2026-06-27 15:05:51 ET] [DEBUG]   [Washington Nationals @ Baltimore Orioles] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-115→-114
+[2026-06-27 15:05:51 ET] [DEBUG]     ✗ Washington Nationals @ Baltimore Orioles — conf 15 < 35 threshold
+[2026-06-27 15:06:01 ET] [WARN] Weather fetch failed for Cleveland: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Cleveland?format=j1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wttr.in', port=443) at 0x7fd4850fc5d0>, 'Connection to wttr.in timed out. (connect timeout=8)'))
+[2026-06-27 15:06:01 ET] [DEBUG]   [Seattle Mariners @ Cleveland Guardians] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=123→123
+[2026-06-27 15:06:11 ET] [WARN] Weather fetch failed for Milwaukee: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Milwaukee?format=j1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wttr.in', port=443) at 0x7fd483b5ea10>, 'Connection to wttr.in timed out. (connect timeout=8)'))
+[2026-06-27 15:06:11 ET] [DEBUG]   [Chicago Cubs @ Milwaukee Brewers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-163→-163
+[2026-06-27 15:06:11 ET] [DEBUG]     ✗ Chicago Cubs @ Milwaukee Brewers — conf 15 < 35 threshold
+[2026-06-27 15:06:21 ET] [WARN] Weather fetch failed for Minneapolis: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Minneapolis?format=j1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wttr.in', port=443) at 0x7fd483ade3d0>, 'Connection to wttr.in timed out. (connect timeout=8)'))
+[2026-06-27 15:06:21 ET] [DEBUG]   [Colorado Rockies @ Minnesota Twins] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-149→-144
+[2026-06-27 15:06:21 ET] [DEBUG]     ✗ Colorado Rockies @ Minnesota Twins — conf 15 < 35 threshold
+[2026-06-27 15:06:31 ET] [WARN] Weather fetch failed for St. Louis: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /St.+Louis?format=j1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wttr.in', port=443) at 0x7fd48505bf90>, 'Connection to wttr.in timed out. (connect timeout=8)'))
+[2026-06-27 15:06:31 ET] [DEBUG]   [Miami Marlins @ St. Louis Cardinals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-143→-137
+[2026-06-27 15:06:31 ET] [DEBUG]     ✗ Miami Marlins @ St. Louis Cardinals — conf 15 < 35 threshold
+[2026-06-27 15:06:41 ET] [WARN] Weather fetch failed for San Diego: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /San+Diego?format=j1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wttr.in', port=443) at 0x7fd485106750>, 'Connection to wttr.in timed out. (connect timeout=8)'))
+[2026-06-27 15:06:41 ET] [DEBUG]   [Los Angeles Dodgers @ San Diego Padres] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=163→168
+[2026-06-27 15:06:51 ET] [WARN] Weather fetch failed for San Francisco: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /San+Francisco?format=j1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wttr.in', port=443) at 0x7fd4844b6750>, 'Connection to wttr.in timed out. (connect timeout=8)'))
+[2026-06-27 15:06:51 ET] [DEBUG]   [Atlanta Braves @ San Francisco Giants] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-131→-136
+[2026-06-27 15:07:01 ET] [WARN] Weather fetch failed for Anaheim: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Anaheim?format=j1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='wttr.in', port=443) at 0x7fd4850fe9d0>, 'Connection to wttr.in timed out. (connect timeout=8)'))
+[2026-06-27 15:07:01 ET] [DEBUG]   [Athletics @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-117→-114
+[2026-06-27 15:07:01 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-06-27 15:07:01 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-06-27 15:07:01 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-06-27 15:07:01 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-06-27 15:07:01 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-06-27 15:07:01 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-06-27 15:07:01 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-06-27 15:07:01 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 1 events found)
+[2026-06-27 15:07:01 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-27 15:07:01 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-27 15:07:01 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-27 15:07:01 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-27 15:07:01 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-27 15:07:01 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-06-27 15:07:01 ET] [INFO] Scan complete -- 11 games checked, 0 alerts (silence = discipline)
+[2026-06-27 15:07:01 ET] [INFO] ============================================================
