@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-27T02:25:52.808605Z",
-  "last_scan": "2026-06-26 22:25:52 ET",
-  "last_scan_ts": "2026-06-27T02:25:52.808605Z",
+  "generated_at": "2026-06-27T06:48:05.069853Z",
+  "last_scan": "2026-06-27 02:48:04 ET",
+  "last_scan_ts": "2026-06-27T06:48:05.069853Z",
   "stats": {
     "total_alerts": 223,
-    "completed_bets": 199,
+    "completed_bets": 200,
     "win_rate": 5.5,
     "total_pl": 256.87,
     "by_sport": {
@@ -14,22 +14,22 @@
         "pl": 0.0
       },
       "MLB": {
-        "bets": 194,
+        "bets": 195,
         "wins": 11,
         "pl": 256.87
       }
     },
     "by_signal": {
       "sharp_money": {
-        "bets": 69,
+        "bets": 70,
         "wins": 5
       },
       "rest_disadvantage": {
-        "bets": 197,
+        "bets": 198,
         "wins": 11
       },
       "model_edge": {
-        "bets": 191,
+        "bets": 192,
         "wins": 8
       },
       "public_fade": {
@@ -37,7 +37,7 @@
         "wins": 1
       },
       "weather_edge": {
-        "bets": 45,
+        "bets": 46,
         "wins": 11
       },
       "travel_disadvantage": {
@@ -110,8 +110,8 @@
       "reasoning": "Edge 11.6% on Atlanta Braves moneyline. ML moved 208 pts on San Francisco Giants (+107\u2192-101) \u2014 steam toward San Francisco Giants. San Francisco Giants on back-to-back -- fatigue factor.",
       "game_id": "espn_401815919",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -130,50 +130,6 @@
       "implied_prob": "53.5",
       "true_prob": "64.9",
       "reasoning": "Edge 11.4% on New York Yankees moneyline. 76% public on Boston Red Sox -- fade value on New York Yankees. ML moved 205 pts on Boston Red Sox (+100\u2192-105) \u2014 steam toward Boston Red Sox.",
-      "game_id": "espn_401815909",
-      "sport_key": "baseball_mlb",
-      "outcome": "P",
-      "profit_loss": "0.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-06-25 22:32 ET",
-      "sport": "MLB",
-      "game": "Houston Astros @ Detroit Tigers",
-      "home_team": "Detroit Tigers",
-      "away_team": "Houston Astros",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "+102",
-      "edge_pct": "3.7",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "18.0",
-      "implied_prob": "49.5",
-      "true_prob": "53.2",
-      "reasoning": "Edge 3.7% on Houston Astros moneyline. Detroit Tigers on back-to-back -- fatigue factor. Power rating: Detroit Tigers wp=42.0% / Houston Astros wp=48.2% \u2014 Houston Astros underpriced (model 53.2% vs mkt 49.5%).",
-      "game_id": "espn_401815908",
-      "sport_key": "baseball_mlb",
-      "outcome": "P",
-      "profit_loss": "0.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-06-25 22:32 ET",
-      "sport": "MLB",
-      "game": "New York Yankees @ Boston Red Sox",
-      "home_team": "Boston Red Sox",
-      "away_team": "New York Yankees",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "-118",
-      "edge_pct": "10.8",
-      "confidence": "60",
-      "signals": "sharp_money + rest_disadvantage + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "54.1",
-      "true_prob": "64.9",
-      "reasoning": "Edge 10.8% on New York Yankees moneyline. ML moved 202 pts on Boston Red Sox (+100\u2192-102) \u2014 steam toward Boston Red Sox. Boston Red Sox on back-to-back -- fatigue factor.",
       "game_id": "espn_401815909",
       "sport_key": "baseball_mlb",
       "outcome": "P",
@@ -271,8 +227,8 @@
       "reasoning": "Edge 11.6% on Atlanta Braves moneyline. ML moved 208 pts on San Francisco Giants (+107\u2192-101) \u2014 steam toward San Francisco Giants. San Francisco Giants on back-to-back -- fatigue factor.",
       "game_id": "espn_401815919",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
