@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-30T16:25:34.070457Z",
-  "last_scan": "2026-06-30 12:25:33 ET",
-  "last_scan_ts": "2026-06-30T16:25:34.070457Z",
+  "generated_at": "2026-06-30T19:43:46.038326Z",
+  "last_scan": "2026-06-30 15:43:45 ET",
+  "last_scan_ts": "2026-06-30T19:43:46.038326Z",
   "stats": {
-    "total_alerts": 232,
+    "total_alerts": 233,
     "completed_bets": 208,
     "win_rate": 5.3,
     "total_pl": 256.87,
@@ -48,6 +48,28 @@
   },
   "unit_total": 25.69,
   "today_bets": [
+    {
+      "timestamp": "2026-06-30 15:43 ET",
+      "sport": "MLB",
+      "game": "Tampa Bay Rays @ Kansas City Royals",
+      "home_team": "Kansas City Royals",
+      "away_team": "Tampa Bay Rays",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "-122",
+      "edge_pct": "9.8",
+      "confidence": "80",
+      "signals": "sharp_money + rest_disadvantage + weather_edge + model_edge",
+      "suggested_bet": "50.0",
+      "implied_prob": "54.9",
+      "true_prob": "64.8",
+      "reasoning": "Edge 9.8% on Tampa Bay Rays moneyline. Sharp money on Tampa Bay Rays -- line moved opposite to 32% public. Kansas City Royals playing 3rd game in 4 nights.",
+      "game_id": "espn_401815974",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-06-30 12:25 ET",
       "sport": "MLB",
@@ -165,6 +187,28 @@
     }
   },
   "recent_bets": [
+    {
+      "timestamp": "2026-06-30 15:43 ET",
+      "sport": "MLB",
+      "game": "Tampa Bay Rays @ Kansas City Royals",
+      "home_team": "Kansas City Royals",
+      "away_team": "Tampa Bay Rays",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "-122",
+      "edge_pct": "9.8",
+      "confidence": "80",
+      "signals": "sharp_money + rest_disadvantage + weather_edge + model_edge",
+      "suggested_bet": "50.0",
+      "implied_prob": "54.9",
+      "true_prob": "64.8",
+      "reasoning": "Edge 9.8% on Tampa Bay Rays moneyline. Sharp money on Tampa Bay Rays -- line moved opposite to 32% public. Kansas City Royals playing 3rd game in 4 nights.",
+      "game_id": "espn_401815974",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-06-30 12:25 ET",
       "sport": "MLB",
@@ -1241,28 +1285,6 @@
       "sport_key": "baseball_mlb",
       "outcome": "",
       "profit_loss": "",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-06-09 22:37 ET",
-      "sport": "MLB",
-      "game": "Milwaukee Brewers @ Athletics",
-      "home_team": "Athletics",
-      "away_team": "Milwaukee Brewers",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "-114",
-      "edge_pct": "10.8",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "53.3",
-      "true_prob": "64.1",
-      "reasoning": "Edge 10.8% on Milwaukee Brewers moneyline. Athletics on back-to-back -- fatigue factor. Power rating: Athletics wp=47.0% / Milwaukee Brewers wp=64.1% \u2014 Milwaukee Brewers underpriced (model 64.1% vs mkt 53.3%).",
-      "game_id": "espn_401815709",
-      "sport_key": "baseball_mlb",
-      "outcome": "P",
-      "profit_loss": "0.0",
       "notes": ""
     }
   ]
