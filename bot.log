@@ -52024,3 +52024,33 @@
 [2026-06-30 17:23:09 ET] [INFO] ============================================================
 [2026-06-30 17:56:31 ET] [INFO] Running injury scan
 [2026-06-30 17:56:35 ET] [INFO] Injury scan complete — no new key injuries
+[2026-06-30 19:03:06 ET] [INFO] ============================================================
+[2026-06-30 19:03:06 ET] [INFO] Starting full scan
+[2026-06-30 19:03:06 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-06-30 19:03:08 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-06-30 19:03:08 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-06-30 19:03:11 ET] [INFO]   ESPN baseball_mlb: 6 games (fresh, 15 events found)
+[2026-06-30 19:03:11 ET] [INFO]   baseball_mlb: 6 games from espn
+[2026-06-30 19:03:11 ET] [INFO] Action Network mlb/odds: 15 games fetched
+[2026-06-30 19:03:15 ET] [DEBUG]   [San Diego Padres @ Chicago Cubs] sigs=['sharp_money', 'rest_disadvantage', 'weather_edge'] conf=60 pub=33%/67% ml_move=-156→-156
+[2026-06-30 19:03:15 ET] [DEBUG]     ✗ San Diego Padres @ Chicago Cubs — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-30 19:03:18 ET] [DEBUG]   [Minnesota Twins @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=44%/56% ml_move=-102→-110
+[2026-06-30 19:03:18 ET] [DEBUG]     ✗ Minnesota Twins @ Houston Astros — conf 15 < 35 threshold
+[2026-06-30 19:03:20 ET] [DEBUG]   [Miami Marlins @ Colorado Rockies] sigs=['sharp_money', 'rest_disadvantage', 'weather_edge', 'model_edge'] conf=80 pub=69%/31% ml_move=123→117
+[2026-06-30 19:03:20 ET] [DEBUG]     ✗ Miami Marlins @ Colorado Rockies — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-30 19:03:23 ET] [DEBUG]   [Los Angeles Angels @ Seattle Mariners] sigs=['public_fade', 'sharp_money', 'rest_disadvantage'] conf=60 pub=21%/79% ml_move=-163→-193
+[2026-06-30 19:03:23 ET] [DEBUG]     ✗ Los Angeles Angels @ Seattle Mariners — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-30 19:03:25 ET] [DEBUG]   [Los Angeles Dodgers @ Athletics] sigs=['public_fade', 'sharp_money', 'rest_disadvantage'] conf=60 pub=94%/6% ml_move=123→148
+[2026-06-30 19:03:25 ET] [DEBUG]     ✗ Los Angeles Dodgers @ Athletics — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-06-30 19:03:28 ET] [DEBUG]   [San Francisco Giants @ Arizona Diamondbacks] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=43%/57% ml_move=-112→-120
+[2026-06-30 19:03:28 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-06-30 19:03:28 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-06-30 19:03:28 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-06-30 19:03:28 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-06-30 19:03:28 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-06-30 19:03:28 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-06-30 19:03:28 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-06-30 19:03:28 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-06-30 19:03:28 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-06-30 19:03:28 ET] [INFO] Scan complete -- 6 games checked, 0 alerts (silence = discipline)
+[2026-06-30 19:03:28 ET] [INFO] ============================================================
