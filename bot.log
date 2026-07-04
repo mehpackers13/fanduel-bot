@@ -53612,3 +53612,50 @@
 [2026-07-04 13:00:45 ET] [INFO] Injury scan complete — no new key injuries
 [2026-07-04 14:30:25 ET] [INFO] Running injury scan
 [2026-07-04 14:30:27 ET] [INFO] Injury scan complete — no new key injuries
+[2026-07-04 14:57:30 ET] [INFO] ============================================================
+[2026-07-04 14:57:30 ET] [INFO] Starting full scan
+[2026-07-04 14:57:30 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-07-04 14:57:32 ET] [INFO] Auto-resolved espn_401816019: Pittsburgh Pirates @ Washington Nationals → P (home 0.0, away 0.0)
+[2026-07-04 14:57:32 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-07-04 14:57:32 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-07-04 14:57:32 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-07-04 14:57:32 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-07-04 14:57:39 ET] [INFO]   ESPN baseball_mlb: 13 games (fresh, 15 events found)
+[2026-07-04 14:57:39 ET] [INFO]   baseball_mlb: 13 games from espn
+[2026-07-04 14:57:39 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-07-04 14:57:51 ET] [DEBUG]   [Detroit Tigers @ Texas Rangers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-108→-102
+[2026-07-04 14:58:02 ET] [DEBUG]   [Toronto Blue Jays @ Seattle Mariners] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-156→-169
+[2026-07-04 14:58:13 ET] [DEBUG]   [Baltimore Orioles @ Cincinnati Reds] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-131
+[2026-07-04 14:58:13 ET] [DEBUG]     ✗ Baltimore Orioles @ Cincinnati Reds — conf 15 < 35 threshold
+[2026-07-04 14:58:23 ET] [DEBUG]   [Chicago White Sox @ Cleveland Guardians] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-156→-144
+[2026-07-04 14:58:23 ET] [DEBUG]     ✗ Chicago White Sox @ Cleveland Guardians — conf 15 < 35 threshold
+[2026-07-04 14:58:33 ET] [DEBUG]   [Tampa Bay Rays @ Houston Astros] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-115→-108
+[2026-07-04 14:58:44 ET] [DEBUG]   [New York Mets @ Atlanta Braves] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-181→-171
+[2026-07-04 14:58:55 ET] [DEBUG]   [St. Louis Cardinals @ Chicago Cubs] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-156→-163
+[2026-07-04 14:59:05 ET] [DEBUG]   [Philadelphia Phillies @ Kansas City Royals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=123→129
+[2026-07-04 14:59:05 ET] [DEBUG]     ✗ Philadelphia Phillies @ Kansas City Royals — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-07-04 14:59:15 ET] [DEBUG]   [San Francisco Giants @ Colorado Rockies] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=109→126
+[2026-07-04 14:59:25 ET] [DEBUG]   [Boston Red Sox @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=135→141
+[2026-07-04 14:59:35 ET] [DEBUG]   [Miami Marlins @ Athletics] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-105→109
+[2026-07-04 14:59:35 ET] [DEBUG]     ✗ Miami Marlins @ Athletics — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-07-04 14:59:45 ET] [DEBUG]   [Milwaukee Brewers @ Arizona Diamondbacks] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=129→130
+[2026-07-04 14:59:45 ET] [DEBUG]     ✗ Milwaukee Brewers @ Arizona Diamondbacks — conf 15 < 35 threshold
+[2026-07-04 14:59:55 ET] [DEBUG]   [San Diego Padres @ Los Angeles Dodgers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-280→-274
+[2026-07-04 14:59:55 ET] [DEBUG]     ✗ San Diego Padres @ Los Angeles Dodgers — conf 15 < 35 threshold
+[2026-07-04 14:59:56 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-07-04 14:59:56 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-07-04 14:59:56 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-07-04 14:59:56 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-07-04 14:59:56 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-07-04 14:59:57 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-07-04 14:59:57 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-07-04 14:59:57 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-07-04 14:59:57 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-04 14:59:57 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-04 14:59:57 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-04 14:59:57 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-04 14:59:57 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-04 14:59:57 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-04 14:59:57 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-04 14:59:57 ET] [INFO] Scan complete -- 13 games checked, 0 alerts (silence = discipline)
+[2026-07-04 14:59:57 ET] [INFO] ============================================================
