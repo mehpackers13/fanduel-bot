@@ -55541,3 +55541,52 @@
 [2026-07-09 10:33:13 ET] [WARN]   Sprinkle cap reached (2) — skipping
 [2026-07-09 10:33:13 ET] [INFO] Scan complete -- 13 games checked, 0 alerts (silence = discipline)
 [2026-07-09 10:33:13 ET] [INFO] ============================================================
+[2026-07-09 10:43:42 ET] [INFO] ============================================================
+[2026-07-09 10:43:42 ET] [INFO] Running morning briefing scan (7am)
+[2026-07-09 10:43:42 ET] [INFO] ============================================================
+[2026-07-09 10:43:42 ET] [INFO] Starting morning scan
+[2026-07-09 10:43:42 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-07-09 10:43:43 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-07-09 10:43:43 ET] [INFO]   ESPN basketball_nba: 0 games (cached)
+[2026-07-09 10:43:43 ET] [INFO]   ESPN baseball_mlb: 13 games (cached)
+[2026-07-09 10:43:43 ET] [INFO]   baseball_mlb: 13 games from espn
+[2026-07-09 10:43:43 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-07-09 10:43:50 ET] [DEBUG]   [Atlanta Braves @ Pittsburgh Pirates] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-105→100
+[2026-07-09 10:43:50 ET] [DEBUG]     ✗ Atlanta Braves @ Pittsburgh Pirates — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-07-09 10:43:57 ET] [DEBUG]   [Kansas City Royals @ New York Mets] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-143→-134
+[2026-07-09 10:43:57 ET] [DEBUG]     ✗ Kansas City Royals @ New York Mets — conf 15 < 35 threshold
+[2026-07-09 10:44:05 ET] [DEBUG]   [New York Yankees @ Tampa Bay Rays] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-156→-163
+[2026-07-09 10:44:05 ET] [DEBUG]     ✗ New York Yankees @ Tampa Bay Rays — conf 15 < 35 threshold
+[2026-07-09 10:44:12 ET] [DEBUG]   [Chicago Cubs @ Baltimore Orioles] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-131→-132
+[2026-07-09 10:44:19 ET] [DEBUG]   [Cleveland Guardians @ Minnesota Twins] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=109→109
+[2026-07-09 10:44:19 ET] [DEBUG]     ✗ Cleveland Guardians @ Minnesota Twins — conf 15 < 35 threshold
+[2026-07-09 10:44:26 ET] [DEBUG]   [Boston Red Sox @ Chicago White Sox] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-118→-120
+[2026-07-09 10:44:26 ET] [DEBUG]     ✗ Boston Red Sox @ Chicago White Sox — conf 15 < 35 threshold
+[2026-07-09 10:44:33 ET] [DEBUG]   [Athletics @ Detroit Tigers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-143→-136
+[2026-07-09 10:44:33 ET] [DEBUG]     ✗ Athletics @ Detroit Tigers — conf 15 < 35 threshold
+[2026-07-09 10:44:40 ET] [DEBUG]   [Seattle Mariners @ Miami Marlins] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=123→113
+[2026-07-09 10:44:47 ET] [DEBUG]   [Philadelphia Phillies @ Cincinnati Reds] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=139→138
+[2026-07-09 10:44:47 ET] [DEBUG]     ✗ Philadelphia Phillies @ Cincinnati Reds — conf 15 < 35 threshold
+[2026-07-09 10:44:54 ET] [DEBUG]   [Milwaukee Brewers @ St. Louis Cardinals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=109→113
+[2026-07-09 10:44:54 ET] [DEBUG]     ✗ Milwaukee Brewers @ St. Louis Cardinals — conf 15 < 35 threshold
+[2026-07-09 10:45:01 ET] [DEBUG]   [Los Angeles Angels @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-149→-142
+[2026-07-09 10:45:01 ET] [DEBUG]     ✗ Los Angeles Angels @ Texas Rangers — conf 15 < 35 threshold
+[2026-07-09 10:45:08 ET] [DEBUG]   [Arizona Diamondbacks @ San Diego Padres] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-126→-125
+[2026-07-09 10:45:08 ET] [DEBUG]     ✗ Arizona Diamondbacks @ San Diego Padres — conf 15 < 35 threshold
+[2026-07-09 10:45:15 ET] [DEBUG]   [Colorado Rockies @ San Francisco Giants] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-143→-136
+[2026-07-09 10:45:15 ET] [DEBUG]     ✗ Colorado Rockies @ San Francisco Giants — conf 15 < 35 threshold
+[2026-07-09 10:45:15 ET] [INFO]   ESPN icehockey_nhl: 0 games (cached)
+[2026-07-09 10:45:15 ET] [INFO]   ESPN soccer_usa_mls: 0 games (cached)
+[2026-07-09 10:45:15 ET] [INFO]   ESPN soccer_epl: 0 games (cached)
+[2026-07-09 10:45:15 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (cached)
+[2026-07-09 10:45:15 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-07-09 10:45:15 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (cached)
+[2026-07-09 10:45:15 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-07-09 10:45:15 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-07-09 10:45:15 ET] [INFO] Morning scan complete -- 13 games checked, 2 opportunities
+[2026-07-09 10:45:15 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-07-09 10:45:15 ET] [INFO] Morning briefing sent: 2 opportunities | combined units: 🟢 +28.0u
+[2026-07-09 10:45:15 ET] [INFO] Running record: 5.2% win rate | +2.7% ROI on 229 bets
+[2026-07-09 10:45:15 ET] [INFO] Unit totals — FanDuel: +27.99u | Kalshi: 0.0 | Options: 0
+[2026-07-09 10:45:15 ET] [INFO] Morning briefing complete
+[2026-07-09 10:45:15 ET] [INFO] ============================================================
