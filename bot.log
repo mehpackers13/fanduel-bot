@@ -56567,3 +56567,38 @@
 [2026-07-11 14:47:40 ET] [INFO] ============================================================
 [2026-07-11 15:42:38 ET] [INFO] Running injury scan
 [2026-07-11 15:42:41 ET] [INFO] Injury scan complete — no new key injuries
+[2026-07-11 16:38:38 ET] [INFO] ============================================================
+[2026-07-11 16:38:38 ET] [INFO] Starting full scan
+[2026-07-11 16:38:38 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-07-11 16:38:39 ET] [INFO] Auto-resolved espn_401816120: Athletics @ Chicago White Sox → P (home 0.0, away 0.0)
+[2026-07-11 16:38:39 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-07-11 16:38:39 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-07-11 16:38:39 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-07-11 16:38:39 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-07-11 16:38:43 ET] [INFO]   ESPN baseball_mlb: 7 games (fresh, 16 events found)
+[2026-07-11 16:38:43 ET] [INFO]   baseball_mlb: 7 games from espn
+[2026-07-11 16:38:43 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-07-11 16:38:47 ET] [DEBUG]   [Philadelphia Phillies @ Detroit Tigers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=111→123
+[2026-07-11 16:38:47 ET] [DEBUG]     ✗ Philadelphia Phillies @ Detroit Tigers — conf 15 < 35 threshold
+[2026-07-11 16:38:51 ET] [DEBUG]   [Kansas City Royals @ Baltimore Orioles] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-156→-157
+[2026-07-11 16:38:51 ET] [DEBUG]     ✗ Kansas City Royals @ Baltimore Orioles — conf 15 < 35 threshold
+[2026-07-11 16:38:53 ET] [DEBUG]   [Houston Astros @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-131→-117
+[2026-07-11 16:38:53 ET] [DEBUG]     ✗ Houston Astros @ Texas Rangers — conf 15 < 35 threshold
+[2026-07-11 16:38:56 ET] [DEBUG]   [Chicago Cubs @ Cincinnati Reds] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-102→-114
+[2026-07-11 16:38:58 ET] [DEBUG]   [Atlanta Braves @ St. Louis Cardinals] sigs=['sharp_money', 'rest_disadvantage', 'weather_edge', 'model_edge'] conf=80 pub=n/a ml_move=100→-112
+[2026-07-11 16:39:01 ET] [DEBUG]   [Toronto Blue Jays @ San Diego Padres] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-115→-112
+[2026-07-11 16:39:01 ET] [DEBUG]     ✗ Toronto Blue Jays @ San Diego Padres — conf 15 < 35 threshold
+[2026-07-11 16:39:04 ET] [DEBUG]   [Arizona Diamondbacks @ Los Angeles Dodgers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-280→-283
+[2026-07-11 16:39:04 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-07-11 16:39:04 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-07-11 16:39:04 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-07-11 16:39:04 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-07-11 16:39:04 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-07-11 16:39:04 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-07-11 16:39:04 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-07-11 16:39:04 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 1 events found)
+[2026-07-11 16:39:04 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-07-11 16:39:04 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-07-11 16:39:04 ET] [WARN]   Daily units cap would be exceeded (10u + 1u > 10u) — skipping
+[2026-07-11 16:39:04 ET] [INFO] Scan complete -- 7 games checked, 0 alerts (silence = discipline)
+[2026-07-11 16:39:04 ET] [INFO] ============================================================
