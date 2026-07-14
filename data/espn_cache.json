@@ -1,46 +1,99 @@
 {
   "americanfootball_nfl": {
-    "ts": "2026-07-13T22:45:21.166228",
+    "ts": "2026-07-14T01:40:42.525510",
     "games": []
   },
   "basketball_nba": {
-    "ts": "2026-07-13T22:45:21.261839",
+    "ts": "2026-07-14T01:40:42.638817",
     "games": []
   },
   "baseball_mlb": {
-    "ts": "2026-07-13T22:45:21.441998",
-    "games": []
+    "ts": "2026-07-14T01:40:43.095739",
+    "games": [
+      {
+        "game_id": "espn_401817370",
+        "sport_key": "baseball_mlb",
+        "sport": "MLB",
+        "home_team": "National All-Stars",
+        "away_team": "American All-Stars",
+        "commence": "2026-07-15T00:00Z",
+        "hours_out": 22.3,
+        "venue_city": "Philadelphia",
+        "source": "espn",
+        "h2h": {
+          "home_odds": -135,
+          "away_odds": 110,
+          "home_prob": 0.5745,
+          "away_prob": 0.4762,
+          "true_home_prob": 0.5468,
+          "true_away_prob": 0.4532,
+          "best_home_odds": -135,
+          "best_away_odds": 110,
+          "spread_point": -1.5,
+          "book_count": 1
+        },
+        "spread": {
+          "home_odds": -110,
+          "away_odds": -110,
+          "home_prob": 0.5238095238095238,
+          "away_prob": 0.5238095238095238,
+          "true_home_prob": 0.5,
+          "true_away_prob": 0.5,
+          "spread_point": -1.5,
+          "best_home_odds": -110,
+          "best_away_odds": -110,
+          "book_count": 1
+        },
+        "total": {
+          "line": 7.5,
+          "over_odds": -120,
+          "under_odds": -105,
+          "over_prob": 0.5454545454545454,
+          "under_prob": 0.5121951219512195
+        },
+        "line_movement": {
+          "open_home_ml": -135,
+          "open_away_ml": 110,
+          "current_home_ml": -135,
+          "current_away_ml": 110,
+          "open_spread": null,
+          "current_spread": -1.5,
+          "spread_moved": null,
+          "is_sharp": false
+        }
+      }
+    ]
   },
   "icehockey_nhl": {
-    "ts": "2026-07-13T22:45:21.539230",
+    "ts": "2026-07-14T01:40:50.688651",
     "games": []
   },
   "soccer_usa_mls": {
-    "ts": "2026-07-13T22:45:21.652813",
+    "ts": "2026-07-14T01:40:50.799555",
     "games": []
   },
   "soccer_epl": {
-    "ts": "2026-07-13T22:45:21.792421",
+    "ts": "2026-07-14T01:40:50.911950",
     "games": []
   },
   "soccer_esp_la_liga": {
-    "ts": "2026-07-13T22:45:21.890300",
+    "ts": "2026-07-14T01:40:51.025874",
     "games": []
   },
   "soccer_ger_bundesliga": {
-    "ts": "2026-07-13T22:45:21.989786",
+    "ts": "2026-07-14T01:40:51.137080",
     "games": []
   },
   "soccer_ita_serie_a": {
-    "ts": "2026-07-13T22:45:22.095583",
+    "ts": "2026-07-14T01:40:51.244792",
     "games": []
   },
   "soccer_fra_ligue_one": {
-    "ts": "2026-07-13T22:45:22.194936",
+    "ts": "2026-07-14T01:40:51.357172",
     "games": []
   },
   "mma_mixed_martial_arts": {
-    "ts": "2026-07-13T22:45:22.288295",
+    "ts": "2026-07-14T01:40:51.470672",
     "games": []
   }
 }
