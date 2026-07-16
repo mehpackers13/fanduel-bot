@@ -57891,3 +57891,33 @@
 [2026-07-16 11:26:30 ET] [INFO] ============================================================
 [2026-07-16 11:54:20 ET] [INFO] Running injury scan
 [2026-07-16 11:54:21 ET] [INFO] Injury scan complete — no new key injuries
+[2026-07-16 13:03:46 ET] [INFO] ============================================================
+[2026-07-16 13:03:46 ET] [INFO] Starting full scan
+[2026-07-16 13:03:46 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-07-16 13:03:48 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-07-16 13:03:48 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-07-16 13:03:48 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 1 events found)
+[2026-07-16 13:03:48 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-07-16 13:03:48 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-07-16 13:03:50 ET] [DEBUG]   [New York Mets @ Philadelphia Phillies] sigs=['model_edge'] conf=20 pub=n/a ml_move=-147→-131
+[2026-07-16 13:03:50 ET] [DEBUG]     ✗ New York Mets @ Philadelphia Phillies — conf 20 < 35 threshold
+[2026-07-16 13:03:50 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-07-16 13:03:52 ET] [INFO]   ESPN soccer_usa_mls: 4 games (fresh, 4 events found)
+[2026-07-16 13:03:52 ET] [INFO]   soccer_usa_mls: 4 games from espn
+[2026-07-16 13:03:52 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-07-16 13:03:53 ET] [DEBUG]   [Toronto FC @ CF Montréal] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-110→130
+[2026-07-16 13:03:53 ET] [DEBUG]     ✗ Toronto FC @ CF Montréal — conf 25 < 35 threshold
+[2026-07-16 13:03:54 ET] [DEBUG]   [Vancouver Whitecaps @ Chicago Fire FC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=180→145
+[2026-07-16 13:03:54 ET] [DEBUG]     ✗ Vancouver Whitecaps @ Chicago Fire FC — conf 25 < 35 threshold
+[2026-07-16 13:03:55 ET] [DEBUG]   [Sporting Kansas City @ St. Louis CITY SC] sigs=[] conf=0 pub=n/a ml_move=-240→-250
+[2026-07-16 13:03:55 ET] [DEBUG]     ✗ Sporting Kansas City @ St. Louis CITY SC — only 0/1 signals (need 1 more)
+[2026-07-16 13:03:56 ET] [DEBUG]   [Portland Timbers @ Seattle Sounders FC] sigs=[] conf=0 pub=n/a ml_move=-220→-215
+[2026-07-16 13:03:56 ET] [DEBUG]     ✗ Portland Timbers @ Seattle Sounders FC — only 0/1 signals (need 1 more)
+[2026-07-16 13:03:56 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-07-16 13:03:56 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-07-16 13:03:56 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-07-16 13:03:56 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-07-16 13:03:56 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-07-16 13:03:56 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-07-16 13:03:56 ET] [INFO] Scan complete -- 5 games checked, 0 alerts (silence = discipline)
+[2026-07-16 13:03:56 ET] [INFO] ============================================================
