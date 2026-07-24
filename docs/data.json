@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-23T22:47:43.933084Z",
-  "last_scan": "2026-07-23 18:47:43 ET",
-  "last_scan_ts": "2026-07-23T22:47:43.933084Z",
+  "generated_at": "2026-07-24T01:51:26.345864Z",
+  "last_scan": "2026-07-23 21:51:26 ET",
+  "last_scan_ts": "2026-07-24T01:51:26.345864Z",
   "stats": {
-    "total_alerts": 274,
-    "completed_bets": 251,
+    "total_alerts": 275,
+    "completed_bets": 252,
     "win_rate": 5.2,
     "total_pl": 303.34,
     "by_sport": {
@@ -14,7 +14,7 @@
         "pl": 0.0
       },
       "MLB": {
-        "bets": 246,
+        "bets": 247,
         "wins": 13,
         "pl": 303.34000000000003
       }
@@ -25,11 +25,11 @@
         "wins": 6
       },
       "rest_disadvantage": {
-        "bets": 246,
+        "bets": 247,
         "wins": 13
       },
       "model_edge": {
-        "bets": 240,
+        "bets": 241,
         "wins": 9
       },
       "public_fade": {
@@ -49,6 +49,28 @@
   "unit_total": 30.33,
   "today_bets": [
     {
+      "timestamp": "2026-07-23 21:51 ET",
+      "sport": "MLB",
+      "game": "Kansas City Royals @ Detroit Tigers",
+      "home_team": "Detroit Tigers",
+      "away_team": "Kansas City Royals",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "+194",
+      "edge_pct": "6.8",
+      "confidence": "35",
+      "signals": "rest_disadvantage + model_edge",
+      "suggested_bet": "26.0",
+      "implied_prob": "34.0",
+      "true_prob": "40.8",
+      "reasoning": "Edge 6.8% on Kansas City Royals moneyline. Detroit Tigers on back-to-back -- fatigue factor. Power rating: Detroit Tigers wp=47.6% / Kansas City Royals wp=41.3% \u2014 Kansas City Royals underpriced (model 40.8% vs mkt 34.0%).",
+      "game_id": "espn_401816239",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-07-22 21:56 ET",
       "sport": "MLB",
       "game": "Kansas City Royals @ Detroit Tigers",
@@ -66,8 +88,8 @@
       "reasoning": "Edge 4.2% on Kansas City Royals moneyline. Detroit Tigers on back-to-back -- fatigue factor. Power rating: Detroit Tigers wp=46.5% / Kansas City Royals wp=41.8% \u2014 Kansas City Royals underpriced (model 42.2% vs mkt 38.0%).",
       "game_id": "espn_401816231",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -122,6 +144,28 @@
   },
   "recent_bets": [
     {
+      "timestamp": "2026-07-23 21:51 ET",
+      "sport": "MLB",
+      "game": "Kansas City Royals @ Detroit Tigers",
+      "home_team": "Detroit Tigers",
+      "away_team": "Kansas City Royals",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "+194",
+      "edge_pct": "6.8",
+      "confidence": "35",
+      "signals": "rest_disadvantage + model_edge",
+      "suggested_bet": "26.0",
+      "implied_prob": "34.0",
+      "true_prob": "40.8",
+      "reasoning": "Edge 6.8% on Kansas City Royals moneyline. Detroit Tigers on back-to-back -- fatigue factor. Power rating: Detroit Tigers wp=47.6% / Kansas City Royals wp=41.3% \u2014 Kansas City Royals underpriced (model 40.8% vs mkt 34.0%).",
+      "game_id": "espn_401816239",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-07-22 21:56 ET",
       "sport": "MLB",
       "game": "Kansas City Royals @ Detroit Tigers",
@@ -139,8 +183,8 @@
       "reasoning": "Edge 4.2% on Kansas City Royals moneyline. Detroit Tigers on back-to-back -- fatigue factor. Power rating: Detroit Tigers wp=46.5% / Kansas City Royals wp=41.8% \u2014 Kansas City Royals underpriced (model 42.2% vs mkt 38.0%).",
       "game_id": "espn_401816231",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -1194,28 +1238,6 @@
       "true_prob": "50.6",
       "reasoning": "Edge 12.6% on Washington Nationals moneyline. Baltimore Orioles on back-to-back -- fatigue factor. Power rating: Baltimore Orioles wp=46.4% / Washington Nationals wp=50.0% \u2014 Washington Nationals underpriced (model 50.6% vs mkt 38.0%).",
       "game_id": "espn_401815943",
-      "sport_key": "baseball_mlb",
-      "outcome": "P",
-      "profit_loss": "0.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-06-27 23:38 ET",
-      "sport": "MLB",
-      "game": "Atlanta Braves @ San Francisco Giants",
-      "home_team": "San Francisco Giants",
-      "away_team": "Atlanta Braves",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "+108",
-      "edge_pct": "18.9",
-      "confidence": "40",
-      "signals": "weather_edge + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "48.1",
-      "true_prob": "67.0",
-      "reasoning": "Edge 18.9% on Atlanta Braves moneyline. Wind 17mph at MLB game \u2014 check wind direction, affects totals. Power rating: San Francisco Giants wp=40.7% / Atlanta Braves wp=61.3% \u2014 Atlanta Braves underpriced (model 67.0% vs mkt 48.1%).",
-      "game_id": "espn_401815934",
       "sport_key": "baseball_mlb",
       "outcome": "P",
       "profit_loss": "0.0",
