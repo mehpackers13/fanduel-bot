@@ -63440,3 +63440,49 @@
 [2026-07-27 10:13:39 ET] [WARN]   Sprinkle cap reached (2) — skipping
 [2026-07-27 10:13:39 ET] [INFO] Scan complete -- 12 games checked, 0 alerts (silence = discipline)
 [2026-07-27 10:13:39 ET] [INFO] ============================================================
+[2026-07-27 10:18:10 ET] [INFO] ============================================================
+[2026-07-27 10:18:10 ET] [INFO] Running morning briefing scan (7am)
+[2026-07-27 10:18:10 ET] [INFO] ============================================================
+[2026-07-27 10:18:10 ET] [INFO] Starting morning scan
+[2026-07-27 10:18:10 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-07-27 10:18:11 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-07-27 10:18:11 ET] [INFO]   ESPN basketball_nba: 0 games (cached)
+[2026-07-27 10:18:11 ET] [INFO]   ESPN baseball_mlb: 12 games (cached)
+[2026-07-27 10:18:11 ET] [INFO]   baseball_mlb: 12 games from espn
+[2026-07-27 10:18:11 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-07-27 10:18:24 ET] [WARN] Weather fetch failed for Arlington: HTTPSConnectionPool(host='wttr.in', port=443): Read timed out. (read timeout=8)
+[2026-07-27 10:18:24 ET] [DEBUG]   [Seattle Mariners @ Texas Rangers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=100→118
+[2026-07-27 10:18:30 ET] [DEBUG]   [Arizona Diamondbacks @ Pittsburgh Pirates] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-138→-121
+[2026-07-27 10:18:30 ET] [DEBUG]     ✗ Arizona Diamondbacks @ Pittsburgh Pirates — conf 15 < 35 threshold
+[2026-07-27 10:18:36 ET] [DEBUG]   [Baltimore Orioles @ Detroit Tigers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-113→-119
+[2026-07-27 10:18:36 ET] [DEBUG]     ✗ Baltimore Orioles @ Detroit Tigers — conf 15 < 35 threshold
+[2026-07-27 10:18:45 ET] [DEBUG]   [Philadelphia Phillies @ Miami Marlins] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=144→153
+[2026-07-27 10:18:59 ET] [WARN] Weather fetch failed for Washington: HTTPSConnectionPool(host='wttr.in', port=443): Read timed out. (read timeout=8)
+[2026-07-27 10:18:59 ET] [DEBUG]   [Toronto Blue Jays @ Washington Nationals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-126→-125
+[2026-07-27 10:18:59 ET] [DEBUG]     ✗ Toronto Blue Jays @ Washington Nationals — conf 15 < 35 threshold
+[2026-07-27 10:19:06 ET] [DEBUG]   [Cleveland Guardians @ Cincinnati Reds] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-162→-167
+[2026-07-27 10:19:19 ET] [WARN] Weather fetch failed for Queens: HTTPSConnectionPool(host='wttr.in', port=443): Read timed out. (read timeout=8)
+[2026-07-27 10:19:19 ET] [DEBUG]   [Atlanta Braves @ New York Mets] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-110→-102
+[2026-07-27 10:19:33 ET] [DEBUG]   [New York Yankees @ Chicago White Sox] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=115→120
+[2026-07-27 10:19:33 ET] [DEBUG]     ✗ New York Yankees @ Chicago White Sox — conf 15 < 35 threshold
+[2026-07-27 10:19:39 ET] [DEBUG]   [Chicago Cubs @ St. Louis Cardinals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=104→101
+[2026-07-27 10:19:39 ET] [DEBUG]     ✗ Chicago Cubs @ St. Louis Cardinals — conf 15 < 35 threshold
+[2026-07-27 10:19:46 ET] [DEBUG]   [Houston Astros @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-106→-103
+[2026-07-27 10:20:07 ET] [WARN] Weather fetch failed for Sacramento: HTTPSConnectionPool(host='wttr.in', port=443): Read timed out. (read timeout=8)
+[2026-07-27 10:20:07 ET] [DEBUG]   [Boston Red Sox @ Athletics] sigs=['sharp_money', 'rest_disadvantage', 'travel_disadvantage'] conf=55 pub=n/a ml_move=121→149
+[2026-07-27 10:20:14 ET] [DEBUG]   [Milwaukee Brewers @ San Francisco Giants] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=104→113
+[2026-07-27 10:20:14 ET] [INFO]   ESPN icehockey_nhl: 0 games (cached)
+[2026-07-27 10:20:14 ET] [INFO]   ESPN soccer_usa_mls: 0 games (cached)
+[2026-07-27 10:20:14 ET] [INFO]   ESPN soccer_epl: 0 games (cached)
+[2026-07-27 10:20:14 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (cached)
+[2026-07-27 10:20:14 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-07-27 10:20:14 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (cached)
+[2026-07-27 10:20:14 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-07-27 10:20:14 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-07-27 10:20:14 ET] [INFO] Morning scan complete -- 12 games checked, 7 opportunities
+[2026-07-27 10:20:14 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-07-27 10:20:15 ET] [INFO] Morning briefing sent: 3 opportunities | combined units: 🟢 +30.3u
+[2026-07-27 10:20:15 ET] [INFO] Running record: 5.0% win rate | +2.7% ROI on 258 bets
+[2026-07-27 10:20:15 ET] [INFO] Unit totals — FanDuel: +30.33u | Kalshi: 0.0 | Options: 0
+[2026-07-27 10:20:15 ET] [INFO] Morning briefing complete
+[2026-07-27 10:20:15 ET] [INFO] ============================================================
