@@ -64247,3 +64247,55 @@
 [2026-07-29 04:34:03 ET] [INFO] Injury scan complete — no new key injuries
 [2026-07-29 07:22:28 ET] [INFO] Running injury scan
 [2026-07-29 07:22:30 ET] [INFO] Injury scan complete — no new key injuries
+[2026-07-29 08:58:57 ET] [INFO] ============================================================
+[2026-07-29 08:58:57 ET] [INFO] Running morning briefing scan (7am)
+[2026-07-29 08:58:57 ET] [INFO] ============================================================
+[2026-07-29 08:58:57 ET] [INFO] Starting morning scan
+[2026-07-29 08:58:57 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-07-29 08:58:58 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-07-29 08:58:58 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-07-29 08:59:03 ET] [INFO]   ESPN baseball_mlb: 16 games (fresh, 16 events found)
+[2026-07-29 08:59:03 ET] [INFO]   baseball_mlb: 16 games from espn
+[2026-07-29 08:59:03 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-07-29 08:59:10 ET] [DEBUG]   [Philadelphia Phillies @ Miami Marlins] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=129→144
+[2026-07-29 08:59:16 ET] [DEBUG]   [Arizona Diamondbacks @ Pittsburgh Pirates] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-131
+[2026-07-29 08:59:16 ET] [DEBUG]     ✗ Arizona Diamondbacks @ Pittsburgh Pirates — conf 15 < 35 threshold
+[2026-07-29 08:59:22 ET] [DEBUG]   [Toronto Blue Jays @ Washington Nationals] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=100→100
+[2026-07-29 08:59:27 ET] [DEBUG]   [Atlanta Braves @ New York Mets] sigs=['sharp_money', 'rest_disadvantage', 'weather_edge', 'model_edge'] conf=80 pub=n/a ml_move=-102→105
+[2026-07-29 08:59:33 ET] [DEBUG]   [Baltimore Orioles @ Detroit Tigers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-167→-169
+[2026-07-29 08:59:39 ET] [DEBUG]   [Milwaukee Brewers @ San Francisco Giants] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=n/a ml_move=-102→104
+[2026-07-29 08:59:44 ET] [DEBUG]   [Colorado Rockies @ San Diego Padres] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-149→-149
+[2026-07-29 08:59:44 ET] [DEBUG]     ✗ Colorado Rockies @ San Diego Padres — conf 15 < 35 threshold
+[2026-07-29 08:59:50 ET] [DEBUG]   [Texas Rangers @ Tampa Bay Rays] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-149
+[2026-07-29 08:59:50 ET] [DEBUG]     ✗ Texas Rangers @ Tampa Bay Rays — conf 15 < 35 threshold
+[2026-07-29 08:59:56 ET] [DEBUG]   [Cleveland Guardians @ Cincinnati Reds] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=114→112
+[2026-07-29 08:59:56 ET] [DEBUG]     ✗ Cleveland Guardians @ Cincinnati Reds — conf 15 < 35 threshold
+[2026-07-29 09:00:03 ET] [DEBUG]   [Atlanta Braves @ New York Mets] sigs=['rest_disadvantage', 'weather_edge', 'model_edge'] conf=55 pub=n/a ml_move=129→124
+[2026-07-29 09:00:11 ET] [DEBUG]   [Kansas City Royals @ Minnesota Twins] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-171→-180
+[2026-07-29 09:00:11 ET] [DEBUG]     ✗ Kansas City Royals @ Minnesota Twins — conf 15 < 35 threshold
+[2026-07-29 09:00:24 ET] [WARN] Weather fetch failed for Chicago: HTTPSConnectionPool(host='wttr.in', port=443): Read timed out. (read timeout=8)
+[2026-07-29 09:00:24 ET] [DEBUG]   [New York Yankees @ Chicago White Sox] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=119→123
+[2026-07-29 09:00:24 ET] [DEBUG]     ✗ New York Yankees @ Chicago White Sox — conf 15 < 35 threshold
+[2026-07-29 09:00:34 ET] [DEBUG]   [Chicago Cubs @ St. Louis Cardinals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=100→100
+[2026-07-29 09:00:34 ET] [DEBUG]     ✗ Chicago Cubs @ St. Louis Cardinals — conf 15 < 35 threshold
+[2026-07-29 09:00:41 ET] [DEBUG]   [Houston Astros @ Los Angeles Angels] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=113→112
+[2026-07-29 09:00:41 ET] [DEBUG]     ✗ Houston Astros @ Los Angeles Angels — conf 15 < 35 threshold
+[2026-07-29 09:00:49 ET] [DEBUG]   [Boston Red Sox @ Athletics] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=129→129
+[2026-07-29 09:00:49 ET] [DEBUG]     ✗ Boston Red Sox @ Athletics — conf 15 < 35 threshold
+[2026-07-29 09:01:03 ET] [WARN] Weather fetch failed for Los Angeles: HTTPSConnectionPool(host='wttr.in', port=443): Read timed out. (read timeout=8)
+[2026-07-29 09:01:03 ET] [DEBUG]   [Seattle Mariners @ Los Angeles Dodgers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-156→-150
+[2026-07-29 09:01:03 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-07-29 09:01:04 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 1 events found)
+[2026-07-29 09:01:04 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-07-29 09:01:04 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-07-29 09:01:04 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-07-29 09:01:04 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-07-29 09:01:04 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-07-29 09:01:04 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-07-29 09:01:04 ET] [INFO] Morning scan complete -- 16 games checked, 7 opportunities
+[2026-07-29 09:01:04 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-07-29 09:01:06 ET] [INFO] Morning briefing sent: 3 opportunities | combined units: 🟢 +30.3u
+[2026-07-29 09:01:06 ET] [INFO] Running record: 5.0% win rate | +2.7% ROI on 261 bets
+[2026-07-29 09:01:06 ET] [INFO] Unit totals — FanDuel: +30.33u | Kalshi: 0.0 | Options: 0
+[2026-07-29 09:01:06 ET] [INFO] Morning briefing complete
+[2026-07-29 09:01:06 ET] [INFO] ============================================================
