@@ -65471,3 +65471,35 @@
 [2026-07-31 16:58:57 ET] [INFO] ============================================================
 [2026-07-31 17:36:02 ET] [INFO] Running injury scan
 [2026-07-31 17:36:05 ET] [INFO] Injury scan complete — no new key injuries
+[2026-07-31 18:51:52 ET] [INFO] ============================================================
+[2026-07-31 18:51:52 ET] [INFO] Starting full scan
+[2026-07-31 18:51:52 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-07-31 18:51:53 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-07-31 18:51:53 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-07-31 18:51:57 ET] [INFO]   ESPN baseball_mlb: 7 games (fresh, 15 events found)
+[2026-07-31 18:51:57 ET] [INFO]   baseball_mlb: 7 games from espn
+[2026-07-31 18:51:57 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-07-31 18:52:05 ET] [DEBUG]   [Texas Rangers @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-131
+[2026-07-31 18:52:05 ET] [DEBUG]     ✗ Texas Rangers @ Houston Astros — conf 15 < 35 threshold
+[2026-07-31 18:52:10 ET] [DEBUG]   [Kansas City Royals @ Colorado Rockies] sigs=['sharp_money', 'rest_disadvantage', 'weather_edge'] conf=60 pub=n/a ml_move=100→-107
+[2026-07-31 18:52:10 ET] [DEBUG]     ✗ Kansas City Royals @ Colorado Rockies — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-07-31 18:52:16 ET] [DEBUG]   [Milwaukee Brewers @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=139→141
+[2026-07-31 18:52:22 ET] [DEBUG]   [Detroit Tigers @ Athletics] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=139→118
+[2026-07-31 18:52:22 ET] [DEBUG]     ✗ Detroit Tigers @ Athletics — conf 15 < 35 threshold
+[2026-07-31 18:52:27 ET] [DEBUG]   [San Francisco Giants @ San Diego Padres] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-146→-157
+[2026-07-31 18:52:27 ET] [DEBUG]     ✗ San Francisco Giants @ San Diego Padres — conf 15 < 35 threshold
+[2026-07-31 18:52:33 ET] [DEBUG]   [Boston Red Sox @ Los Angeles Dodgers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-116→-136
+[2026-07-31 18:52:38 ET] [DEBUG]   [Minnesota Twins @ Seattle Mariners] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-186→-167
+[2026-07-31 18:52:39 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-07-31 18:52:39 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 1 events found)
+[2026-07-31 18:52:39 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-07-31 18:52:39 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-07-31 18:52:39 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-07-31 18:52:39 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-07-31 18:52:39 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-07-31 18:52:39 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-07-31 18:52:39 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-31 18:52:39 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-31 18:52:39 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-31 18:52:39 ET] [INFO] Scan complete -- 7 games checked, 0 alerts (silence = discipline)
+[2026-07-31 18:52:39 ET] [INFO] ============================================================
