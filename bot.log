@@ -65313,3 +65313,55 @@
 [2026-07-31 11:56:02 ET] [INFO] ============================================================
 [2026-07-31 13:02:21 ET] [INFO] Running injury scan
 [2026-07-31 13:02:25 ET] [INFO] Injury scan complete — no new key injuries
+[2026-07-31 13:20:06 ET] [INFO] ============================================================
+[2026-07-31 13:20:06 ET] [INFO] Starting full scan
+[2026-07-31 13:20:06 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-07-31 13:20:08 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-07-31 13:20:08 ET] [INFO]   ESPN basketball_nba: 0 games (cached)
+[2026-07-31 13:20:08 ET] [INFO]   ESPN baseball_mlb: 15 games (cached)
+[2026-07-31 13:20:08 ET] [INFO]   baseball_mlb: 15 games from espn
+[2026-07-31 13:20:08 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-07-31 13:20:14 ET] [DEBUG]   [New York Yankees @ Chicago Cubs] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=n/a ml_move=-136→-163
+[2026-07-31 13:20:16 ET] [DEBUG]   [Pittsburgh Pirates @ Cincinnati Reds] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=104→115
+[2026-07-31 13:20:16 ET] [DEBUG]     ✗ Pittsburgh Pirates @ Cincinnati Reds — conf 15 < 35 threshold
+[2026-07-31 13:20:19 ET] [DEBUG]   [Philadelphia Phillies @ Baltimore Orioles] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-126→-114
+[2026-07-31 13:20:19 ET] [DEBUG]     ✗ Philadelphia Phillies @ Baltimore Orioles — conf 15 < 35 threshold
+[2026-07-31 13:20:22 ET] [DEBUG]   [St. Louis Cardinals @ Toronto Blue Jays] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=n/a ml_move=-168→-193
+[2026-07-31 13:20:25 ET] [DEBUG]   [Arizona Diamondbacks @ Cleveland Guardians] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-136→-141
+[2026-07-31 13:20:27 ET] [DEBUG]   [Chicago White Sox @ Tampa Bay Rays] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-149→-142
+[2026-07-31 13:20:27 ET] [DEBUG]     ✗ Chicago White Sox @ Tampa Bay Rays — conf 15 < 35 threshold
+[2026-07-31 13:20:30 ET] [DEBUG]   [Miami Marlins @ New York Mets] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-131→-131
+[2026-07-31 13:20:33 ET] [DEBUG]   [Washington Nationals @ Atlanta Braves] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-131→-118
+[2026-07-31 13:20:35 ET] [DEBUG]   [Texas Rangers @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-131
+[2026-07-31 13:20:35 ET] [DEBUG]     ✗ Texas Rangers @ Houston Astros — conf 15 < 35 threshold
+[2026-07-31 13:20:38 ET] [DEBUG]   [Kansas City Royals @ Colorado Rockies] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=100→-108
+[2026-07-31 13:20:38 ET] [DEBUG]     ✗ Kansas City Royals @ Colorado Rockies — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-07-31 13:20:40 ET] [DEBUG]   [Milwaukee Brewers @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=139→132
+[2026-07-31 13:20:43 ET] [DEBUG]   [Detroit Tigers @ Athletics] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=139→119
+[2026-07-31 13:20:43 ET] [DEBUG]     ✗ Detroit Tigers @ Athletics — conf 15 < 35 threshold
+[2026-07-31 13:20:46 ET] [DEBUG]   [San Francisco Giants @ San Diego Padres] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-146→-150
+[2026-07-31 13:20:46 ET] [DEBUG]     ✗ San Francisco Giants @ San Diego Padres — conf 15 < 35 threshold
+[2026-07-31 13:20:48 ET] [DEBUG]   [Boston Red Sox @ Los Angeles Dodgers] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-116→-126
+[2026-07-31 13:20:52 ET] [DEBUG]   [Minnesota Twins @ Seattle Mariners] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-186→-173
+[2026-07-31 13:20:52 ET] [INFO]   ESPN icehockey_nhl: 0 games (cached)
+[2026-07-31 13:20:52 ET] [INFO]   ESPN soccer_usa_mls: 1 games (cached)
+[2026-07-31 13:20:52 ET] [INFO]   soccer_usa_mls: 1 games from espn
+[2026-07-31 13:20:52 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-07-31 13:20:53 ET] [DEBUG]   [Toronto FC @ New York City FC] sigs=[] conf=0 pub=n/a ml_move=-150→-155
+[2026-07-31 13:20:53 ET] [DEBUG]     ✗ Toronto FC @ New York City FC — only 0/1 signals (need 1 more)
+[2026-07-31 13:20:53 ET] [INFO]   ESPN soccer_epl: 0 games (cached)
+[2026-07-31 13:20:53 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (cached)
+[2026-07-31 13:20:53 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-07-31 13:20:53 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (cached)
+[2026-07-31 13:20:53 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-07-31 13:20:53 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-07-31 13:20:53 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-31 13:20:53 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-31 13:20:53 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-31 13:20:53 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-31 13:20:53 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-31 13:20:53 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-31 13:20:53 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-31 13:20:53 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-07-31 13:20:53 ET] [INFO] Scan complete -- 16 games checked, 0 alerts (silence = discipline)
+[2026-07-31 13:20:53 ET] [INFO] ============================================================
