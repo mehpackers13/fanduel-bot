@@ -65679,3 +65679,81 @@
 [2026-08-01 06:56:17 ET] [INFO] Injury scan complete — no new key injuries
 [2026-08-01 08:01:54 ET] [INFO] Running injury scan
 [2026-08-01 08:01:56 ET] [INFO] Injury scan complete — no new key injuries
+[2026-08-01 08:58:10 ET] [INFO] ============================================================
+[2026-08-01 08:58:10 ET] [INFO] Starting full scan
+[2026-08-01 08:58:10 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-08-01 08:58:12 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-08-01 08:58:12 ET] [INFO]   ESPN basketball_nba: 0 games (cached)
+[2026-08-01 08:58:12 ET] [INFO]   ESPN baseball_mlb: 15 games (cached)
+[2026-08-01 08:58:12 ET] [INFO]   baseball_mlb: 15 games from espn
+[2026-08-01 08:58:12 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-08-01 08:58:21 ET] [DEBUG]   [St. Louis Cardinals @ Toronto Blue Jays] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-141→-149
+[2026-08-01 08:58:28 ET] [DEBUG]   [Chicago White Sox @ Tampa Bay Rays] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-182→-175
+[2026-08-01 08:58:28 ET] [DEBUG]     ✗ Chicago White Sox @ Tampa Bay Rays — conf 15 < 35 threshold
+[2026-08-01 08:58:35 ET] [DEBUG]   [Miami Marlins @ New York Mets] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-131→-130
+[2026-08-01 08:58:43 ET] [DEBUG]   [Minnesota Twins @ Seattle Mariners] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-178→-166
+[2026-08-01 08:58:50 ET] [DEBUG]   [Pittsburgh Pirates @ Cincinnati Reds] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-102→102
+[2026-08-01 08:58:50 ET] [DEBUG]     ✗ Pittsburgh Pirates @ Cincinnati Reds — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-08-01 08:58:58 ET] [DEBUG]   [Philadelphia Phillies @ Baltimore Orioles] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=117→119
+[2026-08-01 08:58:58 ET] [DEBUG]     ✗ Philadelphia Phillies @ Baltimore Orioles — conf 15 < 35 threshold
+[2026-08-01 08:59:05 ET] [DEBUG]   [Texas Rangers @ Houston Astros] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=108→109
+[2026-08-01 08:59:12 ET] [DEBUG]   [Arizona Diamondbacks @ Cleveland Guardians] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-157→-163
+[2026-08-01 08:59:20 ET] [DEBUG]   [Washington Nationals @ Atlanta Braves] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-194→-191
+[2026-08-01 08:59:20 ET] [DEBUG]     ✗ Washington Nationals @ Atlanta Braves — conf 15 < 35 threshold
+[2026-08-01 08:59:27 ET] [DEBUG]   [New York Yankees @ Chicago Cubs] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=102→100
+[2026-08-01 08:59:35 ET] [DEBUG]   [Kansas City Royals @ Colorado Rockies] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-114→-118
+[2026-08-01 08:59:35 ET] [DEBUG]     ✗ Kansas City Royals @ Colorado Rockies — conf 15 < 35 threshold
+[2026-08-01 08:59:42 ET] [DEBUG]   [San Francisco Giants @ San Diego Padres] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-138→-136
+[2026-08-01 08:59:42 ET] [DEBUG]     ✗ San Francisco Giants @ San Diego Padres — conf 15 < 35 threshold
+[2026-08-01 08:59:49 ET] [DEBUG]   [Boston Red Sox @ Los Angeles Dodgers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-176→-168
+[2026-08-01 08:59:49 ET] [DEBUG]     ✗ Boston Red Sox @ Los Angeles Dodgers — conf 15 < 35 threshold
+[2026-08-01 08:59:56 ET] [DEBUG]   [Milwaukee Brewers @ Los Angeles Angels] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=108→103
+[2026-08-01 09:00:06 ET] [DEBUG]   [Detroit Tigers @ Athletics] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=117→114
+[2026-08-01 09:00:06 ET] [DEBUG]     ✗ Detroit Tigers @ Athletics — conf 15 < 35 threshold
+[2026-08-01 09:00:06 ET] [INFO]   ESPN icehockey_nhl: 0 games (cached)
+[2026-08-01 09:00:06 ET] [INFO]   ESPN soccer_usa_mls: 14 games (cached)
+[2026-08-01 09:00:06 ET] [INFO]   soccer_usa_mls: 14 games from espn
+[2026-08-01 09:00:06 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-08-01 09:00:07 ET] [DEBUG]   [New England Revolution @ CF Montréal] sigs=[] conf=0 pub=n/a ml_move=115→100
+[2026-08-01 09:00:07 ET] [DEBUG]     ✗ New England Revolution @ CF Montréal — only 0/1 signals (need 1 more)
+[2026-08-01 09:00:08 ET] [DEBUG]   [Nashville SC @ D.C. United] sigs=[] conf=0 pub=n/a ml_move=175→185
+[2026-08-01 09:00:08 ET] [DEBUG]     ✗ Nashville SC @ D.C. United — only 0/1 signals (need 1 more)
+[2026-08-01 09:00:10 ET] [DEBUG]   [San Jose Earthquakes @ FC Cincinnati] sigs=[] conf=0 pub=n/a ml_move=-105→-120
+[2026-08-01 09:00:10 ET] [DEBUG]     ✗ San Jose Earthquakes @ FC Cincinnati — only 0/1 signals (need 1 more)
+[2026-08-01 09:00:11 ET] [DEBUG]   [Columbus Crew @ Inter Miami CF] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-145→-175
+[2026-08-01 09:00:11 ET] [DEBUG]     ✗ Columbus Crew @ Inter Miami CF — conf 25 < 35 threshold
+[2026-08-01 09:00:12 ET] [DEBUG]   [Atlanta United FC @ Philadelphia Union] sigs=[] conf=0 pub=n/a ml_move=-155→-145
+[2026-08-01 09:00:12 ET] [DEBUG]     ✗ Atlanta United FC @ Philadelphia Union — only 0/1 signals (need 1 more)
+[2026-08-01 09:00:13 ET] [DEBUG]   [Orlando City SC @ Red Bull New York] sigs=[] conf=0 pub=n/a ml_move=105→125
+[2026-08-01 09:00:13 ET] [DEBUG]     ✗ Orlando City SC @ Red Bull New York — only 0/1 signals (need 1 more)
+[2026-08-01 09:00:14 ET] [DEBUG]   [LAFC @ Vancouver Whitecaps] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-135→-105
+[2026-08-01 09:00:14 ET] [DEBUG]     ✗ LAFC @ Vancouver Whitecaps — conf 25 < 35 threshold
+[2026-08-01 09:00:15 ET] [DEBUG]   [Charlotte FC @ Chicago Fire FC] sigs=[] conf=0 pub=n/a ml_move=-195→-200
+[2026-08-01 09:00:15 ET] [DEBUG]     ✗ Charlotte FC @ Chicago Fire FC — only 0/1 signals (need 1 more)
+[2026-08-01 09:00:16 ET] [DEBUG]   [San Diego FC @ Minnesota United FC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-110→100
+[2026-08-01 09:00:16 ET] [DEBUG]     ✗ San Diego FC @ Minnesota United FC — conf 25 < 35 threshold
+[2026-08-01 09:00:17 ET] [DEBUG]   [Houston Dynamo FC @ Sporting Kansas City] sigs=[] conf=0 pub=n/a ml_move=205→200
+[2026-08-01 09:00:17 ET] [DEBUG]     ✗ Houston Dynamo FC @ Sporting Kansas City — only 0/1 signals (need 1 more)
+[2026-08-01 09:00:18 ET] [DEBUG]   [Real Salt Lake @ St. Louis CITY SC] sigs=[] conf=0 pub=n/a ml_move=110→100
+[2026-08-01 09:00:18 ET] [DEBUG]     ✗ Real Salt Lake @ St. Louis CITY SC — only 0/1 signals (need 1 more)
+[2026-08-01 09:00:19 ET] [DEBUG]   [Austin FC @ Colorado Rapids] sigs=[] conf=0 pub=n/a ml_move=-140→-135
+[2026-08-01 09:00:19 ET] [DEBUG]     ✗ Austin FC @ Colorado Rapids — only 0/1 signals (need 1 more)
+[2026-08-01 09:00:21 ET] [DEBUG]   [FC Dallas @ LA Galaxy] sigs=[] conf=0 pub=n/a ml_move=115→115
+[2026-08-01 09:00:21 ET] [DEBUG]     ✗ FC Dallas @ LA Galaxy — only 0/1 signals (need 1 more)
+[2026-08-01 09:00:22 ET] [DEBUG]   [Seattle Sounders FC @ Portland Timbers] sigs=[] conf=0 pub=n/a ml_move=120→105
+[2026-08-01 09:00:22 ET] [DEBUG]     ✗ Seattle Sounders FC @ Portland Timbers — only 0/1 signals (need 1 more)
+[2026-08-01 09:00:22 ET] [INFO]   ESPN soccer_epl: 0 games (cached)
+[2026-08-01 09:00:22 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (cached)
+[2026-08-01 09:00:22 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-08-01 09:00:22 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (cached)
+[2026-08-01 09:00:22 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (cached)
+[2026-08-01 09:00:22 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-08-01 09:00:22 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-08-01 09:00:22 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-08-01 09:00:22 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-08-01 09:00:22 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-08-01 09:00:22 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-08-01 09:00:22 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-08-01 09:00:22 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-08-01 09:00:22 ET] [INFO] Scan complete -- 29 games checked, 0 alerts (silence = discipline)
+[2026-08-01 09:00:22 ET] [INFO] ============================================================
