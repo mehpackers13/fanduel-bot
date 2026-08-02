@@ -1,171 +1,15 @@
 {
   "americanfootball_nfl": {
-    "ts": "2026-08-02T18:56:08.639873",
+    "ts": "2026-08-02T20:43:01.346940",
     "games": []
   },
   "basketball_nba": {
-    "ts": "2026-08-02T18:56:08.794883",
+    "ts": "2026-08-02T20:43:01.477961",
     "games": []
   },
   "baseball_mlb": {
-    "ts": "2026-08-02T18:56:13.418307",
+    "ts": "2026-08-02T20:43:05.862646",
     "games": [
-      {
-        "game_id": "espn_401816373",
-        "sport_key": "baseball_mlb",
-        "sport": "MLB",
-        "home_team": "Athletics",
-        "away_team": "Detroit Tigers",
-        "commence": "2026-08-02T20:05Z",
-        "hours_out": 1.1,
-        "venue_city": "Sacramento",
-        "source": "espn",
-        "h2h": {
-          "home_odds": 105,
-          "away_odds": -126,
-          "home_prob": 0.4878,
-          "away_prob": 0.5575,
-          "true_home_prob": 0.4667,
-          "true_away_prob": 0.5333,
-          "best_home_odds": 105,
-          "best_away_odds": -126,
-          "spread_point": 1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": -110,
-          "away_odds": -110,
-          "home_prob": 0.5238095238095238,
-          "away_prob": 0.5238095238095238,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": 1.5,
-          "best_home_odds": -110,
-          "best_away_odds": -110,
-          "book_count": 1
-        },
-        "total": {
-          "line": 10.0,
-          "over_odds": -111,
-          "under_odds": -109,
-          "over_prob": 0.5260663507109005,
-          "under_prob": 0.5215311004784688
-        },
-        "line_movement": {
-          "open_home_ml": -107,
-          "open_away_ml": -113,
-          "current_home_ml": 105,
-          "current_away_ml": -126,
-          "open_spread": null,
-          "current_spread": 1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
-      {
-        "game_id": "espn_401816375",
-        "sport_key": "baseball_mlb",
-        "sport": "MLB",
-        "home_team": "Seattle Mariners",
-        "away_team": "Minnesota Twins",
-        "commence": "2026-08-02T20:10Z",
-        "hours_out": 1.2,
-        "venue_city": "Seattle",
-        "source": "espn",
-        "h2h": {
-          "home_odds": -147,
-          "away_odds": 122,
-          "home_prob": 0.5951,
-          "away_prob": 0.4505,
-          "true_home_prob": 0.5692,
-          "true_away_prob": 0.4308,
-          "best_home_odds": -147,
-          "best_away_odds": 122,
-          "spread_point": -1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": -110,
-          "away_odds": -110,
-          "home_prob": 0.5238095238095238,
-          "away_prob": 0.5238095238095238,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": -1.5,
-          "best_home_odds": -110,
-          "best_away_odds": -110,
-          "book_count": 1
-        },
-        "total": {
-          "line": 7.0,
-          "over_odds": -118,
-          "under_odds": -102,
-          "over_prob": 0.5412844036697247,
-          "under_prob": 0.504950495049505
-        },
-        "line_movement": {
-          "open_home_ml": -136,
-          "open_away_ml": 113,
-          "current_home_ml": -147,
-          "current_away_ml": 122,
-          "open_spread": null,
-          "current_spread": -1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
-      {
-        "game_id": "espn_401816376",
-        "sport_key": "baseball_mlb",
-        "sport": "MLB",
-        "home_team": "San Diego Padres",
-        "away_team": "San Francisco Giants",
-        "commence": "2026-08-02T20:10Z",
-        "hours_out": 1.2,
-        "venue_city": "San Diego",
-        "source": "espn",
-        "h2h": {
-          "home_odds": -131,
-          "away_odds": 109,
-          "home_prob": 0.5671,
-          "away_prob": 0.4785,
-          "true_home_prob": 0.5424,
-          "true_away_prob": 0.4576,
-          "best_home_odds": -131,
-          "best_away_odds": 109,
-          "spread_point": -1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": -110,
-          "away_odds": -110,
-          "home_prob": 0.5238095238095238,
-          "away_prob": 0.5238095238095238,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": -1.5,
-          "best_home_odds": -110,
-          "best_away_odds": -110,
-          "book_count": 1
-        },
-        "total": {
-          "line": 8.0,
-          "over_odds": -111,
-          "under_odds": -109,
-          "over_prob": 0.5260663507109005,
-          "under_prob": 0.5215311004784688
-        },
-        "line_movement": {
-          "open_home_ml": -144,
-          "open_away_ml": 119,
-          "current_home_ml": -131,
-          "current_away_ml": 109,
-          "open_spread": null,
-          "current_spread": -1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
       {
         "game_id": "espn_401816372",
         "sport_key": "baseball_mlb",
@@ -173,7 +17,7 @@
         "home_team": "Los Angeles Dodgers",
         "away_team": "Boston Red Sox",
         "commence": "2026-08-02T23:20Z",
-        "hours_out": 4.4,
+        "hours_out": 2.6,
         "venue_city": "Los Angeles",
         "source": "espn",
         "h2h": {
@@ -221,35 +65,35 @@
     ]
   },
   "icehockey_nhl": {
-    "ts": "2026-08-02T18:56:44.398458",
+    "ts": "2026-08-02T20:43:14.950752",
     "games": []
   },
   "soccer_usa_mls": {
-    "ts": "2026-08-02T18:56:44.500190",
+    "ts": "2026-08-02T20:43:15.061302",
     "games": []
   },
   "soccer_epl": {
-    "ts": "2026-08-02T18:56:44.616158",
+    "ts": "2026-08-02T20:43:15.175468",
     "games": []
   },
   "soccer_esp_la_liga": {
-    "ts": "2026-08-02T18:56:44.727079",
+    "ts": "2026-08-02T20:43:15.285844",
     "games": []
   },
   "soccer_ger_bundesliga": {
-    "ts": "2026-08-02T18:56:44.852609",
+    "ts": "2026-08-02T20:43:15.397992",
     "games": []
   },
   "soccer_ita_serie_a": {
-    "ts": "2026-08-02T18:56:44.966639",
+    "ts": "2026-08-02T20:43:15.508603",
     "games": []
   },
   "soccer_fra_ligue_one": {
-    "ts": "2026-08-02T18:56:45.082038",
+    "ts": "2026-08-02T20:43:15.620026",
     "games": []
   },
   "mma_mixed_martial_arts": {
-    "ts": "2026-08-02T18:56:45.185722",
+    "ts": "2026-08-02T20:43:15.734801",
     "games": []
   }
 }
