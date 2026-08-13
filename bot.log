@@ -74119,3 +74119,43 @@
 [2026-08-13 16:40:44 ET] [INFO] Injury scan complete — no new key injuries
 [2026-08-13 17:40:19 ET] [INFO] Running injury scan
 [2026-08-13 17:40:21 ET] [INFO] Injury scan complete — no new key injuries
+[2026-08-13 18:31:43 ET] [INFO] ============================================================
+[2026-08-13 18:31:43 ET] [INFO] Starting full scan
+[2026-08-13 18:31:43 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-08-13 18:31:47 ET] [INFO]   ESPN americanfootball_nfl: 3 games (fresh, 6 events found)
+[2026-08-13 18:31:47 ET] [INFO]   americanfootball_nfl: 3 games from espn
+[2026-08-13 18:31:47 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nfl/odds: HTTP 202
+[2026-08-13 18:31:47 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+[2026-08-13 18:31:48 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
+[2026-08-13 18:31:48 ET] [DEBUG]   [Arizona Cardinals @ Las Vegas Raiders] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-135→-166
+[2026-08-13 18:31:48 ET] [DEBUG]     ✗ Arizona Cardinals @ Las Vegas Raiders — conf 25 < 35 threshold
+[2026-08-13 18:31:48 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+[2026-08-13 18:31:50 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
+[2026-08-13 18:31:50 ET] [DEBUG]   [Los Angeles Chargers @ Houston Texans] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-130→100
+[2026-08-13 18:31:50 ET] [DEBUG]     ✗ Los Angeles Chargers @ Houston Texans — conf 25 < 35 threshold
+[2026-08-13 18:31:50 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+[2026-08-13 18:31:51 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
+[2026-08-13 18:31:51 ET] [DEBUG]   [Tennessee Titans @ San Francisco 49ers] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-148→200
+[2026-08-13 18:31:51 ET] [DEBUG]     ✗ Tennessee Titans @ San Francisco 49ers — conf 25 < 35 threshold
+[2026-08-13 18:31:51 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-08-13 18:31:54 ET] [INFO]   ESPN baseball_mlb: 2 games (fresh, 9 events found)
+[2026-08-13 18:31:54 ET] [INFO]   baseball_mlb: 2 games from espn
+[2026-08-13 18:31:54 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-08-13 18:31:54 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-13 18:32:02 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-13 18:32:02 ET] [DEBUG]   [Texas Rangers @ Los Angeles Angels] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=134→137
+[2026-08-13 18:32:02 ET] [DEBUG]     ✗ Texas Rangers @ Los Angeles Angels — conf 15 < 35 threshold
+[2026-08-13 18:32:02 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-13 18:32:09 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-13 18:32:09 ET] [DEBUG]   [Milwaukee Brewers @ Los Angeles Dodgers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-136→-140
+[2026-08-13 18:32:09 ET] [DEBUG]     ✗ Milwaukee Brewers @ Los Angeles Dodgers — conf 15 < 35 threshold
+[2026-08-13 18:32:09 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-08-13 18:32:09 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-08-13 18:32:09 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-08-13 18:32:09 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-08-13 18:32:09 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-08-13 18:32:09 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-08-13 18:32:09 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-08-13 18:32:09 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-08-13 18:32:09 ET] [INFO] Scan complete -- 5 games checked, 0 alerts (silence = discipline)
+[2026-08-13 18:32:09 ET] [INFO] ============================================================
