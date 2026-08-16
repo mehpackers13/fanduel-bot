@@ -77757,3 +77757,43 @@
 [2026-08-16 15:18:12 ET] [INFO] Injury scan complete — no new key injuries
 [2026-08-16 15:42:51 ET] [INFO] Running injury scan
 [2026-08-16 15:42:54 ET] [INFO] Injury scan complete — no new key injuries
+[2026-08-16 16:11:34 ET] [INFO] ============================================================
+[2026-08-16 16:11:34 ET] [INFO] Starting full scan
+[2026-08-16 16:11:34 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-08-16 16:11:35 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-08-16 16:11:35 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-08-16 16:11:39 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 15 events found)
+[2026-08-16 16:11:39 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-08-16 16:11:39 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-08-16 16:11:39 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-16 16:11:42 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-16 16:11:42 ET] [DEBUG]   [Seattle Mariners @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-134→-118
+[2026-08-16 16:11:42 ET] [DEBUG]     ✗ Seattle Mariners @ Houston Astros — conf 15 < 35 threshold
+[2026-08-16 16:11:42 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-08-16 16:11:43 ET] [INFO]   ESPN soccer_usa_mls: 4 games (fresh, 4 events found)
+[2026-08-16 16:11:43 ET] [INFO]   soccer_usa_mls: 4 games from espn
+[2026-08-16 16:11:43 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-08-16 16:11:43 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-08-16 16:11:44 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-08-16 16:11:44 ET] [DEBUG]   [Portland Timbers @ Chicago Fire FC] sigs=[] conf=0 pub=n/a ml_move=-205→-195
+[2026-08-16 16:11:44 ET] [DEBUG]     ✗ Portland Timbers @ Chicago Fire FC — only 0/1 signals (need 1 more)
+[2026-08-16 16:11:44 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-08-16 16:11:45 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-08-16 16:11:45 ET] [DEBUG]   [Philadelphia Union @ New York City FC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=105→160
+[2026-08-16 16:11:45 ET] [DEBUG]     ✗ Philadelphia Union @ New York City FC — conf 25 < 35 threshold
+[2026-08-16 16:11:46 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-08-16 16:11:47 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-08-16 16:11:47 ET] [DEBUG]   [FC Dallas @ Austin FC] sigs=[] conf=0 pub=n/a ml_move=165→180
+[2026-08-16 16:11:47 ET] [DEBUG]     ✗ FC Dallas @ Austin FC — only 0/1 signals (need 1 more)
+[2026-08-16 16:11:47 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-08-16 16:11:48 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-08-16 16:11:48 ET] [DEBUG]   [Vancouver Whitecaps @ Seattle Sounders FC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=220→245
+[2026-08-16 16:11:48 ET] [DEBUG]     ✗ Vancouver Whitecaps @ Seattle Sounders FC — conf 25 < 35 threshold
+[2026-08-16 16:11:48 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-08-16 16:11:48 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 2 events found)
+[2026-08-16 16:11:48 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-08-16 16:11:48 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-08-16 16:11:48 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-08-16 16:11:48 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-08-16 16:11:48 ET] [INFO] Scan complete -- 5 games checked, 0 alerts (silence = discipline)
+[2026-08-16 16:11:48 ET] [INFO] ============================================================
