@@ -77805,3 +77805,38 @@
 [2026-08-16 17:15:50 ET] [INFO] Injury scan complete — no new key injuries
 [2026-08-16 17:42:41 ET] [INFO] Running injury scan
 [2026-08-16 17:42:44 ET] [INFO] Injury scan complete — no new key injuries
+[2026-08-16 18:11:38 ET] [INFO] ============================================================
+[2026-08-16 18:11:38 ET] [INFO] Starting full scan
+[2026-08-16 18:11:38 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-08-16 18:11:39 ET] [INFO] Auto-resolved espn_401816550: Chicago White Sox @ Detroit Tigers → W (home 0.0, away 0.0)
+[2026-08-16 18:11:39 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-08-16 18:11:39 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-08-16 18:11:39 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-08-16 18:11:39 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-08-16 18:11:42 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 15 events found)
+[2026-08-16 18:11:42 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-08-16 18:11:43 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-08-16 18:11:43 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-16 18:11:47 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-16 18:11:47 ET] [DEBUG]   [Seattle Mariners @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-134→-119
+[2026-08-16 18:11:47 ET] [DEBUG]     ✗ Seattle Mariners @ Houston Astros — conf 15 < 35 threshold
+[2026-08-16 18:11:47 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-08-16 18:11:47 ET] [INFO]   ESPN soccer_usa_mls: 2 games (fresh, 4 events found)
+[2026-08-16 18:11:47 ET] [INFO]   soccer_usa_mls: 2 games from espn
+[2026-08-16 18:11:47 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-08-16 18:11:47 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-08-16 18:11:49 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-08-16 18:11:49 ET] [DEBUG]   [FC Dallas @ Austin FC] sigs=[] conf=0 pub=n/a ml_move=165→180
+[2026-08-16 18:11:49 ET] [DEBUG]     ✗ FC Dallas @ Austin FC — only 0/1 signals (need 1 more)
+[2026-08-16 18:11:49 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-08-16 18:11:50 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-08-16 18:11:50 ET] [DEBUG]   [Vancouver Whitecaps @ Seattle Sounders FC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=220→245
+[2026-08-16 18:11:50 ET] [DEBUG]     ✗ Vancouver Whitecaps @ Seattle Sounders FC — conf 25 < 35 threshold
+[2026-08-16 18:11:50 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-08-16 18:11:50 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 2 events found)
+[2026-08-16 18:11:50 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-08-16 18:11:50 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-08-16 18:11:51 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-08-16 18:11:51 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-08-16 18:11:51 ET] [INFO] Scan complete -- 3 games checked, 0 alerts (silence = discipline)
+[2026-08-16 18:11:51 ET] [INFO] ============================================================

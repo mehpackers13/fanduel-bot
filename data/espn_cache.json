@@ -1,14 +1,14 @@
 {
   "americanfootball_nfl": {
-    "ts": "2026-08-16T20:11:35.829457",
+    "ts": "2026-08-16T22:11:39.752878",
     "games": []
   },
   "basketball_nba": {
-    "ts": "2026-08-16T20:11:35.871070",
+    "ts": "2026-08-16T22:11:39.869567",
     "games": []
   },
   "baseball_mlb": {
-    "ts": "2026-08-16T20:11:39.065378",
+    "ts": "2026-08-16T22:11:42.909697",
     "games": [
       {
         "game_id": "espn_401816556",
@@ -17,18 +17,18 @@
         "home_team": "Houston Astros",
         "away_team": "Seattle Mariners",
         "commence": "2026-08-16T23:20Z",
-        "hours_out": 3.1,
+        "hours_out": 1.1,
         "venue_city": "Houston",
         "source": "espn",
         "h2h": {
-          "home_odds": -118,
-          "away_odds": 110,
-          "home_prob": 0.5413,
-          "away_prob": 0.4762,
-          "true_home_prob": 0.532,
-          "true_away_prob": 0.468,
-          "best_home_odds": -118,
-          "best_away_odds": 110,
+          "home_odds": -119,
+          "away_odds": 111,
+          "home_prob": 0.5434,
+          "away_prob": 0.4739,
+          "true_home_prob": 0.5341,
+          "true_away_prob": 0.4659,
+          "best_home_odds": -119,
+          "best_away_odds": 111,
           "spread_point": -1.5,
           "book_count": 1
         },
@@ -46,16 +46,16 @@
         },
         "total": {
           "line": 7.5,
-          "over_odds": -117,
-          "under_odds": -103,
-          "over_prob": 0.5391705069124424,
-          "under_prob": 0.5073891625615764
+          "over_odds": -115,
+          "under_odds": -105,
+          "over_prob": 0.5348837209302325,
+          "under_prob": 0.5121951219512195
         },
         "line_movement": {
           "open_home_ml": -134,
           "open_away_ml": 111,
-          "current_home_ml": -118,
-          "current_away_ml": 110,
+          "current_home_ml": -119,
+          "current_away_ml": 111,
           "open_spread": null,
           "current_spread": -1.5,
           "spread_moved": null,
@@ -65,116 +65,12 @@
     ]
   },
   "icehockey_nhl": {
-    "ts": "2026-08-16T20:11:42.893894",
+    "ts": "2026-08-16T22:11:47.078477",
     "games": []
   },
   "soccer_usa_mls": {
-    "ts": "2026-08-16T20:11:43.618223",
+    "ts": "2026-08-16T22:11:47.780830",
     "games": [
-      {
-        "game_id": "espn_761723",
-        "sport_key": "soccer_usa_mls",
-        "sport": "MLS",
-        "home_team": "Chicago Fire FC",
-        "away_team": "Portland Timbers",
-        "commence": "2026-08-16T22:00Z",
-        "hours_out": 1.8,
-        "venue_city": "Chicago, Illinois",
-        "source": "espn",
-        "h2h": {
-          "home_odds": -195,
-          "away_odds": 390,
-          "home_prob": 0.661,
-          "away_prob": 0.2041,
-          "true_home_prob": 0.7641,
-          "true_away_prob": 0.2359,
-          "best_home_odds": -195,
-          "best_away_odds": 390,
-          "spread_point": -1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": 125,
-          "away_odds": -175,
-          "home_prob": 0.4444444444444444,
-          "away_prob": 0.6363636363636364,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": -1.5,
-          "best_home_odds": 125,
-          "best_away_odds": -175,
-          "book_count": 1
-        },
-        "total": {
-          "line": 3.5,
-          "over_odds": -120,
-          "under_odds": -105,
-          "over_prob": 0.5454545454545454,
-          "under_prob": 0.5121951219512195
-        },
-        "line_movement": {
-          "open_home_ml": -205,
-          "open_away_ml": 390,
-          "current_home_ml": -195,
-          "current_away_ml": 390,
-          "open_spread": null,
-          "current_spread": -1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
-      {
-        "game_id": "espn_761722",
-        "sport_key": "soccer_usa_mls",
-        "sport": "MLS",
-        "home_team": "New York City FC",
-        "away_team": "Philadelphia Union",
-        "commence": "2026-08-16T22:00Z",
-        "hours_out": 1.8,
-        "venue_city": "New York City",
-        "source": "espn",
-        "h2h": {
-          "home_odds": 160,
-          "away_odds": 145,
-          "home_prob": 0.3846,
-          "away_prob": 0.4082,
-          "true_home_prob": 0.4851,
-          "true_away_prob": 0.5149,
-          "best_home_odds": 160,
-          "best_away_odds": 145,
-          "spread_point": 0.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": -190,
-          "away_odds": 135,
-          "home_prob": 0.6551724137931034,
-          "away_prob": 0.425531914893617,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": 0.5,
-          "best_home_odds": -190,
-          "best_away_odds": 135,
-          "book_count": 1
-        },
-        "total": {
-          "line": 2.5,
-          "over_odds": -160,
-          "under_odds": 125,
-          "over_prob": 0.6153846153846154,
-          "under_prob": 0.4444444444444444
-        },
-        "line_movement": {
-          "open_home_ml": 105,
-          "open_away_ml": 190,
-          "current_home_ml": 160,
-          "current_away_ml": 145,
-          "open_spread": null,
-          "current_spread": 0.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
       {
         "game_id": "espn_761717",
         "sport_key": "soccer_usa_mls",
@@ -182,7 +78,7 @@
         "home_team": "Austin FC",
         "away_team": "FC Dallas",
         "commence": "2026-08-17T00:30Z",
-        "hours_out": 4.3,
+        "hours_out": 2.3,
         "venue_city": "Austin, Texas",
         "source": "espn",
         "h2h": {
@@ -234,7 +130,7 @@
         "home_team": "Seattle Sounders FC",
         "away_team": "Vancouver Whitecaps",
         "commence": "2026-08-17T02:30Z",
-        "hours_out": 6.3,
+        "hours_out": 4.3,
         "venue_city": "Seattle, Washington",
         "source": "espn",
         "h2h": {
@@ -263,9 +159,9 @@
         },
         "total": {
           "line": 2.5,
-          "over_odds": -175,
+          "over_odds": -170,
           "under_odds": 135,
-          "over_prob": 0.6363636363636364,
+          "over_prob": 0.6296296296296297,
           "under_prob": 0.425531914893617
         },
         "line_movement": {
@@ -282,27 +178,27 @@
     ]
   },
   "soccer_epl": {
-    "ts": "2026-08-16T20:11:48.160447",
+    "ts": "2026-08-16T22:11:50.531083",
     "games": []
   },
   "soccer_esp_la_liga": {
-    "ts": "2026-08-16T20:11:48.523378",
+    "ts": "2026-08-16T22:11:50.884850",
     "games": []
   },
   "soccer_ger_bundesliga": {
-    "ts": "2026-08-16T20:11:48.563445",
+    "ts": "2026-08-16T22:11:50.945525",
     "games": []
   },
   "soccer_ita_serie_a": {
-    "ts": "2026-08-16T20:11:48.602068",
+    "ts": "2026-08-16T22:11:50.988718",
     "games": []
   },
   "soccer_fra_ligue_one": {
-    "ts": "2026-08-16T20:11:48.644176",
+    "ts": "2026-08-16T22:11:51.031292",
     "games": []
   },
   "mma_mixed_martial_arts": {
-    "ts": "2026-08-16T20:11:48.684358",
+    "ts": "2026-08-16T22:11:51.076583",
     "games": []
   }
 }
