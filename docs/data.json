@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-17T00:42:36.097507Z",
-  "last_scan": "2026-08-16 20:42:35 ET",
-  "last_scan_ts": "2026-08-17T00:42:36.097507Z",
+  "generated_at": "2026-08-17T01:38:39.077998Z",
+  "last_scan": "2026-08-16 21:01:51 ET",
+  "last_scan_ts": "2026-08-17T01:38:39.077998Z",
   "stats": {
     "total_alerts": 309,
     "completed_bets": 285,
@@ -69,40 +69,18 @@
       "outcome": "",
       "profit_loss": "",
       "notes": ""
-    },
-    {
-      "timestamp": "2026-08-15 20:46 ET",
-      "sport": "MLB",
-      "game": "Chicago White Sox @ Detroit Tigers",
-      "home_team": "Detroit Tigers",
-      "away_team": "Chicago White Sox",
-      "bet_type": "total",
-      "bet_side": "under",
-      "line": "u8.0",
-      "edge_pct": "5.0",
-      "confidence": "35",
-      "signals": "rest_disadvantage + weather_edge",
-      "suggested_bet": "26.0",
-      "implied_prob": "52.4",
-      "true_prob": "57.4",
-      "reasoning": "Edge 5.0% on UNDER total. Detroit Tigers on back-to-back -- fatigue factor. Rain 2.2mm forecast \u2014 potential delays/cancellations, affects totals.",
-      "game_id": "espn_401816550",
-      "sport_key": "baseball_mlb",
-      "outcome": "W",
-      "profit_loss": "23.62",
-      "notes": ""
     }
   ],
   "performance": {
-    "total_bets": 281,
-    "win_rate": 7.1,
-    "roi": 3.8,
+    "total_bets": 285,
+    "win_rate": 8.4,
+    "roi": 4.6,
     "by_signal": {
       "sharp_money": 3.6,
-      "rest_disadvantage": 3.9,
+      "rest_disadvantage": 4.6,
       "model_edge": 2.0,
       "public_fade": 1.5,
-      "weather_edge": 17.4,
+      "weather_edge": 20.1,
       "travel_disadvantage": 0.0
     },
     "best_signal": "weather_edge",
@@ -114,9 +92,9 @@
         "roi": 0.0
       },
       "MLB": {
-        "wins": 20,
+        "wins": 24,
         "losses": 256,
-        "roi": 1.7
+        "roi": 2.0
       }
     }
   },
