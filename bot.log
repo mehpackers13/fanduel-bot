@@ -81627,3 +81627,39 @@
 [2026-08-20 17:24:24 ET] [INFO] Injury scan complete — no new key injuries
 [2026-08-20 17:52:13 ET] [INFO] Running injury scan
 [2026-08-20 17:52:15 ET] [INFO] Injury scan complete — no new key injuries
+[2026-08-20 18:16:48 ET] [INFO] ============================================================
+[2026-08-20 18:16:48 ET] [INFO] Starting full scan
+[2026-08-20 18:16:48 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-08-20 18:16:51 ET] [INFO]   ESPN americanfootball_nfl: 2 games (fresh, 2 events found)
+[2026-08-20 18:16:51 ET] [INFO]   americanfootball_nfl: 2 games from espn
+[2026-08-20 18:16:51 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nfl/odds: HTTP 202
+[2026-08-20 18:16:51 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+[2026-08-20 18:16:52 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
+[2026-08-20 18:16:52 ET] [DEBUG]   [Las Vegas Raiders @ Houston Texans] sigs=[] conf=0 pub=n/a ml_move=110→114
+[2026-08-20 18:16:52 ET] [DEBUG]     ✗ Las Vegas Raiders @ Houston Texans — only 0/1 signals (need 1 more)
+[2026-08-20 18:16:53 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+[2026-08-20 18:16:54 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
+[2026-08-20 18:16:54 ET] [DEBUG]   [San Francisco 49ers @ Los Angeles Chargers] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-135→-105
+[2026-08-20 18:16:54 ET] [DEBUG]     ✗ San Francisco 49ers @ Los Angeles Chargers — conf 25 < 35 threshold
+[2026-08-20 18:16:54 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-08-20 18:16:56 ET] [INFO]   ESPN baseball_mlb: 2 games (fresh, 9 events found)
+[2026-08-20 18:16:56 ET] [INFO]   baseball_mlb: 2 games from espn
+[2026-08-20 18:16:56 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-08-20 18:16:56 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-20 18:17:04 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-20 18:17:04 ET] [DEBUG]   [Washington Nationals @ Texas Rangers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-142→-181
+[2026-08-20 18:17:04 ET] [DEBUG]     ✗ Washington Nationals @ Texas Rangers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-08-20 18:17:04 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-20 18:17:10 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-20 18:17:10 ET] [DEBUG]   [Los Angeles Angels @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-193→-181
+[2026-08-20 18:17:10 ET] [DEBUG]     ✗ Los Angeles Angels @ Houston Astros — conf 15 < 35 threshold
+[2026-08-20 18:17:10 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-08-20 18:17:10 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-08-20 18:17:10 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-08-20 18:17:10 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 1 events found)
+[2026-08-20 18:17:10 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-08-20 18:17:10 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-08-20 18:17:11 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-08-20 18:17:11 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-08-20 18:17:11 ET] [INFO] Scan complete -- 4 games checked, 0 alerts (silence = discipline)
+[2026-08-20 18:17:11 ET] [INFO] ============================================================
