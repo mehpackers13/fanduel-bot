@@ -81469,3 +81469,60 @@
 [2026-08-20 11:29:10 ET] [INFO] Injury scan complete — no new key injuries
 [2026-08-20 12:00:19 ET] [INFO] Running injury scan
 [2026-08-20 12:00:22 ET] [INFO] Injury scan complete — no new key injuries
+[2026-08-20 12:23:14 ET] [INFO] ============================================================
+[2026-08-20 12:23:14 ET] [INFO] Starting full scan
+[2026-08-20 12:23:14 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-08-20 12:23:18 ET] [INFO]   ESPN americanfootball_nfl: 2 games (fresh, 2 events found)
+[2026-08-20 12:23:18 ET] [INFO]   americanfootball_nfl: 2 games from espn
+[2026-08-20 12:23:18 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nfl/odds: HTTP 202
+[2026-08-20 12:23:18 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+[2026-08-20 12:23:20 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
+[2026-08-20 12:23:20 ET] [DEBUG]   [Las Vegas Raiders @ Houston Texans] sigs=['sharp_money'] conf=25 pub=n/a ml_move=110→-120
+[2026-08-20 12:23:20 ET] [DEBUG]     ✗ Las Vegas Raiders @ Houston Texans — conf 25 < 35 threshold
+[2026-08-20 12:23:20 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+[2026-08-20 12:23:22 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
+[2026-08-20 12:23:22 ET] [DEBUG]   [San Francisco 49ers @ Los Angeles Chargers] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-135→100
+[2026-08-20 12:23:22 ET] [DEBUG]     ✗ San Francisco 49ers @ Los Angeles Chargers — conf 25 < 35 threshold
+[2026-08-20 12:23:22 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-08-20 12:23:26 ET] [INFO]   ESPN baseball_mlb: 6 games (fresh, 9 events found)
+[2026-08-20 12:23:26 ET] [INFO]   baseball_mlb: 6 games from espn
+[2026-08-20 12:23:26 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-08-20 12:23:26 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-20 12:23:37 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-20 12:23:37 ET] [DEBUG]   [Athletics @ Kansas City Royals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-143→-129
+[2026-08-20 12:23:37 ET] [DEBUG]     ✗ Athletics @ Kansas City Royals — conf 15 < 35 threshold
+[2026-08-20 12:23:37 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-20 12:23:48 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-20 12:23:48 ET] [DEBUG]   [Seattle Mariners @ Milwaukee Brewers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-131→-129
+[2026-08-20 12:23:48 ET] [DEBUG]     ✗ Seattle Mariners @ Milwaukee Brewers — conf 15 < 35 threshold
+[2026-08-20 12:23:48 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-20 12:24:00 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-20 12:24:00 ET] [DEBUG]   [Atlanta Braves @ Chicago White Sox] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=104→-102
+[2026-08-20 12:24:00 ET] [DEBUG]     ✗ Atlanta Braves @ Chicago White Sox — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-08-20 12:24:00 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-20 12:24:11 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-20 12:24:11 ET] [DEBUG]   [New York Yankees @ Baltimore Orioles] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=104→101
+[2026-08-20 12:24:11 ET] [DEBUG]     ✗ New York Yankees @ Baltimore Orioles — conf 15 < 35 threshold
+[2026-08-20 12:24:11 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-20 12:24:22 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-20 12:24:22 ET] [DEBUG]   [Washington Nationals @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-142→-158
+[2026-08-20 12:24:22 ET] [DEBUG]     ✗ Washington Nationals @ Texas Rangers — conf 15 < 35 threshold
+[2026-08-20 12:24:22 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-20 12:24:33 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-20 12:24:33 ET] [DEBUG]   [Los Angeles Angels @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-193→-177
+[2026-08-20 12:24:33 ET] [DEBUG]     ✗ Los Angeles Angels @ Houston Astros — conf 15 < 35 threshold
+[2026-08-20 12:24:33 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-08-20 12:24:33 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-08-20 12:24:34 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-08-20 12:24:34 ET] [INFO]   ESPN soccer_esp_la_liga: 1 games (fresh, 1 events found)
+[2026-08-20 12:24:34 ET] [INFO]   soccer_esp_la_liga: 1 games from espn
+[2026-08-20 12:24:34 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/injuries
+[2026-08-20 12:24:36 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard
+[2026-08-20 12:24:36 ET] [DEBUG]   [Alavés @ Rayo Vallecano] sigs=['sharp_money'] conf=25 pub=n/a ml_move=110→135
+[2026-08-20 12:24:36 ET] [DEBUG]     ✗ Alavés @ Rayo Vallecano — conf 25 < 35 threshold
+[2026-08-20 12:24:36 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-08-20 12:24:36 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-08-20 12:24:36 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-08-20 12:24:37 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-08-20 12:24:37 ET] [INFO] Scan complete -- 9 games checked, 0 alerts (silence = discipline)
+[2026-08-20 12:24:37 ET] [INFO] ============================================================
