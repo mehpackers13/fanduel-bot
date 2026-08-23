@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-22T22:12:52.326398Z",
-  "last_scan": "2026-08-22 18:12:52 ET",
-  "last_scan_ts": "2026-08-22T22:12:52.326398Z",
+  "generated_at": "2026-08-23T00:46:59.857791Z",
+  "last_scan": "2026-08-22 20:46:59 ET",
+  "last_scan_ts": "2026-08-23T00:46:59.857791Z",
   "stats": {
-    "total_alerts": 317,
-    "completed_bets": 293,
-    "win_rate": 10.9,
-    "total_pl": 750.08,
+    "total_alerts": 318,
+    "completed_bets": 294,
+    "win_rate": 11.2,
+    "total_pl": 772.99,
     "by_sport": {
       "NBA": {
         "bets": 5,
@@ -14,9 +14,9 @@
         "pl": 0.0
       },
       "MLB": {
-        "bets": 288,
-        "wins": 32,
-        "pl": 750.08
+        "bets": 289,
+        "wins": 33,
+        "pl": 772.99
       }
     },
     "by_signal": {
@@ -25,8 +25,8 @@
         "wins": 6
       },
       "rest_disadvantage": {
-        "bets": 288,
-        "wins": 32
+        "bets": 289,
+        "wins": 33
       },
       "model_edge": {
         "bets": 264,
@@ -37,8 +37,8 @@
         "wins": 2
       },
       "weather_edge": {
-        "bets": 79,
-        "wins": 32
+        "bets": 80,
+        "wins": 33
       },
       "travel_disadvantage": {
         "bets": 11,
@@ -46,25 +46,25 @@
       }
     }
   },
-  "unit_total": 75.01,
+  "unit_total": 77.3,
   "today_bets": [
     {
-      "timestamp": "2026-08-21 20:45 ET",
+      "timestamp": "2026-08-22 20:46 ET",
       "sport": "MLB",
       "game": "Washington Nationals @ Miami Marlins",
       "home_team": "Miami Marlins",
       "away_team": "Washington Nationals",
       "bet_type": "total",
       "bet_side": "under",
-      "line": "u8.0",
+      "line": "u8.5",
       "edge_pct": "5.0",
       "confidence": "35",
       "signals": "rest_disadvantage + weather_edge",
       "suggested_bet": "27.0",
-      "implied_prob": "54.1",
-      "true_prob": "59.1",
-      "reasoning": "Edge 5.0% on UNDER total. Miami Marlins on back-to-back -- fatigue factor. Rain 4.0mm forecast \u2014 potential delays/cancellations, affects totals.",
-      "game_id": "espn_401816629",
+      "implied_prob": "53.5",
+      "true_prob": "58.5",
+      "reasoning": "Edge 5.0% on UNDER total. Miami Marlins on back-to-back -- fatigue factor. Wind 18mph at MLB game \u2014 check wind direction, affects totals.",
+      "game_id": "espn_401816644",
       "sport_key": "baseball_mlb",
       "outcome": "",
       "profit_loss": "",
@@ -100,6 +100,28 @@
   },
   "recent_bets": [
     {
+      "timestamp": "2026-08-22 20:46 ET",
+      "sport": "MLB",
+      "game": "Washington Nationals @ Miami Marlins",
+      "home_team": "Miami Marlins",
+      "away_team": "Washington Nationals",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u8.5",
+      "edge_pct": "5.0",
+      "confidence": "35",
+      "signals": "rest_disadvantage + weather_edge",
+      "suggested_bet": "27.0",
+      "implied_prob": "53.5",
+      "true_prob": "58.5",
+      "reasoning": "Edge 5.0% on UNDER total. Miami Marlins on back-to-back -- fatigue factor. Wind 18mph at MLB game \u2014 check wind direction, affects totals.",
+      "game_id": "espn_401816644",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-08-21 20:45 ET",
       "sport": "MLB",
       "game": "Washington Nationals @ Miami Marlins",
@@ -117,8 +139,8 @@
       "reasoning": "Edge 5.0% on UNDER total. Miami Marlins on back-to-back -- fatigue factor. Rain 4.0mm forecast \u2014 potential delays/cancellations, affects totals.",
       "game_id": "espn_401816629",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "W",
+      "profit_loss": "22.91",
       "notes": ""
     },
     {
@@ -1172,28 +1194,6 @@
       "true_prob": "60.0",
       "reasoning": "Edge 6.7% on St. Louis Cardinals moneyline. ML moved 207 pts on Los Angeles Angels (+102\u2192-105) \u2014 steam toward Los Angeles Angels. Los Angeles Angels on back-to-back -- fatigue factor.",
       "game_id": "espn_401816215",
-      "sport_key": "baseball_mlb",
-      "outcome": "P",
-      "profit_loss": "0.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-07-19 22:06 ET",
-      "sport": "MLB",
-      "game": "Los Angeles Dodgers @ Philadelphia Phillies",
-      "home_team": "Philadelphia Phillies",
-      "away_team": "Los Angeles Dodgers",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "+118",
-      "edge_pct": "10.0",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "46.0",
-      "implied_prob": "45.9",
-      "true_prob": "55.9",
-      "reasoning": "Edge 10.0% on Los Angeles Dodgers moneyline. Philadelphia Phillies on back-to-back -- fatigue factor. Power rating: Philadelphia Phillies wp=55.0% / Los Angeles Dodgers wp=63.6% \u2014 Los Angeles Dodgers underpriced (model 55.9% vs mkt 45.9%).",
-      "game_id": "espn_401816187",
       "sport_key": "baseball_mlb",
       "outcome": "P",
       "profit_loss": "0.0",
