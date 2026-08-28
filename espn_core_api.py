@@ -577,9 +577,14 @@ def get_game_result(game_id: str, sport_key: str) -> Optional[dict]:
 
     for c in comp.get("competitors", []):
         team_info  = c.get("team", {})
+        if isinstance(team_info, dict) and team_info.get("$ref"):
+            team_info = _get(team_info["$ref"]) or {}
         team_name  = team_info.get("displayName") or team_info.get("name") or ""
         score_raw  = c.get("score", 0)
+        # Core API returns score as a {"$ref": url} link — dereference to get value
         if isinstance(score_raw, dict):
+            if score_raw.get("value") is None and score_raw.get("$ref"):
+                score_raw = _get(score_raw["$ref"]) or {}
             score_raw = score_raw.get("value", 0)
         try:
             score = float(score_raw or 0)

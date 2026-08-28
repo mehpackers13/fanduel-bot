@@ -119,13 +119,12 @@ def _determine_outcome(bet_type: str, bet_side: str, line_str,
             if home_score == away_score:
                 return "P"
             home_won = home_score > away_score
-            # bet_side contains a team name fragment; match "home" or "away" side
-            # We stored bet_side as the team name in edge_calculator
-            # Check if the bet is on the home team
-            # Since we don't know team names here, use a convention:
-            # edge_calculator stores bet_side as the actual team name
-            # We'll compare against "home" keyword or just return None to skip
-            return None  # needs team name context — skip for now
+            # bet_side is stored as the literal "home" or "away" side
+            if "home" in bet_side:
+                return "W" if home_won else "L"
+            if "away" in bet_side:
+                return "W" if not home_won else "L"
+            return None  # unrecognised side — leave pending
 
         if "spread" in bet_type:
             try:
