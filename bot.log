@@ -91734,3 +91734,43 @@
 [2026-08-30 11:54:56 ET] [INFO] ============================================================
 [2026-08-30 12:53:35 ET] [INFO] Running injury scan
 [2026-08-30 12:53:36 ET] [INFO] Injury scan complete — no new key injuries
+[2026-08-30 14:56:54 ET] [INFO] ============================================================
+[2026-08-30 14:56:54 ET] [INFO] Starting full scan
+[2026-08-30 14:56:54 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-08-30 14:56:57 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-08-30 14:56:57 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-08-30 14:57:02 ET] [INFO]   ESPN baseball_mlb: 3 games (fresh, 14 events found)
+[2026-08-30 14:57:02 ET] [INFO]   baseball_mlb: 3 games from espn
+[2026-08-30 14:57:02 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-08-30 14:57:03 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-30 14:57:16 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-30 14:57:16 ET] [DEBUG]   [Baltimore Orioles @ Athletics] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=121→137
+[2026-08-30 14:57:16 ET] [DEBUG]     ✗ Baltimore Orioles @ Athletics — conf 15 < 35 threshold
+[2026-08-30 14:57:16 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-30 14:57:27 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-30 14:57:27 ET] [DEBUG]   [Philadelphia Phillies @ Los Angeles Angels] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=163→157
+[2026-08-30 14:57:27 ET] [DEBUG]     ✗ Philadelphia Phillies @ Los Angeles Angels — conf 15 < 35 threshold
+[2026-08-30 14:57:27 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-08-30 14:57:40 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-08-30 14:57:40 ET] [DEBUG]   [Cincinnati Reds @ Chicago Cubs] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=-146→-154
+[2026-08-30 14:57:40 ET] [DEBUG]     ✗ Cincinnati Reds @ Chicago Cubs — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-08-30 14:57:40 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-08-30 14:57:42 ET] [INFO]   ESPN soccer_usa_mls: 2 games (fresh, 2 events found)
+[2026-08-30 14:57:42 ET] [INFO]   soccer_usa_mls: 2 games from espn
+[2026-08-30 14:57:42 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-08-30 14:57:42 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-08-30 14:57:49 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-08-30 14:57:49 ET] [DEBUG]   [New England Revolution @ Columbus Crew] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-110→110
+[2026-08-30 14:57:49 ET] [DEBUG]     ✗ New England Revolution @ Columbus Crew — conf 25 < 35 threshold
+[2026-08-30 14:57:49 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-08-30 14:57:53 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-08-30 14:57:53 ET] [DEBUG]   [FC Dallas @ St. Louis CITY SC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-115→100
+[2026-08-30 14:57:53 ET] [DEBUG]     ✗ FC Dallas @ St. Louis CITY SC — conf 25 < 35 threshold
+[2026-08-30 14:57:55 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 4 events found)
+[2026-08-30 14:57:56 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 3 events found)
+[2026-08-30 14:57:57 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 2 events found)
+[2026-08-30 14:57:58 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 3 events found)
+[2026-08-30 14:57:59 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 3 events found)
+[2026-08-30 14:57:59 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-08-30 14:57:59 ET] [INFO] Scan complete -- 5 games checked, 0 alerts (silence = discipline)
+[2026-08-30 14:57:59 ET] [INFO] ============================================================
