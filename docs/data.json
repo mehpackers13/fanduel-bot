@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-31T23:30:50.449623Z",
-  "last_scan": "2026-08-31 19:30:50 ET",
-  "last_scan_ts": "2026-08-31T23:30:50.449623Z",
+  "generated_at": "2026-09-01T02:43:55.035435Z",
+  "last_scan": "2026-08-31 22:43:54 ET",
+  "last_scan_ts": "2026-09-01T02:43:55.035435Z",
   "stats": {
     "total_alerts": 326,
-    "completed_bets": 301,
-    "win_rate": 47.8,
-    "total_pl": -380.18,
+    "completed_bets": 303,
+    "win_rate": 47.5,
+    "total_pl": -407.18,
     "by_sport": {
       "NBA": {
         "bets": 5,
@@ -14,18 +14,18 @@
         "pl": -175.0
       },
       "MLB": {
-        "bets": 296,
+        "bets": 298,
         "wins": 144,
-        "pl": -205.1800000000002
+        "pl": -232.1800000000002
       }
     },
     "by_signal": {
       "sharp_money": {
-        "bets": 91,
+        "bets": 92,
         "wins": 38
       },
       "rest_disadvantage": {
-        "bets": 296,
+        "bets": 298,
         "wins": 144
       },
       "model_edge": {
@@ -37,7 +37,7 @@
         "wins": 32
       },
       "weather_edge": {
-        "bets": 87,
+        "bets": 89,
         "wins": 45
       },
       "travel_disadvantage": {
@@ -46,7 +46,7 @@
       }
     }
   },
-  "unit_total": -38.02,
+  "unit_total": -40.72,
   "today_bets": [
     {
       "timestamp": "2026-08-31 06:17 ET",
@@ -66,30 +66,8 @@
       "reasoning": "Edge 5.0% on UNDER total. ML moved 204 pts on Washington Nationals (-102\u2192+102) \u2014 steam toward Miami Marlins. Washington Nationals on back-to-back -- fatigue factor.",
       "game_id": "espn_401816747",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-08-30 22:30 ET",
-      "sport": "MLB",
-      "game": "Milwaukee Brewers @ Chicago Cubs",
-      "home_team": "Chicago Cubs",
-      "away_team": "Milwaukee Brewers",
-      "bet_type": "total",
-      "bet_side": "under",
-      "line": "u9.5",
-      "edge_pct": "5.0",
-      "confidence": "35",
-      "signals": "rest_disadvantage + weather_edge",
-      "suggested_bet": "27.0",
-      "implied_prob": "53.9",
-      "true_prob": "58.9",
-      "reasoning": "Edge 5.0% on UNDER total. Chicago Cubs on back-to-back -- fatigue factor. Rain 10.4mm forecast \u2014 potential delays/cancellations, affects totals.",
-      "game_id": "espn_401816754",
-      "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     }
   ],
@@ -139,8 +117,8 @@
       "reasoning": "Edge 5.0% on UNDER total. ML moved 204 pts on Washington Nationals (-102\u2192+102) \u2014 steam toward Miami Marlins. Washington Nationals on back-to-back -- fatigue factor.",
       "game_id": "espn_401816747",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "P",
+      "profit_loss": "0.0",
       "notes": ""
     },
     {
@@ -161,8 +139,8 @@
       "reasoning": "Edge 5.0% on UNDER total. Chicago Cubs on back-to-back -- fatigue factor. Rain 10.4mm forecast \u2014 potential delays/cancellations, affects totals.",
       "game_id": "espn_401816754",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "L",
+      "profit_loss": "-27.0",
       "notes": ""
     },
     {
