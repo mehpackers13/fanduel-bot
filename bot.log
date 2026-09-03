@@ -93714,3 +93714,48 @@
 [2026-09-03 15:00:45 ET] [INFO] ============================================================
 [2026-09-03 16:04:27 ET] [INFO] Running injury scan
 [2026-09-03 16:04:30 ET] [INFO] Injury scan complete — no new key injuries
+[2026-09-03 18:01:12 ET] [INFO] ============================================================
+[2026-09-03 18:01:12 ET] [INFO] Starting full scan
+[2026-09-03 18:01:12 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-09-03 18:01:15 ET] [INFO] Auto-resolved espn_401816791: Chicago White Sox @ Houston Astros → W (home 6.0, away 2.0)
+[2026-09-03 18:01:15 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-09-03 18:01:15 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-09-03 18:01:16 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-09-03 18:01:16 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-09-03 18:01:21 ET] [INFO]   ESPN baseball_mlb: 6 games (fresh, 9 events found)
+[2026-09-03 18:01:21 ET] [INFO]   baseball_mlb: 6 games from espn
+[2026-09-03 18:01:21 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-09-03 18:01:21 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 18:01:39 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 18:01:39 ET] [DEBUG]   [Boston Red Sox @ Baltimore Orioles] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=105→102
+[2026-09-03 18:01:39 ET] [DEBUG]     ✗ Boston Red Sox @ Baltimore Orioles — conf 15 < 35 threshold
+[2026-09-03 18:01:39 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 18:01:56 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 18:01:56 ET] [DEBUG]   [Milwaukee Brewers @ Chicago Cubs] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-105→100
+[2026-09-03 18:01:56 ET] [DEBUG]     ✗ Milwaukee Brewers @ Chicago Cubs — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-09-03 18:01:56 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 18:02:12 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 18:02:12 ET] [DEBUG]   [Miami Marlins @ Kansas City Royals] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=106→-122
+[2026-09-03 18:02:12 ET] [DEBUG]     ✗ Miami Marlins @ Kansas City Royals — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-09-03 18:02:12 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 18:02:29 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 18:02:29 ET] [DEBUG]   [Tampa Bay Rays @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=109→105
+[2026-09-03 18:02:29 ET] [DEBUG]     ✗ Tampa Bay Rays @ Texas Rangers — conf 15 < 35 threshold
+[2026-09-03 18:02:29 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 18:02:45 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 18:02:45 ET] [DEBUG]   [Athletics @ Seattle Mariners] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-207→-223
+[2026-09-03 18:02:45 ET] [DEBUG]     ✗ Athletics @ Seattle Mariners — conf 15 < 35 threshold
+[2026-09-03 18:02:45 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 18:03:02 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 18:03:02 ET] [DEBUG]   [St. Louis Cardinals @ Los Angeles Dodgers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-279→-311
+[2026-09-03 18:03:02 ET] [DEBUG]     ✗ St. Louis Cardinals @ Los Angeles Dodgers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-09-03 18:03:02 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-09-03 18:03:02 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-09-03 18:03:03 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-09-03 18:03:03 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 1 events found)
+[2026-09-03 18:03:04 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-09-03 18:03:04 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-09-03 18:03:04 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 1 events found)
+[2026-09-03 18:03:05 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-09-03 18:03:05 ET] [INFO] Scan complete -- 6 games checked, 0 alerts (silence = discipline)
+[2026-09-03 18:03:05 ET] [INFO] ============================================================
