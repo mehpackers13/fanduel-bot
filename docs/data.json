@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-02T22:11:14.648639Z",
-  "last_scan": "2026-09-02 18:11:14 ET",
-  "last_scan_ts": "2026-09-02T22:11:14.648639Z",
+  "generated_at": "2026-09-03T02:11:20.696923Z",
+  "last_scan": "2026-09-02 22:11:20 ET",
+  "last_scan_ts": "2026-09-03T02:11:20.696923Z",
   "stats": {
-    "total_alerts": 328,
-    "completed_bets": 303,
-    "win_rate": 47.5,
-    "total_pl": -407.18,
+    "total_alerts": 330,
+    "completed_bets": 304,
+    "win_rate": 47.4,
+    "total_pl": -433.18,
     "by_sport": {
       "NBA": {
         "bets": 5,
@@ -14,9 +14,9 @@
         "pl": -175.0
       },
       "MLB": {
-        "bets": 298,
+        "bets": 299,
         "wins": 144,
-        "pl": -232.1800000000002
+        "pl": -258.1800000000002
       }
     },
     "by_signal": {
@@ -25,7 +25,7 @@
         "wins": 38
       },
       "rest_disadvantage": {
-        "bets": 298,
+        "bets": 299,
         "wins": 144
       },
       "model_edge": {
@@ -37,7 +37,7 @@
         "wins": 32
       },
       "weather_edge": {
-        "bets": 89,
+        "bets": 90,
         "wins": 45
       },
       "travel_disadvantage": {
@@ -46,10 +46,32 @@
       }
     }
   },
-  "unit_total": -40.72,
+  "unit_total": -43.32,
   "today_bets": [
     {
-      "timestamp": "2026-09-01 22:05 ET",
+      "timestamp": "2026-09-02 22:11 ET",
+      "sport": "MLB",
+      "game": "Boston Red Sox @ Baltimore Orioles",
+      "home_team": "Baltimore Orioles",
+      "away_team": "Boston Red Sox",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u8.5",
+      "edge_pct": "5.0",
+      "confidence": "35",
+      "signals": "rest_disadvantage + weather_edge",
+      "suggested_bet": "27.0",
+      "implied_prob": "53.5",
+      "true_prob": "58.5",
+      "reasoning": "Edge 5.0% on UNDER total. Baltimore Orioles on back-to-back -- fatigue factor. Rain 9.0mm forecast \u2014 potential delays/cancellations, affects totals.",
+      "game_id": "espn_401816788",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-09-02 22:11 ET",
       "sport": "MLB",
       "game": "Chicago White Sox @ Houston Astros",
       "home_team": "Houston Astros",
@@ -61,32 +83,10 @@
       "confidence": "35",
       "signals": "rest_disadvantage + weather_edge",
       "suggested_bet": "27.0",
-      "implied_prob": "52.8",
-      "true_prob": "57.8",
-      "reasoning": "Edge 5.0% on UNDER total. Houston Astros on back-to-back -- fatigue factor. Rain 9.0mm forecast \u2014 potential delays/cancellations, affects totals.",
-      "game_id": "espn_401816780",
-      "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-09-01 22:05 ET",
-      "sport": "MLB",
-      "game": "Seattle Mariners @ Boston Red Sox",
-      "home_team": "Boston Red Sox",
-      "away_team": "Seattle Mariners",
-      "bet_type": "total",
-      "bet_side": "under",
-      "line": "u8.5",
-      "edge_pct": "5.0",
-      "confidence": "35",
-      "signals": "rest_disadvantage + weather_edge",
-      "suggested_bet": "26.0",
-      "implied_prob": "52.4",
-      "true_prob": "57.4",
-      "reasoning": "Edge 5.0% on UNDER total. Boston Red Sox on back-to-back -- fatigue factor. Rain 19.9mm forecast \u2014 potential delays/cancellations, affects totals.",
-      "game_id": "espn_401816776",
+      "implied_prob": "53.5",
+      "true_prob": "58.5",
+      "reasoning": "Edge 5.0% on UNDER total. Houston Astros on back-to-back -- fatigue factor. Rain 3.4mm forecast \u2014 potential delays/cancellations, affects totals.",
+      "game_id": "espn_401816791",
       "sport_key": "baseball_mlb",
       "outcome": "",
       "profit_loss": "",
@@ -122,6 +122,50 @@
   },
   "recent_bets": [
     {
+      "timestamp": "2026-09-02 22:11 ET",
+      "sport": "MLB",
+      "game": "Boston Red Sox @ Baltimore Orioles",
+      "home_team": "Baltimore Orioles",
+      "away_team": "Boston Red Sox",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u8.5",
+      "edge_pct": "5.0",
+      "confidence": "35",
+      "signals": "rest_disadvantage + weather_edge",
+      "suggested_bet": "27.0",
+      "implied_prob": "53.5",
+      "true_prob": "58.5",
+      "reasoning": "Edge 5.0% on UNDER total. Baltimore Orioles on back-to-back -- fatigue factor. Rain 9.0mm forecast \u2014 potential delays/cancellations, affects totals.",
+      "game_id": "espn_401816788",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-09-02 22:11 ET",
+      "sport": "MLB",
+      "game": "Chicago White Sox @ Houston Astros",
+      "home_team": "Houston Astros",
+      "away_team": "Chicago White Sox",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u8.5",
+      "edge_pct": "5.0",
+      "confidence": "35",
+      "signals": "rest_disadvantage + weather_edge",
+      "suggested_bet": "27.0",
+      "implied_prob": "53.5",
+      "true_prob": "58.5",
+      "reasoning": "Edge 5.0% on UNDER total. Houston Astros on back-to-back -- fatigue factor. Rain 3.4mm forecast \u2014 potential delays/cancellations, affects totals.",
+      "game_id": "espn_401816791",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-09-01 22:05 ET",
       "sport": "MLB",
       "game": "Chicago White Sox @ Houston Astros",
@@ -161,8 +205,8 @@
       "reasoning": "Edge 5.0% on UNDER total. Boston Red Sox on back-to-back -- fatigue factor. Rain 19.9mm forecast \u2014 potential delays/cancellations, affects totals.",
       "game_id": "espn_401816776",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "L",
+      "profit_loss": "-26.0",
       "notes": ""
     },
     {
@@ -1175,50 +1219,6 @@
       "sport_key": "baseball_mlb",
       "outcome": "L",
       "profit_loss": "-50.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-07-25 21:56 ET",
-      "sport": "MLB",
-      "game": "Los Angeles Dodgers @ New York Mets",
-      "home_team": "New York Mets",
-      "away_team": "Los Angeles Dodgers",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "-163",
-      "edge_pct": "6.6",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "43.0",
-      "implied_prob": "62.0",
-      "true_prob": "68.5",
-      "reasoning": "Edge 6.6% on Los Angeles Dodgers moneyline. New York Mets on back-to-back -- fatigue factor. Power rating: New York Mets wp=41.3% / Los Angeles Dodgers wp=63.5% \u2014 Los Angeles Dodgers underpriced (model 68.5% vs mkt 62.0%).",
-      "game_id": "espn_401816270",
-      "sport_key": "baseball_mlb",
-      "outcome": "L",
-      "profit_loss": "-43.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-07-25 21:56 ET",
-      "sport": "MLB",
-      "game": "New York Yankees @ Philadelphia Phillies",
-      "home_team": "Philadelphia Phillies",
-      "away_team": "New York Yankees",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "+137",
-      "edge_pct": "8.2",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "36.0",
-      "implied_prob": "42.2",
-      "true_prob": "50.4",
-      "reasoning": "Edge 8.2% on New York Yankees moneyline. Philadelphia Phillies on back-to-back -- fatigue factor. Power rating: Philadelphia Phillies wp=53.3% / New York Yankees wp=56.7% \u2014 New York Yankees underpriced (model 50.4% vs mkt 42.2%).",
-      "game_id": "espn_401816271",
-      "sport_key": "baseball_mlb",
-      "outcome": "L",
-      "profit_loss": "-36.0",
       "notes": ""
     }
   ]
