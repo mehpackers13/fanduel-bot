@@ -93597,3 +93597,74 @@
 [2026-09-03 11:32:44 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
 [2026-09-03 11:32:44 ET] [INFO] Scan complete -- 11 games checked, 0 alerts (silence = discipline)
 [2026-09-03 11:32:44 ET] [INFO] ============================================================
+[2026-09-03 11:37:16 ET] [INFO] ============================================================
+[2026-09-03 11:37:16 ET] [INFO] Running morning briefing scan (7am)
+[2026-09-03 11:37:16 ET] [INFO] ============================================================
+[2026-09-03 11:37:16 ET] [INFO] Starting morning scan
+[2026-09-03 11:37:16 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-09-03 11:37:17 ET] [INFO]   ESPN americanfootball_nfl: 0 games (cached)
+[2026-09-03 11:37:17 ET] [INFO]   ESPN basketball_nba: 0 games (cached)
+[2026-09-03 11:37:17 ET] [INFO]   ESPN baseball_mlb: 9 games (cached)
+[2026-09-03 11:37:17 ET] [INFO]   baseball_mlb: 9 games from espn
+[2026-09-03 11:37:17 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-09-03 11:37:18 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 11:37:24 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 11:37:24 ET] [DEBUG]   [San Francisco Giants @ Pittsburgh Pirates] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-168→-167
+[2026-09-03 11:37:24 ET] [DEBUG]     ✗ San Francisco Giants @ Pittsburgh Pirates — conf 15 < 35 threshold
+[2026-09-03 11:37:24 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 11:37:30 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 11:37:30 ET] [DEBUG]   [Toronto Blue Jays @ Cleveland Guardians] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-115→-115
+[2026-09-03 11:37:30 ET] [DEBUG]     ✗ Toronto Blue Jays @ Cleveland Guardians — conf 15 < 35 threshold
+[2026-09-03 11:37:30 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 11:37:36 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 11:37:36 ET] [DEBUG]   [Chicago White Sox @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-157→-163
+[2026-09-03 11:37:36 ET] [DEBUG]     ✗ Chicago White Sox @ Houston Astros — conf 15 < 35 threshold
+[2026-09-03 11:37:36 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 11:37:42 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 11:37:42 ET] [DEBUG]   [Boston Red Sox @ Baltimore Orioles] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=105→104
+[2026-09-03 11:37:42 ET] [DEBUG]     ✗ Boston Red Sox @ Baltimore Orioles — conf 15 < 35 threshold
+[2026-09-03 11:37:42 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 11:37:48 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 11:37:48 ET] [DEBUG]   [Milwaukee Brewers @ Chicago Cubs] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-105→-104
+[2026-09-03 11:37:48 ET] [DEBUG]     ✗ Milwaukee Brewers @ Chicago Cubs — conf 15 < 35 threshold
+[2026-09-03 11:37:48 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 11:37:54 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 11:37:54 ET] [DEBUG]   [Miami Marlins @ Kansas City Royals] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=106→-118
+[2026-09-03 11:37:54 ET] [DEBUG]     ✗ Miami Marlins @ Kansas City Royals — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-09-03 11:37:54 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 11:38:00 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 11:38:00 ET] [DEBUG]   [Tampa Bay Rays @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=109→108
+[2026-09-03 11:38:00 ET] [DEBUG]     ✗ Tampa Bay Rays @ Texas Rangers — conf 15 < 35 threshold
+[2026-09-03 11:38:00 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 11:38:05 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 11:38:05 ET] [DEBUG]   [Athletics @ Seattle Mariners] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-207→-217
+[2026-09-03 11:38:05 ET] [DEBUG]     ✗ Athletics @ Seattle Mariners — conf 15 < 35 threshold
+[2026-09-03 11:38:05 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-03 11:38:11 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-03 11:38:11 ET] [DEBUG]   [St. Louis Cardinals @ Los Angeles Dodgers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-279→-311
+[2026-09-03 11:38:11 ET] [DEBUG]     ✗ St. Louis Cardinals @ Los Angeles Dodgers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-09-03 11:38:11 ET] [INFO]   ESPN icehockey_nhl: 0 games (cached)
+[2026-09-03 11:38:11 ET] [INFO]   ESPN soccer_usa_mls: 0 games (cached)
+[2026-09-03 11:38:11 ET] [INFO]   ESPN soccer_epl: 0 games (cached)
+[2026-09-03 11:38:11 ET] [INFO]   ESPN soccer_esp_la_liga: 1 games (cached)
+[2026-09-03 11:38:11 ET] [INFO]   soccer_esp_la_liga: 1 games from espn
+[2026-09-03 11:38:11 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/injuries
+[2026-09-03 11:38:12 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard
+[2026-09-03 11:38:12 ET] [DEBUG]   [Celta Vigo @ Real Sociedad] sigs=['sharp_money'] conf=25 pub=n/a ml_move=110→-125
+[2026-09-03 11:38:12 ET] [DEBUG]     ✗ Celta Vigo @ Real Sociedad — conf 25 < 35 threshold
+[2026-09-03 11:38:12 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (cached)
+[2026-09-03 11:38:12 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (cached)
+[2026-09-03 11:38:12 ET] [INFO]   ESPN soccer_fra_ligue_one: 1 games (cached)
+[2026-09-03 11:38:12 ET] [INFO]   soccer_fra_ligue_one: 1 games from espn
+[2026-09-03 11:38:12 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/injuries
+[2026-09-03 11:38:13 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard
+[2026-09-03 11:38:13 ET] [DEBUG]   [Lille @ Toulouse] sigs=['sharp_money'] conf=25 pub=n/a ml_move=250→310
+[2026-09-03 11:38:13 ET] [DEBUG]     ✗ Lille @ Toulouse — conf 25 < 35 threshold
+[2026-09-03 11:38:13 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-09-03 11:38:13 ET] [INFO] Morning scan complete -- 11 games checked, 0 opportunities
+[2026-09-03 11:38:13 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-09-03 11:38:14 ET] [INFO] Morning briefing sent: 0 opportunities | combined units: 🔴 -40.9u
+[2026-09-03 11:38:14 ET] [INFO] Running record: 47.5% win rate | -3.2% ROI on 305 bets
+[2026-09-03 11:38:14 ET] [INFO] Unit totals — FanDuel: -40.90u | Kalshi: 0.0 | Options: 0
+[2026-09-03 11:38:14 ET] [INFO] Morning briefing complete
+[2026-09-03 11:38:14 ET] [INFO] ============================================================
