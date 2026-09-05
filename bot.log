@@ -95952,3 +95952,59 @@
 [2026-09-05 17:50:59 ET] [INFO] ============================================================
 [2026-09-05 19:09:40 ET] [INFO] Running injury scan
 [2026-09-05 19:09:44 ET] [INFO] Injury scan complete — no new key injuries
+[2026-09-05 19:27:49 ET] [INFO] ============================================================
+[2026-09-05 19:27:49 ET] [INFO] Starting full scan
+[2026-09-05 19:27:49 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-09-05 19:27:51 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-09-05 19:27:52 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-09-05 19:27:58 ET] [INFO]   ESPN baseball_mlb: 2 games (fresh, 15 events found)
+[2026-09-05 19:27:58 ET] [INFO]   baseball_mlb: 2 games from espn
+[2026-09-05 19:27:58 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-09-05 19:27:58 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-05 19:28:10 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-05 19:28:10 ET] [DEBUG]   [Washington Nationals @ Los Angeles Dodgers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-232→-188
+[2026-09-05 19:28:10 ET] [DEBUG]     ✗ Washington Nationals @ Los Angeles Dodgers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-09-05 19:28:10 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-05 19:28:21 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-05 19:28:21 ET] [DEBUG]   [Athletics @ Seattle Mariners] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-267→-245
+[2026-09-05 19:28:21 ET] [DEBUG]     ✗ Athletics @ Seattle Mariners — conf 15 < 35 threshold
+[2026-09-05 19:28:21 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-09-05 19:28:28 ET] [INFO]   ESPN soccer_usa_mls: 7 games (fresh, 14 events found)
+[2026-09-05 19:28:28 ET] [INFO]   soccer_usa_mls: 7 games from espn
+[2026-09-05 19:28:28 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-09-05 19:28:28 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-05 19:28:30 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-05 19:28:30 ET] [DEBUG]   [San Jose Earthquakes @ Austin FC] sigs=[] conf=0 pub=n/a ml_move=125→125
+[2026-09-05 19:28:30 ET] [DEBUG]     ✗ San Jose Earthquakes @ Austin FC — only 0/1 signals (need 1 more)
+[2026-09-05 19:28:30 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-05 19:28:31 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-05 19:28:31 ET] [DEBUG]   [Sporting Kansas City @ FC Dallas] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-225→-265
+[2026-09-05 19:28:31 ET] [DEBUG]     ✗ Sporting Kansas City @ FC Dallas — conf 25 < 35 threshold
+[2026-09-05 19:28:31 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-05 19:28:32 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-05 19:28:32 ET] [DEBUG]   [Red Bull New York @ Seattle Sounders FC] sigs=[] conf=0 pub=n/a ml_move=-120→-125
+[2026-09-05 19:28:32 ET] [DEBUG]     ✗ Red Bull New York @ Seattle Sounders FC — only 0/1 signals (need 1 more)
+[2026-09-05 19:28:33 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-05 19:28:34 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-05 19:28:34 ET] [DEBUG]   [New England Revolution @ LA Galaxy] sigs=['sharp_money'] conf=25 pub=n/a ml_move=115→145
+[2026-09-05 19:28:34 ET] [DEBUG]     ✗ New England Revolution @ LA Galaxy — conf 25 < 35 threshold
+[2026-09-05 19:28:34 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-05 19:28:35 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-05 19:28:35 ET] [DEBUG]   [LAFC @ Real Salt Lake] sigs=['sharp_money'] conf=25 pub=n/a ml_move=145→180
+[2026-09-05 19:28:35 ET] [DEBUG]     ✗ LAFC @ Real Salt Lake — conf 25 < 35 threshold
+[2026-09-05 19:28:35 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-05 19:28:37 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-05 19:28:37 ET] [DEBUG]   [Minnesota United FC @ Portland Timbers] sigs=[] conf=0 pub=n/a ml_move=115→135
+[2026-09-05 19:28:37 ET] [DEBUG]     ✗ Minnesota United FC @ Portland Timbers — only 0/1 signals (need 1 more)
+[2026-09-05 19:28:37 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-05 19:28:38 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-05 19:28:38 ET] [DEBUG]   [St. Louis CITY SC @ Vancouver Whitecaps] sigs=[] conf=0 pub=n/a ml_move=-245→-225
+[2026-09-05 19:28:38 ET] [DEBUG]     ✗ St. Louis CITY SC @ Vancouver Whitecaps — only 0/1 signals (need 1 more)
+[2026-09-05 19:28:40 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 7 events found)
+[2026-09-05 19:28:41 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 3 events found)
+[2026-09-05 19:28:44 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 6 events found)
+[2026-09-05 19:28:45 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 3 events found)
+[2026-09-05 19:28:46 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 3 events found)
+[2026-09-05 19:28:46 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 1 events found)
+[2026-09-05 19:28:46 ET] [INFO] Scan complete -- 9 games checked, 0 alerts (silence = discipline)
+[2026-09-05 19:28:46 ET] [INFO] ============================================================
