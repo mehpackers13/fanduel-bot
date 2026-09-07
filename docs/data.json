@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-06T23:22:24.861758Z",
-  "last_scan": "2026-09-06 19:22:24 ET",
-  "last_scan_ts": "2026-09-06T23:22:24.861758Z",
+  "generated_at": "2026-09-07T02:01:59.721682Z",
+  "last_scan": "2026-09-06 22:01:59 ET",
+  "last_scan_ts": "2026-09-07T02:01:59.721682Z",
   "stats": {
-    "total_alerts": 335,
+    "total_alerts": 336,
     "completed_bets": 312,
     "win_rate": 47.8,
     "total_pl": -396.81,
@@ -48,6 +48,28 @@
   },
   "unit_total": -39.68,
   "today_bets": [
+    {
+      "timestamp": "2026-09-06 22:01 ET",
+      "sport": "MLB",
+      "game": "St. Louis Cardinals @ San Francisco Giants",
+      "home_team": "San Francisco Giants",
+      "away_team": "St. Louis Cardinals",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u7.5",
+      "edge_pct": "5.0",
+      "confidence": "35",
+      "signals": "rest_disadvantage + weather_edge",
+      "suggested_bet": "26.0",
+      "implied_prob": "52.1",
+      "true_prob": "57.1",
+      "reasoning": "Edge 5.0% on UNDER total. San Francisco Giants on back-to-back -- fatigue factor. Wind 16mph at MLB game \u2014 check wind direction, affects totals.",
+      "game_id": "espn_401816850",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-09-06 04:14 ET",
       "sport": "MLB",
@@ -121,6 +143,28 @@
     }
   },
   "recent_bets": [
+    {
+      "timestamp": "2026-09-06 22:01 ET",
+      "sport": "MLB",
+      "game": "St. Louis Cardinals @ San Francisco Giants",
+      "home_team": "San Francisco Giants",
+      "away_team": "St. Louis Cardinals",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u7.5",
+      "edge_pct": "5.0",
+      "confidence": "35",
+      "signals": "rest_disadvantage + weather_edge",
+      "suggested_bet": "26.0",
+      "implied_prob": "52.1",
+      "true_prob": "57.1",
+      "reasoning": "Edge 5.0% on UNDER total. San Francisco Giants on back-to-back -- fatigue factor. Wind 16mph at MLB game \u2014 check wind direction, affects totals.",
+      "game_id": "espn_401816850",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-09-06 04:14 ET",
       "sport": "MLB",
@@ -1197,28 +1241,6 @@
       "sport_key": "baseball_mlb",
       "outcome": "L",
       "profit_loss": "-34.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-07-28 21:49 ET",
-      "sport": "MLB",
-      "game": "Toronto Blue Jays @ Washington Nationals",
-      "home_team": "Washington Nationals",
-      "away_team": "Toronto Blue Jays",
-      "bet_type": "moneyline",
-      "bet_side": "home",
-      "line": "+101",
-      "edge_pct": "7.9",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "39.0",
-      "implied_prob": "49.8",
-      "true_prob": "57.6",
-      "reasoning": "Edge 7.9% on Washington Nationals moneyline. Washington Nationals on back-to-back -- fatigue factor. Power rating: Washington Nationals wp=50.5% / Toronto Blue Jays wp=45.8% \u2014 Washington Nationals underpriced (model 57.6% vs mkt 49.8%).",
-      "game_id": "espn_401816313",
-      "sport_key": "baseball_mlb",
-      "outcome": "L",
-      "profit_loss": "-39.0",
       "notes": ""
     }
   ]
