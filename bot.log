@@ -100908,3 +100908,43 @@
 [2026-09-12 16:19:15 ET] [INFO] ============================================================
 [2026-09-12 18:27:11 ET] [INFO] Running injury scan
 [2026-09-12 18:27:13 ET] [INFO] Injury scan complete — no new key injuries
+[2026-09-12 19:35:31 ET] [INFO] ============================================================
+[2026-09-12 19:35:31 ET] [INFO] Starting full scan
+[2026-09-12 19:35:31 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-09-12 19:35:32 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-09-12 19:35:32 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-09-12 19:35:35 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 15 events found)
+[2026-09-12 19:35:35 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-09-12 19:35:35 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-09-12 19:35:35 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-12 19:35:38 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-12 19:35:38 ET] [DEBUG]   [Seattle Mariners @ Athletics] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=135→129
+[2026-09-12 19:35:38 ET] [DEBUG]     ✗ Seattle Mariners @ Athletics — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-09-12 19:35:38 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-09-12 19:35:40 ET] [INFO]   ESPN soccer_usa_mls: 4 games (fresh, 12 events found)
+[2026-09-12 19:35:40 ET] [INFO]   soccer_usa_mls: 4 games from espn
+[2026-09-12 19:35:40 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-09-12 19:35:40 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-12 19:35:42 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-12 19:35:42 ET] [DEBUG]   [CF Montréal @ Colorado Rapids] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-145→-170
+[2026-09-12 19:35:42 ET] [DEBUG]     ✗ CF Montréal @ Colorado Rapids — conf 25 < 35 threshold
+[2026-09-12 19:35:42 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-12 19:35:43 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-12 19:35:43 ET] [DEBUG]   [New York City FC @ Real Salt Lake] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-110→100
+[2026-09-12 19:35:43 ET] [DEBUG]     ✗ New York City FC @ Real Salt Lake — conf 25 < 35 threshold
+[2026-09-12 19:35:43 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-12 19:35:44 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-12 19:35:44 ET] [DEBUG]   [Seattle Sounders FC @ LA Galaxy] sigs=[] conf=0 pub=n/a ml_move=115→115
+[2026-09-12 19:35:44 ET] [DEBUG]     ✗ Seattle Sounders FC @ LA Galaxy — only 0/1 signals (need 1 more)
+[2026-09-12 19:35:44 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-12 19:35:45 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-12 19:35:45 ET] [DEBUG]   [Houston Dynamo FC @ San Jose Earthquakes] sigs=[] conf=0 pub=n/a ml_move=130→140
+[2026-09-12 19:35:45 ET] [DEBUG]     ✗ Houston Dynamo FC @ San Jose Earthquakes — only 0/1 signals (need 1 more)
+[2026-09-12 19:35:46 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 7 events found)
+[2026-09-12 19:35:47 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 4 events found)
+[2026-09-12 19:35:48 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 6 events found)
+[2026-09-12 19:35:48 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 3 events found)
+[2026-09-12 19:35:49 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 5 events found)
+[2026-09-12 19:35:49 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 1 events found)
+[2026-09-12 19:35:49 ET] [INFO] Scan complete -- 5 games checked, 0 alerts (silence = discipline)
+[2026-09-12 19:35:49 ET] [INFO] ============================================================
