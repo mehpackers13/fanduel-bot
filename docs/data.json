@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-12T23:35:49.622776Z",
-  "last_scan": "2026-09-12 19:35:49 ET",
-  "last_scan_ts": "2026-09-12T23:35:49.622776Z",
+  "generated_at": "2026-09-13T02:14:59.284585Z",
+  "last_scan": "2026-09-12 22:14:59 ET",
+  "last_scan_ts": "2026-09-13T02:14:59.284585Z",
   "stats": {
-    "total_alerts": 344,
-    "completed_bets": 320,
-    "win_rate": 46.6,
-    "total_pl": -609.81,
+    "total_alerts": 346,
+    "completed_bets": 321,
+    "win_rate": 46.4,
+    "total_pl": -636.81,
     "by_sport": {
       "NBA": {
         "bets": 5,
@@ -14,18 +14,18 @@
         "pl": -175.0
       },
       "MLB": {
-        "bets": 315,
+        "bets": 316,
         "wins": 149,
-        "pl": -434.8100000000002
+        "pl": -461.8100000000002
       }
     },
     "by_signal": {
       "sharp_money": {
-        "bets": 93,
+        "bets": 94,
         "wins": 38
       },
       "rest_disadvantage": {
-        "bets": 315,
+        "bets": 316,
         "wins": 149
       },
       "model_edge": {
@@ -37,7 +37,7 @@
         "wins": 32
       },
       "weather_edge": {
-        "bets": 106,
+        "bets": 107,
         "wins": 50
       },
       "travel_disadvantage": {
@@ -46,8 +46,52 @@
       }
     }
   },
-  "unit_total": -60.98,
+  "unit_total": -63.68,
   "today_bets": [
+    {
+      "timestamp": "2026-09-12 22:14 ET",
+      "sport": "MLB",
+      "game": "Los Angeles Dodgers @ Miami Marlins",
+      "home_team": "Miami Marlins",
+      "away_team": "Los Angeles Dodgers",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u8.5",
+      "edge_pct": "5.0",
+      "confidence": "35",
+      "signals": "rest_disadvantage + weather_edge",
+      "suggested_bet": "27.0",
+      "implied_prob": "54.1",
+      "true_prob": "59.1",
+      "reasoning": "Edge 5.0% on UNDER total. Miami Marlins on back-to-back -- fatigue factor. Rain 3.0mm forecast \u2014 potential delays/cancellations, affects totals.",
+      "game_id": "espn_401816923",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-09-12 22:14 ET",
+      "sport": "MLB",
+      "game": "Philadelphia Phillies @ Atlanta Braves",
+      "home_team": "Atlanta Braves",
+      "away_team": "Philadelphia Phillies",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u9.0",
+      "edge_pct": "5.0",
+      "confidence": "35",
+      "signals": "rest_disadvantage + weather_edge",
+      "suggested_bet": "27.0",
+      "implied_prob": "53.3",
+      "true_prob": "58.3",
+      "reasoning": "Edge 5.0% on UNDER total. Atlanta Braves on back-to-back -- fatigue factor. Rain 4.1mm forecast \u2014 potential delays/cancellations, affects totals.",
+      "game_id": "espn_401816925",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-09-12 10:40 ET",
       "sport": "MLB",
@@ -66,8 +110,8 @@
       "reasoning": "Edge 5.0% on UNDER total. ML moved 221 pts on Atlanta Braves (+101\u2192-120) \u2014 steam toward Atlanta Braves. Atlanta Braves on back-to-back -- fatigue factor.",
       "game_id": "espn_401816910",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "L",
+      "profit_loss": "-27.0",
       "notes": ""
     }
   ],
@@ -100,6 +144,50 @@
   },
   "recent_bets": [
     {
+      "timestamp": "2026-09-12 22:14 ET",
+      "sport": "MLB",
+      "game": "Los Angeles Dodgers @ Miami Marlins",
+      "home_team": "Miami Marlins",
+      "away_team": "Los Angeles Dodgers",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u8.5",
+      "edge_pct": "5.0",
+      "confidence": "35",
+      "signals": "rest_disadvantage + weather_edge",
+      "suggested_bet": "27.0",
+      "implied_prob": "54.1",
+      "true_prob": "59.1",
+      "reasoning": "Edge 5.0% on UNDER total. Miami Marlins on back-to-back -- fatigue factor. Rain 3.0mm forecast \u2014 potential delays/cancellations, affects totals.",
+      "game_id": "espn_401816923",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-09-12 22:14 ET",
+      "sport": "MLB",
+      "game": "Philadelphia Phillies @ Atlanta Braves",
+      "home_team": "Atlanta Braves",
+      "away_team": "Philadelphia Phillies",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u9.0",
+      "edge_pct": "5.0",
+      "confidence": "35",
+      "signals": "rest_disadvantage + weather_edge",
+      "suggested_bet": "27.0",
+      "implied_prob": "53.3",
+      "true_prob": "58.3",
+      "reasoning": "Edge 5.0% on UNDER total. Atlanta Braves on back-to-back -- fatigue factor. Rain 4.1mm forecast \u2014 potential delays/cancellations, affects totals.",
+      "game_id": "espn_401816925",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-09-12 10:40 ET",
       "sport": "MLB",
       "game": "Philadelphia Phillies @ Atlanta Braves",
@@ -117,8 +205,8 @@
       "reasoning": "Edge 5.0% on UNDER total. ML moved 221 pts on Atlanta Braves (+101\u2192-120) \u2014 steam toward Atlanta Braves. Atlanta Braves on back-to-back -- fatigue factor.",
       "game_id": "espn_401816910",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "L",
+      "profit_loss": "-27.0",
       "notes": ""
     },
     {
@@ -1153,50 +1241,6 @@
       "sport_key": "baseball_mlb",
       "outcome": "W",
       "profit_loss": "32.39",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-08-02 21:56 ET",
-      "sport": "MLB",
-      "game": "Pittsburgh Pirates @ Milwaukee Brewers",
-      "home_team": "Milwaukee Brewers",
-      "away_team": "Pittsburgh Pirates",
-      "bet_type": "moneyline",
-      "bet_side": "home",
-      "line": "-144",
-      "edge_pct": "6.5",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "40.0",
-      "implied_prob": "59.0",
-      "true_prob": "65.6",
-      "reasoning": "Edge 6.5% on Milwaukee Brewers moneyline. Milwaukee Brewers on back-to-back -- fatigue factor. Power rating: Milwaukee Brewers wp=62.2% / Pittsburgh Pirates wp=49.6% \u2014 Milwaukee Brewers underpriced (model 65.6% vs mkt 59.0%).",
-      "game_id": "espn_401816380",
-      "sport_key": "baseball_mlb",
-      "outcome": "L",
-      "profit_loss": "-40.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-08-02 21:56 ET",
-      "sport": "MLB",
-      "game": "San Francisco Giants @ Texas Rangers",
-      "home_team": "Texas Rangers",
-      "away_team": "San Francisco Giants",
-      "bet_type": "moneyline",
-      "bet_side": "home",
-      "line": "-109",
-      "edge_pct": "7.9",
-      "confidence": "35",
-      "signals": "rest_disadvantage + model_edge",
-      "suggested_bet": "41.0",
-      "implied_prob": "52.1",
-      "true_prob": "60.1",
-      "reasoning": "Edge 7.9% on Texas Rangers moneyline. Texas Rangers on back-to-back -- fatigue factor. Power rating: Texas Rangers wp=49.1% / San Francisco Giants wp=42.0% \u2014 Texas Rangers underpriced (model 60.1% vs mkt 52.1%).",
-      "game_id": "espn_401816381",
-      "sport_key": "baseball_mlb",
-      "outcome": "L",
-      "profit_loss": "-41.0",
       "notes": ""
     }
   ]
