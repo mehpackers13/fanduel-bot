@@ -103160,3 +103160,111 @@
 [2026-09-15 18:34:47 ET] [INFO] ============================================================
 [2026-09-15 19:56:04 ET] [INFO] Running injury scan
 [2026-09-15 19:56:09 ET] [INFO] Injury scan complete — no new key injuries
+[2026-09-15 22:27:25 ET] [INFO] ============================================================
+[2026-09-15 22:27:25 ET] [INFO] Starting full scan
+[2026-09-15 22:27:25 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-09-15 22:27:28 ET] [INFO] Auto-resolved espn_401816950: Atlanta Braves @ Chicago Cubs → L (home 3.0, away 6.0)
+[2026-09-15 22:27:28 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-09-15 22:27:28 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-09-15 22:27:28 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-09-15 22:27:28 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-09-15 22:27:35 ET] [INFO]   ESPN baseball_mlb: 14 games (fresh, 15 events found)
+[2026-09-15 22:27:35 ET] [INFO]   baseball_mlb: 14 games from espn
+[2026-09-15 22:27:35 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-09-15 22:27:35 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:27:48 ET] [WARN] Weather fetch failed for St. Louis: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /St.+Louis?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:27:48 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:27:48 ET] [DEBUG]   [San Francisco Giants @ St. Louis Cardinals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-164→-162
+[2026-09-15 22:27:48 ET] [DEBUG]     ✗ San Francisco Giants @ St. Louis Cardinals — conf 15 < 35 threshold
+[2026-09-15 22:27:48 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:28:00 ET] [WARN] Weather fetch failed for Minneapolis: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Minneapolis?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:28:00 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:28:00 ET] [DEBUG]   [New York Yankees @ Minnesota Twins] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=123→119
+[2026-09-15 22:28:00 ET] [DEBUG]     ✗ New York Yankees @ Minnesota Twins — conf 15 < 35 threshold
+[2026-09-15 22:28:00 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:28:12 ET] [WARN] Weather fetch failed for Toronto: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Toronto?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:28:12 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:28:12 ET] [DEBUG]   [Detroit Tigers @ Toronto Blue Jays] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-120→-124
+[2026-09-15 22:28:12 ET] [DEBUG]     ✗ Detroit Tigers @ Toronto Blue Jays — conf 15 < 35 threshold
+[2026-09-15 22:28:12 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:28:23 ET] [WARN] Weather fetch failed for St. Petersburg: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /St.+Petersburg?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:28:23 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:28:23 ET] [DEBUG]   [Athletics @ Tampa Bay Rays] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-207→-197
+[2026-09-15 22:28:23 ET] [DEBUG]     ✗ Athletics @ Tampa Bay Rays — conf 15 < 35 threshold
+[2026-09-15 22:28:23 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:28:36 ET] [WARN] Weather fetch failed for Cincinnati: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Cincinnati?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:28:36 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:28:36 ET] [DEBUG]   [Los Angeles Dodgers @ Cincinnati Reds] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=169→169
+[2026-09-15 22:28:36 ET] [DEBUG]     ✗ Los Angeles Dodgers @ Cincinnati Reds — conf 15 < 35 threshold
+[2026-09-15 22:28:36 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:28:47 ET] [WARN] Weather fetch failed for Pittsburgh: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Pittsburgh?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:28:47 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:28:47 ET] [DEBUG]   [Milwaukee Brewers @ Pittsburgh Pirates] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=123→114
+[2026-09-15 22:28:47 ET] [DEBUG]     ✗ Milwaukee Brewers @ Pittsburgh Pirates — conf 15 < 35 threshold
+[2026-09-15 22:28:47 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:28:59 ET] [WARN] Weather fetch failed for Washington: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Washington?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:28:59 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:28:59 ET] [DEBUG]   [Philadelphia Phillies @ Washington Nationals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=113→118
+[2026-09-15 22:28:59 ET] [DEBUG]     ✗ Philadelphia Phillies @ Washington Nationals — conf 15 < 35 threshold
+[2026-09-15 22:28:59 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:29:10 ET] [WARN] Weather fetch failed for Queens: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Queens?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:29:10 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:29:10 ET] [DEBUG]   [Baltimore Orioles @ New York Mets] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-146→-148
+[2026-09-15 22:29:10 ET] [DEBUG]     ✗ Baltimore Orioles @ New York Mets — conf 15 < 35 threshold
+[2026-09-15 22:29:10 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:29:22 ET] [WARN] Weather fetch failed for Chicago: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Chicago?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:29:22 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:29:22 ET] [DEBUG]   [Atlanta Braves @ Chicago Cubs] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-141→-143
+[2026-09-15 22:29:22 ET] [DEBUG]     ✗ Atlanta Braves @ Chicago Cubs — conf 15 < 35 threshold
+[2026-09-15 22:29:22 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:29:33 ET] [WARN] Weather fetch failed for Arlington: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Arlington?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:29:35 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:29:35 ET] [DEBUG]   [Boston Red Sox @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-114→-115
+[2026-09-15 22:29:35 ET] [DEBUG]     ✗ Boston Red Sox @ Texas Rangers — conf 15 < 35 threshold
+[2026-09-15 22:29:35 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:29:46 ET] [WARN] Weather fetch failed for Houston: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Houston?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:29:46 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:29:46 ET] [DEBUG]   [Kansas City Royals @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-146→-145
+[2026-09-15 22:29:46 ET] [DEBUG]     ✗ Kansas City Royals @ Houston Astros — conf 15 < 35 threshold
+[2026-09-15 22:29:46 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:29:57 ET] [WARN] Weather fetch failed for Denver: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Denver?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:29:57 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:29:57 ET] [DEBUG]   [San Diego Padres @ Colorado Rockies] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=150→144
+[2026-09-15 22:29:57 ET] [DEBUG]     ✗ San Diego Padres @ Colorado Rockies — conf 15 < 35 threshold
+[2026-09-15 22:29:58 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:30:09 ET] [WARN] Weather fetch failed for Anaheim: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Anaheim?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:30:09 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:30:09 ET] [DEBUG]   [Seattle Mariners @ Los Angeles Angels] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=113→113
+[2026-09-15 22:30:09 ET] [DEBUG]     ✗ Seattle Mariners @ Los Angeles Angels — conf 15 < 35 threshold
+[2026-09-15 22:30:09 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-15 22:30:21 ET] [WARN] Weather fetch failed for Phoenix: HTTPSConnectionPool(host='wttr.in', port=443): Max retries exceeded with url: /Phoenix?format=j1 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))
+[2026-09-15 22:30:21 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-15 22:30:21 ET] [DEBUG]   [Miami Marlins @ Arizona Diamondbacks] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=113→-133
+[2026-09-15 22:30:21 ET] [DEBUG]     ✗ Miami Marlins @ Arizona Diamondbacks — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-09-15 22:30:21 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-09-15 22:30:21 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-09-15 22:30:22 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-09-15 22:30:24 ET] [INFO]   ESPN soccer_esp_la_liga: 4 games (fresh, 4 events found)
+[2026-09-15 22:30:24 ET] [INFO]   soccer_esp_la_liga: 4 games from espn
+[2026-09-15 22:30:24 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/injuries
+[2026-09-15 22:30:27 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard
+[2026-09-15 22:30:27 ET] [DEBUG]   [Osasuna @ Atlético Madrid] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-220→-255
+[2026-09-15 22:30:27 ET] [DEBUG]     ✗ Osasuna @ Atlético Madrid — conf 25 < 35 threshold
+[2026-09-15 22:30:27 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/injuries
+[2026-09-15 22:30:30 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard
+[2026-09-15 22:30:30 ET] [DEBUG]   [Sevilla @ Deportivo] sigs=[] conf=0 pub=n/a ml_move=145→160
+[2026-09-15 22:30:30 ET] [DEBUG]     ✗ Sevilla @ Deportivo — only 0/1 signals (need 1 more)
+[2026-09-15 22:30:30 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/injuries
+[2026-09-15 22:30:33 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard
+[2026-09-15 22:30:33 ET] [DEBUG]   [Racing Santander @ Barcelona] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-1200→-1600
+[2026-09-15 22:30:33 ET] [DEBUG]     ✗ Racing Santander @ Barcelona — conf 25 < 35 threshold
+[2026-09-15 22:30:33 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/injuries
+[2026-09-15 22:30:36 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard
+[2026-09-15 22:30:36 ET] [DEBUG]   [Athletic Club @ Levante] sigs=['sharp_money'] conf=25 pub=n/a ml_move=215→245
+[2026-09-15 22:30:36 ET] [DEBUG]     ✗ Athletic Club @ Levante — conf 25 < 35 threshold
+[2026-09-15 22:30:36 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-09-15 22:30:36 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-09-15 22:30:37 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-09-15 22:30:37 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-09-15 22:30:37 ET] [INFO] Scan complete -- 18 games checked, 0 alerts (silence = discipline)
+[2026-09-15 22:30:37 ET] [INFO] ============================================================
