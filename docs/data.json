@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-16T22:31:15.455589Z",
-  "last_scan": "2026-09-16 18:31:15 ET",
-  "last_scan_ts": "2026-09-16T22:31:15.455589Z",
+  "generated_at": "2026-09-17T02:32:02.186824Z",
+  "last_scan": "2026-09-16 22:32:02 ET",
+  "last_scan_ts": "2026-09-17T02:32:02.186824Z",
   "stats": {
-    "total_alerts": 351,
-    "completed_bets": 326,
-    "win_rate": 46.0,
-    "total_pl": -720.19,
+    "total_alerts": 352,
+    "completed_bets": 328,
+    "win_rate": 46.3,
+    "total_pl": -672.58,
     "by_sport": {
       "NBA": {
         "bets": 5,
@@ -14,9 +14,9 @@
         "pl": -175.0
       },
       "MLB": {
-        "bets": 320,
-        "wins": 149,
-        "pl": -568.8100000000002
+        "bets": 322,
+        "wins": 151,
+        "pl": -521.2000000000002
       },
       "NFL": {
         "bets": 1,
@@ -30,8 +30,8 @@
         "wins": 39
       },
       "rest_disadvantage": {
-        "bets": 320,
-        "wins": 149
+        "bets": 322,
+        "wins": 151
       },
       "model_edge": {
         "bets": 264,
@@ -42,8 +42,8 @@
         "wins": 32
       },
       "weather_edge": {
-        "bets": 112,
-        "wins": 51
+        "bets": 114,
+        "wins": 53
       },
       "travel_disadvantage": {
         "bets": 11,
@@ -51,8 +51,30 @@
       }
     }
   },
-  "unit_total": -72.02,
+  "unit_total": -67.26,
   "today_bets": [
+    {
+      "timestamp": "2026-09-16 22:32 ET",
+      "sport": "MLB",
+      "game": "San Diego Padres @ Colorado Rockies",
+      "home_team": "Colorado Rockies",
+      "away_team": "San Diego Padres",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u11.0",
+      "edge_pct": "5.0",
+      "confidence": "35",
+      "signals": "rest_disadvantage + weather_edge",
+      "suggested_bet": "27.0",
+      "implied_prob": "54.1",
+      "true_prob": "59.1",
+      "reasoning": "Edge 5.0% on UNDER total. Colorado Rockies on back-to-back -- fatigue factor. Wind 19mph at MLB game \u2014 check wind direction, affects totals.",
+      "game_id": "espn_401816980",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-09-16 11:49 ET",
       "sport": "MLB",
@@ -71,8 +93,8 @@
       "reasoning": "Edge 5.0% on UNDER total. Tampa Bay Rays on back-to-back -- fatigue factor. Wind 19mph at MLB game \u2014 check wind direction, affects totals.",
       "game_id": "espn_401816958",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "W",
+      "profit_loss": "24.14",
       "notes": ""
     },
     {
@@ -93,8 +115,8 @@
       "reasoning": "Edge 5.0% on UNDER total. Tampa Bay Rays on back-to-back -- fatigue factor. Wind 17mph at MLB game \u2014 check wind direction, affects totals.",
       "game_id": "espn_401816958",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "W",
+      "profit_loss": "23.47",
       "notes": ""
     }
   ],
@@ -127,6 +149,28 @@
   },
   "recent_bets": [
     {
+      "timestamp": "2026-09-16 22:32 ET",
+      "sport": "MLB",
+      "game": "San Diego Padres @ Colorado Rockies",
+      "home_team": "Colorado Rockies",
+      "away_team": "San Diego Padres",
+      "bet_type": "total",
+      "bet_side": "under",
+      "line": "u11.0",
+      "edge_pct": "5.0",
+      "confidence": "35",
+      "signals": "rest_disadvantage + weather_edge",
+      "suggested_bet": "27.0",
+      "implied_prob": "54.1",
+      "true_prob": "59.1",
+      "reasoning": "Edge 5.0% on UNDER total. Colorado Rockies on back-to-back -- fatigue factor. Wind 19mph at MLB game \u2014 check wind direction, affects totals.",
+      "game_id": "espn_401816980",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-09-16 11:49 ET",
       "sport": "MLB",
       "game": "Athletics @ Tampa Bay Rays",
@@ -144,8 +188,8 @@
       "reasoning": "Edge 5.0% on UNDER total. Tampa Bay Rays on back-to-back -- fatigue factor. Wind 19mph at MLB game \u2014 check wind direction, affects totals.",
       "game_id": "espn_401816958",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "W",
+      "profit_loss": "24.14",
       "notes": ""
     },
     {
@@ -166,8 +210,8 @@
       "reasoning": "Edge 5.0% on UNDER total. Tampa Bay Rays on back-to-back -- fatigue factor. Wind 17mph at MLB game \u2014 check wind direction, affects totals.",
       "game_id": "espn_401816958",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "W",
+      "profit_loss": "23.47",
       "notes": ""
     },
     {
@@ -1202,28 +1246,6 @@
       "sport_key": "baseball_mlb",
       "outcome": "L",
       "profit_loss": "-27.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-08-06 00:58 ET",
-      "sport": "MLB",
-      "game": "San Diego Padres @ Arizona Diamondbacks",
-      "home_team": "Arizona Diamondbacks",
-      "away_team": "San Diego Padres",
-      "bet_type": "total",
-      "bet_side": "under",
-      "line": "u9.0",
-      "edge_pct": "5.0",
-      "confidence": "35",
-      "signals": "rest_disadvantage + weather_edge",
-      "suggested_bet": "27.0",
-      "implied_prob": "53.0",
-      "true_prob": "58.1",
-      "reasoning": "Edge 5.0% on UNDER total. Arizona Diamondbacks on back-to-back -- fatigue factor. Wind 16mph at MLB game \u2014 check wind direction, affects totals.",
-      "game_id": "espn_401816423",
-      "sport_key": "baseball_mlb",
-      "outcome": "W",
-      "profit_loss": "23.94",
       "notes": ""
     }
   ]
