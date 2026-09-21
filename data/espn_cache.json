@@ -1,55 +1,55 @@
 {
   "americanfootball_nfl": {
-    "ts": "2026-09-20T22:03:17.154970",
+    "ts": "2026-09-21T02:27:02.703891",
     "games": [
       {
-        "game_id": "espn_401872945",
+        "game_id": "espn_401872947",
         "sport_key": "americanfootball_nfl",
         "sport": "NFL",
-        "home_team": "Kansas City Chiefs",
-        "away_team": "Indianapolis Colts",
-        "commence": "2026-09-21T00:20Z",
-        "hours_out": 2.3,
-        "venue_city": "Kansas City",
+        "home_team": "Los Angeles Rams",
+        "away_team": "New York Giants",
+        "commence": "2026-09-22T00:15Z",
+        "hours_out": 21.8,
+        "venue_city": "Inglewood",
         "source": "espn",
         "h2h": {
-          "home_odds": -265,
-          "away_odds": 215,
-          "home_prob": 0.726,
-          "away_prob": 0.3175,
-          "true_home_prob": 0.6958,
-          "true_away_prob": 0.3042,
-          "best_home_odds": -265,
-          "best_away_odds": 215,
-          "spread_point": -6.0,
+          "home_odds": -305,
+          "away_odds": 245,
+          "home_prob": 0.7531,
+          "away_prob": 0.2899,
+          "true_home_prob": 0.7221,
+          "true_away_prob": 0.2779,
+          "best_home_odds": -305,
+          "best_away_odds": 245,
+          "spread_point": -7.0,
           "book_count": 1
         },
         "spread": {
-          "home_odds": -108,
-          "away_odds": -112,
-          "home_prob": 0.5192307692307693,
-          "away_prob": 0.5283018867924528,
+          "home_odds": 100,
+          "away_odds": -120,
+          "home_prob": 0.5,
+          "away_prob": 0.5454545454545454,
           "true_home_prob": 0.5,
           "true_away_prob": 0.5,
-          "spread_point": -6.0,
-          "best_home_odds": -108,
-          "best_away_odds": -112,
+          "spread_point": -7.0,
+          "best_home_odds": 100,
+          "best_away_odds": -120,
           "book_count": 1
         },
         "total": {
-          "line": 46.5,
-          "over_odds": -102,
-          "under_odds": -118,
-          "over_prob": 0.504950495049505,
-          "under_prob": 0.5412844036697247
+          "line": 47.5,
+          "over_odds": -110,
+          "under_odds": -110,
+          "over_prob": 0.5238095238095238,
+          "under_prob": 0.5238095238095238
         },
         "line_movement": {
-          "open_home_ml": -250,
-          "open_away_ml": 205,
-          "current_home_ml": -265,
-          "current_away_ml": 215,
+          "open_home_ml": -375,
+          "open_away_ml": 295,
+          "current_home_ml": -305,
+          "current_away_ml": 245,
           "open_spread": null,
-          "current_spread": -6.0,
+          "current_spread": -7.0,
           "spread_moved": null,
           "is_sharp": false
         }
@@ -57,31 +57,31 @@
     ]
   },
   "basketball_nba": {
-    "ts": "2026-09-20T22:03:18.540373",
+    "ts": "2026-09-21T02:27:05.331508",
     "games": []
   },
   "baseball_mlb": {
-    "ts": "2026-09-20T22:03:20.766962",
+    "ts": "2026-09-21T02:27:06.008218",
     "games": [
       {
-        "game_id": "espn_401817016",
+        "game_id": "espn_401817027",
         "sport_key": "baseball_mlb",
         "sport": "MLB",
         "home_team": "Baltimore Orioles",
-        "away_team": "Milwaukee Brewers",
-        "commence": "2026-09-20T23:20Z",
-        "hours_out": 1.3,
+        "away_team": "Toronto Blue Jays",
+        "commence": "2026-09-21T22:35Z",
+        "hours_out": 20.1,
         "venue_city": "Baltimore",
         "source": "espn",
         "h2h": {
-          "home_odds": 176,
-          "away_odds": -215,
-          "home_prob": 0.3623,
-          "away_prob": 0.6825,
-          "true_home_prob": 0.3468,
-          "true_away_prob": 0.6532,
-          "best_home_odds": 176,
-          "best_away_odds": -215,
+          "home_odds": -111,
+          "away_odds": -108,
+          "home_prob": 0.5261,
+          "away_prob": 0.5192,
+          "true_home_prob": 0.5033,
+          "true_away_prob": 0.4967,
+          "best_home_odds": -111,
+          "best_away_odds": -108,
           "spread_point": 1.5,
           "book_count": 1
         },
@@ -99,16 +99,120 @@
         },
         "total": {
           "line": 7.5,
-          "over_odds": -107,
-          "under_odds": -112,
-          "over_prob": 0.5169082125603864,
-          "under_prob": 0.5283018867924528
+          "over_odds": -114,
+          "under_odds": -105,
+          "over_prob": 0.5327102803738317,
+          "under_prob": 0.5121951219512195
         },
         "line_movement": {
-          "open_home_ml": 169,
-          "open_away_ml": -206,
-          "current_home_ml": 176,
-          "current_away_ml": -215,
+          "open_home_ml": -112,
+          "open_away_ml": -108,
+          "current_home_ml": -111,
+          "current_away_ml": -108,
+          "open_spread": null,
+          "current_spread": 1.5,
+          "spread_moved": null,
+          "is_sharp": false
+        }
+      },
+      {
+        "game_id": "espn_401817028",
+        "sport_key": "baseball_mlb",
+        "sport": "MLB",
+        "home_team": "Detroit Tigers",
+        "away_team": "Washington Nationals",
+        "commence": "2026-09-21T22:40Z",
+        "hours_out": 20.2,
+        "venue_city": "Detroit",
+        "source": "espn",
+        "h2h": {
+          "home_odds": -155,
+          "away_odds": 128,
+          "home_prob": 0.6078,
+          "away_prob": 0.4386,
+          "true_home_prob": 0.5809,
+          "true_away_prob": 0.4191,
+          "best_home_odds": -155,
+          "best_away_odds": 128,
+          "spread_point": -1.5,
+          "book_count": 1
+        },
+        "spread": {
+          "home_odds": -110,
+          "away_odds": -110,
+          "home_prob": 0.5238095238095238,
+          "away_prob": 0.5238095238095238,
+          "true_home_prob": 0.5,
+          "true_away_prob": 0.5,
+          "spread_point": -1.5,
+          "best_home_odds": -110,
+          "best_away_odds": -110,
+          "book_count": 1
+        },
+        "total": {
+          "line": 8.0,
+          "over_odds": -118,
+          "under_odds": -102,
+          "over_prob": 0.5412844036697247,
+          "under_prob": 0.504950495049505
+        },
+        "line_movement": {
+          "open_home_ml": -156,
+          "open_away_ml": 129,
+          "current_home_ml": -155,
+          "current_away_ml": 128,
+          "open_spread": null,
+          "current_spread": -1.5,
+          "spread_moved": null,
+          "is_sharp": false
+        }
+      },
+      {
+        "game_id": "espn_401817029",
+        "sport_key": "baseball_mlb",
+        "sport": "MLB",
+        "home_team": "San Francisco Giants",
+        "away_team": "Minnesota Twins",
+        "commence": "2026-09-22T01:45Z",
+        "hours_out": 23.3,
+        "venue_city": "San Francisco",
+        "source": "espn",
+        "h2h": {
+          "home_odds": -103,
+          "away_odds": -117,
+          "home_prob": 0.5074,
+          "away_prob": 0.5392,
+          "true_home_prob": 0.4848,
+          "true_away_prob": 0.5152,
+          "best_home_odds": -103,
+          "best_away_odds": -117,
+          "spread_point": 1.5,
+          "book_count": 1
+        },
+        "spread": {
+          "home_odds": -110,
+          "away_odds": -110,
+          "home_prob": 0.5238095238095238,
+          "away_prob": 0.5238095238095238,
+          "true_home_prob": 0.5,
+          "true_away_prob": 0.5,
+          "spread_point": 1.5,
+          "best_home_odds": -110,
+          "best_away_odds": -110,
+          "book_count": 1
+        },
+        "total": {
+          "line": 8.0,
+          "over_odds": -118,
+          "under_odds": -102,
+          "over_prob": 0.5412844036697247,
+          "under_prob": 0.504950495049505
+        },
+        "line_movement": {
+          "open_home_ml": -102,
+          "open_away_ml": -118,
+          "current_home_ml": -103,
+          "current_away_ml": -117,
           "open_spread": null,
           "current_spread": 1.5,
           "spread_moved": null,
@@ -118,35 +222,35 @@
     ]
   },
   "icehockey_nhl": {
-    "ts": "2026-09-20T22:03:25.308934",
+    "ts": "2026-09-21T02:27:21.566577",
     "games": []
   },
   "soccer_usa_mls": {
-    "ts": "2026-09-20T22:03:25.481257",
+    "ts": "2026-09-21T02:27:21.622621",
     "games": []
   },
   "soccer_epl": {
-    "ts": "2026-09-20T22:03:26.131245",
+    "ts": "2026-09-21T02:27:21.677156",
     "games": []
   },
   "soccer_esp_la_liga": {
-    "ts": "2026-09-20T22:03:26.949987",
+    "ts": "2026-09-21T02:27:21.731929",
     "games": []
   },
   "soccer_ger_bundesliga": {
-    "ts": "2026-09-20T22:03:27.462553",
+    "ts": "2026-09-21T02:27:21.786465",
     "games": []
   },
   "soccer_ita_serie_a": {
-    "ts": "2026-09-20T22:03:28.211611",
+    "ts": "2026-09-21T02:27:21.843066",
     "games": []
   },
   "soccer_fra_ligue_one": {
-    "ts": "2026-09-20T22:03:28.705555",
+    "ts": "2026-09-21T02:27:21.899234",
     "games": []
   },
   "mma_mixed_martial_arts": {
-    "ts": "2026-09-20T22:03:28.744374",
+    "ts": "2026-09-21T02:27:21.955840",
     "games": []
   }
 }
