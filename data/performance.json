@@ -1,16 +1,16 @@
 {
-  "total_bets": 323,
-  "win_rate": 46.1,
-  "roi": -5.2,
+  "total_bets": 333,
+  "win_rate": 46.5,
+  "roi": -4.7,
   "by_signal": {
-    "sharp_money": -18.8,
-    "rest_disadvantage": -4.0,
+    "sharp_money": -18.0,
+    "rest_disadvantage": -3.7,
     "model_edge": -1.7,
     "public_fade": -7.0,
-    "weather_edge": -2.6,
+    "weather_edge": -1.0,
     "travel_disadvantage": -86.8
   },
-  "best_signal": "model_edge",
+  "best_signal": "weather_edge",
   "worst_signal": "travel_disadvantage",
   "by_sport": {
     "NBA": {
@@ -19,9 +19,14 @@
       "roi": -35.0
     },
     "MLB": {
-      "wins": 149,
-      "losses": 169,
-      "roi": -1.6
+      "wins": 154,
+      "losses": 173,
+      "roi": -1.5
+    },
+    "NFL": {
+      "wins": 1,
+      "losses": 0,
+      "roi": 23.6
     }
   }
 }
