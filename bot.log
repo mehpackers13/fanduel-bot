@@ -108547,3 +108547,79 @@
 [2026-09-23 11:56:19 ET] [INFO] ============================================================
 [2026-09-23 13:40:28 ET] [INFO] Running injury scan
 [2026-09-23 13:40:30 ET] [INFO] Injury scan complete — no new key injuries
+[2026-09-23 15:20:24 ET] [INFO] ============================================================
+[2026-09-23 15:20:24 ET] [INFO] Starting full scan
+[2026-09-23 15:20:24 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-09-23 15:20:25 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-09-23 15:20:25 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-09-23 15:20:29 ET] [INFO]   ESPN baseball_mlb: 13 games (fresh, 16 events found)
+[2026-09-23 15:20:29 ET] [INFO]   baseball_mlb: 13 games from espn
+[2026-09-23 15:20:29 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-09-23 15:20:29 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-23 15:20:33 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-23 15:20:33 ET] [DEBUG]   [Toronto Blue Jays @ Baltimore Orioles] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=-123→-119
+[2026-09-23 15:20:33 ET] [DEBUG]     ✗ Toronto Blue Jays @ Baltimore Orioles — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-09-23 15:20:33 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-23 15:20:36 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-23 15:20:36 ET] [DEBUG]   [Milwaukee Brewers @ Philadelphia Phillies] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=119→107
+[2026-09-23 15:20:36 ET] [DEBUG]     ✗ Milwaukee Brewers @ Philadelphia Phillies — conf 15 < 35 threshold
+[2026-09-23 15:20:36 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-23 15:20:38 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-23 15:20:38 ET] [DEBUG]   [St. Louis Cardinals @ Pittsburgh Pirates] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-121→-143
+[2026-09-23 15:20:38 ET] [DEBUG]     ✗ St. Louis Cardinals @ Pittsburgh Pirates — conf 15 < 35 threshold
+[2026-09-23 15:20:38 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-23 15:20:41 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-23 15:20:41 ET] [DEBUG]   [Cleveland Guardians @ Boston Red Sox] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=-132→-137
+[2026-09-23 15:20:41 ET] [DEBUG]     ✗ Cleveland Guardians @ Boston Red Sox — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-09-23 15:20:41 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-23 15:20:44 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-23 15:20:44 ET] [DEBUG]   [Tampa Bay Rays @ New York Yankees] sigs=['rest_disadvantage', 'weather_edge'] conf=35 pub=n/a ml_move=-142→-138
+[2026-09-23 15:20:44 ET] [DEBUG]     ✗ Tampa Bay Rays @ New York Yankees — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-09-23 15:20:44 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-23 15:20:46 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-23 15:20:46 ET] [DEBUG]   [Cincinnati Reds @ Atlanta Braves] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-252→-278
+[2026-09-23 15:20:46 ET] [DEBUG]     ✗ Cincinnati Reds @ Atlanta Braves — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-09-23 15:20:46 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-23 15:20:48 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-23 15:20:48 ET] [DEBUG]   [Chicago White Sox @ Kansas City Royals] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-108→-102
+[2026-09-23 15:20:48 ET] [DEBUG]     ✗ Chicago White Sox @ Kansas City Royals — conf 15 < 35 threshold
+[2026-09-23 15:20:48 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-23 15:20:51 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-23 15:20:51 ET] [DEBUG]   [Miami Marlins @ Chicago Cubs] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-175→-181
+[2026-09-23 15:20:51 ET] [DEBUG]     ✗ Miami Marlins @ Chicago Cubs — conf 15 < 35 threshold
+[2026-09-23 15:20:51 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-23 15:20:53 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-23 15:20:53 ET] [DEBUG]   [New York Mets @ Texas Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-115→-111
+[2026-09-23 15:20:53 ET] [DEBUG]     ✗ New York Mets @ Texas Rangers — conf 15 < 35 threshold
+[2026-09-23 15:20:53 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-23 15:20:55 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-23 15:20:55 ET] [DEBUG]   [Arizona Diamondbacks @ Colorado Rockies] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=133→134
+[2026-09-23 15:20:55 ET] [DEBUG]     ✗ Arizona Diamondbacks @ Colorado Rockies — conf 15 < 35 threshold
+[2026-09-23 15:20:55 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-23 15:20:58 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-23 15:20:58 ET] [DEBUG]   [Los Angeles Angels @ Athletics] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=108→109
+[2026-09-23 15:20:58 ET] [DEBUG]     ✗ Los Angeles Angels @ Athletics — conf 15 < 35 threshold
+[2026-09-23 15:20:58 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-23 15:21:00 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-23 15:21:00 ET] [DEBUG]   [Houston Astros @ Seattle Mariners] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-149→-126
+[2026-09-23 15:21:00 ET] [DEBUG]     ✗ Houston Astros @ Seattle Mariners — conf 15 < 35 threshold
+[2026-09-23 15:21:00 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-23 15:21:02 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-23 15:21:02 ET] [DEBUG]   [San Diego Padres @ Los Angeles Dodgers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-219→-224
+[2026-09-23 15:21:02 ET] [DEBUG]     ✗ San Diego Padres @ Los Angeles Dodgers — conf 15 < 35 threshold
+[2026-09-23 15:21:03 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 4 events found)
+[2026-09-23 15:21:03 ET] [INFO]   ESPN soccer_usa_mls: 1 games (fresh, 1 events found)
+[2026-09-23 15:21:03 ET] [INFO]   soccer_usa_mls: 1 games from espn
+[2026-09-23 15:21:03 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-09-23 15:21:03 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-23 15:21:04 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-23 15:21:04 ET] [DEBUG]   [Real Salt Lake @ Seattle Sounders FC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-110→-140
+[2026-09-23 15:21:04 ET] [DEBUG]     ✗ Real Salt Lake @ Seattle Sounders FC — conf 25 < 35 threshold
+[2026-09-23 15:21:04 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-09-23 15:21:04 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-09-23 15:21:04 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-09-23 15:21:04 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-09-23 15:21:04 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-09-23 15:21:04 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-09-23 15:21:04 ET] [INFO] Scan complete -- 14 games checked, 0 alerts (silence = discipline)
+[2026-09-23 15:21:04 ET] [INFO] ============================================================
