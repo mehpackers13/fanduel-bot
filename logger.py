@@ -1,11 +1,12 @@
 """Simple timestamped logger that writes to bot.log and stdout."""
+from zoneinfo import ZoneInfo
 import datetime, sys
 from pathlib import Path
 import config
 
 def log(msg: str, level: str = "INFO") -> None:
     try:
-        tz = datetime.timezone(datetime.timedelta(hours=-4))  # ET approx
+        tz = ZoneInfo("America/New_York")  # ET approx
         ts = datetime.datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S ET")
     except Exception:
         ts = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")

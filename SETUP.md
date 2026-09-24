@@ -25,7 +25,7 @@ Then create the webhook:
 2. Left sidebar: **Integrations** → **Webhooks** → **New Webhook**
 3. Name it: `Sports Alerts`
 4. Select which channel to post in (e.g. `#general` or create a `#sports-alerts` channel)
-5. Click **Copy Webhook URL** — it looks like: `https://discord.com/api/webhooks/123456789/abcdefg...`
+5. Click **Copy Webhook URL** — it looks like: `YOUR_DISCORD_WEBHOOK_URL...`
 6. Save this URL — you'll use it in Step 3
 
 **Optional:** Repeat to create a second webhook for `#bot-health` (system status messages). You can use the same webhook URL for both if you want everything in one channel.
