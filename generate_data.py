@@ -8,6 +8,8 @@ import csv, json
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from time_utils import parse_timestamp, last_completed_scan
+from safe_state import atomic_json
 
 BASE = Path(__file__).parent
 DOCS = BASE / "docs"
@@ -94,7 +96,7 @@ def calc_unit_total(bets):
             # Calculate on-the-fly from suggested_bet and implied_prob
             try:
                 dollars  = float(b.get("suggested_bet") or 0)
-                imp_prob = float(b.get("implied_prob") or 0)
+                imp_prob = float(b.get("implied_prob") or 0) / 100.0
                 if dollars > 0 and imp_prob > 0:
                     if b["outcome"] == "W":
                         total += dollars * (1.0 / imp_prob - 1.0) / UNIT_SIZE
@@ -113,9 +115,8 @@ def read_today_bets(bets):
         ts_str = b.get("timestamp", "")
         try:
             # timestamps stored as "2026-04-13 07:42 ET" — parse date part
-            ts = datetime.strptime(ts_str[:16], "%Y-%m-%d %H:%M")
-            # treat as UTC-4 (ET) for comparison — close enough
-            if ts >= cutoff.replace(tzinfo=None) - timedelta(hours=4):
+            ts = parse_timestamp(ts_str, "America/New_York")
+            if ts and cutoff <= ts <= datetime.now(timezone.utc):
                 today.append(b)
         except Exception:
             pass
@@ -126,6 +127,9 @@ def main():
     bets  = read_bets()
     stats = calc_stats(bets)
     perf  = read_performance()
+    for row in bets:
+        stamp = parse_timestamp(row.get("timestamp"), "America/New_York")
+        row["timestamp_iso"] = stamp.isoformat() if stamp else None
     recent = list(reversed(bets[-50:]))
     last_scan_str, last_scan_ts = read_last_scan()
     unit_total  = calc_unit_total(bets)
@@ -134,14 +138,14 @@ def main():
     data  = {
         "generated_at":  generated,
         "last_scan":     last_scan_str,
-        "last_scan_ts":  generated,   # use generation time as reliable proxy
+        "last_scan_ts":  last_completed_scan(BASE / "bot.log", "America/New_York"),
         "stats":         stats,
         "unit_total":    unit_total,
         "today_bets":    today_bets,
         "performance":   perf,
         "recent_bets":   recent,
     }
-    (DOCS/"data.json").write_text(json.dumps(data, indent=2))
+    atomic_json(DOCS / "data.json", data)
     u_sign = "+" if unit_total >= 0 else ""
     print(f"docs/data.json written — {len(recent)} bets, {stats['completed_bets']} completed, units: {u_sign}{unit_total}u")
 

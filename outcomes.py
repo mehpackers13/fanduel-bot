@@ -6,6 +6,7 @@ Outcomes are auto-resolved by checking ESPN scores after games complete.
 After 30+ outcomes, self_improve.py uses this data to tune signal weights.
 """
 import csv
+from zoneinfo import ZoneInfo
 import datetime
 from pathlib import Path
 from typing import Optional
@@ -36,7 +37,7 @@ def ensure_log() -> None:
 def log_opportunity(opp) -> None:
     ensure_log()
     import datetime as dt
-    tz  = datetime.timezone(datetime.timedelta(hours=-4))
+    tz = ZoneInfo("America/New_York")
     row = {
         "timestamp":    dt.datetime.now(tz).strftime("%Y-%m-%d %H:%M ET"),
         "sport":        opp.sport,
@@ -74,15 +75,16 @@ def completed_bets() -> list:
 
 
 def win_rate(bets: list = None) -> float:
-    rows = bets or completed_bets()
+    rows = completed_bets() if bets is None else bets
     if not rows:
         return 0.0
-    wins = sum(1 for r in rows if r.get("outcome") == "W")
-    return round(wins / len(rows) * 100, 1)
+    decided = [r for r in rows if r.get("outcome") in ("W", "L")]
+    wins = sum(1 for r in decided if r.get("outcome") == "W")
+    return round(wins / len(decided) * 100, 1) if decided else 0.0
 
 
 def roi(bets: list = None) -> float:
-    rows = bets or completed_bets()
+    rows = completed_bets() if bets is None else bets
     if not rows:
         return 0.0
     total_pl     = sum(float(r.get("profit_loss") or 0) for r in rows)
@@ -195,7 +197,7 @@ def auto_resolve_outcomes() -> int:
             ts_str = row.get("timestamp", "")[:16]  # "2026-04-13 21:55"
             bet_ts = datetime.datetime.strptime(ts_str, "%Y-%m-%d %H:%M")
             # Timestamps stored as ET (UTC-4); convert to UTC for comparison
-            bet_ts_utc = bet_ts + datetime.timedelta(hours=4)
+            bet_ts_utc = bet_ts.replace(tzinfo=ZoneInfo("America/New_York")).astimezone(datetime.timezone.utc).replace(tzinfo=None)
             if datetime.datetime.utcnow() < bet_ts_utc + datetime.timedelta(hours=3):
                 continue  # too soon — check again later
         except Exception:
