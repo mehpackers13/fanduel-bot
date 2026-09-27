@@ -111144,3 +111144,35 @@
 [2026-09-27 12:13:30 ET] [INFO] ============================================================
 [2026-09-27 15:29:41 ET] [INFO] Running injury scan
 [2026-09-27 15:29:43 ET] [INFO] Injury scan complete — no new key injuries
+[2026-09-27 16:37:39 ET] [INFO] ============================================================
+[2026-09-27 16:37:39 ET] [INFO] Starting full scan
+[2026-09-27 16:37:39 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-09-27 16:37:41 ET] [INFO] Auto-resolved espn_401872956: Tennessee Titans @ New York Giants → W (home 12.0, away 7.0)
+[2026-09-27 16:37:42 ET] [INFO] Auto-resolved espn_401872956: Tennessee Titans @ New York Giants → W (home 12.0, away 7.0)
+[2026-09-27 16:37:42 ET] [INFO] Wrote 2 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-09-27 16:37:42 ET] [INFO] Auto-resolved 2 pending bet outcome(s) from ESPN scores
+[2026-09-27 16:37:47 ET] [INFO]   ESPN americanfootball_nfl: 1 games (fresh, 14 events found)
+[2026-09-27 16:37:47 ET] [INFO]   americanfootball_nfl: 1 games from espn
+[2026-09-27 16:37:47 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nfl/odds: HTTP 202
+[2026-09-27 16:37:47 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/injuries
+[2026-09-27 16:37:49 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard
+[2026-09-27 16:37:49 ET] [DEBUG]   [Los Angeles Rams @ Denver Broncos] sigs=[] conf=0 pub=n/a ml_move=120→110
+[2026-09-27 16:37:49 ET] [DEBUG]     ✗ Los Angeles Rams @ Denver Broncos — only 0/1 signals (need 1 more)
+[2026-09-27 16:37:49 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-09-27 16:37:54 ET] [INFO]   ESPN baseball_mlb: 0 games (fresh, 15 events found)
+[2026-09-27 16:37:55 ET] [INFO]   ESPN icehockey_nhl: 0 games (fresh, 0 events found)
+[2026-09-27 16:37:55 ET] [INFO]   ESPN soccer_usa_mls: 1 games (fresh, 1 events found)
+[2026-09-27 16:37:55 ET] [INFO]   soccer_usa_mls: 1 games from espn
+[2026-09-27 16:37:55 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-09-27 16:37:55 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-27 16:37:59 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-27 16:37:59 ET] [DEBUG]   [Inter Miami CF @ Columbus Crew] sigs=[] conf=0 pub=n/a ml_move=145→165
+[2026-09-27 16:37:59 ET] [DEBUG]     ✗ Inter Miami CF @ Columbus Crew — only 0/1 signals (need 1 more)
+[2026-09-27 16:37:59 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-09-27 16:37:59 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-09-27 16:38:00 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-09-27 16:38:00 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-09-27 16:38:00 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-09-27 16:38:00 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-09-27 16:38:00 ET] [INFO] Scan complete -- 2 games checked, 0 alerts (silence = discipline)
+[2026-09-27 16:38:00 ET] [INFO] ============================================================
