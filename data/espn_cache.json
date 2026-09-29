@@ -1,99 +1,516 @@
 {
   "americanfootball_nfl": {
-    "ts": "2026-09-28T18:28:24.662940",
+    "ts": "2026-09-29T00:04:06.761735",
+    "games": []
+  },
+  "basketball_nba": {
+    "ts": "2026-09-29T00:04:06.930511",
+    "games": []
+  },
+  "baseball_mlb": {
+    "ts": "2026-09-29T00:04:08.616833",
     "games": [
       {
-        "game_id": "espn_401872963",
-        "sport_key": "americanfootball_nfl",
-        "sport": "NFL",
-        "home_team": "Chicago Bears",
-        "away_team": "Philadelphia Eagles",
-        "commence": "2026-09-29T00:15Z",
-        "hours_out": 5.8,
-        "venue_city": "Chicago",
+        "game_id": "espn_401907965",
+        "sport_key": "baseball_mlb",
+        "sport": "MLB",
+        "home_team": "Atlanta Braves",
+        "away_team": "Philadelphia Phillies",
+        "commence": "2026-09-29T18:00Z",
+        "hours_out": 17.9,
+        "venue_city": "Atlanta",
         "source": "espn",
         "h2h": {
-          "home_odds": 160,
-          "away_odds": -192,
-          "home_prob": 0.3846,
-          "away_prob": 0.6575,
-          "true_home_prob": 0.3691,
-          "true_away_prob": 0.6309,
-          "best_home_odds": 160,
-          "best_away_odds": -192,
-          "spread_point": 3.5,
+          "home_odds": -205,
+          "away_odds": 168,
+          "home_prob": 0.6721,
+          "away_prob": 0.3731,
+          "true_home_prob": 0.643,
+          "true_away_prob": 0.357,
+          "best_home_odds": -205,
+          "best_away_odds": 168,
+          "spread_point": -1.5,
           "book_count": 1
         },
         "spread": {
-          "home_odds": -105,
-          "away_odds": -115,
-          "home_prob": 0.5121951219512195,
-          "away_prob": 0.5348837209302325,
+          "home_odds": -110,
+          "away_odds": -110,
+          "home_prob": 0.5238095238095238,
+          "away_prob": 0.5238095238095238,
           "true_home_prob": 0.5,
           "true_away_prob": 0.5,
-          "spread_point": 3.5,
-          "best_home_odds": -105,
-          "best_away_odds": -115,
+          "spread_point": -1.5,
+          "best_home_odds": -110,
+          "best_away_odds": -110,
           "book_count": 1
         },
         "total": {
-          "line": 41.5,
-          "over_odds": -110,
-          "under_odds": -110,
-          "over_prob": 0.5238095238095238,
-          "under_prob": 0.5238095238095238
+          "line": 6.5,
+          "over_odds": -122,
+          "under_odds": 101,
+          "over_prob": 0.5495495495495496,
+          "under_prob": 0.4975124378109453
         },
         "line_movement": {
-          "open_home_ml": -118,
-          "open_away_ml": -102,
-          "current_home_ml": 160,
-          "current_away_ml": -192,
+          "open_home_ml": -193,
+          "open_away_ml": 159,
+          "current_home_ml": -205,
+          "current_away_ml": 168,
           "open_spread": null,
-          "current_spread": 3.5,
+          "current_spread": -1.5,
+          "spread_moved": null,
+          "is_sharp": false
+        }
+      },
+      {
+        "game_id": "espn_401907896",
+        "sport_key": "baseball_mlb",
+        "sport": "MLB",
+        "home_team": "Houston Astros",
+        "away_team": "Chicago White Sox",
+        "commence": "2026-09-29T21:00Z",
+        "hours_out": 20.9,
+        "venue_city": "Houston",
+        "source": "espn",
+        "h2h": {
+          "home_odds": -123,
+          "away_odds": 102,
+          "home_prob": 0.5516,
+          "away_prob": 0.495,
+          "true_home_prob": 0.527,
+          "true_away_prob": 0.473,
+          "best_home_odds": -123,
+          "best_away_odds": 102,
+          "spread_point": -1.5,
+          "book_count": 1
+        },
+        "spread": {
+          "home_odds": -110,
+          "away_odds": -110,
+          "home_prob": 0.5238095238095238,
+          "away_prob": 0.5238095238095238,
+          "true_home_prob": 0.5,
+          "true_away_prob": 0.5,
+          "spread_point": -1.5,
+          "best_home_odds": -110,
+          "best_away_odds": -110,
+          "book_count": 1
+        },
+        "total": {
+          "line": 8.0,
+          "over_odds": -118,
+          "under_odds": -102,
+          "over_prob": 0.5412844036697247,
+          "under_prob": 0.504950495049505
+        },
+        "line_movement": {
+          "open_home_ml": -146,
+          "open_away_ml": 121,
+          "current_home_ml": -123,
+          "current_away_ml": 102,
+          "open_spread": null,
+          "current_spread": -1.5,
+          "spread_moved": null,
+          "is_sharp": false
+        }
+      },
+      {
+        "game_id": "espn_401907924",
+        "sport_key": "baseball_mlb",
+        "sport": "MLB",
+        "home_team": "New York Yankees",
+        "away_team": "Boston Red Sox",
+        "commence": "2026-09-30T00:00Z",
+        "hours_out": 23.9,
+        "venue_city": "Bronx",
+        "source": "espn",
+        "h2h": {
+          "home_odds": -137,
+          "away_odds": 114,
+          "home_prob": 0.5781,
+          "away_prob": 0.4673,
+          "true_home_prob": 0.553,
+          "true_away_prob": 0.447,
+          "best_home_odds": -137,
+          "best_away_odds": 114,
+          "spread_point": -1.5,
+          "book_count": 1
+        },
+        "spread": {
+          "home_odds": -110,
+          "away_odds": -110,
+          "home_prob": 0.5238095238095238,
+          "away_prob": 0.5238095238095238,
+          "true_home_prob": 0.5,
+          "true_away_prob": 0.5,
+          "spread_point": -1.5,
+          "best_home_odds": -110,
+          "best_away_odds": -110,
+          "book_count": 1
+        },
+        "total": {
+          "line": 6.0,
+          "over_odds": -120,
+          "under_odds": 100,
+          "over_prob": 0.5454545454545454,
+          "under_prob": 0.5
+        },
+        "line_movement": {
+          "open_home_ml": -142,
+          "open_away_ml": 118,
+          "current_home_ml": -137,
+          "current_away_ml": 114,
+          "open_spread": null,
+          "current_spread": -1.5,
+          "spread_moved": null,
+          "is_sharp": false
+        }
+      },
+      {
+        "game_id": "espn_401907974",
+        "sport_key": "baseball_mlb",
+        "sport": "MLB",
+        "home_team": "San Diego Padres",
+        "away_team": "Chicago Cubs",
+        "commence": "2026-09-30T02:00Z",
+        "hours_out": 25.9,
+        "venue_city": "San Diego",
+        "source": "espn",
+        "h2h": {
+          "home_odds": -126,
+          "away_odds": 105,
+          "home_prob": 0.5575,
+          "away_prob": 0.4878,
+          "true_home_prob": 0.5333,
+          "true_away_prob": 0.4667,
+          "best_home_odds": -126,
+          "best_away_odds": 105,
+          "spread_point": -1.5,
+          "book_count": 1
+        },
+        "spread": {
+          "home_odds": -110,
+          "away_odds": -110,
+          "home_prob": 0.5238095238095238,
+          "away_prob": 0.5238095238095238,
+          "true_home_prob": 0.5,
+          "true_away_prob": 0.5,
+          "spread_point": -1.5,
+          "best_home_odds": -110,
+          "best_away_odds": -110,
+          "book_count": 1
+        },
+        "total": {
+          "line": 7.0,
+          "over_odds": -117,
+          "under_odds": -103,
+          "over_prob": 0.5391705069124424,
+          "under_prob": 0.5073891625615764
+        },
+        "line_movement": {
+          "open_home_ml": -121,
+          "open_away_ml": 101,
+          "current_home_ml": -126,
+          "current_away_ml": 105,
+          "open_spread": null,
+          "current_spread": -1.5,
           "spread_moved": null,
           "is_sharp": false
         }
       }
     ]
   },
-  "basketball_nba": {
-    "ts": "2026-09-28T18:28:28.638896",
-    "games": []
-  },
-  "baseball_mlb": {
-    "ts": "2026-09-28T18:28:28.749260",
-    "games": []
-  },
   "icehockey_nhl": {
-    "ts": "2026-09-28T18:28:28.862881",
-    "games": []
+    "ts": "2026-09-29T00:04:42.217278",
+    "games": [
+      {
+        "game_id": "espn_401891773",
+        "sport_key": "icehockey_nhl",
+        "sport": "NHL",
+        "home_team": "Carolina Hurricanes",
+        "away_team": "Florida Panthers",
+        "commence": "2026-09-29T21:00Z",
+        "hours_out": 20.9,
+        "venue_city": "Raleigh",
+        "source": "espn",
+        "h2h": {
+          "home_odds": -130,
+          "away_odds": 110,
+          "home_prob": 0.5652,
+          "away_prob": 0.4762,
+          "true_home_prob": 0.5427,
+          "true_away_prob": 0.4573,
+          "best_home_odds": -130,
+          "best_away_odds": 110,
+          "spread_point": -1.5,
+          "book_count": 1
+        },
+        "spread": {
+          "home_odds": 190,
+          "away_odds": -230,
+          "home_prob": 0.3448275862068966,
+          "away_prob": 0.696969696969697,
+          "true_home_prob": 0.5,
+          "true_away_prob": 0.5,
+          "spread_point": -1.5,
+          "best_home_odds": 190,
+          "best_away_odds": -230,
+          "book_count": 1
+        },
+        "total": {
+          "line": 6.5,
+          "over_odds": 105,
+          "under_odds": -125,
+          "over_prob": 0.4878048780487805,
+          "under_prob": 0.5555555555555556
+        },
+        "line_movement": {
+          "open_home_ml": -130,
+          "open_away_ml": 110,
+          "current_home_ml": -130,
+          "current_away_ml": 110,
+          "open_spread": null,
+          "current_spread": -1.5,
+          "spread_moved": null,
+          "is_sharp": false
+        }
+      },
+      {
+        "game_id": "espn_401891827",
+        "sport_key": "icehockey_nhl",
+        "sport": "NHL",
+        "home_team": "Toronto Maple Leafs",
+        "away_team": "Montreal Canadiens",
+        "commence": "2026-09-29T23:00Z",
+        "hours_out": 22.9,
+        "venue_city": "Toronto",
+        "source": "espn",
+        "h2h": {
+          "home_odds": -118,
+          "away_odds": -102,
+          "home_prob": 0.5413,
+          "away_prob": 0.505,
+          "true_home_prob": 0.5174,
+          "true_away_prob": 0.4826,
+          "best_home_odds": -118,
+          "best_away_odds": -102,
+          "spread_point": -1.5,
+          "book_count": 1
+        },
+        "spread": {
+          "home_odds": 210,
+          "away_odds": -258,
+          "home_prob": 0.3225806451612903,
+          "away_prob": 0.7206703910614525,
+          "true_home_prob": 0.5,
+          "true_away_prob": 0.5,
+          "spread_point": -1.5,
+          "best_home_odds": 210,
+          "best_away_odds": -258,
+          "book_count": 1
+        },
+        "total": {
+          "line": 6.5,
+          "over_odds": 102,
+          "under_odds": -122,
+          "over_prob": 0.49504950495049505,
+          "under_prob": 0.5495495495495496
+        },
+        "line_movement": {
+          "open_home_ml": -115,
+          "open_away_ml": -105,
+          "current_home_ml": -118,
+          "current_away_ml": -102,
+          "open_spread": null,
+          "current_spread": -1.5,
+          "spread_moved": null,
+          "is_sharp": false
+        }
+      },
+      {
+        "game_id": "espn_401891774",
+        "sport_key": "icehockey_nhl",
+        "sport": "NHL",
+        "home_team": "Boston Bruins",
+        "away_team": "New York Rangers",
+        "commence": "2026-09-30T00:00Z",
+        "hours_out": 23.9,
+        "venue_city": "Boston",
+        "source": "espn",
+        "h2h": {
+          "home_odds": -115,
+          "away_odds": -105,
+          "home_prob": 0.5349,
+          "away_prob": 0.5122,
+          "true_home_prob": 0.5108,
+          "true_away_prob": 0.4892,
+          "best_home_odds": -115,
+          "best_away_odds": -105,
+          "spread_point": -1.5,
+          "book_count": 1
+        },
+        "spread": {
+          "home_odds": 215,
+          "away_odds": -265,
+          "home_prob": 0.31746031746031744,
+          "away_prob": 0.726027397260274,
+          "true_home_prob": 0.5,
+          "true_away_prob": 0.5,
+          "spread_point": -1.5,
+          "best_home_odds": 215,
+          "best_away_odds": -265,
+          "book_count": 1
+        },
+        "total": {
+          "line": 5.5,
+          "over_odds": -130,
+          "under_odds": 110,
+          "over_prob": 0.5652173913043478,
+          "under_prob": 0.47619047619047616
+        },
+        "line_movement": {
+          "open_home_ml": -142,
+          "open_away_ml": 120,
+          "current_home_ml": -115,
+          "current_away_ml": -105,
+          "open_spread": null,
+          "current_spread": -1.5,
+          "spread_moved": null,
+          "is_sharp": false
+        }
+      },
+      {
+        "game_id": "espn_401891804",
+        "sport_key": "icehockey_nhl",
+        "sport": "NHL",
+        "home_team": "Edmonton Oilers",
+        "away_team": "Vancouver Canucks",
+        "commence": "2026-09-30T02:00Z",
+        "hours_out": 25.9,
+        "venue_city": "Edmonton",
+        "source": "espn",
+        "h2h": {
+          "home_odds": -290,
+          "away_odds": 235,
+          "home_prob": 0.7436,
+          "away_prob": 0.2985,
+          "true_home_prob": 0.7136,
+          "true_away_prob": 0.2864,
+          "best_home_odds": -290,
+          "best_away_odds": 235,
+          "spread_point": -1.5,
+          "book_count": 1
+        },
+        "spread": {
+          "home_odds": -118,
+          "away_odds": -102,
+          "home_prob": 0.5412844036697247,
+          "away_prob": 0.504950495049505,
+          "true_home_prob": 0.5,
+          "true_away_prob": 0.5,
+          "spread_point": -1.5,
+          "best_home_odds": -118,
+          "best_away_odds": -102,
+          "book_count": 1
+        },
+        "total": {
+          "line": 6.5,
+          "over_odds": -115,
+          "under_odds": -105,
+          "over_prob": 0.5348837209302325,
+          "under_prob": 0.5121951219512195
+        },
+        "line_movement": {
+          "open_home_ml": -265,
+          "open_away_ml": 215,
+          "current_home_ml": -290,
+          "current_away_ml": 235,
+          "open_spread": null,
+          "current_spread": -1.5,
+          "spread_moved": null,
+          "is_sharp": false
+        }
+      },
+      {
+        "game_id": "espn_401891775",
+        "sport_key": "icehockey_nhl",
+        "sport": "NHL",
+        "home_team": "Vegas Golden Knights",
+        "away_team": "Chicago Blackhawks",
+        "commence": "2026-09-30T02:30Z",
+        "hours_out": 26.4,
+        "venue_city": "Las Vegas",
+        "source": "espn",
+        "h2h": {
+          "home_odds": -258,
+          "away_odds": 210,
+          "home_prob": 0.7207,
+          "away_prob": 0.3226,
+          "true_home_prob": 0.6908,
+          "true_away_prob": 0.3092,
+          "best_home_odds": -258,
+          "best_away_odds": 210,
+          "spread_point": -1.5,
+          "book_count": 1
+        },
+        "spread": {
+          "home_odds": 105,
+          "away_odds": -125,
+          "home_prob": 0.4878048780487805,
+          "away_prob": 0.5555555555555556,
+          "true_home_prob": 0.5,
+          "true_away_prob": 0.5,
+          "spread_point": -1.5,
+          "best_home_odds": 105,
+          "best_away_odds": -125,
+          "book_count": 1
+        },
+        "total": {
+          "line": 5.5,
+          "over_odds": -135,
+          "under_odds": 114,
+          "over_prob": 0.574468085106383,
+          "under_prob": 0.4672897196261682
+        },
+        "line_movement": {
+          "open_home_ml": -250,
+          "open_away_ml": 205,
+          "current_home_ml": -258,
+          "current_away_ml": 210,
+          "open_spread": null,
+          "current_spread": -1.5,
+          "spread_moved": null,
+          "is_sharp": false
+        }
+      }
+    ]
   },
   "soccer_usa_mls": {
-    "ts": "2026-09-28T18:28:28.982665",
+    "ts": "2026-09-29T00:05:02.008552",
     "games": []
   },
   "soccer_epl": {
-    "ts": "2026-09-28T18:28:29.091528",
+    "ts": "2026-09-29T00:05:02.190635",
     "games": []
   },
   "soccer_esp_la_liga": {
-    "ts": "2026-09-28T18:28:29.202589",
+    "ts": "2026-09-29T00:05:02.341704",
     "games": []
   },
   "soccer_ger_bundesliga": {
-    "ts": "2026-09-28T18:28:29.313171",
+    "ts": "2026-09-29T00:05:02.503320",
     "games": []
   },
   "soccer_ita_serie_a": {
-    "ts": "2026-09-28T18:28:29.422006",
+    "ts": "2026-09-29T00:05:02.657468",
     "games": []
   },
   "soccer_fra_ligue_one": {
-    "ts": "2026-09-28T18:28:29.532912",
+    "ts": "2026-09-29T00:05:02.828420",
     "games": []
   },
   "mma_mixed_martial_arts": {
-    "ts": "2026-09-28T18:28:29.644984",
+    "ts": "2026-09-29T00:05:03.207076",
     "games": []
   }
 }
