@@ -111666,3 +111666,49 @@
 [2026-09-29 17:40:32 ET] [INFO] ============================================================
 [2026-09-29 19:24:20 ET] [INFO] Running injury scan
 [2026-09-29 19:24:22 ET] [INFO] Injury scan complete — no new key injuries
+[2026-09-29 20:55:04 ET] [INFO] ============================================================
+[2026-09-29 20:55:04 ET] [INFO] Starting full scan
+[2026-09-29 20:55:04 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-09-29 20:55:06 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-09-29 20:55:06 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-09-29 20:55:09 ET] [INFO]   ESPN baseball_mlb: 2 games (fresh, 4 events found)
+[2026-09-29 20:55:09 ET] [INFO]   baseball_mlb: 2 games from espn
+[2026-09-29 20:55:09 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-09-29 20:55:09 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-29 20:55:16 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-29 20:55:16 ET] [DEBUG]   [Philadelphia Phillies @ Atlanta Braves] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-108→-102
+[2026-09-29 20:55:16 ET] [DEBUG]     ✗ Philadelphia Phillies @ Atlanta Braves — conf 15 < 35 threshold
+[2026-09-29 20:55:17 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/injuries
+[2026-09-29 20:55:24 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard
+[2026-09-29 20:55:24 ET] [DEBUG]   [Chicago White Sox @ Houston Astros] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-153→-149
+[2026-09-29 20:55:24 ET] [DEBUG]     ✗ Chicago White Sox @ Houston Astros — conf 15 < 35 threshold
+[2026-09-29 20:55:25 ET] [INFO]   ESPN icehockey_nhl: 3 games (fresh, 3 events found)
+[2026-09-29 20:55:25 ET] [INFO]   icehockey_nhl: 3 games from espn
+[2026-09-29 20:55:25 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-09-29 20:55:26 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries
+[2026-09-29 20:55:28 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard
+[2026-09-29 20:55:28 ET] [DEBUG]   [Pittsburgh Penguins @ Philadelphia Flyers] sigs=[] conf=0 pub=n/a ml_move=-142→-142
+[2026-09-29 20:55:28 ET] [DEBUG]     ✗ Pittsburgh Penguins @ Philadelphia Flyers — only 0/1 signals (need 1 more)
+[2026-09-29 20:55:28 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries
+[2026-09-29 20:55:30 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard
+[2026-09-29 20:55:30 ET] [DEBUG]   [New York Islanders @ Toronto Maple Leafs] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-110→-120
+[2026-09-29 20:55:30 ET] [DEBUG]     ✗ New York Islanders @ Toronto Maple Leafs — conf 15 < 35 threshold
+[2026-09-29 20:55:31 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/injuries
+[2026-09-29 20:55:33 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard
+[2026-09-29 20:55:33 ET] [DEBUG]   [Los Angeles Kings @ Colorado Avalanche] sigs=[] conf=0 pub=n/a ml_move=-185→-180
+[2026-09-29 20:55:33 ET] [DEBUG]     ✗ Los Angeles Kings @ Colorado Avalanche — only 0/1 signals (need 1 more)
+[2026-09-29 20:55:34 ET] [INFO]   ESPN soccer_usa_mls: 1 games (fresh, 1 events found)
+[2026-09-29 20:55:34 ET] [INFO]   soccer_usa_mls: 1 games from espn
+[2026-09-29 20:55:34 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-09-29 20:55:34 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/injuries
+[2026-09-29 20:55:35 ET] [WARN] ESPN 403: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard
+[2026-09-29 20:55:35 ET] [DEBUG]   [St. Louis CITY SC @ Red Bull New York] sigs=['sharp_money'] conf=25 pub=n/a ml_move=150→220
+[2026-09-29 20:55:35 ET] [DEBUG]     ✗ St. Louis CITY SC @ Red Bull New York — conf 25 < 35 threshold
+[2026-09-29 20:55:35 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-09-29 20:55:36 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-09-29 20:55:36 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-09-29 20:55:36 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-09-29 20:55:36 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-09-29 20:55:36 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-09-29 20:55:36 ET] [INFO] Scan complete -- 6 games checked, 0 alerts (silence = discipline)
+[2026-09-29 20:55:36 ET] [INFO] ============================================================
