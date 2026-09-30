@@ -1,14 +1,14 @@
 {
   "americanfootball_nfl": {
-    "ts": "2026-09-30T00:55:06.720528",
+    "ts": "2026-09-30T07:43:46.235239",
     "games": []
   },
   "basketball_nba": {
-    "ts": "2026-09-30T00:55:06.905209",
+    "ts": "2026-09-30T07:43:46.410725",
     "games": []
   },
   "baseball_mlb": {
-    "ts": "2026-09-30T00:55:09.034074",
+    "ts": "2026-09-30T07:43:48.359520",
     "games": [
       {
         "game_id": "espn_401907972",
@@ -17,18 +17,18 @@
         "home_team": "Atlanta Braves",
         "away_team": "Philadelphia Phillies",
         "commence": "2026-09-30T18:00Z",
-        "hours_out": 17.1,
+        "hours_out": 10.3,
         "venue_city": "Atlanta",
         "source": "espn",
         "h2h": {
-          "home_odds": -102,
-          "away_odds": -118,
-          "home_prob": 0.505,
-          "away_prob": 0.5413,
-          "true_home_prob": 0.4826,
-          "true_away_prob": 0.5174,
-          "best_home_odds": -102,
-          "best_away_odds": -118,
+          "home_odds": -103,
+          "away_odds": -117,
+          "home_prob": 0.5074,
+          "away_prob": 0.5392,
+          "true_home_prob": 0.4848,
+          "true_away_prob": 0.5152,
+          "best_home_odds": -103,
+          "best_away_odds": -117,
           "spread_point": 1.5,
           "book_count": 1
         },
@@ -54,8 +54,8 @@
         "line_movement": {
           "open_home_ml": -108,
           "open_away_ml": -112,
-          "current_home_ml": -102,
-          "current_away_ml": -118,
+          "current_home_ml": -103,
+          "current_away_ml": -117,
           "open_spread": null,
           "current_spread": 1.5,
           "spread_moved": null,
@@ -69,18 +69,18 @@
         "home_team": "Houston Astros",
         "away_team": "Chicago White Sox",
         "commence": "2026-09-30T21:00Z",
-        "hours_out": 20.1,
+        "hours_out": 13.3,
         "venue_city": "Houston",
         "source": "espn",
         "h2h": {
-          "home_odds": -149,
-          "away_odds": 123,
-          "home_prob": 0.5984,
-          "away_prob": 0.4484,
-          "true_home_prob": 0.5716,
-          "true_away_prob": 0.4284,
-          "best_home_odds": -149,
-          "best_away_odds": 123,
+          "home_odds": -155,
+          "away_odds": 128,
+          "home_prob": 0.6078,
+          "away_prob": 0.4386,
+          "true_home_prob": 0.5809,
+          "true_away_prob": 0.4191,
+          "best_home_odds": -155,
+          "best_away_odds": 128,
           "spread_point": -1.5,
           "book_count": 1
         },
@@ -106,8 +106,112 @@
         "line_movement": {
           "open_home_ml": -153,
           "open_away_ml": 126,
-          "current_home_ml": -149,
-          "current_away_ml": 123,
+          "current_home_ml": -155,
+          "current_away_ml": 128,
+          "open_spread": null,
+          "current_spread": -1.5,
+          "spread_moved": null,
+          "is_sharp": false
+        }
+      },
+      {
+        "game_id": "espn_401907963",
+        "sport_key": "baseball_mlb",
+        "sport": "MLB",
+        "home_team": "New York Yankees",
+        "away_team": "Boston Red Sox",
+        "commence": "2026-10-01T00:00Z",
+        "hours_out": 16.3,
+        "venue_city": "Bronx",
+        "source": "espn",
+        "h2h": {
+          "home_odds": -137,
+          "away_odds": 114,
+          "home_prob": 0.5781,
+          "away_prob": 0.4673,
+          "true_home_prob": 0.553,
+          "true_away_prob": 0.447,
+          "best_home_odds": -137,
+          "best_away_odds": 114,
+          "spread_point": -1.5,
+          "book_count": 1
+        },
+        "spread": {
+          "home_odds": -110,
+          "away_odds": -110,
+          "home_prob": 0.5238095238095238,
+          "away_prob": 0.5238095238095238,
+          "true_home_prob": 0.5,
+          "true_away_prob": 0.5,
+          "spread_point": -1.5,
+          "best_home_odds": -110,
+          "best_away_odds": -110,
+          "book_count": 1
+        },
+        "total": {
+          "line": 6.5,
+          "over_odds": -120,
+          "under_odds": 100,
+          "over_prob": 0.5454545454545454,
+          "under_prob": 0.5
+        },
+        "line_movement": {
+          "open_home_ml": -129,
+          "open_away_ml": 107,
+          "current_home_ml": -137,
+          "current_away_ml": 114,
+          "open_spread": null,
+          "current_spread": -1.5,
+          "spread_moved": null,
+          "is_sharp": false
+        }
+      },
+      {
+        "game_id": "espn_401907975",
+        "sport_key": "baseball_mlb",
+        "sport": "MLB",
+        "home_team": "San Diego Padres",
+        "away_team": "Chicago Cubs",
+        "commence": "2026-10-01T02:00Z",
+        "hours_out": 18.3,
+        "venue_city": "San Diego",
+        "source": "espn",
+        "h2h": {
+          "home_odds": -146,
+          "away_odds": 121,
+          "home_prob": 0.5935,
+          "away_prob": 0.4525,
+          "true_home_prob": 0.5674,
+          "true_away_prob": 0.4326,
+          "best_home_odds": -146,
+          "best_away_odds": 121,
+          "spread_point": -1.5,
+          "book_count": 1
+        },
+        "spread": {
+          "home_odds": -110,
+          "away_odds": -110,
+          "home_prob": 0.5238095238095238,
+          "away_prob": 0.5238095238095238,
+          "true_home_prob": 0.5,
+          "true_away_prob": 0.5,
+          "spread_point": -1.5,
+          "best_home_odds": -110,
+          "best_away_odds": -110,
+          "book_count": 1
+        },
+        "total": {
+          "line": 7.0,
+          "over_odds": -125,
+          "under_odds": 104,
+          "over_prob": 0.5555555555555556,
+          "under_prob": 0.49019607843137253
+        },
+        "line_movement": {
+          "open_home_ml": -137,
+          "open_away_ml": 113,
+          "current_home_ml": -146,
+          "current_away_ml": 121,
           "open_spread": null,
           "current_spread": -1.5,
           "spread_moved": null,
@@ -117,7 +221,7 @@
     ]
   },
   "icehockey_nhl": {
-    "ts": "2026-09-30T00:55:25.861379",
+    "ts": "2026-09-30T07:44:17.170370",
     "games": [
       {
         "game_id": "espn_401891821",
@@ -126,7 +230,7 @@
         "home_team": "Philadelphia Flyers",
         "away_team": "Pittsburgh Penguins",
         "commence": "2026-09-30T23:30Z",
-        "hours_out": 22.6,
+        "hours_out": 15.8,
         "venue_city": "Philadelphia",
         "source": "espn",
         "h2h": {
@@ -178,7 +282,7 @@
         "home_team": "Toronto Maple Leafs",
         "away_team": "New York Islanders",
         "commence": "2026-09-30T23:30Z",
-        "hours_out": 22.6,
+        "hours_out": 15.8,
         "venue_city": "Toronto",
         "source": "espn",
         "h2h": {
@@ -230,7 +334,7 @@
         "home_team": "Colorado Avalanche",
         "away_team": "Los Angeles Kings",
         "commence": "2026-10-01T02:00Z",
-        "hours_out": 25.1,
+        "hours_out": 18.3,
         "venue_city": "Denver",
         "source": "espn",
         "h2h": {
@@ -278,7 +382,7 @@
     ]
   },
   "soccer_usa_mls": {
-    "ts": "2026-09-30T00:55:34.182018",
+    "ts": "2026-09-30T07:44:24.837352",
     "games": [
       {
         "game_id": "espn_761833",
@@ -287,45 +391,45 @@
         "home_team": "Red Bull New York",
         "away_team": "St. Louis CITY SC",
         "commence": "2026-09-30T23:30Z",
-        "hours_out": 22.6,
+        "hours_out": 15.8,
         "venue_city": "Harrison, New Jersey",
         "source": "espn",
         "h2h": {
-          "home_odds": 220,
-          "away_odds": -105,
-          "home_prob": 0.3125,
-          "away_prob": 0.5122,
-          "true_home_prob": 0.3789,
-          "true_away_prob": 0.6211,
-          "best_home_odds": 220,
-          "best_away_odds": -105,
+          "home_odds": 225,
+          "away_odds": -110,
+          "home_prob": 0.3077,
+          "away_prob": 0.5238,
+          "true_home_prob": 0.37,
+          "true_away_prob": 0.63,
+          "best_home_odds": 225,
+          "best_away_odds": -110,
           "spread_point": 0.5,
           "book_count": 1
         },
         "spread": {
-          "home_odds": -125,
-          "away_odds": -110,
-          "home_prob": 0.5555555555555556,
-          "away_prob": 0.5238095238095238,
+          "home_odds": -120,
+          "away_odds": -115,
+          "home_prob": 0.5454545454545454,
+          "away_prob": 0.5348837209302325,
           "true_home_prob": 0.5,
           "true_away_prob": 0.5,
           "spread_point": 0.5,
-          "best_home_odds": -125,
-          "best_away_odds": -110,
+          "best_home_odds": -120,
+          "best_away_odds": -115,
           "book_count": 1
         },
         "total": {
           "line": 3.5,
           "over_odds": 105,
-          "under_odds": -130,
+          "under_odds": -135,
           "over_prob": 0.4878048780487805,
-          "under_prob": 0.5652173913043478
+          "under_prob": 0.574468085106383
         },
         "line_movement": {
           "open_home_ml": 150,
           "open_away_ml": 135,
-          "current_home_ml": 220,
-          "current_away_ml": -105,
+          "current_home_ml": 225,
+          "current_away_ml": -110,
           "open_spread": null,
           "current_spread": 0.5,
           "spread_moved": null,
@@ -335,27 +439,27 @@
     ]
   },
   "soccer_epl": {
-    "ts": "2026-09-30T00:55:35.928395",
+    "ts": "2026-09-30T07:44:26.416078",
     "games": []
   },
   "soccer_esp_la_liga": {
-    "ts": "2026-09-30T00:55:36.114417",
+    "ts": "2026-09-30T07:44:26.592961",
     "games": []
   },
   "soccer_ger_bundesliga": {
-    "ts": "2026-09-30T00:55:36.298124",
+    "ts": "2026-09-30T07:44:26.763207",
     "games": []
   },
   "soccer_ita_serie_a": {
-    "ts": "2026-09-30T00:55:36.483555",
+    "ts": "2026-09-30T07:44:26.935103",
     "games": []
   },
   "soccer_fra_ligue_one": {
-    "ts": "2026-09-30T00:55:36.669256",
+    "ts": "2026-09-30T07:44:27.110419",
     "games": []
   },
   "mma_mixed_martial_arts": {
-    "ts": "2026-09-30T00:55:36.852010",
+    "ts": "2026-09-30T07:44:27.293365",
     "games": []
   }
 }
