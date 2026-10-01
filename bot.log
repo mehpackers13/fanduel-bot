@@ -112293,3 +112293,43 @@
 [2026-10-01 13:51:54 ET] [INFO] ============================================================
 [2026-10-01 15:14:20 ET] [INFO] Running injury scan
 [2026-10-01 15:14:23 ET] [INFO] Injury scan complete — no new key injuries
+[2026-10-01 18:08:39 ET] [INFO] ============================================================
+[2026-10-01 18:08:39 ET] [INFO] Starting full scan
+[2026-10-01 18:08:39 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-10-01 18:08:42 ET] [INFO]   ESPN americanfootball_nfl: 1 games (fresh, 1 events found)
+[2026-10-01 18:08:42 ET] [INFO]   americanfootball_nfl: 1 games from espn
+[2026-10-01 18:08:42 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nfl/odds: HTTP 202
+[2026-10-01 18:08:44 ET] [DEBUG]   [Pittsburgh Steelers @ Cleveland Browns] sigs=['model_edge'] conf=20 pub=n/a ml_move=114→124
+[2026-10-01 18:08:44 ET] [DEBUG]     ✗ Pittsburgh Steelers @ Cleveland Browns — conf 20 < 35 threshold
+[2026-10-01 18:08:44 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 0 events found)
+[2026-10-01 18:08:45 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 1 events found)
+[2026-10-01 18:08:45 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-10-01 18:08:45 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-10-01 18:08:49 ET] [DEBUG]   [Philadelphia Phillies @ Atlanta Braves] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-114→-114
+[2026-10-01 18:08:49 ET] [DEBUG]     ✗ Philadelphia Phillies @ Atlanta Braves — conf 15 < 35 threshold
+[2026-10-01 18:08:53 ET] [INFO]   ESPN icehockey_nhl: 5 games (fresh, 8 events found)
+[2026-10-01 18:08:53 ET] [INFO]   icehockey_nhl: 5 games from espn
+[2026-10-01 18:08:53 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-10-01 18:08:56 ET] [DEBUG]   [Minnesota Wild @ Nashville Predators] sigs=[] conf=0 pub=n/a ml_move=124→124
+[2026-10-01 18:08:56 ET] [DEBUG]     ✗ Minnesota Wild @ Nashville Predators — only 0/1 signals (need 1 more)
+[2026-10-01 18:09:00 ET] [DEBUG]   [Seattle Kraken @ Calgary Flames] sigs=[] conf=0 pub=n/a ml_move=-115→-112
+[2026-10-01 18:09:00 ET] [DEBUG]     ✗ Seattle Kraken @ Calgary Flames — only 0/1 signals (need 1 more)
+[2026-10-01 18:09:03 ET] [DEBUG]   [Chicago Blackhawks @ Utah Mammoth] sigs=[] conf=0 pub=n/a ml_move=-198→-218
+[2026-10-01 18:09:03 ET] [DEBUG]     ✗ Chicago Blackhawks @ Utah Mammoth — only 0/1 signals (need 1 more)
+[2026-10-01 18:09:06 ET] [DEBUG]   [Florida Panthers @ San Jose Sharks] sigs=[] conf=0 pub=n/a ml_move=120→124
+[2026-10-01 18:09:06 ET] [DEBUG]     ✗ Florida Panthers @ San Jose Sharks — only 0/1 signals (need 1 more)
+[2026-10-01 18:09:09 ET] [DEBUG]   [Edmonton Oilers @ Vancouver Canucks] sigs=[] conf=0 pub=n/a ml_move=164→180
+[2026-10-01 18:09:09 ET] [DEBUG]     ✗ Edmonton Oilers @ Vancouver Canucks — only 0/1 signals (need 1 more)
+[2026-10-01 18:09:10 ET] [INFO]   ESPN soccer_usa_mls: 1 games (fresh, 1 events found)
+[2026-10-01 18:09:10 ET] [INFO]   soccer_usa_mls: 1 games from espn
+[2026-10-01 18:09:10 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-10-01 18:09:11 ET] [DEBUG]   [Sporting Kansas City @ Seattle Sounders FC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-225→-190
+[2026-10-01 18:09:11 ET] [DEBUG]     ✗ Sporting Kansas City @ Seattle Sounders FC — conf 25 < 35 threshold
+[2026-10-01 18:09:11 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-10-01 18:09:11 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-10-01 18:09:12 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-10-01 18:09:12 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-10-01 18:09:12 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-10-01 18:09:12 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-10-01 18:09:12 ET] [INFO] Scan complete -- 8 games checked, 0 alerts (silence = discipline)
+[2026-10-01 18:09:12 ET] [INFO] ============================================================
