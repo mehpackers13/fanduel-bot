@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-03T15:03:44.996903Z",
-  "last_scan": "2026-10-03 11:03:43 ET",
-  "last_scan_ts": "2026-10-03T15:03:44.996903Z",
+  "generated_at": "2026-10-03T15:27:55.643942Z",
+  "last_scan": "2026-10-03 11:27:55 ET",
+  "last_scan_ts": "2026-10-03T15:27:55.643942Z",
   "stats": {
-    "total_alerts": 365,
+    "total_alerts": 366,
     "completed_bets": 341,
     "win_rate": 46.6,
     "total_pl": -643.93,
@@ -53,6 +53,28 @@
   },
   "unit_total": -64.39,
   "today_bets": [
+    {
+      "timestamp": "2026-10-03 11:27 ET",
+      "sport": "MLB",
+      "game": "Atlanta Braves @ Los Angeles Dodgers",
+      "home_team": "Los Angeles Dodgers",
+      "away_team": "Atlanta Braves",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "+173",
+      "edge_pct": "6.3",
+      "confidence": "75",
+      "signals": "sharp_money + rest_disadvantage + travel_disadvantage + model_edge",
+      "suggested_bet": "25.0",
+      "implied_prob": "36.6",
+      "true_prob": "43.0",
+      "reasoning": "Edge 6.3% on Atlanta Braves moneyline. ML moved 39 pts on Los Angeles Dodgers (-173\u2192-212) \u2014 steam toward Los Angeles Dodgers. Atlanta Braves playing 3rd game in 4 nights.",
+      "game_id": "espn_401908007",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-10-02 20:51 ET",
       "sport": "MLB",
@@ -109,6 +131,28 @@
     }
   },
   "recent_bets": [
+    {
+      "timestamp": "2026-10-03 11:27 ET",
+      "sport": "MLB",
+      "game": "Atlanta Braves @ Los Angeles Dodgers",
+      "home_team": "Los Angeles Dodgers",
+      "away_team": "Atlanta Braves",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "+173",
+      "edge_pct": "6.3",
+      "confidence": "75",
+      "signals": "sharp_money + rest_disadvantage + travel_disadvantage + model_edge",
+      "suggested_bet": "25.0",
+      "implied_prob": "36.6",
+      "true_prob": "43.0",
+      "reasoning": "Edge 6.3% on Atlanta Braves moneyline. ML moved 39 pts on Los Angeles Dodgers (-173\u2192-212) \u2014 steam toward Los Angeles Dodgers. Atlanta Braves playing 3rd game in 4 nights.",
+      "game_id": "espn_401908007",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-10-02 20:51 ET",
       "sport": "MLB",
@@ -1185,28 +1229,6 @@
       "sport_key": "baseball_mlb",
       "outcome": "W",
       "profit_loss": "22.91",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-08-20 22:57 ET",
-      "sport": "MLB",
-      "game": "Tampa Bay Rays @ Baltimore Orioles",
-      "home_team": "Baltimore Orioles",
-      "away_team": "Tampa Bay Rays",
-      "bet_type": "total",
-      "bet_side": "under",
-      "line": "u8.5",
-      "edge_pct": "5.0",
-      "confidence": "35",
-      "signals": "rest_disadvantage + weather_edge",
-      "suggested_bet": "27.0",
-      "implied_prob": "53.3",
-      "true_prob": "58.3",
-      "reasoning": "Edge 5.0% on UNDER total. Baltimore Orioles on back-to-back -- fatigue factor. Rain 4.4mm forecast \u2014 potential delays/cancellations, affects totals.",
-      "game_id": "espn_401816612",
-      "sport_key": "baseball_mlb",
-      "outcome": "W",
-      "profit_loss": "23.66",
       "notes": ""
     }
   ]
