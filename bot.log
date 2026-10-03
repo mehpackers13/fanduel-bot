@@ -112816,3 +112816,55 @@
 [2026-10-03 11:35:10 ET] [INFO] ============================================================
 [2026-10-03 14:31:09 ET] [INFO] Running injury scan
 [2026-10-03 14:31:12 ET] [INFO] Injury scan complete — no new key injuries
+[2026-10-03 14:54:32 ET] [INFO] ============================================================
+[2026-10-03 14:54:32 ET] [INFO] Starting full scan
+[2026-10-03 14:54:32 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-10-03 14:54:34 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-10-03 14:54:34 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 1 events found)
+[2026-10-03 14:54:35 ET] [INFO]   ESPN baseball_mlb: 3 games (fresh, 4 events found)
+[2026-10-03 14:54:35 ET] [INFO]   baseball_mlb: 3 games from espn
+[2026-10-03 14:54:35 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-10-03 14:54:38 ET] [DEBUG]   [Atlanta Braves @ Los Angeles Dodgers] sigs=['sharp_money', 'rest_disadvantage', 'travel_disadvantage', 'model_edge'] conf=75 pub=n/a ml_move=-173→-212
+[2026-10-03 14:54:40 ET] [DEBUG]   [New York Yankees @ Tampa Bay Rays] sigs=[] conf=0 pub=n/a ml_move=-133→-135
+[2026-10-03 14:54:40 ET] [DEBUG]     ✗ New York Yankees @ Tampa Bay Rays — only 0/1 signals (need 1 more)
+[2026-10-03 14:54:42 ET] [DEBUG]   [San Diego Padres @ Milwaukee Brewers] sigs=['model_edge'] conf=20 pub=n/a ml_move=-227→-218
+[2026-10-03 14:54:42 ET] [DEBUG]     ✗ San Diego Padres @ Milwaukee Brewers — conf 20 < 35 threshold
+[2026-10-03 14:54:46 ET] [INFO]   ESPN icehockey_nhl: 13 games (fresh, 13 events found)
+[2026-10-03 14:54:46 ET] [INFO]   icehockey_nhl: 13 games from espn
+[2026-10-03 14:54:46 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-10-03 14:54:48 ET] [DEBUG]   [Chicago Blackhawks @ Buffalo Sabres] sigs=[] conf=0 pub=n/a ml_move=-218→-230
+[2026-10-03 14:54:48 ET] [DEBUG]     ✗ Chicago Blackhawks @ Buffalo Sabres — only 0/1 signals (need 1 more)
+[2026-10-03 14:54:51 ET] [DEBUG]   [Montreal Canadiens @ Pittsburgh Penguins] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-110→100
+[2026-10-03 14:54:51 ET] [DEBUG]     ✗ Montreal Canadiens @ Pittsburgh Penguins — conf 25 < 35 threshold
+[2026-10-03 14:54:53 ET] [DEBUG]   [Washington Capitals @ Tampa Bay Lightning] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-142→-205
+[2026-10-03 14:54:53 ET] [DEBUG]     ✗ Washington Capitals @ Tampa Bay Lightning — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-10-03 14:54:56 ET] [DEBUG]   [Ottawa Senators @ Toronto Maple Leafs] sigs=[] conf=0 pub=n/a ml_move=-130→-115
+[2026-10-03 14:54:56 ET] [DEBUG]     ✗ Ottawa Senators @ Toronto Maple Leafs — only 0/1 signals (need 1 more)
+[2026-10-03 14:54:58 ET] [DEBUG]   [Carolina Hurricanes @ Philadelphia Flyers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=110→110
+[2026-10-03 14:54:58 ET] [DEBUG]     ✗ Carolina Hurricanes @ Philadelphia Flyers — conf 15 < 35 threshold
+[2026-10-03 14:55:00 ET] [DEBUG]   [Utah Mammoth @ Columbus Blue Jackets] sigs=[] conf=0 pub=n/a ml_move=-118→-108
+[2026-10-03 14:55:00 ET] [DEBUG]     ✗ Utah Mammoth @ Columbus Blue Jackets — only 0/1 signals (need 1 more)
+[2026-10-03 14:55:03 ET] [DEBUG]   [Seattle Kraken @ Edmonton Oilers] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-238→-205
+[2026-10-03 14:55:03 ET] [DEBUG]     ✗ Seattle Kraken @ Edmonton Oilers — conf 25 < 35 threshold
+[2026-10-03 14:55:05 ET] [DEBUG]   [New Jersey Devils @ New York Islanders] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-115→114
+[2026-10-03 14:55:05 ET] [DEBUG]     ✗ New Jersey Devils @ New York Islanders — conf 25 < 35 threshold
+[2026-10-03 14:55:07 ET] [DEBUG]   [Boston Bruins @ Minnesota Wild] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-180→-205
+[2026-10-03 14:55:07 ET] [DEBUG]     ✗ Boston Bruins @ Minnesota Wild — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-10-03 14:55:10 ET] [DEBUG]   [Dallas Stars @ Nashville Predators] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=120→120
+[2026-10-03 14:55:10 ET] [DEBUG]     ✗ Dallas Stars @ Nashville Predators — conf 15 < 35 threshold
+[2026-10-03 14:55:12 ET] [DEBUG]   [St. Louis Blues @ Colorado Avalanche] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-278→-285
+[2026-10-03 14:55:12 ET] [DEBUG]     ✗ St. Louis Blues @ Colorado Avalanche — conf 15 < 35 threshold
+[2026-10-03 14:55:15 ET] [DEBUG]   [Calgary Flames @ Vancouver Canucks] sigs=[] conf=0 pub=n/a ml_move=-110→-110
+[2026-10-03 14:55:15 ET] [DEBUG]     ✗ Calgary Flames @ Vancouver Canucks — only 0/1 signals (need 1 more)
+[2026-10-03 14:55:17 ET] [DEBUG]   [Los Angeles Kings @ San Jose Sharks] sigs=[] conf=0 pub=n/a ml_move=-120→-115
+[2026-10-03 14:55:17 ET] [DEBUG]     ✗ Los Angeles Kings @ San Jose Sharks — only 0/1 signals (need 1 more)
+[2026-10-03 14:55:17 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-10-03 14:55:17 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-10-03 14:55:17 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-10-03 14:55:17 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-10-03 14:55:17 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-10-03 14:55:17 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-10-03 14:55:18 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 1 events found)
+[2026-10-03 14:55:18 ET] [INFO] Sprinkle alert sent: Atlanta Braves @ Los Angeles Dodgers | moneyline Atlanta Braves +173 | edge 6.3% | 1u
+[2026-10-03 14:55:18 ET] [INFO] Scan complete -- 16 games checked, 1 alert(s) sent (5u at risk today)
+[2026-10-03 14:55:18 ET] [INFO] ============================================================
