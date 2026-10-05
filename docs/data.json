@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T00:20:46.215566Z",
-  "last_scan": "2026-10-04 20:20:46 ET",
-  "last_scan_ts": "2026-10-05T00:20:46.215566Z",
+  "generated_at": "2026-10-05T04:59:53.590114Z",
+  "last_scan": "2026-10-04 22:14:39 ET",
+  "last_scan_ts": "2026-10-05T04:59:53.590114Z",
   "stats": {
     "total_alerts": 369,
     "completed_bets": 346,
@@ -52,63 +52,18 @@
     }
   },
   "unit_total": -71.79,
-  "today_bets": [
-    {
-      "timestamp": "2026-10-03 23:30 ET",
-      "sport": "NFL",
-      "game": "Arizona Cardinals @ New York Giants",
-      "home_team": "New York Giants",
-      "away_team": "Arizona Cardinals",
-      "bet_type": "moneyline",
-      "bet_side": "home",
-      "line": "+114",
-      "edge_pct": "35.4",
-      "confidence": "45",
-      "signals": "sharp_money + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "46.7",
-      "true_prob": "82.1",
-      "reasoning": "Edge 35.4% on New York Giants moneyline. ML moved 439 pts on New York Giants (-325\u2192+114) \u2014 steam toward Arizona Cardinals. Power rating: New York Giants wp=66.7% / Arizona Cardinals wp=33.3% \u2014 New York Giants underpriced (model 82.1% vs mkt 46.7%).",
-      "game_id": "espn_401872966",
-      "sport_key": "americanfootball_nfl",
-      "outcome": "W",
-      "profit_loss": "57.07",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-10-03 23:30 ET",
-      "sport": "NFL",
-      "game": "Los Angeles Rams @ Philadelphia Eagles",
-      "home_team": "Philadelphia Eagles",
-      "away_team": "Los Angeles Rams",
-      "bet_type": "moneyline",
-      "bet_side": "home",
-      "line": "+150",
-      "edge_pct": "42.1",
-      "confidence": "45",
-      "signals": "sharp_money + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "40.0",
-      "true_prob": "82.1",
-      "reasoning": "Edge 42.1% on Philadelphia Eagles moneyline. ML moved 252 pts on Philadelphia Eagles (-102\u2192+150) \u2014 steam toward Los Angeles Rams. Power rating: Philadelphia Eagles wp=66.7% / Los Angeles Rams wp=33.3% \u2014 Philadelphia Eagles underpriced (model 82.1% vs mkt 40.0%).",
-      "game_id": "espn_401872970",
-      "sport_key": "americanfootball_nfl",
-      "outcome": "L",
-      "profit_loss": "-50.0",
-      "notes": ""
-    }
-  ],
+  "today_bets": [],
   "performance": {
-    "total_bets": 340,
-    "win_rate": 46.8,
-    "roi": -4.5,
+    "total_bets": 346,
+    "win_rate": 46.2,
+    "roi": -5.1,
     "by_signal": {
-      "sharp_money": -16.6,
-      "rest_disadvantage": -3.9,
-      "model_edge": -1.7,
+      "sharp_money": -17.7,
+      "rest_disadvantage": -4.7,
+      "model_edge": -2.3,
       "public_fade": -7.0,
-      "weather_edge": -0.6,
-      "travel_disadvantage": -86.8
+      "weather_edge": -1.2,
+      "travel_disadvantage": -88.7
     },
     "best_signal": "weather_edge",
     "worst_signal": "travel_disadvantage",
@@ -120,13 +75,13 @@
       },
       "MLB": {
         "wins": 156,
-        "losses": 176,
-        "roi": -1.5
+        "losses": 180,
+        "roi": -1.8
       },
       "NFL": {
-        "wins": 3,
-        "losses": 0,
-        "roi": 23.6
+        "wins": 4,
+        "losses": 1,
+        "roi": 15.6
       }
     }
   },
