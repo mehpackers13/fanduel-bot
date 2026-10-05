@@ -113271,3 +113271,39 @@
 [2026-10-04 16:40:37 ET] [INFO] ============================================================
 [2026-10-04 19:25:48 ET] [INFO] Running injury scan
 [2026-10-04 19:25:51 ET] [INFO] Injury scan complete — no new key injuries
+[2026-10-04 20:20:04 ET] [INFO] ============================================================
+[2026-10-04 20:20:04 ET] [INFO] Starting full scan
+[2026-10-04 20:20:04 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-10-04 20:20:06 ET] [INFO]   ESPN americanfootball_nfl: 1 games (fresh, 1 events found)
+[2026-10-04 20:20:06 ET] [INFO]   americanfootball_nfl: 1 games from espn
+[2026-10-04 20:20:06 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nfl/odds: HTTP 202
+[2026-10-04 20:20:12 ET] [DEBUG]   [Atlanta Falcons @ New Orleans Saints] sigs=[] conf=0 pub=n/a ml_move=-135→-130
+[2026-10-04 20:20:12 ET] [DEBUG]     ✗ Atlanta Falcons @ New Orleans Saints — only 0/1 signals (need 1 more)
+[2026-10-04 20:20:14 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 5 events found)
+[2026-10-04 20:20:14 ET] [INFO]   ESPN baseball_mlb: 2 games (fresh, 2 events found)
+[2026-10-04 20:20:14 ET] [INFO]   baseball_mlb: 2 games from espn
+[2026-10-04 20:20:15 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-10-04 20:20:18 ET] [DEBUG]   [Chicago White Sox @ Cleveland Guardians] sigs=[] conf=0 pub=n/a ml_move=-164→-157
+[2026-10-04 20:20:18 ET] [DEBUG]     ✗ Chicago White Sox @ Cleveland Guardians — only 0/1 signals (need 1 more)
+[2026-10-04 20:20:20 ET] [DEBUG]   [New York Yankees @ Tampa Bay Rays] sigs=[] conf=0 pub=n/a ml_move=108→109
+[2026-10-04 20:20:20 ET] [DEBUG]     ✗ New York Yankees @ Tampa Bay Rays — only 0/1 signals (need 1 more)
+[2026-10-04 20:20:22 ET] [INFO]   ESPN icehockey_nhl: 4 games (fresh, 4 events found)
+[2026-10-04 20:20:22 ET] [INFO]   icehockey_nhl: 4 games from espn
+[2026-10-04 20:20:22 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-10-04 20:20:28 ET] [DEBUG]   [Philadelphia Flyers @ Tampa Bay Lightning] sigs=[] conf=0 pub=n/a ml_move=-175→-192
+[2026-10-04 20:20:28 ET] [DEBUG]     ✗ Philadelphia Flyers @ Tampa Bay Lightning — only 0/1 signals (need 1 more)
+[2026-10-04 20:20:34 ET] [DEBUG]   [Ottawa Senators @ Boston Bruins] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-130→-110
+[2026-10-04 20:20:34 ET] [DEBUG]     ✗ Ottawa Senators @ Boston Bruins — conf 15 < 35 threshold
+[2026-10-04 20:20:39 ET] [DEBUG]   [Winnipeg Jets @ Pittsburgh Penguins] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-162→-170
+[2026-10-04 20:20:39 ET] [DEBUG]     ✗ Winnipeg Jets @ Pittsburgh Penguins — conf 15 < 35 threshold
+[2026-10-04 20:20:44 ET] [DEBUG]   [San Jose Sharks @ Dallas Stars] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-175→-166
+[2026-10-04 20:20:44 ET] [DEBUG]     ✗ San Jose Sharks @ Dallas Stars — conf 15 < 35 threshold
+[2026-10-04 20:20:45 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-10-04 20:20:45 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-10-04 20:20:45 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-10-04 20:20:45 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-10-04 20:20:45 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-10-04 20:20:45 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-10-04 20:20:46 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-10-04 20:20:46 ET] [INFO] Scan complete -- 7 games checked, 0 alerts (silence = discipline)
+[2026-10-04 20:20:46 ET] [INFO] ============================================================
