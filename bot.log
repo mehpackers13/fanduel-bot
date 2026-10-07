@@ -113798,3 +113798,53 @@
 [2026-10-07 06:43:33 ET] [INFO] ============================================================
 [2026-10-07 07:13:44 ET] [INFO] Running injury scan
 [2026-10-07 07:13:46 ET] [INFO] Injury scan complete — no new key injuries
+[2026-10-07 13:40:13 ET] [INFO] ============================================================
+[2026-10-07 13:40:13 ET] [INFO] Running morning briefing scan (7am)
+[2026-10-07 13:40:13 ET] [INFO] ============================================================
+[2026-10-07 13:40:13 ET] [INFO] Starting morning scan
+[2026-10-07 13:40:13 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-10-07 13:40:14 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-10-07 13:40:16 ET] [INFO]   ESPN basketball_nba: 5 games (fresh, 5 events found)
+[2026-10-07 13:40:16 ET] [INFO]   basketball_nba: 5 games from espn
+[2026-10-07 13:40:16 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-10-07 13:40:19 ET] [DEBUG]   [Minnesota Timberwolves @ Indiana Pacers] sigs=[] conf=0 pub=n/a ml_move=110→124
+[2026-10-07 13:40:19 ET] [DEBUG]     ✗ Minnesota Timberwolves @ Indiana Pacers — only 0/1 signals (need 1 more)
+[2026-10-07 13:40:22 ET] [DEBUG]   [Orlando Magic @ Memphis Grizzlies] sigs=[] conf=0 pub=n/a ml_move=110→114
+[2026-10-07 13:40:22 ET] [DEBUG]     ✗ Orlando Magic @ Memphis Grizzlies — only 0/1 signals (need 1 more)
+[2026-10-07 13:40:24 ET] [DEBUG]   [Milwaukee Bucks @ Oklahoma City Thunder] sigs=['sharp_money', 'rest_disadvantage', 'model_edge'] conf=60 pub=n/a ml_move=-455→-675
+[2026-10-07 13:40:24 ET] [DEBUG]     ✗ Milwaukee Bucks @ Oklahoma City Thunder — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-10-07 13:40:26 ET] [DEBUG]   [Phoenix Suns @ Chicago Bulls] sigs=[] conf=0 pub=n/a ml_move=120→114
+[2026-10-07 13:40:26 ET] [DEBUG]     ✗ Phoenix Suns @ Chicago Bulls — only 0/1 signals (need 1 more)
+[2026-10-07 13:40:28 ET] [DEBUG]   [Golden State Warriors @ Portland Trail Blazers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-238→-520
+[2026-10-07 13:40:28 ET] [DEBUG]     ✗ Golden State Warriors @ Portland Trail Blazers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-10-07 13:40:30 ET] [INFO]   ESPN baseball_mlb: 4 games (fresh, 4 events found)
+[2026-10-07 13:40:30 ET] [INFO]   baseball_mlb: 4 games from espn
+[2026-10-07 13:40:30 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-10-07 13:40:33 ET] [DEBUG]   [Cleveland Guardians @ Chicago White Sox] sigs=[] conf=0 pub=n/a ml_move=-120→-126
+[2026-10-07 13:40:33 ET] [DEBUG]     ✗ Cleveland Guardians @ Chicago White Sox — only 0/1 signals (need 1 more)
+[2026-10-07 13:40:35 ET] [DEBUG]   [Los Angeles Dodgers @ Atlanta Braves] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=112→128
+[2026-10-07 13:40:37 ET] [DEBUG]   [Tampa Bay Rays @ New York Yankees] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-147→-172
+[2026-10-07 13:40:40 ET] [DEBUG]   [Milwaukee Brewers @ San Diego Padres] sigs=['rest_disadvantage', 'model_edge'] conf=35 pub=n/a ml_move=-116→-112
+[2026-10-07 13:40:41 ET] [INFO]   ESPN icehockey_nhl: 3 games (fresh, 3 events found)
+[2026-10-07 13:40:41 ET] [INFO]   icehockey_nhl: 3 games from espn
+[2026-10-07 13:40:41 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-10-07 13:40:45 ET] [DEBUG]   [Pittsburgh Penguins @ Washington Capitals] sigs=[] conf=0 pub=n/a ml_move=-162→-162
+[2026-10-07 13:40:45 ET] [DEBUG]     ✗ Pittsburgh Penguins @ Washington Capitals — only 0/1 signals (need 1 more)
+[2026-10-07 13:40:48 ET] [DEBUG]   [Colorado Avalanche @ Winnipeg Jets] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=154→160
+[2026-10-07 13:40:48 ET] [DEBUG]     ✗ Colorado Avalanche @ Winnipeg Jets — conf 15 < 35 threshold
+[2026-10-07 13:40:51 ET] [DEBUG]   [Edmonton Oilers @ Anaheim Ducks] sigs=[] conf=0 pub=n/a ml_move=105→114
+[2026-10-07 13:40:51 ET] [DEBUG]     ✗ Edmonton Oilers @ Anaheim Ducks — only 0/1 signals (need 1 more)
+[2026-10-07 13:40:51 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-10-07 13:40:51 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-10-07 13:40:51 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-10-07 13:40:51 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-10-07 13:40:51 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-10-07 13:40:51 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-10-07 13:40:52 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-10-07 13:40:52 ET] [INFO] Morning scan complete -- 12 games checked, 3 opportunities
+[2026-10-07 13:40:52 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (cached)
+[2026-10-07 13:40:52 ET] [INFO] Morning briefing sent: 3 opportunities | combined units: 🔴 -69.8u
+[2026-10-07 13:40:52 ET] [INFO] Running record: 46.1% win rate | -4.9% ROI on 349 bets
+[2026-10-07 13:40:52 ET] [INFO] Unit totals — FanDuel: -69.76u | Kalshi: 0.0 | Options: 0
+[2026-10-07 13:40:52 ET] [INFO] Morning briefing complete
+[2026-10-07 13:40:52 ET] [INFO] ============================================================
