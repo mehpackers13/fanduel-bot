@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-07T03:24:47.948049Z",
-  "last_scan": "2026-10-06 23:24:47 ET",
-  "last_scan_ts": "2026-10-07T03:24:47.948049Z",
+  "generated_at": "2026-10-07T10:43:33.969087Z",
+  "last_scan": "2026-10-07 06:43:33 ET",
+  "last_scan_ts": "2026-10-07T10:43:33.969087Z",
   "stats": {
-    "total_alerts": 372,
-    "completed_bets": 347,
-    "win_rate": 46.4,
-    "total_pl": -610.63,
+    "total_alerts": 373,
+    "completed_bets": 349,
+    "win_rate": 46.1,
+    "total_pl": -697.63,
     "by_sport": {
       "NBA": {
-        "bets": 5,
+        "bets": 6,
         "wins": 0,
-        "pl": -175.0
+        "pl": -225.0
       },
       "MLB": {
-        "bets": 336,
+        "bets": 337,
         "wins": 156,
-        "pl": -620.7900000000001
+        "pl": -657.7900000000001
       },
       "NFL": {
         "bets": 5,
@@ -35,11 +35,11 @@
         "wins": 43
       },
       "rest_disadvantage": {
-        "bets": 337,
+        "bets": 339,
         "wins": 157
       },
       "model_edge": {
-        "bets": 269,
+        "bets": 271,
         "wins": 130
       },
       "public_fade": {
@@ -56,8 +56,30 @@
       }
     }
   },
-  "unit_total": -61.06,
+  "unit_total": -69.76,
   "today_bets": [
+    {
+      "timestamp": "2026-10-07 06:43 ET",
+      "sport": "MLB",
+      "game": "Milwaukee Brewers @ San Diego Padres",
+      "home_team": "San Diego Padres",
+      "away_team": "Milwaukee Brewers",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "-105",
+      "edge_pct": "3.4",
+      "confidence": "35",
+      "signals": "rest_disadvantage + model_edge",
+      "suggested_bet": "18.0",
+      "implied_prob": "51.2",
+      "true_prob": "54.6",
+      "reasoning": "Edge 3.4% on Milwaukee Brewers moneyline. San Diego Padres on back-to-back -- fatigue factor. Power rating: San Diego Padres wp=56.2% / Milwaukee Brewers wp=63.6% \u2014 Milwaukee Brewers underpriced (model 54.6% vs mkt 51.2%).",
+      "game_id": "espn_401908005",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
     {
       "timestamp": "2026-10-06 13:38 ET",
       "sport": "MLB",
@@ -76,8 +98,8 @@
       "reasoning": "Edge 7.9% on Milwaukee Brewers moneyline. San Diego Padres playing 3rd game in 4 nights. Power rating: San Diego Padres wp=56.2% / Milwaukee Brewers wp=63.6% \u2014 Milwaukee Brewers underpriced (model 54.6% vs mkt 46.7%).",
       "game_id": "espn_401908004",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "L",
+      "profit_loss": "-37.0",
       "notes": ""
     },
     {
@@ -98,8 +120,8 @@
       "reasoning": "Edge 53.3% on Los Angeles Lakers moneyline. Los Angeles Lakers on back-to-back -- fatigue factor. Power rating: Golden State Warriors wp=0.0% / Los Angeles Lakers wp=100.0% \u2014 Los Angeles Lakers underpriced (model 95.0% vs mkt 41.7%).",
       "game_id": "espn_401898390",
       "sport_key": "basketball_nba",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "L",
+      "profit_loss": "-50.0",
       "notes": ""
     }
   ],
@@ -137,6 +159,28 @@
   },
   "recent_bets": [
     {
+      "timestamp": "2026-10-07 06:43 ET",
+      "sport": "MLB",
+      "game": "Milwaukee Brewers @ San Diego Padres",
+      "home_team": "San Diego Padres",
+      "away_team": "Milwaukee Brewers",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "-105",
+      "edge_pct": "3.4",
+      "confidence": "35",
+      "signals": "rest_disadvantage + model_edge",
+      "suggested_bet": "18.0",
+      "implied_prob": "51.2",
+      "true_prob": "54.6",
+      "reasoning": "Edge 3.4% on Milwaukee Brewers moneyline. San Diego Padres on back-to-back -- fatigue factor. Power rating: San Diego Padres wp=56.2% / Milwaukee Brewers wp=63.6% \u2014 Milwaukee Brewers underpriced (model 54.6% vs mkt 51.2%).",
+      "game_id": "espn_401908005",
+      "sport_key": "baseball_mlb",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-10-06 13:38 ET",
       "sport": "MLB",
       "game": "Milwaukee Brewers @ San Diego Padres",
@@ -154,8 +198,8 @@
       "reasoning": "Edge 7.9% on Milwaukee Brewers moneyline. San Diego Padres playing 3rd game in 4 nights. Power rating: San Diego Padres wp=56.2% / Milwaukee Brewers wp=63.6% \u2014 Milwaukee Brewers underpriced (model 54.6% vs mkt 46.7%).",
       "game_id": "espn_401908004",
       "sport_key": "baseball_mlb",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "L",
+      "profit_loss": "-37.0",
       "notes": ""
     },
     {
@@ -176,8 +220,8 @@
       "reasoning": "Edge 53.3% on Los Angeles Lakers moneyline. Los Angeles Lakers on back-to-back -- fatigue factor. Power rating: Golden State Warriors wp=0.0% / Los Angeles Lakers wp=100.0% \u2014 Los Angeles Lakers underpriced (model 95.0% vs mkt 41.7%).",
       "game_id": "espn_401898390",
       "sport_key": "basketball_nba",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "L",
+      "profit_loss": "-50.0",
       "notes": ""
     },
     {
@@ -1208,28 +1252,6 @@
       "implied_prob": "54.9",
       "true_prob": "60.0",
       "reasoning": "Edge 5.0% on UNDER total. Tampa Bay Rays on back-to-back -- fatigue factor. Rain 29.6mm forecast \u2014 potential delays/cancellations, affects totals.",
-      "game_id": "espn_401816738",
-      "sport_key": "baseball_mlb",
-      "outcome": "L",
-      "profit_loss": "-28.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-08-29 22:34 ET",
-      "sport": "MLB",
-      "game": "San Diego Padres @ Tampa Bay Rays",
-      "home_team": "Tampa Bay Rays",
-      "away_team": "San Diego Padres",
-      "bet_type": "total",
-      "bet_side": "under",
-      "line": "u7.5",
-      "edge_pct": "5.0",
-      "confidence": "35",
-      "signals": "rest_disadvantage + weather_edge",
-      "suggested_bet": "28.0",
-      "implied_prob": "54.9",
-      "true_prob": "60.0",
-      "reasoning": "Edge 5.0% on UNDER total. Tampa Bay Rays on back-to-back -- fatigue factor. Rain 26.5mm forecast \u2014 potential delays/cancellations, affects totals.",
       "game_id": "espn_401816738",
       "sport_key": "baseball_mlb",
       "outcome": "L",
