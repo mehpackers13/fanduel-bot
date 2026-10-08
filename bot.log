@@ -114029,3 +114029,66 @@
 [2026-10-07 23:56:53 ET] [INFO] ============================================================
 [2026-10-08 05:19:59 ET] [INFO] Running injury scan
 [2026-10-08 05:20:01 ET] [INFO] Injury scan complete — no new key injuries
+[2026-10-08 07:03:17 ET] [INFO] ============================================================
+[2026-10-08 07:03:17 ET] [INFO] Starting full scan
+[2026-10-08 07:03:17 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-10-08 07:03:20 ET] [INFO] Auto-resolved espn_401908005: Milwaukee Brewers @ San Diego Padres → W (home 1.0, away 3.0)
+[2026-10-08 07:03:20 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-10-08 07:03:20 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-10-08 07:03:20 ET] [INFO]   ESPN americanfootball_nfl: 1 games (fresh, 1 events found)
+[2026-10-08 07:03:20 ET] [INFO]   americanfootball_nfl: 1 games from espn
+[2026-10-08 07:03:20 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nfl/odds: HTTP 202
+[2026-10-08 07:03:23 ET] [DEBUG]   [Tampa Bay Buccaneers @ Dallas Cowboys] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-205→-470
+[2026-10-08 07:03:23 ET] [DEBUG]     ✗ Tampa Bay Buccaneers @ Dallas Cowboys — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-10-08 07:03:26 ET] [INFO]   ESPN basketball_nba: 6 games (fresh, 6 events found)
+[2026-10-08 07:03:26 ET] [INFO]   basketball_nba: 6 games from espn
+[2026-10-08 07:03:26 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-10-08 07:03:31 ET] [DEBUG]   [Boston Celtics @ Cleveland Cavaliers] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-112→130
+[2026-10-08 07:03:31 ET] [DEBUG]     ✗ Boston Celtics @ Cleveland Cavaliers — conf 25 < 35 threshold
+[2026-10-08 07:03:36 ET] [DEBUG]   [New Orleans Pelicans @ Miami Heat] sigs=[] conf=0 pub=n/a ml_move=-298→-298
+[2026-10-08 07:03:36 ET] [DEBUG]     ✗ New Orleans Pelicans @ Miami Heat — only 0/1 signals (need 1 more)
+[2026-10-08 07:03:41 ET] [DEBUG]   [Philadelphia 76ers @ Brooklyn Nets] sigs=[] conf=0 pub=n/a ml_move=190→180
+[2026-10-08 07:03:41 ET] [DEBUG]     ✗ Philadelphia 76ers @ Brooklyn Nets — only 0/1 signals (need 1 more)
+[2026-10-08 07:03:45 ET] [DEBUG]   [Washington Wizards @ New York Knicks] sigs=[] conf=0 pub=n/a ml_move=-245→-258
+[2026-10-08 07:03:45 ET] [DEBUG]     ✗ Washington Wizards @ New York Knicks — only 0/1 signals (need 1 more)
+[2026-10-08 07:03:50 ET] [DEBUG]   [Atlanta Hawks @ San Antonio Spurs] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-230→-298
+[2026-10-08 07:03:50 ET] [DEBUG]     ✗ Atlanta Hawks @ San Antonio Spurs — conf 25 < 35 threshold
+[2026-10-08 07:03:55 ET] [DEBUG]   [Sacramento Kings @ Los Angeles Lakers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=-218→-410
+[2026-10-08 07:03:55 ET] [DEBUG]     ✗ Sacramento Kings @ Los Angeles Lakers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-10-08 07:03:55 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 1 events found)
+[2026-10-08 07:03:55 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-10-08 07:03:55 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-10-08 07:03:59 ET] [DEBUG]   [Cleveland Guardians @ Chicago White Sox] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-107→-106
+[2026-10-08 07:03:59 ET] [DEBUG]     ✗ Cleveland Guardians @ Chicago White Sox — conf 15 < 35 threshold
+[2026-10-08 07:04:05 ET] [INFO]   ESPN icehockey_nhl: 10 games (fresh, 10 events found)
+[2026-10-08 07:04:05 ET] [INFO]   icehockey_nhl: 10 games from espn
+[2026-10-08 07:04:05 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-10-08 07:04:11 ET] [DEBUG]   [Philadelphia Flyers @ Ottawa Senators] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-125→-148
+[2026-10-08 07:04:11 ET] [DEBUG]     ✗ Philadelphia Flyers @ Ottawa Senators — conf 15 < 35 threshold
+[2026-10-08 07:04:16 ET] [DEBUG]   [Utah Mammoth @ Boston Bruins] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-115→105
+[2026-10-08 07:04:16 ET] [DEBUG]     ✗ Utah Mammoth @ Boston Bruins — conf 25 < 35 threshold
+[2026-10-08 07:04:21 ET] [DEBUG]   [Dallas Stars @ Buffalo Sabres] sigs=[] conf=0 pub=n/a ml_move=-115→-102
+[2026-10-08 07:04:21 ET] [DEBUG]     ✗ Dallas Stars @ Buffalo Sabres — only 0/1 signals (need 1 more)
+[2026-10-08 07:04:26 ET] [DEBUG]   [Nashville Predators @ Montreal Canadiens] sigs=[] conf=0 pub=n/a ml_move=-198→-185
+[2026-10-08 07:04:26 ET] [DEBUG]     ✗ Nashville Predators @ Montreal Canadiens — only 0/1 signals (need 1 more)
+[2026-10-08 07:04:32 ET] [DEBUG]   [Minnesota Wild @ Tampa Bay Lightning] sigs=[] conf=0 pub=n/a ml_move=-148→-155
+[2026-10-08 07:04:32 ET] [DEBUG]     ✗ Minnesota Wild @ Tampa Bay Lightning — only 0/1 signals (need 1 more)
+[2026-10-08 07:04:37 ET] [DEBUG]   [Vancouver Canucks @ Carolina Hurricanes] sigs=[] conf=0 pub=n/a ml_move=-325→-325
+[2026-10-08 07:04:37 ET] [DEBUG]     ✗ Vancouver Canucks @ Carolina Hurricanes — only 0/1 signals (need 1 more)
+[2026-10-08 07:04:42 ET] [DEBUG]   [Chicago Blackhawks @ New York Islanders] sigs=[] conf=0 pub=n/a ml_move=-205→-185
+[2026-10-08 07:04:42 ET] [DEBUG]     ✗ Chicago Blackhawks @ New York Islanders — only 0/1 signals (need 1 more)
+[2026-10-08 07:04:47 ET] [DEBUG]   [San Jose Sharks @ St. Louis Blues] sigs=['sharp_money'] conf=25 pub=n/a ml_move=100→-142
+[2026-10-08 07:04:47 ET] [DEBUG]     ✗ San Jose Sharks @ St. Louis Blues — conf 25 < 35 threshold
+[2026-10-08 07:04:53 ET] [DEBUG]   [Colorado Avalanche @ Calgary Flames] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=180→195
+[2026-10-08 07:04:53 ET] [DEBUG]     ✗ Colorado Avalanche @ Calgary Flames — conf 15 < 35 threshold
+[2026-10-08 07:04:58 ET] [DEBUG]   [Toronto Maple Leafs @ Vegas Golden Knights] sigs=['travel_disadvantage'] conf=15 pub=n/a ml_move=-162→-170
+[2026-10-08 07:04:58 ET] [DEBUG]     ✗ Toronto Maple Leafs @ Vegas Golden Knights — conf 15 < 35 threshold
+[2026-10-08 07:04:58 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-10-08 07:04:58 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-10-08 07:04:58 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-10-08 07:04:59 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-10-08 07:04:59 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-10-08 07:04:59 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-10-08 07:04:59 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-10-08 07:04:59 ET] [INFO] Scan complete -- 18 games checked, 0 alerts (silence = discipline)
+[2026-10-08 07:04:59 ET] [INFO] ============================================================
