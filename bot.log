@@ -113978,3 +113978,52 @@
 [2026-10-07 19:56:45 ET] [INFO] ============================================================
 [2026-10-07 22:26:56 ET] [INFO] Running injury scan
 [2026-10-07 22:26:59 ET] [INFO] Injury scan complete — no new key injuries
+[2026-10-07 23:55:51 ET] [INFO] ============================================================
+[2026-10-07 23:55:51 ET] [INFO] Starting full scan
+[2026-10-07 23:55:51 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-10-07 23:55:54 ET] [INFO] Auto-resolved espn_401907987: Tampa Bay Rays @ New York Yankees → W (home 3.0, away 4.0)
+[2026-10-07 23:55:54 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-10-07 23:55:54 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-10-07 23:55:55 ET] [INFO]   ESPN americanfootball_nfl: 1 games (fresh, 1 events found)
+[2026-10-07 23:55:55 ET] [INFO]   americanfootball_nfl: 1 games from espn
+[2026-10-07 23:55:55 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nfl/odds: HTTP 202
+[2026-10-07 23:55:57 ET] [DEBUG]   [Tampa Bay Buccaneers @ Dallas Cowboys] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-205→-470
+[2026-10-07 23:55:57 ET] [DEBUG]     ✗ Tampa Bay Buccaneers @ Dallas Cowboys — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-10-07 23:55:59 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 6 events found)
+[2026-10-07 23:55:59 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 1 events found)
+[2026-10-07 23:55:59 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-10-07 23:56:00 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-10-07 23:56:03 ET] [DEBUG]   [Cleveland Guardians @ Chicago White Sox] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-107→-103
+[2026-10-07 23:56:03 ET] [DEBUG]     ✗ Cleveland Guardians @ Chicago White Sox — conf 15 < 35 threshold
+[2026-10-07 23:56:08 ET] [INFO]   ESPN icehockey_nhl: 10 games (fresh, 10 events found)
+[2026-10-07 23:56:08 ET] [INFO]   icehockey_nhl: 10 games from espn
+[2026-10-07 23:56:08 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-10-07 23:56:13 ET] [DEBUG]   [Philadelphia Flyers @ Ottawa Senators] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-125→-142
+[2026-10-07 23:56:13 ET] [DEBUG]     ✗ Philadelphia Flyers @ Ottawa Senators — conf 15 < 35 threshold
+[2026-10-07 23:56:17 ET] [DEBUG]   [Utah Mammoth @ Boston Bruins] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-115→105
+[2026-10-07 23:56:17 ET] [DEBUG]     ✗ Utah Mammoth @ Boston Bruins — conf 25 < 35 threshold
+[2026-10-07 23:56:22 ET] [DEBUG]   [Dallas Stars @ Buffalo Sabres] sigs=[] conf=0 pub=n/a ml_move=-115→-105
+[2026-10-07 23:56:22 ET] [DEBUG]     ✗ Dallas Stars @ Buffalo Sabres — only 0/1 signals (need 1 more)
+[2026-10-07 23:56:26 ET] [DEBUG]   [Nashville Predators @ Montreal Canadiens] sigs=[] conf=0 pub=n/a ml_move=-198→-185
+[2026-10-07 23:56:26 ET] [DEBUG]     ✗ Nashville Predators @ Montreal Canadiens — only 0/1 signals (need 1 more)
+[2026-10-07 23:56:31 ET] [DEBUG]   [Minnesota Wild @ Tampa Bay Lightning] sigs=[] conf=0 pub=n/a ml_move=-148→-148
+[2026-10-07 23:56:31 ET] [DEBUG]     ✗ Minnesota Wild @ Tampa Bay Lightning — only 0/1 signals (need 1 more)
+[2026-10-07 23:56:35 ET] [DEBUG]   [Vancouver Canucks @ Carolina Hurricanes] sigs=[] conf=0 pub=n/a ml_move=-325→-325
+[2026-10-07 23:56:35 ET] [DEBUG]     ✗ Vancouver Canucks @ Carolina Hurricanes — only 0/1 signals (need 1 more)
+[2026-10-07 23:56:39 ET] [DEBUG]   [Chicago Blackhawks @ New York Islanders] sigs=[] conf=0 pub=n/a ml_move=-205→-185
+[2026-10-07 23:56:39 ET] [DEBUG]     ✗ Chicago Blackhawks @ New York Islanders — only 0/1 signals (need 1 more)
+[2026-10-07 23:56:44 ET] [DEBUG]   [San Jose Sharks @ St. Louis Blues] sigs=['sharp_money'] conf=25 pub=n/a ml_move=100→-142
+[2026-10-07 23:56:44 ET] [DEBUG]     ✗ San Jose Sharks @ St. Louis Blues — conf 25 < 35 threshold
+[2026-10-07 23:56:48 ET] [DEBUG]   [Colorado Avalanche @ Calgary Flames] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=180→195
+[2026-10-07 23:56:48 ET] [DEBUG]     ✗ Colorado Avalanche @ Calgary Flames — conf 15 < 35 threshold
+[2026-10-07 23:56:52 ET] [DEBUG]   [Toronto Maple Leafs @ Vegas Golden Knights] sigs=['travel_disadvantage'] conf=15 pub=n/a ml_move=-162→-170
+[2026-10-07 23:56:52 ET] [DEBUG]     ✗ Toronto Maple Leafs @ Vegas Golden Knights — conf 15 < 35 threshold
+[2026-10-07 23:56:52 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-10-07 23:56:53 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-10-07 23:56:53 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-10-07 23:56:53 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-10-07 23:56:53 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-10-07 23:56:53 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-10-07 23:56:53 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-10-07 23:56:53 ET] [INFO] Scan complete -- 12 games checked, 0 alerts (silence = discipline)
+[2026-10-07 23:56:53 ET] [INFO] ============================================================
