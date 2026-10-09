@@ -114325,3 +114325,47 @@
 [2026-10-08 20:03:56 ET] [INFO] ============================================================
 [2026-10-08 21:42:28 ET] [INFO] Running injury scan
 [2026-10-08 21:42:30 ET] [INFO] Injury scan complete — no new key injuries
+[2026-10-09 04:11:25 ET] [INFO] ============================================================
+[2026-10-09 04:11:25 ET] [INFO] Starting full scan
+[2026-10-09 04:11:25 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-10-09 04:11:27 ET] [INFO] Auto-resolved espn_401901823: Philadelphia 76ers @ Brooklyn Nets → W (home 114.0, away 108.0)
+[2026-10-09 04:11:27 ET] [INFO] Wrote 1 auto-resolved outcome(s) to /home/runner/work/fanduel-bot/fanduel-bot/bets_log.csv
+[2026-10-09 04:11:27 ET] [INFO] Auto-resolved 1 pending bet outcome(s) from ESPN scores
+[2026-10-09 04:11:27 ET] [INFO]   ESPN americanfootball_nfl: 0 games (fresh, 0 events found)
+[2026-10-09 04:11:28 ET] [INFO]   ESPN basketball_nba: 2 games (fresh, 2 events found)
+[2026-10-09 04:11:28 ET] [INFO]   basketball_nba: 2 games from espn
+[2026-10-09 04:11:28 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-10-09 04:11:31 ET] [DEBUG]   [Houston Rockets @ Dallas Mavericks] sigs=[] conf=0 pub=n/a ml_move=110→114
+[2026-10-09 04:11:31 ET] [DEBUG]     ✗ Houston Rockets @ Dallas Mavericks — only 0/1 signals (need 1 more)
+[2026-10-09 04:11:34 ET] [DEBUG]   [Memphis Grizzlies @ Chicago Bulls] sigs=[] conf=0 pub=n/a ml_move=-155→-155
+[2026-10-09 04:11:34 ET] [DEBUG]     ✗ Memphis Grizzlies @ Chicago Bulls — only 0/1 signals (need 1 more)
+[2026-10-09 04:11:34 ET] [INFO]   ESPN baseball_mlb: 0 games (fresh, 0 events found)
+[2026-10-09 04:11:35 ET] [INFO]   ESPN icehockey_nhl: 4 games (fresh, 4 events found)
+[2026-10-09 04:11:35 ET] [INFO]   icehockey_nhl: 4 games from espn
+[2026-10-09 04:11:36 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-10-09 04:11:40 ET] [DEBUG]   [Seattle Kraken @ Detroit Red Wings] sigs=[] conf=0 pub=n/a ml_move=-142→-142
+[2026-10-09 04:11:40 ET] [DEBUG]     ✗ Seattle Kraken @ Detroit Red Wings — only 0/1 signals (need 1 more)
+[2026-10-09 04:11:43 ET] [DEBUG]   [New York Rangers @ Washington Capitals] sigs=[] conf=0 pub=n/a ml_move=-142→-142
+[2026-10-09 04:11:43 ET] [DEBUG]     ✗ New York Rangers @ Washington Capitals — only 0/1 signals (need 1 more)
+[2026-10-09 04:11:46 ET] [DEBUG]   [Pittsburgh Penguins @ Columbus Blue Jackets] sigs=[] conf=0 pub=n/a ml_move=-125→-122
+[2026-10-09 04:11:46 ET] [DEBUG]     ✗ Pittsburgh Penguins @ Columbus Blue Jackets — only 0/1 signals (need 1 more)
+[2026-10-09 04:11:50 ET] [DEBUG]   [Anaheim Ducks @ Winnipeg Jets] sigs=[] conf=0 pub=n/a ml_move=-120→-125
+[2026-10-09 04:11:50 ET] [DEBUG]     ✗ Anaheim Ducks @ Winnipeg Jets — only 0/1 signals (need 1 more)
+[2026-10-09 04:11:50 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-10-09 04:11:50 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-10-09 04:11:50 ET] [INFO]   ESPN soccer_esp_la_liga: 1 games (fresh, 1 events found)
+[2026-10-09 04:11:50 ET] [INFO]   soccer_esp_la_liga: 1 games from espn
+[2026-10-09 04:11:52 ET] [DEBUG]   [Espanyol @ Málaga] sigs=['sharp_money'] conf=25 pub=n/a ml_move=140→190
+[2026-10-09 04:11:52 ET] [DEBUG]     ✗ Espanyol @ Málaga — conf 25 < 35 threshold
+[2026-10-09 04:11:52 ET] [INFO]   ESPN soccer_ger_bundesliga: 1 games (fresh, 1 events found)
+[2026-10-09 04:11:52 ET] [INFO]   soccer_ger_bundesliga: 1 games from espn
+[2026-10-09 04:11:53 ET] [DEBUG]   [Werder Bremen @ Borussia Dortmund] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-275→-340
+[2026-10-09 04:11:53 ET] [DEBUG]     ✗ Werder Bremen @ Borussia Dortmund — conf 25 < 35 threshold
+[2026-10-09 04:11:53 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-10-09 04:11:53 ET] [INFO]   ESPN soccer_fra_ligue_one: 1 games (fresh, 1 events found)
+[2026-10-09 04:11:53 ET] [INFO]   soccer_fra_ligue_one: 1 games from espn
+[2026-10-09 04:11:54 ET] [DEBUG]   [Lyon @ Lens] sigs=[] conf=0 pub=n/a ml_move=115→135
+[2026-10-09 04:11:54 ET] [DEBUG]     ✗ Lyon @ Lens — only 0/1 signals (need 1 more)
+[2026-10-09 04:11:54 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-10-09 04:11:54 ET] [INFO] Scan complete -- 9 games checked, 0 alerts (silence = discipline)
+[2026-10-09 04:11:54 ET] [INFO] ============================================================
