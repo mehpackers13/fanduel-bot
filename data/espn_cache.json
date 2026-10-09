@@ -1,10 +1,10 @@
 {
   "americanfootball_nfl": {
-    "ts": "2026-10-09T17:20:01.285825",
+    "ts": "2026-10-09T22:01:36.693243",
     "games": []
   },
   "basketball_nba": {
-    "ts": "2026-10-09T17:20:02.039897",
+    "ts": "2026-10-09T22:01:37.736805",
     "games": [
       {
         "game_id": "espn_401908940",
@@ -13,31 +13,31 @@
         "home_team": "Chicago Bulls",
         "away_team": "Memphis Grizzlies",
         "commence": "2026-10-10T00:00Z",
-        "hours_out": 6.7,
+        "hours_out": 2.0,
         "venue_city": "Chicago",
         "source": "espn",
         "h2h": {
-          "home_odds": -142,
-          "away_odds": 120,
-          "home_prob": 0.5868,
-          "away_prob": 0.4545,
-          "true_home_prob": 0.5635,
-          "true_away_prob": 0.4365,
-          "best_home_odds": -142,
-          "best_away_odds": 120,
+          "home_odds": -130,
+          "away_odds": 110,
+          "home_prob": 0.5652,
+          "away_prob": 0.4762,
+          "true_home_prob": 0.5427,
+          "true_away_prob": 0.4573,
+          "best_home_odds": -130,
+          "best_away_odds": 110,
           "spread_point": -2.5,
           "book_count": 1
         },
         "spread": {
-          "home_odds": -115,
-          "away_odds": -105,
-          "home_prob": 0.5348837209302325,
-          "away_prob": 0.5121951219512195,
+          "home_odds": -105,
+          "away_odds": -115,
+          "home_prob": 0.5121951219512195,
+          "away_prob": 0.5348837209302325,
           "true_home_prob": 0.5,
           "true_away_prob": 0.5,
           "spread_point": -2.5,
-          "best_home_odds": -115,
-          "best_away_odds": -105,
+          "best_home_odds": -105,
+          "best_away_odds": -115,
           "book_count": 1
         },
         "total": {
@@ -50,8 +50,8 @@
         "line_movement": {
           "open_home_ml": -155,
           "open_away_ml": 130,
-          "current_home_ml": -142,
-          "current_away_ml": 120,
+          "current_home_ml": -130,
+          "current_away_ml": 110,
           "open_spread": null,
           "current_spread": -2.5,
           "spread_moved": null,
@@ -61,168 +61,12 @@
     ]
   },
   "baseball_mlb": {
-    "ts": "2026-10-09T17:20:05.779918",
+    "ts": "2026-10-09T22:01:42.614739",
     "games": []
   },
   "icehockey_nhl": {
-    "ts": "2026-10-09T17:20:07.251552",
+    "ts": "2026-10-09T22:01:44.215669",
     "games": [
-      {
-        "game_id": "espn_401892465",
-        "sport_key": "icehockey_nhl",
-        "sport": "NHL",
-        "home_team": "Detroit Red Wings",
-        "away_team": "Seattle Kraken",
-        "commence": "2026-10-09T23:00Z",
-        "hours_out": 5.7,
-        "venue_city": "Detroit",
-        "source": "espn",
-        "h2h": {
-          "home_odds": -142,
-          "away_odds": 120,
-          "home_prob": 0.5868,
-          "away_prob": 0.4545,
-          "true_home_prob": 0.5635,
-          "true_away_prob": 0.4365,
-          "best_home_odds": -142,
-          "best_away_odds": 120,
-          "spread_point": -1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": 170,
-          "away_odds": -205,
-          "home_prob": 0.37037037037037035,
-          "away_prob": 0.6721311475409836,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": -1.5,
-          "best_home_odds": 170,
-          "best_away_odds": -205,
-          "book_count": 1
-        },
-        "total": {
-          "line": 6.5,
-          "over_odds": 110,
-          "under_odds": -130,
-          "over_prob": 0.47619047619047616,
-          "under_prob": 0.5652173913043478
-        },
-        "line_movement": {
-          "open_home_ml": -142,
-          "open_away_ml": 120,
-          "current_home_ml": -142,
-          "current_away_ml": 120,
-          "open_spread": null,
-          "current_spread": -1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
-      {
-        "game_id": "espn_401892466",
-        "sport_key": "icehockey_nhl",
-        "sport": "NHL",
-        "home_team": "Washington Capitals",
-        "away_team": "New York Rangers",
-        "commence": "2026-10-09T23:00Z",
-        "hours_out": 5.7,
-        "venue_city": "Washington",
-        "source": "espn",
-        "h2h": {
-          "home_odds": -148,
-          "away_odds": 124,
-          "home_prob": 0.5968,
-          "away_prob": 0.4464,
-          "true_home_prob": 0.5721,
-          "true_away_prob": 0.4279,
-          "best_home_odds": -148,
-          "best_away_odds": 124,
-          "spread_point": -1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": 180,
-          "away_odds": -218,
-          "home_prob": 0.35714285714285715,
-          "away_prob": 0.6855345911949685,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": -1.5,
-          "best_home_odds": 180,
-          "best_away_odds": -218,
-          "book_count": 1
-        },
-        "total": {
-          "line": 5.5,
-          "over_odds": -125,
-          "under_odds": 105,
-          "over_prob": 0.5555555555555556,
-          "under_prob": 0.4878048780487805
-        },
-        "line_movement": {
-          "open_home_ml": -142,
-          "open_away_ml": 120,
-          "current_home_ml": -148,
-          "current_away_ml": 124,
-          "open_spread": null,
-          "current_spread": -1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
-      {
-        "game_id": "espn_401892467",
-        "sport_key": "icehockey_nhl",
-        "sport": "NHL",
-        "home_team": "Columbus Blue Jackets",
-        "away_team": "Pittsburgh Penguins",
-        "commence": "2026-10-09T23:00Z",
-        "hours_out": 5.7,
-        "venue_city": "Columbus",
-        "source": "espn",
-        "h2h": {
-          "home_odds": -118,
-          "away_odds": -102,
-          "home_prob": 0.5413,
-          "away_prob": 0.505,
-          "true_home_prob": 0.5174,
-          "true_away_prob": 0.4826,
-          "best_home_odds": -118,
-          "best_away_odds": -102,
-          "spread_point": -1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": 205,
-          "away_odds": -250,
-          "home_prob": 0.32786885245901637,
-          "away_prob": 0.7142857142857143,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": -1.5,
-          "best_home_odds": 205,
-          "best_away_odds": -250,
-          "book_count": 1
-        },
-        "total": {
-          "line": 6.5,
-          "over_odds": -115,
-          "under_odds": -105,
-          "over_prob": 0.5348837209302325,
-          "under_prob": 0.5121951219512195
-        },
-        "line_movement": {
-          "open_home_ml": -125,
-          "open_away_ml": 105,
-          "current_home_ml": -118,
-          "current_away_ml": -102,
-          "open_spread": null,
-          "current_spread": -1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      },
       {
         "game_id": "espn_401892468",
         "sport_key": "icehockey_nhl",
@@ -230,7 +74,7 @@
         "home_team": "Winnipeg Jets",
         "away_team": "Anaheim Ducks",
         "commence": "2026-10-10T00:00Z",
-        "hours_out": 6.7,
+        "hours_out": 2.0,
         "venue_city": "Winnipeg",
         "source": "espn",
         "h2h": {
@@ -278,190 +122,31 @@
     ]
   },
   "soccer_usa_mls": {
-    "ts": "2026-10-09T17:20:23.708147",
+    "ts": "2026-10-09T22:01:50.577611",
     "games": []
   },
   "soccer_epl": {
-    "ts": "2026-10-09T17:20:23.817045",
+    "ts": "2026-10-09T22:01:50.715622",
     "games": []
   },
   "soccer_esp_la_liga": {
-    "ts": "2026-10-09T17:20:24.334993",
-    "games": [
-      {
-        "game_id": "espn_401882851",
-        "sport_key": "soccer_esp_la_liga",
-        "sport": "La Liga",
-        "home_team": "M\u00e1laga",
-        "away_team": "Espanyol",
-        "commence": "2026-10-09T19:00Z",
-        "hours_out": 1.7,
-        "venue_city": "Malaga",
-        "source": "espn",
-        "h2h": {
-          "home_odds": 190,
-          "away_odds": 160,
-          "home_prob": 0.3448,
-          "away_prob": 0.3846,
-          "true_home_prob": 0.4727,
-          "true_away_prob": 0.5273,
-          "best_home_odds": 190,
-          "best_away_odds": 160,
-          "spread_point": 0.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": -200,
-          "away_odds": 140,
-          "home_prob": 0.6666666666666666,
-          "away_prob": 0.4166666666666667,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": 0.5,
-          "best_home_odds": -200,
-          "best_away_odds": 140,
-          "book_count": 1
-        },
-        "total": {
-          "line": 2.5,
-          "over_odds": 105,
-          "under_odds": -130,
-          "over_prob": 0.4878048780487805,
-          "under_prob": 0.5652173913043478
-        },
-        "line_movement": {
-          "open_home_ml": 140,
-          "open_away_ml": 190,
-          "current_home_ml": 190,
-          "current_away_ml": 160,
-          "open_spread": null,
-          "current_spread": 0.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      }
-    ]
+    "ts": "2026-10-09T22:01:51.268449",
+    "games": []
   },
   "soccer_ger_bundesliga": {
-    "ts": "2026-10-09T17:20:25.762562",
-    "games": [
-      {
-        "game_id": "espn_401884781",
-        "sport_key": "soccer_ger_bundesliga",
-        "sport": "Bundesliga",
-        "home_team": "Borussia Dortmund",
-        "away_team": "Werder Bremen",
-        "commence": "2026-10-09T18:30Z",
-        "hours_out": 1.2,
-        "venue_city": "Aue",
-        "source": "espn",
-        "h2h": {
-          "home_odds": -300,
-          "away_odds": 650,
-          "home_prob": 0.75,
-          "away_prob": 0.1333,
-          "true_home_prob": 0.8491,
-          "true_away_prob": 0.1509,
-          "best_home_odds": -300,
-          "best_away_odds": 650,
-          "spread_point": -1.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": -120,
-          "away_odds": -120,
-          "home_prob": 0.5454545454545454,
-          "away_prob": 0.5454545454545454,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": -1.5,
-          "best_home_odds": -120,
-          "best_away_odds": -120,
-          "book_count": 1
-        },
-        "total": {
-          "line": 3.5,
-          "over_odds": 115,
-          "under_odds": -145,
-          "over_prob": 0.46511627906976744,
-          "under_prob": 0.5918367346938775
-        },
-        "line_movement": {
-          "open_home_ml": -275,
-          "open_away_ml": 500,
-          "current_home_ml": -300,
-          "current_away_ml": 650,
-          "open_spread": null,
-          "current_spread": -1.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      }
-    ]
+    "ts": "2026-10-09T22:01:51.719280",
+    "games": []
   },
   "soccer_ita_serie_a": {
-    "ts": "2026-10-09T17:20:26.797830",
+    "ts": "2026-10-09T22:01:51.851203",
     "games": []
   },
   "soccer_fra_ligue_one": {
-    "ts": "2026-10-09T17:20:27.287417",
-    "games": [
-      {
-        "game_id": "espn_401876447",
-        "sport_key": "soccer_fra_ligue_one",
-        "sport": "Ligue 1",
-        "home_team": "Lens",
-        "away_team": "Lyon",
-        "commence": "2026-10-09T18:45Z",
-        "hours_out": 1.4,
-        "venue_city": "Lens",
-        "source": "espn",
-        "h2h": {
-          "home_odds": 160,
-          "away_odds": 155,
-          "home_prob": 0.3846,
-          "away_prob": 0.3922,
-          "true_home_prob": 0.4951,
-          "true_away_prob": 0.5049,
-          "best_home_odds": 160,
-          "best_away_odds": 155,
-          "spread_point": 0.5,
-          "book_count": 1
-        },
-        "spread": {
-          "home_odds": -195,
-          "away_odds": 140,
-          "home_prob": 0.6610169491525424,
-          "away_prob": 0.4166666666666667,
-          "true_home_prob": 0.5,
-          "true_away_prob": 0.5,
-          "spread_point": 0.5,
-          "best_home_odds": -195,
-          "best_away_odds": 140,
-          "book_count": 1
-        },
-        "total": {
-          "line": 3.5,
-          "over_odds": 125,
-          "under_odds": -160,
-          "over_prob": 0.4444444444444444,
-          "under_prob": 0.6153846153846154
-        },
-        "line_movement": {
-          "open_home_ml": 115,
-          "open_away_ml": 200,
-          "current_home_ml": 160,
-          "current_away_ml": 155,
-          "open_spread": null,
-          "current_spread": 0.5,
-          "spread_moved": null,
-          "is_sharp": false
-        }
-      }
-    ]
+    "ts": "2026-10-09T22:01:52.328928",
+    "games": []
   },
   "mma_mixed_martial_arts": {
-    "ts": "2026-10-09T17:20:28.333218",
+    "ts": "2026-10-09T22:01:52.470830",
     "games": []
   }
 }
