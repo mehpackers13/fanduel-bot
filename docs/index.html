@@ -166,6 +166,10 @@
 <footer>fanduel-bot · silence = discipline · auto-refreshes every 5 minutes</footer>
 
 <script>
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
 const DATA_URL = "data.json";
 
 function fmtEdge(e) {
@@ -180,17 +184,17 @@ function fmtConf(c) {
   return `<div class="conf-bar"><div class="conf-track"><div class="conf-fill" style="width:${Math.min(n,100)}%;background:${col}"></div></div><span style="font-size:10px;color:${col};min-width:22px">${n}</span></div>`;
 }
 function fmtOutcome(o) {
-  if (!o) return '<span class="badge b_">OPEN</span>';
+  if (!["W", "L", "P"].includes(o)) return '<span class="badge b_">OPEN</span>';
   return `<span class="badge b${o}">${o}</span>`;
 }
 function fmtPL(pl) {
   const n = parseFloat(pl);
   if (isNaN(n) || pl === "") return "—";
-  return `<span class="${n > 0 ? "pl-pos" : n < 0 ? "pl-neg" : ""}">${n >= 0 ? "+" : ""}$${Math.abs(n).toFixed(2)}</span>`;
+  return `<span class="${n > 0 ? "pl-pos" : n < 0 ? "pl-neg" : ""}">${n >= 0 ? "+" : "-"}$${Math.abs(n).toFixed(2)}</span>`;
 }
 function fmtSigs(s) {
   if (!s) return "—";
-  return s.split(" + ").map(x => x.trim()).filter(Boolean).map(x => `<span class="sig">${x.replace(/_/g," ")}</span>`).join(" ");
+  return s.split(" + ").map(x => x.trim()).filter(Boolean).map(x => `<span class="sig">${escapeHtml(x.replace(/_/g," "))}</span>`).join(" ");
 }
 function wpct(w, b) { return b ? (w/b*100).toFixed(1)+"%" : "—"; }
 
@@ -198,6 +202,7 @@ function setStatus(ts) {
   const dot = document.getElementById("status-dot");
   const txt = document.getElementById("status-text");
   try {
+    if (!ts || !Number.isFinite(Date.parse(ts)) || Date.parse(ts) > Date.now() + 300000) throw new Error("Unknown scan time");
     const gen = new Date(ts);
     const ageMin = (Date.now() - gen.getTime()) / 60000;
     if (ageMin < 120) { dot.className = "dot green"; txt.textContent = "Live — scanned " + Math.round(ageMin) + "m ago"; }
@@ -212,7 +217,7 @@ async function load() {
     const data = await res.json();
 
     document.getElementById("gen-at").textContent = data.generated_at ? new Date(data.generated_at).toLocaleString() : "—";
-    setStatus(data.last_scan_ts || data.generated_at);
+    setStatus(('last_scan_ts' in data ? data.last_scan_ts : data.generated_at));
 
     const stats = data.stats || {};
     const done  = stats.completed_bets || 0;
@@ -230,7 +235,7 @@ async function load() {
       hu.className = "hero-unit " + (units > 0 ? "pos" : units < 0 ? "neg" : "neu");
     }
     document.getElementById("hero-sub").innerHTML =
-      `Win rate: <strong>${wr !== null && wr !== undefined ? wr.toFixed(1)+"%" : "—"}</strong> · P&L: <strong>${pl !== null && pl !== undefined ? (pl >= 0 ? "+$" : "-$") + Math.abs(pl).toFixed(2) : "—"}</strong> · ${done} completed bets`;
+      `Win rate: <strong>${wr !== null && wr !== undefined ? wr.toFixed(1)+"%" : "—"}</strong> · P&L: <strong>${pl !== null && pl !== undefined ? (pl >= 0 ? "+$" : "-$") + Math.abs(pl).toFixed(2) : "—"}</strong> · ${escapeHtml(done)} completed bets`;
 
     // Cards
     const wrEl = document.getElementById("c-wr");
@@ -255,7 +260,7 @@ async function load() {
         const sport   = b.sport || "?";
         const game    = b.game || "?";
         const bet     = ((b.bet_type || "") + " " + (b.bet_side || "")).trim().toUpperCase();
-        return `<div class="today-row">${icon} <span class="sport-tag">${sport}</span> <span style="color:var(--text)">${game}</span> <span style="color:var(--muted)">${bet} ${b.line||""}</span> <span style="margin-left:auto">${fmtPL(b.profit_loss)}</span></div>`;
+        return `<div class="today-row">${icon} <span class="sport-tag">${escapeHtml(sport)}</span> <span style="color:var(--text)">${escapeHtml(game)}</span> <span style="color:var(--muted)">${escapeHtml(bet)} ${escapeHtml(b.line||"")}</span> <span style="margin-left:auto">${fmtPL(b.profit_loss)}</span></div>`;
       }).join("");
     } else {
       todaySec.style.display = "none";
@@ -272,11 +277,11 @@ async function load() {
         const bt   = ((b.bet_type || "") + " " + (b.bet_side || "")).trim().toUpperCase();
         const size = b.suggested_bet ? "$" + parseFloat(b.suggested_bet).toFixed(0) : "—";
         return `<tr>
-          <td style="white-space:nowrap;font-size:11px;color:var(--muted)">${b.timestamp||"—"}</td>
-          <td><span class="sport-tag">${b.sport||"—"}</span></td>
-          <td style="min-width:140px">${game}</td>
-          <td style="white-space:nowrap">${bt}</td>
-          <td style="font-weight:600">${b.line||"—"}</td>
+          <td style="white-space:nowrap;font-size:11px;color:var(--muted)">${escapeHtml(b.timestamp||"—")}</td>
+          <td><span class="sport-tag">${escapeHtml(b.sport||"—")}</span></td>
+          <td style="min-width:140px">${escapeHtml(game)}</td>
+          <td style="white-space:nowrap">${escapeHtml(bt)}</td>
+          <td style="font-weight:600">${escapeHtml(b.line||"—")}</td>
           <td>${fmtEdge(b.edge_pct)}</td>
           <td style="min-width:80px">${fmtConf(b.confidence)}</td>
           <td style="min-width:180px">${fmtSigs(b.signals)}</td>
@@ -298,7 +303,7 @@ async function load() {
       sportBody.innerHTML = sportEntries.map(([s, d]) => {
         const plCls = d.pl > 0 ? "pl-pos" : d.pl < 0 ? "pl-neg" : "";
         const losses = (d.bets||0) - (d.wins||0);
-        return `<tr><td><span class="sport-tag">${s}</span></td><td>${d.bets}</td><td>${d.wins}W-${losses}L</td><td><span class="${plCls}">${d.pl >= 0 ? "+" : ""}$${Math.abs(d.pl||0).toFixed(2)}</span></td></tr>`;
+        return `<tr><td><span class="sport-tag">${escapeHtml(s)}</span></td><td>${escapeHtml(d.bets)}</td><td>${escapeHtml(d.wins)}W-${losses}L</td><td><span class="${plCls}">${d.pl >= 0 ? "+" : ""}$${Math.abs(d.pl||0).toFixed(2)}</span></td></tr>`;
       }).join("");
     }
 
@@ -313,8 +318,8 @@ async function load() {
       sigBody.innerHTML = sigEntries.map(([sig, d]) => {
         const losses = (d.bets||0) - (d.wins||0);
         return `<tr>
-          <td><span class="sig">${sig.replace(/_/g," ")}</span></td>
-          <td>${d.bets}</td><td>${d.wins}W-${losses}L</td>
+          <td><span class="sig">${escapeHtml(sig.replace(/_/g," "))}</span></td>
+          <td>${escapeHtml(d.bets)}</td><td>${escapeHtml(d.wins)}W-${losses}L</td>
         </tr>`;
       }).join("");
     }
