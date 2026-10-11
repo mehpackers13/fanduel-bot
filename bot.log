@@ -115254,3 +115254,106 @@
 [2026-10-10 17:05:51 ET] [INFO] Injury scan complete — no new key injuries
 [2026-10-10 20:19:07 ET] [INFO] Running injury scan
 [2026-10-10 20:19:10 ET] [INFO] Injury scan complete — no new key injuries
+[2026-10-10 20:35:31 ET] [INFO] ============================================================
+[2026-10-10 20:35:31 ET] [INFO] Starting full scan
+[2026-10-10 20:35:31 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-10-10 20:35:38 ET] [INFO]   ESPN americanfootball_nfl: 13 games (fresh, 13 events found)
+[2026-10-10 20:35:38 ET] [INFO]   americanfootball_nfl: 13 games from espn
+[2026-10-10 20:35:38 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nfl/odds: HTTP 202
+[2026-10-10 20:35:40 ET] [DEBUG]   [Philadelphia Eagles @ Jacksonville Jaguars] sigs=['sharp_money'] conf=25 pub=n/a ml_move=110→-395
+[2026-10-10 20:35:40 ET] [DEBUG]     ✗ Philadelphia Eagles @ Jacksonville Jaguars — conf 25 < 35 threshold
+[2026-10-10 20:35:42 ET] [DEBUG]   [Chicago Bears @ Green Bay Packers] sigs=['sharp_money', 'weather_edge', 'model_edge'] conf=65 pub=n/a ml_move=-166→110
+[2026-10-10 20:35:44 ET] [DEBUG]   [Houston Texans @ Tennessee Titans] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=160→275
+[2026-10-10 20:35:46 ET] [DEBUG]   [Cincinnati Bengals @ Miami Dolphins] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=205→280
+[2026-10-10 20:35:46 ET] [DEBUG]     ✗ Cincinnati Bengals @ Miami Dolphins — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-10-10 20:35:47 ET] [DEBUG]   [Las Vegas Raiders @ New England Patriots] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-425→-192
+[2026-10-10 20:35:49 ET] [DEBUG]   [Minnesota Vikings @ New Orleans Saints] sigs=['model_edge'] conf=20 pub=n/a ml_move=100→110
+[2026-10-10 20:35:49 ET] [DEBUG]     ✗ Minnesota Vikings @ New Orleans Saints — conf 20 < 35 threshold
+[2026-10-10 20:35:50 ET] [DEBUG]   [Cleveland Browns @ New York Jets] sigs=['model_edge'] conf=20 pub=n/a ml_move=-125→-135
+[2026-10-10 20:35:50 ET] [DEBUG]     ✗ Cleveland Browns @ New York Jets — conf 20 < 35 threshold
+[2026-10-10 20:35:52 ET] [DEBUG]   [Indianapolis Colts @ Pittsburgh Steelers] sigs=['model_edge'] conf=20 pub=n/a ml_move=-135→-148
+[2026-10-10 20:35:52 ET] [DEBUG]     ✗ Indianapolis Colts @ Pittsburgh Steelers — conf 20 < 35 threshold
+[2026-10-10 20:35:55 ET] [DEBUG]   [New York Giants @ Washington Commanders] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-135→-175
+[2026-10-10 20:35:56 ET] [DEBUG]   [Denver Broncos @ Los Angeles Chargers] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-142→160
+[2026-10-10 20:35:56 ET] [DEBUG]     ✗ Denver Broncos @ Los Angeles Chargers — signals passed but no qualifying bet line found (edge below 2.0% or no odds for signal side)
+[2026-10-10 20:35:58 ET] [DEBUG]   [Detroit Lions @ Arizona Cardinals] sigs=['sharp_money'] conf=25 pub=n/a ml_move=310→210
+[2026-10-10 20:35:58 ET] [DEBUG]     ✗ Detroit Lions @ Arizona Cardinals — conf 25 < 35 threshold
+[2026-10-10 20:35:59 ET] [DEBUG]   [San Francisco 49ers @ Seattle Seahawks] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=-198→-162
+[2026-10-10 20:36:02 ET] [DEBUG]   [Baltimore Ravens @ Atlanta Falcons] sigs=['sharp_money', 'model_edge'] conf=45 pub=n/a ml_move=180→-175
+[2026-10-10 20:36:03 ET] [INFO]   ESPN basketball_nba: 1 games (fresh, 4 events found)
+[2026-10-10 20:36:03 ET] [INFO]   basketball_nba: 1 games from espn
+[2026-10-10 20:36:03 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nba/odds: HTTP 202
+[2026-10-10 20:36:07 ET] [DEBUG]   [Dallas Mavericks @ Houston Rockets] sigs=[] conf=0 pub=n/a ml_move=-155→-135
+[2026-10-10 20:36:07 ET] [DEBUG]     ✗ Dallas Mavericks @ Houston Rockets — only 0/1 signals (need 1 more)
+[2026-10-10 20:36:07 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 1 events found)
+[2026-10-10 20:36:07 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-10-10 20:36:07 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-10-10 20:36:10 ET] [DEBUG]   [Los Angeles Dodgers @ Milwaukee Brewers] sigs=[] conf=0 pub=n/a ml_move=-118→-113
+[2026-10-10 20:36:10 ET] [DEBUG]     ✗ Los Angeles Dodgers @ Milwaukee Brewers — only 0/1 signals (need 1 more)
+[2026-10-10 20:36:11 ET] [INFO]   ESPN icehockey_nhl: 3 games (fresh, 3 events found)
+[2026-10-10 20:36:11 ET] [INFO]   icehockey_nhl: 3 games from espn
+[2026-10-10 20:36:11 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-10-10 20:36:17 ET] [DEBUG]   [Seattle Kraken @ Washington Capitals] sigs=[] conf=0 pub=n/a ml_move=-205→-218
+[2026-10-10 20:36:17 ET] [DEBUG]     ✗ Seattle Kraken @ Washington Capitals — only 0/1 signals (need 1 more)
+[2026-10-10 20:36:23 ET] [DEBUG]   [Vancouver Canucks @ New York Rangers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-270→-250
+[2026-10-10 20:36:23 ET] [DEBUG]     ✗ Vancouver Canucks @ New York Rangers — conf 15 < 35 threshold
+[2026-10-10 20:36:28 ET] [DEBUG]   [Carolina Hurricanes @ Philadelphia Flyers] sigs=['sharp_money', 'rest_disadvantage'] conf=40 pub=n/a ml_move=110→140
+[2026-10-10 20:36:29 ET] [INFO]   ESPN soccer_usa_mls: 1 games (fresh, 1 events found)
+[2026-10-10 20:36:29 ET] [INFO]   soccer_usa_mls: 1 games from espn
+[2026-10-10 20:36:29 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mls/odds: HTTP 202
+[2026-10-10 20:36:33 ET] [DEBUG]   [LA Galaxy @ St. Louis CITY SC] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-165→-190
+[2026-10-10 20:36:33 ET] [DEBUG]     ✗ LA Galaxy @ St. Louis CITY SC — conf 25 < 35 threshold
+[2026-10-10 20:36:34 ET] [INFO]   ESPN soccer_epl: 3 games (fresh, 3 events found)
+[2026-10-10 20:36:34 ET] [INFO]   soccer_epl: 3 games from espn
+[2026-10-10 20:36:36 ET] [DEBUG]   [Nottingham Forest @ Crystal Palace] sigs=[] conf=0 pub=n/a ml_move=160→175
+[2026-10-10 20:36:36 ET] [DEBUG]     ✗ Nottingham Forest @ Crystal Palace — only 0/1 signals (need 1 more)
+[2026-10-10 20:36:38 ET] [DEBUG]   [Everton @ Hull City] sigs=[] conf=0 pub=n/a ml_move=260→260
+[2026-10-10 20:36:38 ET] [DEBUG]     ✗ Everton @ Hull City — only 0/1 signals (need 1 more)
+[2026-10-10 20:36:40 ET] [DEBUG]   [Manchester City @ Liverpool] sigs=[] conf=0 pub=n/a ml_move=175→195
+[2026-10-10 20:36:40 ET] [DEBUG]     ✗ Manchester City @ Liverpool — only 0/1 signals (need 1 more)
+[2026-10-10 20:36:41 ET] [INFO]   ESPN soccer_esp_la_liga: 4 games (fresh, 4 events found)
+[2026-10-10 20:36:41 ET] [INFO]   soccer_esp_la_liga: 4 games from espn
+[2026-10-10 20:36:43 ET] [DEBUG]   [Celta Vigo @ Elche] sigs=[] conf=0 pub=n/a ml_move=185→190
+[2026-10-10 20:36:43 ET] [DEBUG]     ✗ Celta Vigo @ Elche — only 0/1 signals (need 1 more)
+[2026-10-10 20:36:45 ET] [DEBUG]   [Deportivo @ Real Sociedad] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-115→-165
+[2026-10-10 20:36:45 ET] [DEBUG]     ✗ Deportivo @ Real Sociedad — conf 25 < 35 threshold
+[2026-10-10 20:36:47 ET] [DEBUG]   [Osasuna @ Real Betis] sigs=[] conf=0 pub=n/a ml_move=-185→-195
+[2026-10-10 20:36:47 ET] [DEBUG]     ✗ Osasuna @ Real Betis — only 0/1 signals (need 1 more)
+[2026-10-10 20:36:48 ET] [DEBUG]   [Valencia @ Racing Santander] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-105→130
+[2026-10-10 20:36:48 ET] [DEBUG]     ✗ Valencia @ Racing Santander — conf 25 < 35 threshold
+[2026-10-10 20:36:49 ET] [INFO]   ESPN soccer_ger_bundesliga: 2 games (fresh, 2 events found)
+[2026-10-10 20:36:49 ET] [INFO]   soccer_ger_bundesliga: 2 games from espn
+[2026-10-10 20:36:51 ET] [DEBUG]   [Borussia Mönchengladbach @ FC Cologne] sigs=['sharp_money'] conf=25 pub=n/a ml_move=-130→105
+[2026-10-10 20:36:51 ET] [DEBUG]     ✗ Borussia Mönchengladbach @ FC Cologne — conf 25 < 35 threshold
+[2026-10-10 20:36:53 ET] [DEBUG]   [Schalke 04 @ SC Freiburg] sigs=[] conf=0 pub=n/a ml_move=-175→-165
+[2026-10-10 20:36:53 ET] [DEBUG]     ✗ Schalke 04 @ SC Freiburg — only 0/1 signals (need 1 more)
+[2026-10-10 20:36:55 ET] [INFO]   ESPN soccer_ita_serie_a: 5 games (fresh, 5 events found)
+[2026-10-10 20:36:55 ET] [INFO]   soccer_ita_serie_a: 5 games from espn
+[2026-10-10 20:36:57 ET] [DEBUG]   [AS Roma @ Como] sigs=[] conf=0 pub=n/a ml_move=145→145
+[2026-10-10 20:36:57 ET] [DEBUG]     ✗ AS Roma @ Como — only 0/1 signals (need 1 more)
+[2026-10-10 20:36:58 ET] [DEBUG]   [Monza @ Lazio] sigs=[] conf=0 pub=n/a ml_move=-150→-160
+[2026-10-10 20:36:58 ET] [DEBUG]     ✗ Monza @ Lazio — only 0/1 signals (need 1 more)
+[2026-10-10 20:36:59 ET] [DEBUG]   [Bologna @ Lecce] sigs=['sharp_money'] conf=25 pub=n/a ml_move=295→320
+[2026-10-10 20:36:59 ET] [DEBUG]     ✗ Bologna @ Lecce — conf 25 < 35 threshold
+[2026-10-10 20:37:01 ET] [DEBUG]   [AC Milan @ Sassuolo] sigs=[] conf=0 pub=n/a ml_move=300→295
+[2026-10-10 20:37:01 ET] [DEBUG]     ✗ AC Milan @ Sassuolo — only 0/1 signals (need 1 more)
+[2026-10-10 20:37:02 ET] [DEBUG]   [Juventus @ Cagliari] sigs=['sharp_money'] conf=25 pub=n/a ml_move=450→475
+[2026-10-10 20:37:02 ET] [DEBUG]     ✗ Juventus @ Cagliari — conf 25 < 35 threshold
+[2026-10-10 20:37:03 ET] [INFO]   ESPN soccer_fra_ligue_one: 3 games (fresh, 3 events found)
+[2026-10-10 20:37:03 ET] [INFO]   soccer_fra_ligue_one: 3 games from espn
+[2026-10-10 20:37:05 ET] [DEBUG]   [Strasbourg @ Nice] sigs=[] conf=0 pub=n/a ml_move=120→135
+[2026-10-10 20:37:05 ET] [DEBUG]     ✗ Strasbourg @ Nice — only 0/1 signals (need 1 more)
+[2026-10-10 20:37:07 ET] [DEBUG]   [AJ Auxerre @ Stade Rennais] sigs=[] conf=0 pub=n/a ml_move=-245→-230
+[2026-10-10 20:37:07 ET] [DEBUG]     ✗ AJ Auxerre @ Stade Rennais — only 0/1 signals (need 1 more)
+[2026-10-10 20:37:09 ET] [DEBUG]   [Marseille @ Troyes] sigs=[] conf=0 pub=n/a ml_move=255→265
+[2026-10-10 20:37:09 ET] [DEBUG]     ✗ Marseille @ Troyes — only 0/1 signals (need 1 more)
+[2026-10-10 20:37:09 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-10-10 20:37:09 ET] [INFO] Best bet alert sent: Chicago Bears @ Green Bay Packers | moneyline Chicago Bears -130 | edge 16.2% | 4u
+[2026-10-10 20:37:09 ET] [INFO] Sprinkle alert sent: New York Giants @ Washington Commanders | moneyline New York Giants +145 | edge 47.7% | 1u
+[2026-10-10 20:37:10 ET] [INFO] Sprinkle alert sent: San Francisco 49ers @ Seattle Seahawks | moneyline San Francisco 49ers +136 | edge 41.9% | 1u
+[2026-10-10 20:37:10 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-10-10 20:37:10 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-10-10 20:37:10 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-10-10 20:37:10 ET] [WARN]   Sprinkle cap reached (2) — skipping
+[2026-10-10 20:37:10 ET] [INFO] Scan complete -- 36 games checked, 3 alert(s) sent (6u at risk today)
+[2026-10-10 20:37:10 ET] [INFO] ============================================================
