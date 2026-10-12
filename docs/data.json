@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T21:16:39.914686Z",
-  "last_scan": "2026-10-11 17:16:39 ET",
-  "last_scan_ts": "2026-10-11T21:16:39.914686Z",
+  "generated_at": "2026-10-12T00:51:54.831921Z",
+  "last_scan": "2026-10-11 20:51:54 ET",
+  "last_scan_ts": "2026-10-12T00:51:54.831921Z",
   "stats": {
-    "total_alerts": 381,
-    "completed_bets": 357,
-    "win_rate": 46.2,
-    "total_pl": -566.78,
+    "total_alerts": 382,
+    "completed_bets": 358,
+    "win_rate": 46.4,
+    "total_pl": -498.86,
     "by_sport": {
       "NBA": {
         "bets": 10,
@@ -19,9 +19,9 @@
         "pl": -589.4600000000002
       },
       "NFL": {
-        "bets": 7,
-        "wins": 4,
-        "pl": 27.930000000000007
+        "bets": 8,
+        "wins": 5,
+        "pl": 95.85000000000001
       },
       "NHL": {
         "bets": 1,
@@ -31,16 +31,16 @@
     },
     "by_signal": {
       "sharp_money": {
-        "bets": 110,
-        "wins": 46
+        "bets": 111,
+        "wins": 47
       },
       "rest_disadvantage": {
         "bets": 340,
         "wins": 158
       },
       "model_edge": {
-        "bets": 279,
-        "wins": 134
+        "bets": 280,
+        "wins": 135
       },
       "public_fade": {
         "bets": 67,
@@ -56,72 +56,28 @@
       }
     }
   },
-  "unit_total": -56.68,
+  "unit_total": -49.89,
   "today_bets": [
     {
-      "timestamp": "2026-10-10 20:37 ET",
+      "timestamp": "2026-10-11 20:51 ET",
       "sport": "NFL",
-      "game": "San Francisco 49ers @ Seattle Seahawks",
-      "home_team": "Seattle Seahawks",
-      "away_team": "San Francisco 49ers",
+      "game": "Buffalo Bills @ Los Angeles Rams",
+      "home_team": "Los Angeles Rams",
+      "away_team": "Buffalo Bills",
       "bet_type": "moneyline",
       "bet_side": "away",
-      "line": "+136",
-      "edge_pct": "41.9",
+      "line": "+150",
+      "edge_pct": "32.7",
       "confidence": "45",
       "signals": "sharp_money + model_edge",
       "suggested_bet": "50.0",
-      "implied_prob": "42.4",
-      "true_prob": "84.3",
-      "reasoning": "Edge 41.9% on San Francisco 49ers moneyline. ML moved 36 pts on Seattle Seahawks (-198\u2192-162) \u2014 steam toward San Francisco 49ers. Power rating: Seattle Seahawks wp=75.0% / San Francisco 49ers wp=100.0% \u2014 San Francisco 49ers underpriced (model 84.3% vs mkt 42.4%).",
-      "game_id": "espn_401872992",
+      "implied_prob": "40.0",
+      "true_prob": "72.7",
+      "reasoning": "Edge 32.7% on Buffalo Bills moneyline. ML moved 25 pts on Los Angeles Rams (-155\u2192-180) \u2014 steam toward Los Angeles Rams. Power rating: Los Angeles Rams wp=50.0% / Buffalo Bills wp=75.0% \u2014 Buffalo Bills underpriced (model 72.7% vs mkt 40.0%).",
+      "game_id": "espn_401872994",
       "sport_key": "americanfootball_nfl",
       "outcome": "",
       "profit_loss": "",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-10-10 20:37 ET",
-      "sport": "NFL",
-      "game": "New York Giants @ Washington Commanders",
-      "home_team": "Washington Commanders",
-      "away_team": "New York Giants",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "+145",
-      "edge_pct": "47.7",
-      "confidence": "45",
-      "signals": "sharp_money + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "40.8",
-      "true_prob": "88.5",
-      "reasoning": "Edge 47.7% on New York Giants moneyline. ML moved 40 pts on Washington Commanders (-135\u2192-175) \u2014 steam toward Washington Commanders. Power rating: Washington Commanders wp=25.0% / New York Giants wp=75.0% \u2014 New York Giants underpriced (model 88.5% vs mkt 40.8%).",
-      "game_id": "espn_401872988",
-      "sport_key": "americanfootball_nfl",
-      "outcome": "P",
-      "profit_loss": "0.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-10-10 20:37 ET",
-      "sport": "NFL",
-      "game": "Chicago Bears @ Green Bay Packers",
-      "home_team": "Green Bay Packers",
-      "away_team": "Chicago Bears",
-      "bet_type": "moneyline",
-      "bet_side": "away",
-      "line": "-130",
-      "edge_pct": "16.2",
-      "confidence": "65",
-      "signals": "sharp_money + weather_edge + model_edge",
-      "suggested_bet": "50.0",
-      "implied_prob": "56.5",
-      "true_prob": "72.7",
-      "reasoning": "Edge 16.2% on Chicago Bears moneyline. ML moved 276 pts on Green Bay Packers (-166\u2192+110) \u2014 steam toward Chicago Bears. Wind 18mph \u2014 hammer the UNDER, passing game neutralised.",
-      "game_id": "espn_401872990",
-      "sport_key": "americanfootball_nfl",
-      "outcome": "L",
-      "profit_loss": "-50.0",
       "notes": ""
     }
   ],
@@ -159,6 +115,28 @@
   },
   "recent_bets": [
     {
+      "timestamp": "2026-10-11 20:51 ET",
+      "sport": "NFL",
+      "game": "Buffalo Bills @ Los Angeles Rams",
+      "home_team": "Los Angeles Rams",
+      "away_team": "Buffalo Bills",
+      "bet_type": "moneyline",
+      "bet_side": "away",
+      "line": "+150",
+      "edge_pct": "32.7",
+      "confidence": "45",
+      "signals": "sharp_money + model_edge",
+      "suggested_bet": "50.0",
+      "implied_prob": "40.0",
+      "true_prob": "72.7",
+      "reasoning": "Edge 32.7% on Buffalo Bills moneyline. ML moved 25 pts on Los Angeles Rams (-155\u2192-180) \u2014 steam toward Los Angeles Rams. Power rating: Los Angeles Rams wp=50.0% / Buffalo Bills wp=75.0% \u2014 Buffalo Bills underpriced (model 72.7% vs mkt 40.0%).",
+      "game_id": "espn_401872994",
+      "sport_key": "americanfootball_nfl",
+      "outcome": "",
+      "profit_loss": "",
+      "notes": ""
+    },
+    {
       "timestamp": "2026-10-10 20:37 ET",
       "sport": "NFL",
       "game": "San Francisco 49ers @ Seattle Seahawks",
@@ -176,8 +154,8 @@
       "reasoning": "Edge 41.9% on San Francisco 49ers moneyline. ML moved 36 pts on Seattle Seahawks (-198\u2192-162) \u2014 steam toward San Francisco 49ers. Power rating: Seattle Seahawks wp=75.0% / San Francisco 49ers wp=100.0% \u2014 San Francisco 49ers underpriced (model 84.3% vs mkt 42.4%).",
       "game_id": "espn_401872992",
       "sport_key": "americanfootball_nfl",
-      "outcome": "",
-      "profit_loss": "",
+      "outcome": "W",
+      "profit_loss": "67.92",
       "notes": ""
     },
     {
@@ -1234,28 +1212,6 @@
       "sport_key": "baseball_mlb",
       "outcome": "L",
       "profit_loss": "-27.0",
-      "notes": ""
-    },
-    {
-      "timestamp": "2026-09-03 22:09 ET",
-      "sport": "MLB",
-      "game": "Arizona Diamondbacks @ Houston Astros",
-      "home_team": "Houston Astros",
-      "away_team": "Arizona Diamondbacks",
-      "bet_type": "total",
-      "bet_side": "under",
-      "line": "u9.0",
-      "edge_pct": "5.0",
-      "confidence": "35",
-      "signals": "rest_disadvantage + weather_edge",
-      "suggested_bet": "28.0",
-      "implied_prob": "54.5",
-      "true_prob": "59.6",
-      "reasoning": "Edge 5.0% on UNDER total. Houston Astros on back-to-back -- fatigue factor. Rain 13.9mm forecast \u2014 potential delays/cancellations, affects totals.",
-      "game_id": "espn_401816804",
-      "sport_key": "baseball_mlb",
-      "outcome": "W",
-      "profit_loss": "23.38",
       "notes": ""
     }
   ]
