@@ -131,3 +131,14 @@ API_USAGE_JSON  = DATA_DIR / "api_usage.json"
 ODDS_CACHE_JSON = DATA_DIR / "odds_cache.json"
 PERFORMANCE_JSON= DATA_DIR / "performance.json"
 DAILY_STATE_JSON= DATA_DIR / "daily_state.json"
+MODELS_JSON     = DATA_DIR / "models.json"
+
+# Self-improvement — auto-disable negative-EV signals after a meaningful sample.
+# A signal is disabled when it has >= AUTO_DISABLE_MIN_BETS and roi < AUTO_DISABLE_MAX_ROI.
+# A disabled signal is re-enabled when its forward-looking roi climbs back to AUTO_REENABLE_MIN_ROI.
+AUTO_DISABLE_MIN_BETS = 30
+AUTO_DISABLE_MAX_ROI  = -5.0
+AUTO_REENABLE_MIN_ROI =  0.0
+# Severe-loss short-circuit: catastrophic signals get disabled fast
+SEVERE_LOSS_MIN_BETS  = 10
+SEVERE_LOSS_MAX_ROI   = -30.0

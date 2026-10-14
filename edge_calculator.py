@@ -14,6 +14,7 @@ from dataclasses import dataclass, field
 from typing import Optional
 
 import config
+import models as _models
 from logger import log
 from odds_api import american_to_prob
 from action_network import get_public_betting
@@ -252,6 +253,18 @@ def evaluate_game(game: dict) -> Optional[BetOpportunity]:
         f"{pub_pct}{ml_note}",
         "DEBUG"
     )
+
+    # ── Self-improvement filter: drop any signal in the auto-blocklist ───────
+    # Rebuilt by self_improve.py from live outcomes. Disabled signals have shown
+    # negative ROI across >= 30 bets and are muted until performance recovers.
+    disabled = _models.disabled_signals()
+    if disabled:
+        dropped = [s for s in signals if s in disabled]
+        for s in dropped:
+            confidence -= config.SIGNAL_WEIGHTS.get(s, 15)
+            signals.pop(s, None)
+        if dropped:
+            log(f"    (filtered disabled signals: {dropped})", "DEBUG")
 
     # ── Gate check: need MIN_SIGNALS and MIN_CONFIDENCE ───────────────────────
     if len(signals) < config.MIN_SIGNALS:
