@@ -3,10 +3,9 @@ name: Evening Parlay
 # Fires at 6pm ET (22:00 UTC) Monday through Friday.
 # Reads today's best bets and sends a parlay suggestion to Discord if 2+ qualify.
 
+# DECOMMISSIONED 2026-10-15 — strategy migrated to kalshi-bot
 on:
-  schedule:
-    - cron: "0 22 * * 1-5"   # 6pm ET Mon-Fri
-  workflow_dispatch:           # Manual trigger from GitHub Actions tab
+  workflow_dispatch:
 
 concurrency:
   group: fanduel-git

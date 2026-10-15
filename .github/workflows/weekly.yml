@@ -1,8 +1,7 @@
 name: Weekly Report
 
+# DECOMMISSIONED 2026-10-15 — strategy migrated to kalshi-bot
 on:
-  schedule:
-    - cron: "0 0 * * 1"   # Monday 00:00 UTC = Sunday 8pm EDT
   workflow_dispatch:
 
 # Shared lock across ALL fanduel-bot workflows — only one runs at a time.

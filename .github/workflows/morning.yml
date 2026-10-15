@@ -1,9 +1,7 @@
 name: Morning Briefing
 
+# DECOMMISSIONED 2026-10-15 — strategy migrated to kalshi-bot
 on:
-  schedule:
-    - cron: "0 11 * * *"   # 7am EDT (UTC-4)
-    - cron: "0 12 * * *"   # 7am EST (UTC-5)
   workflow_dispatch:
 
 # Shared lock across ALL fanduel-bot workflows — only one runs at a time.

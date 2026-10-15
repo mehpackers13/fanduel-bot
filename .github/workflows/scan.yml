@@ -1,9 +1,11 @@
 name: Sports Scan
 
+# DECOMMISSIONED 2026-10-15 — strategy migrated to kalshi-bot which can
+# auto-execute via Kalshi's API (vs this bot being alert-only against
+# FanDuel/DK/MGM which have no retail trading API).
+# Keeping workflow_dispatch so you can manually re-run for historical
+# comparison; cron scanning is off.
 on:
-  schedule:
-    # Every 2 hours, 8am–midnight ET (12:00–04:00 UTC next day)
-    - cron: "0 12,14,16,18,20,22,0,2,4 * * *"
   workflow_dispatch:
 
 # Shared lock across ALL fanduel-bot workflows — only one runs at a time.
