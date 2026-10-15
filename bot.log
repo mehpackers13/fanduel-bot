@@ -116784,3 +116784,55 @@
 [2026-10-14 17:08:11 ET] [INFO] ============================================================
 [2026-10-14 18:57:00 ET] [INFO] Running injury scan
 [2026-10-14 18:57:03 ET] [INFO] Injury scan complete — no new key injuries
+[2026-10-14 20:11:54 ET] [INFO] ============================================================
+[2026-10-14 20:11:54 ET] [INFO] Starting full scan
+[2026-10-14 20:11:54 ET] [INFO] Bankroll: $1000.00 | Max single bet: $50.00 | Kelly fraction: 25%
+[2026-10-14 20:11:57 ET] [INFO]   ESPN americanfootball_nfl: 1 games (fresh, 1 events found)
+[2026-10-14 20:11:57 ET] [INFO]   americanfootball_nfl: 1 games from espn
+[2026-10-14 20:11:57 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nfl/odds: HTTP 202
+[2026-10-14 20:12:00 ET] [DEBUG]   [Seattle Seahawks @ Denver Broncos] sigs=['model_edge'] conf=20 pub=n/a ml_move=110→120
+[2026-10-14 20:12:00 ET] [DEBUG]     ✗ Seattle Seahawks @ Denver Broncos — conf 20 < 35 threshold
+[2026-10-14 20:12:01 ET] [INFO]   ESPN basketball_nba: 0 games (fresh, 2 events found)
+[2026-10-14 20:12:02 ET] [INFO]   ESPN baseball_mlb: 1 games (fresh, 2 events found)
+[2026-10-14 20:12:02 ET] [INFO]   baseball_mlb: 1 games from espn
+[2026-10-14 20:12:02 ET] [WARN] Action Network HTML https://www.actionnetwork.com/mlb/odds: HTTP 202
+[2026-10-14 20:12:05 ET] [DEBUG]   [Tampa Bay Rays @ Cleveland Guardians] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-133→-133
+[2026-10-14 20:12:05 ET] [DEBUG]     ✗ Tampa Bay Rays @ Cleveland Guardians — conf 15 < 35 threshold
+[2026-10-14 20:12:11 ET] [INFO]   ESPN icehockey_nhl: 11 games (fresh, 11 events found)
+[2026-10-14 20:12:11 ET] [INFO]   icehockey_nhl: 11 games from espn
+[2026-10-14 20:12:11 ET] [WARN] Action Network HTML https://www.actionnetwork.com/nhl/odds: HTTP 202
+[2026-10-14 20:12:17 ET] [DEBUG]   [Buffalo Sabres @ Toronto Maple Leafs] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-120→-118
+[2026-10-14 20:12:17 ET] [DEBUG]     ✗ Buffalo Sabres @ Toronto Maple Leafs — conf 15 < 35 threshold
+[2026-10-14 20:12:23 ET] [DEBUG]   [New York Islanders @ Ottawa Senators] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-155→-166
+[2026-10-14 20:12:23 ET] [DEBUG]     ✗ New York Islanders @ Ottawa Senators — conf 15 < 35 threshold
+[2026-10-14 20:12:29 ET] [DEBUG]   [Seattle Kraken @ Tampa Bay Lightning] sigs=[] conf=0 pub=n/a ml_move=-245→-245
+[2026-10-14 20:12:29 ET] [DEBUG]     ✗ Seattle Kraken @ Tampa Bay Lightning — only 0/1 signals (need 1 more)
+[2026-10-14 20:12:35 ET] [DEBUG]   [Vancouver Canucks @ Florida Panthers] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-298→-298
+[2026-10-14 20:12:35 ET] [DEBUG]     ✗ Vancouver Canucks @ Florida Panthers — conf 15 < 35 threshold
+[2026-10-14 20:12:42 ET] [DEBUG]   [New York Rangers @ New Jersey Devils] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-148→-148
+[2026-10-14 20:12:42 ET] [DEBUG]     ✗ New York Rangers @ New Jersey Devils — conf 15 < 35 threshold
+[2026-10-14 20:12:47 ET] [DEBUG]   [Philadelphia Flyers @ Detroit Red Wings] sigs=[] conf=0 pub=n/a ml_move=-135→-142
+[2026-10-14 20:12:47 ET] [DEBUG]     ✗ Philadelphia Flyers @ Detroit Red Wings — only 0/1 signals (need 1 more)
+[2026-10-14 20:12:53 ET] [DEBUG]   [Winnipeg Jets @ Chicago Blackhawks] sigs=[] conf=0 pub=n/a ml_move=124→114
+[2026-10-14 20:12:53 ET] [DEBUG]     ✗ Winnipeg Jets @ Chicago Blackhawks — only 0/1 signals (need 1 more)
+[2026-10-14 20:12:59 ET] [DEBUG]   [San Jose Sharks @ Nashville Predators] sigs=[] conf=0 pub=n/a ml_move=-135→-148
+[2026-10-14 20:12:59 ET] [DEBUG]     ✗ San Jose Sharks @ Nashville Predators — only 0/1 signals (need 1 more)
+[2026-10-14 20:13:05 ET] [DEBUG]   [St. Louis Blues @ Minnesota Wild] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-166→-148
+[2026-10-14 20:13:05 ET] [DEBUG]     ✗ St. Louis Blues @ Minnesota Wild — conf 15 < 35 threshold
+[2026-10-14 20:13:11 ET] [DEBUG]   [Utah Mammoth @ Edmonton Oilers] sigs=[] conf=0 pub=n/a ml_move=-148→-130
+[2026-10-14 20:13:11 ET] [DEBUG]     ✗ Utah Mammoth @ Edmonton Oilers — only 0/1 signals (need 1 more)
+[2026-10-14 20:13:17 ET] [DEBUG]   [Calgary Flames @ Vegas Golden Knights] sigs=['rest_disadvantage'] conf=15 pub=n/a ml_move=-290→-305
+[2026-10-14 20:13:17 ET] [DEBUG]     ✗ Calgary Flames @ Vegas Golden Knights — conf 15 < 35 threshold
+[2026-10-14 20:13:17 ET] [INFO]   ESPN soccer_usa_mls: 0 games (fresh, 0 events found)
+[2026-10-14 20:13:18 ET] [INFO]   ESPN soccer_epl: 0 games (fresh, 0 events found)
+[2026-10-14 20:13:18 ET] [INFO]   ESPN soccer_esp_la_liga: 0 games (fresh, 0 events found)
+[2026-10-14 20:13:18 ET] [INFO]   ESPN soccer_ger_bundesliga: 0 games (fresh, 0 events found)
+[2026-10-14 20:13:18 ET] [INFO]   ESPN soccer_ita_serie_a: 0 games (fresh, 0 events found)
+[2026-10-14 20:13:18 ET] [INFO]   ESPN soccer_fra_ligue_one: 0 games (fresh, 0 events found)
+[2026-10-14 20:13:18 ET] [INFO]   ESPN mma_mixed_martial_arts: 0 games (fresh, 0 events found)
+[2026-10-14 20:13:18 ET] [INFO] Scan complete -- 13 games checked, 0 alerts (silence = discipline)
+[2026-10-14 20:13:18 ET] [INFO] ============================================================
+[2026-10-14 21:16:01 ET] [INFO] Running injury scan
+[2026-10-14 21:16:04 ET] [INFO] Injury scan complete — no new key injuries
+[2026-10-15 02:09:11 ET] [INFO] Running injury scan
+[2026-10-15 02:09:13 ET] [INFO] Injury scan complete — no new key injuries
